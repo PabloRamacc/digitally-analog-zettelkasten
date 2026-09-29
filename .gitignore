@@ -1,0 +1,13 @@
+# clave de DeepL: nunca al repositorio
+luhmann/.clave-deepl
+# respuestas crudas de la API del Luhmann-Archiv (se vuelven a bajar con importar.py)
+luhmann/datos/
+__pycache__/
+# fichas personales
+caja01/
+# cajas generadas de Luhmann: miles de archivos, se regeneran con luhmann/importar.py y traducir.py
+luhmann/zk*/
+# proyecto de Substance y texturas en 4096 (1,2 GB); el modelo exportado sí va (modelos/escritorio.glb*)
+modelos/Substance/
+*.blend1
+Zettelkasten.lnk

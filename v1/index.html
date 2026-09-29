@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zettelkasten</title>
+<style>
+:root{
+  --madera:#3a2c20; --madera2:#241b14; --papel:#f5eed8; --renglon:#dcd2b4; --tinta:#1f2d57; --rojo:#a3342a;
+  --ui:#efe6d0; --ui-tenue:#b3a486; --acento:#d9a441;
+  --mano:"Segoe Print","Bradley Hand","Comic Neue",cursive;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--madera2);color:var(--ui);font:14px system-ui,sans-serif;display:flex;flex-direction:column}
+header{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:8px 12px;background:#1a130e;border-bottom:1px solid #000}
+header h1{font-size:15px;margin:0 8px 0 0;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+#controles{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.grupo{display:inline-flex}
+#cajones{flex-wrap:wrap;max-width:min(60vw,720px)}   /* la caja de Luhmann tiene ~19 cajones */
+#cajones button{min-width:2.2em}
+.grupo button{border-radius:0}
+.grupo button:first-child{border-radius:4px 0 0 4px}
+.grupo button:last-child{border-radius:0 4px 4px 0}
+button{font:inherit;background:#4a3a2b;color:var(--ui);border:1px solid #6a5540;border-radius:4px;padding:4px 10px;cursor:pointer}
+button:hover{background:#5a4733}
+button.on{background:var(--acento);color:#1a130e;border-color:var(--acento)}
+button:disabled{opacity:.4;cursor:default}
+input[type=search]{font:inherit;padding:4px 8px;border-radius:4px;border:1px solid #6a5540;background:#2a2019;color:var(--ui)}
+.sep{flex:1}
+#estado{color:var(--ui-tenue);font-size:12px}
+main{flex:1;display:flex;min-height:0}
+.oculto{display:none!important}
+.nota,.vacio{color:var(--ui-tenue);font-size:13px;margin:0;text-align:center;max-width:600px}
+.vacio{margin:auto}
+
+#bienvenida{margin:auto;text-align:center;max-width:460px;padding:16px}
+#bienvenida h2{font-family:var(--mano);font-weight:400;font-size:30px;margin:0 0 8px}
+#bienvenida p{color:var(--ui-tenue);line-height:1.5}
+#bienvenida button{margin:4px}
+
+/* Cajón */
+#cajon{flex:1;display:flex;min-height:0}
+#caja{width:340px;flex:none;perspective:900px;overflow:hidden;background:linear-gradient(90deg,#1c140e,#2c2118 12%,#2c2118 88%,#1c140e);border-right:1px solid #000}
+#pila{height:100%;overflow-y:auto;scrollbar-width:none;transform:rotateX(16deg);padding:45vh 22px}
+.lomo{position:relative;background:var(--papel);color:var(--tinta);border:1px solid #bfb393;border-radius:3px 3px 0 0;padding:5px 10px 16px;margin-bottom:-13px;box-shadow:0 -3px 5px rgba(0,0,0,.35);cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:var(--mano);font-size:12px;transition:transform .12s;filter:sepia(var(--sepia,0))}
+.lomo b{display:inline-block;min-width:4.2em;font:600 12px ui-monospace,monospace;color:var(--rojo)}
+.lomo:hover{transform:translateY(-4px)}
+.lomo.sel{transform:translateY(-18px);background:#fffbea}
+#lectura{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:16px;overflow:auto;background:radial-gradient(ellipse at 50% 40%,#4a3828,var(--madera2))}
+
+/* Ficha grande */
+.ficha{width:min(620px,100%,(100vh - 230px) * 1.41);aspect-ratio:148/105;perspective:1400px;flex:none}
+.giro{position:relative;width:100%;height:100%;transition:transform .5s;transform-style:preserve-3d}
+.ficha.girada .giro{transform:rotateY(180deg)}
+.cara{position:absolute;inset:0;backface-visibility:hidden;background:var(--papel);color:var(--tinta);padding:10px 20px 8px;display:flex;flex-direction:column;box-shadow:3px 6px 18px rgba(0,0,0,.55);filter:sepia(var(--sepia,0))}
+.cara.atras{transform:rotateY(180deg)}
+.cab{display:flex;align-items:baseline;gap:10px;font:12px ui-monospace,monospace;color:#7d6f55;border-bottom:1px solid var(--rojo);padding-bottom:4px;margin-bottom:4px}
+.cab .id{color:var(--rojo);font-weight:700;font-size:14px}
+.tit{flex:1;min-width:0;font:600 15px var(--mano);color:var(--tinta);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+input.tit{border:0;outline:0;background:transparent;padding:0}
+.atras .tit{font:italic 12px ui-monospace,monospace;color:#9a8b6d}
+.txt{flex:1;min-height:0;overflow:auto;font:14px/24px var(--mano);color:var(--tinta);background:repeating-linear-gradient(transparent 0 23px,var(--renglon) 23px 24px);background-attachment:local;white-space:pre-wrap;overflow-wrap:anywhere}
+textarea.txt{width:100%;border:0;outline:0;resize:none;padding:0;margin:0}
+.cont{font:11px ui-monospace,monospace;color:#9a8b6d;text-align:right}
+.ln{color:var(--rojo);cursor:pointer;font:600 .9em ui-monospace,monospace;text-decoration:none;white-space:nowrap}
+.ln:hover{text-decoration:underline}
+.ln.roto{text-decoration:line-through dotted}
+.txt s{text-decoration-thickness:2px}
+.txt u{text-decoration-thickness:1.5px;text-underline-offset:3px}
+.acciones{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
+#lectura .nota .ln{color:var(--acento)}
+
+/* Escritorio */
+#mesa{flex:1;position:relative;overflow:auto;background:var(--madera) repeating-linear-gradient(90deg,rgba(0,0,0,.07) 0 2px,transparent 2px 97px)}
+#mesa .vacio{position:absolute;inset:0;height:fit-content}
+.barra{position:sticky;top:0;left:0;z-index:1000;display:flex;gap:10px;align-items:center;padding:8px 12px;background:rgba(26,19,14,.85);width:max-content;max-width:100%;border-radius:0 0 6px 0}
+.barra .nota{text-align:left}
+.ficha.chica{position:absolute;width:290px;cursor:grab;user-select:none;touch-action:none}
+.ficha.chica.en-mano{width:440px}
+.chica.editable{cursor:default}
+.chica.editable .cab{cursor:grab}
+.chica .cara{padding:6px 12px 4px;box-shadow:2px 5px 12px rgba(0,0,0,.5)}
+.chica .cab{font-size:10px;padding-bottom:2px;margin-bottom:2px}
+.chica .cab .id{font-size:12px}
+.chica .tit{font-size:12px}
+.chica .txt{font-size:11px;line-height:18px;background:repeating-linear-gradient(transparent 0 17px,var(--renglon) 17px 18px)}
+.chica.en-mano .tit{font-size:15px}
+.chica.en-mano .txt{font-size:13px;line-height:22px;background:repeating-linear-gradient(transparent 0 21px,var(--renglon) 21px 22px)}
+.herr{position:absolute;right:0;top:-27px;display:flex;gap:3px;opacity:0;transition:opacity .15s}
+.chica:hover .herr,.chica:focus-within .herr{opacity:1}
+.herr button{padding:1px 8px;font-size:13px}
+
+/* Papelera */
+#papelera{flex:1;overflow:auto;display:flex;flex-wrap:wrap;gap:28px 20px;align-content:flex-start;padding:20px;background:#1f1812}
+.tacho{display:flex;flex-direction:column;gap:6px;align-items:center}
+.tacho .ficha.chica{position:relative;cursor:default;opacity:.85}
+.tacho .cab .ln{pointer-events:none}
+button.tirar{background:#4a2a24;border-color:#6e3a30}
+button.tirar:hover{background:#6e3a30}
+</style>
+</head>
+<body>
+<header>
+  <h1>Zettelkasten</h1>
+  <span id="controles" class="oculto">
+    <span class="grupo"><button data-vista="cajon">Cajón</button><button data-vista="mesa">Escritorio</button><button data-vista="papelera">Papelera</button></span>
+    <span class="grupo" id="cajones"></span>
+    <input type="search" id="buscar" placeholder="Buscar…" class="oculto">
+  </span>
+  <span class="sep"></span>
+  <span id="estado"></span>
+  <button id="btnModo" class="oculto" title="Purista: sin búsqueda, sin backlinks, tinta permanente">Modo: purista</button>
+  <button id="btnAbrir">Abrir caja…</button>
+  <button onclick="location.href = 'escritorio3d.html'" title="Escritorio en 3D">3D</button>
+</header>
+<main>
+  <section id="bienvenida">
+    <h2>Zettelkasten</h2>
+    <p>Una caja de fichas al estilo Luhmann. Cada ficha es un archivo <code>.txt</code> dentro de una carpeta que elegís vos.</p>
+    <button id="btnAbrir2">Abrir carpeta…</button>
+    <button id="btnEjemplo">Probar con ejemplo</button>
+    <button id="btnReabrir" class="oculto"></button>
+  </section>
+  <section id="cajon" class="oculto"><div id="caja"><div id="pila"></div></div><div id="lectura"></div></section>
+  <section id="mesa" class="oculto"></section>
+  <section id="papelera" class="oculto"></section>
+</main>
+
+<script src="nucleo.js"></script>
+<script>
+// UI 2D. Los datos y las reglas están en nucleo.js.
+function empezar(nombre) { S.cargada = true; S.sel = null; $('#estado').textContent = nombre; render(); }
+
+function render() {
+  $('#bienvenida').classList.toggle('oculto', S.cargada);
+  $('#controles').classList.toggle('oculto', !S.cargada);
+  $('#btnModo').classList.toggle('oculto', !S.cargada);
+  $('#cajon').classList.toggle('oculto', !S.cargada || S.vista !== 'cajon');
+  $('#mesa').classList.toggle('oculto', !S.cargada || S.vista !== 'mesa');
+  $('#papelera').classList.toggle('oculto', !S.cargada || S.vista !== 'papelera');
+  if (!S.cargada) return;
+  $('[data-vista="papelera"]').textContent = `Papelera (${S.papelera.size})`;
+  for (const b of document.querySelectorAll('[data-vista]')) b.classList.toggle('on', b.dataset.vista === S.vista);
+  // los botones de los cajones salen de la caja: una propia tiene 3, la de Luhmann uno por cada cajón de su mueble
+  const firma = S.cajones.map(c => c.k).join() + S.dir?.name;
+  if ($('#cajones').dataset.firma !== firma) {
+    $('#cajones').dataset.firma = firma;
+    $('#cajones').innerHTML = S.cajones.map(c => `<button data-cajon="${esc(c.k)}" title="${esc(c.k === 'I'
+      ? 'Índice de palabras clave: cada término apunta a 1–3 fichas de entrada' : c.nombre)}">${esc(c.nombre.replace(/^Cajón /, ''))}</button>`).join('')
+      + '<button data-nuevo-cajon title="Nuevo cajón, después del último">＋</button>';
+  }
+  for (const b of document.querySelectorAll('[data-cajon]')) b.classList.toggle('on', b.dataset.cajon === S.cajon);
+  $('#cajones').classList.toggle('oculto', S.vista !== 'cajon');
+  $('#btnModo').textContent = 'Modo: ' + (S.modo === 'purista' ? 'purista' : 'cómodo');
+  $('#btnModo').classList.toggle('on', S.modo === 'comodo');
+  $('#buscar').classList.toggle('oculto', S.modo !== 'comodo' || S.vista !== 'cajon');
+  if (S.vista === 'cajon') { renderPila(); renderLectura(); } else if (S.vista === 'mesa') renderMesa(); else renderPapelera();
+}
+
+function renderPapelera() {
+  const items = [...S.papelera].sort((a, b) => b[1].borrada.localeCompare(a[1].borrada));
+  $('#papelera').innerHTML = items.map(([nombre, {c, borrada}]) => `<div class="tacho">
+      <div class="ficha chica" style="--sepia:${sepia(c)}"><div class="giro">${cara(c, 'frente', false)}${cara(c, 'reverso', false)}</div></div>
+      <div class="acciones"><button data-pap="girar">⟲</button><button data-pap="restaurar" data-nombre="${esc(nombre)}">Restaurar</button></div>
+      <p class="nota">Tirada el ${borrada.replace(/(\d\d)(\d\d)$/, '$1:$2')}</p></div>`).join('')
+    || '<p class="vacio">La papelera está vacía.</p>';
+}
+
+const lomo = c => `<b>${etiqueta(c.id)}</b>${esc(primera(c))}`;
+// Solo se dibujan los lomos cercanos a la elegida: con miles de fichas la pila entera medía ~94.000 px y, inclinada,
+// el navegador no llegaba a mostrarla ni a centrarla. Se recorre de a una (rueda, flechas), así que alcanza con esto.
+const VENTANA = 40;
+function renderPila() {
+  const ids = lista();
+  if (!ids.includes(S.sel)) S.sel = ids[0] ?? null;
+  const k = Math.max(0, ids.indexOf(S.sel));
+  // Invertida: la primera ficha queda abajo, adelante de todo; las siguientes asoman detrás, hacia el fondo.
+  $('#pila').innerHTML = ids.slice(Math.max(0, k - VENTANA), k + VENTANA + 1).toReversed().map(id => { const c = S.cards.get(id);
+    return `<div class="lomo${id === S.sel ? ' sel' : ''}" data-id="${esc(id)}" style="--sepia:${sepia(c)}">${lomo(c)}</div>`; }).join('');
+  centrar(false);
+}
+const centrar = suave => $('#pila .sel')?.scrollIntoView({block: 'center', behavior: suave ? 'smooth' : 'auto'});
+function ir(id, suave = true, sinLectura = false) {
+  S.sel = id; S.girada = false;
+  const hijos = [...$('#pila').children], i = hijos.findIndex(el => el.dataset.id === id);
+  // cerca del borde de lo dibujado (y no en la punta de la lista): se vuelve a armar alrededor de la nueva elegida
+  if (i < 0 || (i < 10 && hijos.at(0).dataset.id !== lista().at(-1)) || (i > hijos.length - 11 && hijos.at(-1).dataset.id !== lista()[0])) renderPila();
+  else { hijos.forEach(el => el.classList.toggle('sel', el.dataset.id === id)); centrar(suave); }
+  if (!sinLectura) renderLectura();
+}
+function mover(d) {
+  const ids = lista(), i = ids.indexOf(S.sel), j = Math.max(0, Math.min(ids.length - 1, i + d));
+  if (j !== i) ir(ids[j]);
+}
+
+function cara(c, lado, edit) {
+  const t = c[lado], frente = lado === 'frente';
+  const tit = !frente ? '<span class="tit">reverso</span>'
+    : edit ? `<input class="tit" data-id="${c.id}" data-lado="titulo" maxlength="60" placeholder="Título" spellcheck="false" value="${esc(c.titulo)}">`
+    : `<span class="tit" data-lado="titulo">${renderTxt(c.titulo)}</span>`;
+  const cab = `<div class="cab"><a class="ln id" data-id="${c.id}">${etiqueta(c.id)}</a>${tit}<span>${c.fecha}</span></div>`;
+  const cuerpo = edit
+    ? `<textarea class="txt" data-id="${c.id}" data-lado="${lado}" maxlength="${LIM}" spellcheck="false" placeholder="${frente ? 'Una sola idea…' : 'Reverso'}">${esc(t)}</textarea><div class="cont">${t.length}/${LIM}</div>`
+    : `<div class="txt" data-lado="${lado}">${renderTxt(t)}</div>`;
+  return `<div class="cara${lado === 'reverso' ? ' atras' : ''}">${cab}${cuerpo}</div>`;
+}
+
+function renderLectura() {
+  const c = S.cards.get(S.sel), L = $('#lectura');
+  clearTimeout(S.secado);
+  const indice = S.cajon === 'I';
+  if (!c) { L.innerHTML = indice ? '<p class="vacio">Índice vacío. Usá «Agregar al índice…» en una ficha del cajón Principal.</p>'
+    : '<p class="vacio">Cajón vacío. <button data-acc="raiz">Nueva ficha</button></p>'; return; }
+  const edit = puedeEditar(c), resta = TINTA_MIN - edadMin(c);
+  L.innerHTML = `
+    <div class="ficha${S.girada ? ' girada' : ''}" data-id="${c.id}" style="--sepia:${sepia(c)}"><div class="giro">${cara(c, 'frente', edit)}${cara(c, 'reverso', edit)}</div></div>
+    <div class="acciones">
+      <button data-acc="girar">Girar ⟲</button>
+      ${indice ? '' : `<button data-acc="nueva">Nueva ficha después</button>
+      <button data-acc="raiz">Nueva ficha raíz</button>`}
+      ${cajonDe(c.id) === 'P' && cajonesP().length > 1 ? `<button data-acc="cajon" title="Guardarla en otro cajón">${esc(nombreCajon(cajonDeFicha(c.id)))}…</button>` : ''}
+      <button data-acc="sacar"${S.mesa[c.id] ? ' disabled' : ''}>${S.mesa[c.id] ? 'En el escritorio' : 'Sacar al escritorio'}</button>
+      ${indice ? '' : '<button data-acc="indice" title="Anotar esta ficha como puerta de entrada a un tema">Agregar al índice…</button>'}
+      ${edit ? '' : '<button data-acc="tachar">Tachar</button><button data-acc="subrayar">Subrayar</button>'}
+      <button data-acc="tirar" class="tirar">Tirar a la papelera</button>
+    </div>
+    <p class="nota">${S.modo === 'comodo' ? 'Modo cómodo: se puede editar siempre.'
+      : edit ? `Tinta fresca: quedan ${Math.ceil(resta)} min para corregir.`
+      : 'Tinta seca: seleccioná texto para tacharlo o subrayarlo. Para agregar algo, escribí una ficha nueva.'}</p>
+    ${S.modo === 'comodo' ? citadaPor(c.id) : ''}`;
+  if (edit && S.modo === 'purista') S.secado = setTimeout(renderLectura, resta * 60000); // la tinta se seca
+}
+
+function citadaPor(id) {
+  const ids = citantes(id);
+  return `<p class="nota">Citada por: ${ids.length ? ids.map(i => `<a class="ln" data-id="${i}">→ ${i}</a>`).join(' ') : 'ninguna'}</p>`;
+}
+
+function renderMesa() {
+  const fichas = Object.entries(S.mesa).filter(([id]) => S.cards.has(id)).sort((a, b) => (a[1].z || 0) - (b[1].z || 0));
+  clearTimeout(S.secadoMesa);
+  $('#mesa').innerHTML = `<div class="barra"><button data-mesa="raiz">Nueva ficha raíz</button><button data-mesa="texto" title="Las fichas de la mesa, en orden de lectura (por filas), pasan a un borrador en Markdown">Armar texto</button>
+      <span class="nota">Pasá el mouse por una ficha: ⟲ girar · → citarla en la que estás escribiendo · ＋ nueva ficha después · × devolver al cajón · 🗑 tirar a la papelera</span></div>`
+    + (fichas.map(([id, p]) => {
+      const c = S.cards.get(id), edit = puedeEditar(c), fresca = edadMin(c) < TINTA_MIN;
+      return `<div class="ficha chica${fresca ? ' en-mano' : ''}${edit ? ' editable' : ''}${p.girada ? ' girada' : ''}" data-id="${id}" style="left:${p.x}px;top:${p.y}px;--sepia:${sepia(c)}">
+        <div class="herr"><button data-m="girar" title="Girar">⟲</button><button data-m="citar" title="Citar en la ficha que estás escribiendo">→</button>${cajonDe(id) === 'I' ? '' : '<button data-m="nueva" title="Nueva ficha después de esta">＋</button>'}<button data-m="devolver" title="Devolver al cajón">×</button><button data-m="tirar" class="tirar" title="Tirar a la papelera">🗑</button></div>
+        <div class="giro">${cara(c, 'frente', edit)}${cara(c, 'reverso', edit)}</div></div>`; }).join('')
+    || '<p class="vacio">El escritorio está vacío. Sacá fichas del cajón con «Sacar al escritorio» o empezá una con «Nueva ficha raíz».</p>');
+  const frescas = fichas.map(([id]) => TINTA_MIN - edadMin(S.cards.get(id))).filter(r => r > 0);
+  if (frescas.length && S.modo === 'purista') S.secadoMesa = setTimeout(() => S.vista === 'mesa' && renderMesa(), Math.min(...frescas) * 60000);
+}
+
+async function accionMesa(m, id, boton) {
+  if (m === 'girar') { const p = S.mesa[id]; p.girada = !p.girada; $(`#mesa .chica[data-id="${id}"]`).classList.toggle('girada', p.girada); guardarMesa(); }
+  if (m === 'devolver') { delete S.mesa[id]; guardarMesa(); renderMesa(); }
+  if (m === 'nueva') { const n = await elegirDespues(id, boton); if (n) crearEnMesa(n, id); }
+  if (m === 'citar') citar(id);
+  if (m === 'tirar') tirar(id);
+}
+function crearEnMesa(id, cerca) {
+  nuevaFicha(id, cerca ? null : S.cajon);
+  const p = S.mesa[cerca] || {x: 20, y: 30};
+  S.mesa[id] = {x: p.x + 310, y: p.y + 30, z: maxZ() + 1};
+  S.escribiendo = {id, lado: 'frente'};
+  guardarMesa(); renderMesa();
+  $(`#mesa .chica[data-id="${id}"] input.tit`)?.focus();
+}
+// Inserta "→ id" donde está el cursor de la ficha que se está escribiendo.
+function citar(id) {
+  const e = S.escribiendo, ta = e && $(`#mesa textarea[data-id="${e.id}"][data-lado="${e.lado}"]`);
+  if (!ta) return alert('Primero empezá una ficha nueva (＋) o hacé click en el texto de la que estás escribiendo.');
+  if (e.id === id) return;
+  const t = `→ ${id} `;
+  if (ta.value.length + t.length > LIM) return alert('Ya no entra más en la ficha.');
+  ta.setRangeText(t, ta.selectionStart, ta.selectionEnd, 'end');
+  ta.dispatchEvent(new Event('input', {bubbles: true})); ta.focus();
+}
+
+// ---------- Acciones ----------
+async function seguir(id) {
+  if (S.animando) return;
+  if (!S.cards.has(id)) return alert(`No existe la ficha ${id}.`);
+  const cajon = cajonDeFicha(id);
+  if (S.modo === 'comodo') return seguirSinCaminar(id);
+  // Purista: hay que ir hasta la caja y recorrerla ficha por ficha.
+  if (S.vista !== 'cajon' || S.cajon !== cajon) { S.vista = 'cajon'; if (S.cajon !== cajon) S.sel = null; S.cajon = cajon; render(); }
+  const ids = lista(); let i = ids.indexOf(S.sel); const j = ids.indexOf(id);
+  const pasos = [...recorrido(i, j)], espera = Math.max(25, Math.min(90, 1500 / pasos.length));
+  S.animando = true;
+  for (const k of pasos) { ir(ids[k], false, true); await new Promise(r => setTimeout(r, espera)); }
+  S.animando = false;
+  renderLectura();
+}
+
+function crear(id, cajon = null) {
+  nuevaFicha(id, cajon);
+  S.filtro = ''; $('#buscar').value = '';
+  S.cajon = cajonDeFicha(id); S.sel = id; S.girada = false; S.vista = 'cajon';
+  render();
+  $('#lectura input.tit')?.focus();
+}
+
+// El término es el título de la ficha; solo se pregunta si no tiene.
+function indexar(id) {
+  const t = S.cards.get(id).titulo.replace(/~~|__/g, '').trim()
+    || prompt(`La ficha ${id} no tiene título.\nPalabra clave para el índice:`)?.trim();
+  if (!t) return;
+  const r = agregarIndice(t, id);
+  if (r !== 'ok') return alert(r);
+  seguirSinCaminar('I' + letra(t));
+}
+const seguirSinCaminar = id => { S.filtro = ''; $('#buscar').value = ''; Object.assign(S, {vista: 'cajon', cajon: cajonDeFicha(id), sel: id, girada: false}); render(); };
+
+
+// Tachar/subrayar: envuelve texto existente con ~~ o __, nunca borra.
+function marcar(tipo) {
+  const sel = getSelection();
+  if (!sel.rangeCount || sel.isCollapsed) return alert('Primero seleccioná un fragmento de la ficha.');
+  const r = sel.getRangeAt(0), nodo = r.commonAncestorContainer;
+  const txtEl = (nodo.nodeType === 1 ? nodo : nodo.parentElement).closest('#lectura [data-lado]');
+  if (!txtEl) return alert('Seleccioná texto dentro de la ficha.');
+  const c = S.cards.get(S.sel), lado = txtEl.dataset.lado, crudo = c[lado];
+  // ponytail: busca la k-ésima aparición del texto elegido en el crudo; una selección que cruza renglones o marcas se rechaza
+  const antes = document.createRange(); antes.selectNodeContents(txtEl); antes.setEnd(r.startContainer, r.startOffset);
+  const trozo = r.toString(), pos = nth(crudo, trozo, contar(antes.toString(), trozo));
+  if (!trozo.trim() || pos < 0) return alert('Seleccioná texto de un solo renglón, sin enlaces ni marcas previas.');
+  const m = tipo === 'tachar' ? '~~' : '__';
+  c[lado] = crudo.slice(0, pos) + m + trozo + m + crudo.slice(pos + trozo.length);
+  guardarFicha(c); sel.removeAllRanges();
+  const giro = S.girada; renderLectura(); if (giro) $('#lectura .ficha').classList.add('girada');
+  const el = $(`#pila .lomo[data-id="${c.id}"]`); if (el) el.innerHTML = lomo(c);
+}
+
+// ---------- Eventos ----------
+$('#btnAbrir').onclick = $('#btnAbrir2').onclick = () => abrirCarpeta();
+$('#btnEjemplo').onclick = () => { S.dir = null; cargarEjemplo(); empezar('ejemplo (no se guarda)'); };
+$('#btnModo').onclick = () => { S.modo = S.modo === 'purista' ? 'comodo' : 'purista'; S.filtro = ''; $('#buscar').value = ''; render(); };
+$('#buscar').oninput = e => { S.filtro = e.target.value; renderPila(); renderLectura(); };
+for (const b of document.querySelectorAll('[data-vista]')) b.onclick = () => { S.vista = b.dataset.vista; render(); };
+$('#cajones').onclick = e => {
+  if (e.target.closest('[data-nuevo-cajon]')) { if (nuevoCajon(prompt('Nombre del cajón nuevo:', siguienteCajon()))) render(); return; }
+  const b = e.target.closest('[data-cajon]'); if (b) { S.cajon = b.dataset.cajon; S.sel = null; render(); }
+};
+
+document.addEventListener('click', e => {
+  const ln = e.target.closest('.ln');
+  if (ln) { e.preventDefault(); seguir(ln.dataset.id); return; }
+  const lm = e.target.closest('.lomo');
+  if (lm && !S.animando) { ir(lm.dataset.id); return; }
+  const pap = e.target.closest('[data-pap]');
+  if (pap) {
+    if (pap.dataset.pap === 'girar') pap.closest('.tacho').querySelector('.ficha').classList.toggle('girada');
+    else restaurar(pap.dataset.nombre);
+    return;
+  }
+  const m = e.target.closest('[data-m]');
+  if (m) { accionMesa(m.dataset.m, m.closest('.chica').dataset.id, m); return; }
+  if (e.target.closest('[data-mesa="raiz"]')) { crearEnMesa(nuevaRaiz([...S.cards.keys()])); return; }
+  if (e.target.closest('[data-mesa="texto"]')) { armarBorrador(); return; }
+  const acc = e.target.closest('[data-acc]')?.dataset.acc;
+  if (!acc) return;
+  const id = S.sel;
+  if (acc === 'girar') { S.girada = !S.girada; $('#lectura .ficha').classList.toggle('girada', S.girada); }
+  if (acc === 'nueva') elegirDespues(id, e.target.closest('[data-acc]')).then(n => n && crear(n));
+  if (acc === 'cajon') elegirCajon(id, e.target.closest('[data-acc]')).then(k => { if (k && moverACajon(id, k)) { S.cajon = k; render(); } });
+  if (acc === 'raiz') crear(nuevaRaiz([...S.cards.keys()], S.cajon === 'B' ? 'B' : ''), S.cajon);   // en el cajón abierto
+  if (acc === 'sacar') { const n = Object.keys(S.mesa).length; S.mesa[id] = {x: 30 + n * 34 % 400, y: 60 + n * 28 % 300, z: maxZ() + 1}; guardarMesa(); renderLectura(); }
+  if (acc === 'indice') indexar(id);
+  if (acc === 'tirar') tirar(id);
+  if (acc === 'tachar' || acc === 'subrayar') marcar(acc);
+});
+
+// Título y texto, en el cajón y en el escritorio.
+document.addEventListener('input', e => {
+  const t = e.target; if (!t.matches('textarea.txt, input.tit')) return;
+  const c = S.cards.get(t.dataset.id); c[t.dataset.lado] = t.value;
+  if (t.matches('textarea')) t.nextElementSibling.textContent = `${t.value.length}/${LIM}`;
+  const el = $(`#pila .lomo[data-id="${c.id}"]`); if (el) el.innerHTML = lomo(c);
+  guardarLuego(c);
+});
+document.addEventListener('focusin', e => {
+  if (e.target.matches('#mesa textarea')) S.escribiendo = {id: e.target.dataset.id, lado: e.target.dataset.lado};
+});
+
+// Cajón: hacia arriba = más al fondo (fichas siguientes).
+let ultRueda = 0;
+$('#pila').addEventListener('wheel', e => {
+  e.preventDefault();
+  if (S.animando || e.timeStamp - ultRueda < 60) return;
+  ultRueda = e.timeStamp; mover(-Math.sign(e.deltaY));
+}, {passive: false});
+document.addEventListener('keydown', e => {
+  if (!S.cargada || S.vista !== 'cajon' || S.animando || e.target.matches('textarea,input')) return;
+  if (e.key === 'ArrowUp') { e.preventDefault(); mover(1); }
+  if (e.key === 'ArrowDown') { e.preventDefault(); mover(-1); }
+});
+
+// Escritorio: arrastrar (las fichas que se están escribiendo, solo desde la cabecera) y girar con doble click
+let arr = null;
+$('#mesa').addEventListener('pointerdown', e => {
+  const el = e.target.closest('.chica');
+  if (!el || e.target.closest('button,.ln,input,textarea')) return;
+  if (el.classList.contains('editable') && !e.target.closest('.cab')) return;
+  const id = el.dataset.id; // al frente (z explícito: las claves numéricas de un objeto no guardan orden)
+  S.mesa[id].z = maxZ() + 1;
+  el.parentElement.appendChild(el);
+  arr = {el, id, dx: e.clientX - el.offsetLeft, dy: e.clientY - el.offsetTop};
+  el.setPointerCapture(e.pointerId);
+});
+$('#mesa').addEventListener('pointermove', e => {
+  if (!arr) return;
+  const x = Math.max(0, e.clientX - arr.dx), y = Math.max(0, e.clientY - arr.dy);
+  arr.el.style.left = x + 'px'; arr.el.style.top = y + 'px'; Object.assign(S.mesa[arr.id], {x, y});
+});
+const soltar = () => { if (arr) { arr = null; guardarMesa(); } };
+$('#mesa').addEventListener('pointerup', soltar);
+$('#mesa').addEventListener('pointercancel', soltar);
+$('#mesa').addEventListener('dblclick', e => {
+  const el = e.target.closest('.chica');
+  if (el && !e.target.closest('button,input,textarea')) accionMesa('girar', el.dataset.id);
+});
+
+
+// ---------- Inicio ----------
+idb('readonly', s => s.get('dir')).then(h => {
+  if (!h) return;
+  const b = $('#btnReabrir'); b.textContent = `Reabrir «${h.name}»`; b.classList.remove('oculto');
+  b.onclick = () => abrirCarpeta(h);
+}).catch(() => {});
+render();
+
+</script>
+</body>
+</html>

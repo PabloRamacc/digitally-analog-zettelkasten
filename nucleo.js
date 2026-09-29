@@ -189,6 +189,9 @@ function letra(t) {
 
 // Lo tachado deja de ser enlace: los vínculos se buscan solo fuera de los <s>.
 function renderTxt(t) {
+  const partes = t.split(/^(\+ \d{4}-\d\d-\d\d \d\d:\d\d)$/m);   // [texto, marca, agregado, marca, agregado…]
+  if (partes.length > 1) return partes.map((p, i) => i % 2 ? `<span class="marca">${esc(p)}</span>`
+    : i ? `<span class="agregado">${renderTxt(p)}</span>` : renderTxt(p)).join('');
   return esc(t)
     .replace(/~~(.+?)~~/gs, '<s>$1</s>')
     .replace(/__(.+?)__/gs, '<u>$1</u>')
@@ -223,6 +226,37 @@ const ahora = () => { const d = new Date(), p = n => String(n).padStart(2, '0');
 const edadMin = c => { const t = new Date(c.fecha.replace(' ', 'T')); return isNaN(t) ? Infinity : (Date.now() - t) / 60000; };
 const sepia = c => Math.min(.7, Math.max(0, edadMin(c) / 1440 / 365 * .35)).toFixed(2);
 const puedeEditar = c => S.modo === 'comodo' || edadMin(c) < TINTA_MIN;
+
+// ---------- Agregados: a una ficha con la tinta seca se le puede sumar texto al final, con su propia tinta fresca ----------
+// En el .txt, una línea «+ AAAA-MM-DD hh:mm» y abajo lo agregado, como las «Nachträgliche Hinzufügungen» de Luhmann.
+// Lo de antes no se toca; lo agregado se corrige mientras su tinta está fresca (TINTA_MIN minutos).
+const MARCA = /^\+ (\d{4}-\d\d-\d\d \d\d:\d\d)$/gm, LIBRE_MIN = 40;
+// Dónde empieza el último agregado de una cara, si su tinta todavía está fresca; si no, null.
+function agregadoFresco(c, lado) {
+  const m = [...c[lado].matchAll(MARCA)].at(-1);
+  return m && edadMin({fecha: m[1]}) < TINTA_MIN ? m.index + m[0].length + 1 : null;   // +1: después del salto de línea
+}
+// Desde dónde se puede escribir en una cara: 0 = toda (tinta fresca o modo cómodo), un número = desde ahí, null = nada.
+function desdeEditable(c, lado) {
+  if (puedeEditar(c)) return 0;
+  const d = agregadoFresco(c, lado);
+  if (d !== null && c[lado].length < d) c[lado] += '\n';   // al guardar se recorta el salto final: se repone para escribir
+  return d;
+}
+// Empieza un agregado al final de una cara. Devuelve 'ok', 'ya' (ya se puede escribir) o un aviso.
+function empezarAgregado(c, lado) {
+  if (desdeEditable(c, lado) !== null) return 'ya';
+  const antes = c[lado].replace(/\s+$/, ''), nuevo = (antes ? antes + '\n' : '') + `+ ${ahora()}\n`;
+  if (nuevo.length + LIBRE_MIN > LIM) return 'No entra: seguí en el otro lado de la ficha o en una ficha nueva (Nueva después).';
+  c[lado] = nuevo; guardarFicha(c);
+  return 'ok';
+}
+// Para los editores (beforeinput): no deja escribir ni borrar antes de «desde».
+function soloDesde(e, desde) {
+  if (!desde) return;
+  const {selectionStart: a, selectionEnd: b} = e.target;
+  if (a < desde || (a === b && a === desde && /^delete.*Backward/.test(e.inputType))) e.preventDefault();
+}
 const primera = c => (c.titulo || c.frente.split('\n')[0] || '(vacía)').replace(/~~|__/g, '');
 const maxZ = () => Math.max(0, ...Object.values(S.mesa).map(p => p.z || 0));
 
@@ -319,7 +353,7 @@ function ordenLectura() {
   return filas.flatMap(f => f.sort((a, b) => a[1].x - b[1].x)).map(([id]) => id);
 }
 // Lo tachado es tinta anulada: se omite. __x__ → *x*, «→ 2b» → «(→ 2b)».
-const aMd = t => t.replace(/~~.*?~~/gs, '').replace(/__(.+?)__/gs, '*$1*')
+const aMd = t => t.replace(MARCA, '').replace(/~~.*?~~/gs, '').replace(/__(.+?)__/gs, '*$1*')
   .replace(enlaceRe(), '(→ $1)').replace(/[ \t]{2,}/g, ' ').replace(/[ \t]+$/gm, '').trim();
 const citadasB = t => [...t.replace(/~~.*?~~/gs, '').matchAll(/(?:→|->)\s*(B\d[0-9a-z]*)/g)].map(m => m[1]);
 // ponytail: las B e I sobre la mesa no entran como secciones; las B cuentan para la bibliografía
@@ -444,12 +478,26 @@ function citantes(id) {
 // cajon: dónde va una ficha raíz (el cajón abierto). Sin él, va al cajón de la ficha anterior por número.
 function nuevaFicha(id, cajon = null) {
   const c = {id, fecha: ahora(), titulo: '', frente: '', reverso: ''};
-  S.cards.set(id, c); guardarFicha(c);
+  S.cards.set(id, c); guardarFicha(c); recienCreadas.add(id);
   if (S.fisico && cajonDe(id) === 'P') {
     S.fisico.set(id, cajon?.[0] === 'P' && S.cajones.some(x => x.k === cajon) ? cajon : cajonDeFicha(id));
     guardarOrden();
   }
   return c;
+}
+// Una ficha nueva que se cierra sin escribir nada (la sacaste sin querer) no queda: se descarta, sin pasar por la
+// papelera porque no tenía nada. Solo las creadas en esta sesión: una ficha vacía vieja no se toca.
+const recienCreadas = new Set();
+async function descartarSiVacia(id) {
+  const c = S.cards.get(id);
+  if (!c || !recienCreadas.has(id) || c.titulo.trim() || c.frente.trim() || c.reverso.trim()) return false;
+  recienCreadas.delete(id); clearTimeout(pendientes.get(id)); pendientes.delete(id);
+  await colaGuardado.get(id);   // que termine de escribirse antes de borrarla
+  if (S.dir) try { await S.dir.removeEntry(S.archivos.get(id) ?? idArchivo(id) + '.txt'); } catch {}
+  S.cards.delete(id); S.archivos.delete(id);
+  if (S.mesa[id]) { delete S.mesa[id]; guardarMesa(); }
+  if (S.fisico?.delete(id)) guardarOrden();
+  return true;
 }
 // Agrega "término → id" al final de la ficha de su letra, como quien escribe una línea más en el papel.
 // libre = sin el límite de 3 entradas (migración).
@@ -633,6 +681,33 @@ function test() {
   ok(idDeArchivo(nombreArchivo({id: '21/3d5b11z,u37', titulo: ''})) === '21/3d5b11z,u37' && !idDeArchivo('1,.txt'), 'coma y letra');
   ok([...'→ 21/A y → 21/3d5b11z/t10, → 2/ nada'.matchAll(enlaceRe())].map(m => m[1]).join(' ') === '21/A 21/3d5b11z/t10 2', 'barra y letra');
   ok(idDeArchivo(nombreArchivo({id: '21/3d5b11z/tB3', titulo: ''})) === '21/3d5b11z/tB3' && idDeArchivo('21-^A.txt') === '21/A', 'archivo con barra y letra');
+  // agregados a fichas secas
+  { const modo = S.modo, dirA = S.dir; S.modo = 'purista'; S.dir = null;
+    const v = {id: '77', fecha: '2020-01-01 10:00', titulo: '', frente: 'viejo → 2a', reverso: ''};
+    ok(desdeEditable(v, 'frente') === null && empezarAgregado(v, 'frente') === 'ok', 'agregado: empieza en una ficha seca');
+    const d = desdeEditable(v, 'frente');
+    ok(v.frente.startsWith('viejo → 2a\n+ ') && d === v.frente.length && empezarAgregado(v, 'frente') === 'ya', 'agregado: se escribe desde el final');
+    v.frente = v.frente.trim();   // así vuelve del disco (parseFicha recorta)
+    ok(desdeEditable(v, 'frente') === d && v.frente.endsWith('\n'), 'agregado: repone el salto para escribir');
+    v.frente += 'nuevo'; v.frente = v.frente.replace(/\+ \S+ \S+/, '+ 2020-01-02 10:00');
+    ok(agregadoFresco(v, 'frente') === null && desdeEditable(v, 'frente') === null, 'agregado: se seca');
+    ok(aMd(v.frente) === 'viejo (→ 2a)\n\nnuevo' && renderTxt(v.frente).includes('<span class="marca">+ 2020-01-02 10:00</span>')
+      && renderTxt(v.frente).includes('<span class="agregado">'), 'agregado: marca en gris, fuera de Armar texto');
+    const llena = {id: '78', fecha: '2020-01-01 10:00', titulo: '', frente: 'x'.repeat(LIM - 20), reverso: ''};
+    ok(empezarAgregado(llena, 'frente').startsWith('No entra'), 'agregado: no entra en una cara llena');
+    let cancelado = false; const ev = inputType => ({inputType, target: {selectionStart: 5, selectionEnd: 5}, preventDefault: () => cancelado = true});
+    soloDesde(ev('insertText'), 5); const escribe = !cancelado; soloDesde(ev('deleteContentBackward'), 5);
+    ok(escribe && cancelado, 'agregado: se escribe en el borde pero no se borra hacia atrás');
+    S.modo = modo; S.dir = dirA; }
+  // una ficha nueva que se cierra vacía se descarta; con algo escrito, o si no es nueva, queda
+  { const [cartas, mesaD, dirD] = [S.cards, S.mesa, S.dir]; S.cards = new Map(); S.mesa = {}; S.dir = null;
+    nuevaFicha('50'); S.mesa['50'] = {x: 0, y: 0}; nuevaFicha('51'); S.cards.get('51').frente = 'algo';
+    S.cards.set('52', {id: '52', fecha: '2020-01-01 10:00', titulo: '', frente: '', reverso: ''});
+    Promise.all(['50', '51', '52'].map(descartarSiVacia)).then(r => {
+      ok(r.join() === 'true,false,false' && !S.cards.has('50') && !S.mesa['50'] && S.cards.has('51') && S.cards.has('52'), 'descartar la nueva vacía');
+      [S.cards, S.mesa, S.dir] = [cartas, mesaD, dirD];
+      if (fallos) { console.error(`✗ ${fallos} fallos`); document.title = '✗ tests'; }
+    }); }
   ok(edadMin({fecha: 's/f'}) === Infinity && sepia({fecha: 's/f'}) === '0.70', 'sin fecha: tinta vieja');
   ok(!renderTxt('~~s → 1~~').includes('class="ln'), 'lo tachado no es enlace');
   const normal = {id: '5', frente: 'ver → 3 y → 3a', reverso: 'otra → 3'}, idx = {id: 'Is', frente: 'serendipia → 3\nsorpresa → 1', reverso: ''};

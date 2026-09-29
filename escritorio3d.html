@@ -40,11 +40,40 @@ button.tirar{background:#4a2a24;border-color:#6e3a30}
 #ayuda dd{margin:0;color:var(--ui)}
 @media (max-width:560px){#ayuda dl{grid-template-columns:1fr}#buscar{width:110px}}
 #error{position:fixed;left:0;right:0;top:45%;text-align:center;color:#f0b8a8}
+/* Inventario abajo a la izquierda: las herramientas que se agarran (convención de HUD), sin tapar el panel de la derecha */
+#inventario{position:fixed;left:12px;bottom:12px;display:flex;gap:6px;align-items:flex-end;z-index:5;user-select:none}
+.casilla{position:relative;width:58px;height:58px;padding:0;display:grid;place-items:center;background:rgba(20,15,11,.88);border:1px solid #6a5540;border-radius:8px;cursor:grab;touch-action:none}
+.casilla:hover{background:rgba(58,44,32,.95)}
+.casilla.on{border-color:var(--acento);box-shadow:0 0 0 2px var(--acento)}
+.casilla kbd{position:absolute;left:5px;top:3px;font:11px ui-monospace,monospace;color:var(--ui-tenue)}
+.casilla svg{width:40px;height:40px;pointer-events:none}
+#fantasma{position:fixed;left:0;top:0;pointer-events:none;z-index:20;opacity:.85}
+#fantasma svg{width:52px;height:52px}
+#fantasma .carta{position:relative;width:var(--an);height:calc(var(--an) * .709)}   /* la ficha que llevás desde la mano */
+/* La mano: las fichas que llevás (hasta 10), en abanico al pie de la pantalla como en Slay the Spire: se hunden un poco
+   bajo el borde, siguen un arco, y la que tiene el mouse encima sube, se endereza y se agranda para leerla. */
+#mano{position:fixed;left:50%;bottom:0;width:0;height:0;z-index:5;user-select:none}
+#mano .naipe{position:absolute;left:calc(var(--an) / -2);bottom:calc(var(--an) * -.16);width:var(--an);height:calc(var(--an) * .709);
+  cursor:grab;transform-origin:50% 100%;touch-action:none}
+/* el lugar (.naipe) queda fijo y es el que detecta el mouse; lo que sube es el dibujo (.carta): así no titila */
+.carta{position:absolute;inset:0;padding:.35em .6em;box-sizing:border-box;
+  background:#f5eed8 repeating-linear-gradient(transparent 0 13px,#e2d8bb 13px 14px);color:#1f2d57;border:1px solid #bfb393;border-radius:4px;
+  box-shadow:0 4px 12px rgba(0,0,0,.55);font:calc(var(--an) * .07)/1.4 "Segoe Print","Bradley Hand",cursive;overflow:hidden;
+  transform-origin:50% 100%;transition:transform .16s ease-out,box-shadow .16s;filter:sepia(var(--sepia,0))}
+.carta b{display:block;font:600 1.1em ui-monospace,monospace;color:#a3342a;border-bottom:1px solid #a3342a;margin-bottom:2px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.carta b i{font:600 .95em "Segoe Print","Bradley Hand",cursive;color:#1f2d57;margin-left:6px}
+#mano .naipe.activa .carta{box-shadow:0 0 0 2px var(--acento),0 6px 16px rgba(0,0,0,.6)}
+#mano .naipe:hover{z-index:30!important}
+#mano .naipe:hover .carta{transform:translateY(calc(var(--an) * -.55)) rotate(calc(-1 * var(--r))) scale(1.4);box-shadow:0 10px 26px rgba(0,0,0,.7)}
+#pista.arriba{top:52px;bottom:auto;left:12px;transform:none;text-align:left;max-width:min(560px,60vw)}   /* con la mano: arriba a la izquierda */
+
+@media (max-width:900px){#pista{bottom:84px}}
 </style>
 </head>
 <body>
 <div id="hud">
-  <h1>Zettelkasten 3D</h1>
+  <h1>Zettelkasten 3D <small style="opacity:.6;font-weight:400">v2</small></h1>
   <span class="sep"></span>
   <span id="estado"></span>
   <input id="buscar" class="oculto" type="search" placeholder="Buscar…" spellcheck="false" aria-label="Buscar en el cajón">
@@ -61,14 +90,16 @@ button.tirar{background:#4a2a24;border-color:#6e3a30}
 <div id="ayuda" class="oculto" title="Click o Esc para cerrar">
   <h3>Controles</h3>
   <dl>
-    <dt>Escritorio</dt><dd>Click en un cajón: abrirlo · click en la mesa: verla desde arriba · taco claro: ficha nueva · taco gris: ficha bibliográfica · lámpara: prender / apagar</dd>
+    <dt>Inventario</dt><dd>Abajo a la izquierda · 1: ficha nueva · 2: ficha bibliográfica (click: a la mesa; arrastrarla: donde la sueltes; sobre una ficha de la mesa: «Nueva después»)</dd>
+    <dt>Mano</dt><dd>G sobre una ficha (de la mesa, del cajón o la que leés) o click en una de la mesa: a la mano, hasta 10 · G sin ficha bajo el mouse: apoyar la activa en la mesa, donde apuntás · las que llevás no están en su cajón · pasar el mouse: verla grande · click en ella o Espacio: leerla · arrastrarla desde la mano: a la mesa (queda ahí), al frente de un cajón (se guarda en ese) o a la papelera · rueda sobre la mano o Q / E: elegir la activa · R: devolver la activa a su cajón</dd>
+    <dt>Marcar</dt><dd>Leyendo: arrastrar sobre el texto para seleccionar · S subrayar · T tachar · I al índice · A agregar al final de una ficha seca (tinta fresca) · Ctrl+U: subrayar mientras escribís</dd>
+    <dt>Escritorio</dt><dd>Click en un cajón: abrirlo · click en la mesa o M: verla desde arriba · lámpara: prender / apagar</dd>
     <dt>Cajones de frente</dt><dd>Click en el fichero, botón «Cajones» o C · arrastrar: recorrerlos · rueda: acercar · click en uno: abrirlo (al cerrarlo volvés acá)</dd>
-    <dt>Cajón</dt><dd>Rueda o ↑↓: pasar fichas · click en la ficha levantada: leerla · arrastrar una ficha: sacarla a la mesa · Esc o click derecho: cerrar</dd>
-    <dt>Mesa</dt><dd>Arrastrar fichas: moverlas · arrastrar la madera: moverse · rueda o + −: zoom · click: leer · doble click: girar · soltar en el fichero: devolverla · soltar en la papelera: tirarla · «Armar texto»: borrador con las fichas en orden</dd>
-    <dt>Lectura</dt><dd>F o click (tinta seca): girar · escribir directo sobre la ficha (tinta fresca) · Tab: título ↔ texto · click en → 2a: seguir el enlace (Ctrl + click mientras escribís) · Esc o click afuera: devolverla</dd>
-    <dt>Lapicera ✒</dt><dd>Arrastrar sobre el texto para seleccionar · Tachar, Subrayar, Al índice</dd>
+    <dt>Cajón</dt><dd>Rueda o ↑↓: pasar fichas · G: la ficha bajo el mouse (o la elegida) a la mano · Enter, Espacio o click en una: verla de cerca · arrastrar una ficha: sacarla a la mesa · Esc o click derecho: cerrar</dd>
+    <dt>Mesa</dt><dd>Arrastrar fichas: moverlas · arrastrar la madera (o Espacio + arrastrar): moverse · rueda o + −: zoom · click o G: a la mano · G sobre la madera: apoyar ahí la activa de la mano · F con el mouse encima: girar · soltar en el fichero: devolverla · soltar en la papelera: tirarla · «Armar texto»: borrador con las fichas en orden</dd>
+    <dt>Lectura</dt><dd>F o click (tinta seca): girar · G: a la mano (si ya está en la mano: a la mesa) · ↑↓: la ficha siguiente del cajón · escribir directo sobre la ficha (tinta fresca) · Tab: título ↔ texto · Ctrl+U: subrayar · click en → 2a: seguir el enlace (Ctrl + click mientras escribís) · Esc o click afuera: devolverla</dd>
     <dt>Papelera</dt><dd>Click en un bollo: desarrugarlo y leerlo · rueda o flechas: pasar entre las tiradas · Restaurar</dd>
-    <dt>General</dt><dd>?: esta ayuda · Esc: volver · modo cómodo: buscar arriba</dd>
+    <dt>General</dt><dd>?: esta ayuda · C: cajones de frente · M: mesa · Esc o click derecho: devolver la ficha que leés (a la mano o a su lugar) → cerrar el cajón → volver · modo cómodo: buscar arriba</dd>
   </dl>
 </div>
 <div id="bienvenida">
@@ -81,6 +112,11 @@ button.tirar{background:#4a2a24;border-color:#6e3a30}
 <input id="teclaTit" class="tecla" maxlength="60" spellcheck="false" aria-label="Título de la ficha">
 <textarea id="tecla" class="tecla" maxlength="700" spellcheck="false" aria-label="Texto de la ficha"></textarea>
 <div id="pista"></div>
+<div id="mano" class="oculto" title="Rueda sobre la mano o Q / E: rotar · click en una: leerla"></div>
+<div id="inventario" class="oculto">
+  <button class="casilla" data-inv="P" title="Ficha nueva (1) · click: a la mesa · arrastrarla: donde la sueltes · sobre una ficha de la mesa: «Nueva después» de esa"><kbd>1</kbd><svg viewBox="0 0 40 40"><rect x="4" y="9" width="32" height="23" rx="1.5" fill="#f5eed8" stroke="#8a7a5a"/><line x1="7" y1="15" x2="33" y2="15" stroke="#a3342a" stroke-width="1.2"/><line x1="7" y1="20" x2="33" y2="20" stroke="#c9bb98"/><line x1="7" y1="24" x2="33" y2="24" stroke="#c9bb98"/><line x1="7" y1="28" x2="33" y2="28" stroke="#c9bb98"/></svg></button>
+  <button class="casilla" data-inv="B" title="Ficha bibliográfica (2) · igual que la ficha nueva, en el cajón Bibliografía"><kbd>2</kbd><svg viewBox="0 0 40 40"><rect x="4" y="9" width="32" height="23" rx="1.5" fill="#dde2e6" stroke="#8a7a5a"/><line x1="7" y1="15" x2="33" y2="15" stroke="#a3342a" stroke-width="1.2"/><line x1="7" y1="20" x2="33" y2="20" stroke="#c9bb98"/><line x1="7" y1="24" x2="33" y2="24" stroke="#c9bb98"/><line x1="7" y1="28" x2="33" y2="28" stroke="#c9bb98"/><text x="7" y="13" font-size="5" fill="#4a5566" font-family="Georgia">B</text></svg></button>
+</div>
 <p id="error" class="oculto">No se pudo cargar Three.js: falta el archivo vendor/three.js junto a esta página.</p>
 
 <script src="nucleo.js"></script>
@@ -93,6 +129,7 @@ function render() {
   $('#buscar').classList.toggle('oculto', !S.cargada || S.modo !== 'comodo');
   $('#btnCajon').classList.toggle('oculto', !S.cargada);
   $('#btnCajones').classList.toggle('oculto', !S.cargada);
+  $('#inventario').classList.toggle('oculto', !S.cargada);
   window.refrescar3d?.();
 }
 function empezar(nombre) { S.cargada = true; S.sel = null; $('#estado').textContent = nombre; render(); }
@@ -134,7 +171,7 @@ const MESA0 = {x: -0.55, z: -0.02};                 // dónde cae el (0, 0) del 
 const FICHERO = {w: 0.64, h: 0.15, d: 0.42, z: -0.28};
 const ABRE = 0.3;                                   // cuánto sale un cajón
 const INCL = .9;                                    // inclinación de las fichas delante de la elegida
-const TINTA = '#1f2d57', ROJO = '#a3342a';
+const TINTA = '#1f2d57', ROJO = '#a3342a', LAPIZ = '#3d3a35', GRIS = '#9a8b6d';   // lápiz: lo agregado después
 
 // ---------- Renderer, escena, cámara ----------
 const renderer = new THREE.WebGLRenderer({antialias: true});
@@ -218,7 +255,7 @@ const patas = [];
 for (const sx of [-1, 1]) for (const sz of [-1, 1])
   patas.push(R(caja(.05, MESA.h - .04, .05, mat.mesa, sx * (MESA.w / 2 - .06), (MESA.h - .04) / 2, sz * (MESA.d / 2 - .06))));
 MESA.x0 = -MESA.w / 2; MESA.x1 = MESA.w / 2;   // bordes; la mesa crece hacia la derecha (ver ajustarMesa)
-const derecha = [];   // lo que va pegado al borde derecho: papelera, tacos, lapicera
+const derecha = [];   // lo que va pegado al borde derecho de la mesa (la papelera)
 
 
 // ---------- Lámpara ----------
@@ -284,33 +321,7 @@ function armarPapelera() {
   });
 }
 
-// ---------- Tacos de fichas en blanco: click y sale una ficha nueva (el gris azulado, bibliográfica) ----------
-function taco(x, z, papel, canto, rotulo, cajon) {
-  const g = new THREE.Group(); g.position.set(x, MESA.h, z); g.rotation.y = -.15; scene.add(g);
-  const lado = new THREE.MeshStandardMaterial({color: 0xcfc8ba, roughness: 1,
-    map: lienzo(64, 64, (c, w, h) => { c.fillStyle = papel; c.fillRect(0, 0, w, h); c.fillStyle = canto; for (let y = 0; y < h; y += 4) c.fillRect(0, y, w, 1); })});
-  const arriba = new THREE.MeshStandardMaterial({color: 0xcfc8ba, roughness: 1,
-    map: lienzo(740, 525, (c, w, h) => {
-      c.fillStyle = papel; c.fillRect(0, 0, w, h);
-      c.strokeStyle = 'rgba(160,140,100,.45)'; c.lineWidth = 2;
-      for (let y = 120; y < h - 8; y += 32) { c.beginPath(); c.moveTo(24, y); c.lineTo(w - 24, y); c.stroke(); }
-      c.strokeStyle = ROJO; c.lineWidth = 3; c.beginPath(); c.moveTo(24, 76); c.lineTo(w - 24, 76); c.stroke();
-      if (rotulo) { c.fillStyle = '#4a5566'; c.font = '600 44px Georgia, serif'; c.fillText(rotulo, 32, 60); }
-    })});
-  const b = new THREE.Mesh(new THREE.BoxGeometry(FW, .028, FH), [lado, lado, arriba, lado, lado, lado]);
-  b.position.y = .014; b.castShadow = b.receiveShadow = true; g.add(b);
-  etiquetar([b], {tipo: 'taco', cajon});
-  derecha.push(g);
-}
-taco(.6, -.33, '#f5eed8', '#cfc4a6', '', 'P');                   // esquina del fondo, a la derecha
-taco(.61, -.17, '#dde2e6', '#aeb6bf', 'Bibliografía', 'B');      // al lado, más adelante
-// Lapicera al lado del taco (la herramienta vive en el panel de la ficha que leés)
-const lapicera = new THREE.Group(); lapicera.position.set(.44, MESA.h + .006, -.3); lapicera.rotation.set(0, .5, Math.PI / 2); scene.add(lapicera); derecha.push(lapicera);
-const cuerpoL = new THREE.Mesh(new THREE.CylinderGeometry(.005, .005, .13, 16), new THREE.MeshStandardMaterial({color: 0x1b1b22, metalness: .5, roughness: .3}));
-const puntaL = new THREE.Mesh(new THREE.ConeGeometry(.005, .018, 16), mat.laton); puntaL.position.y = -.074; puntaL.rotation.x = Math.PI;
-const clipL = new THREE.Mesh(new THREE.BoxGeometry(.0015, .04, .003), mat.laton); clipL.position.set(.0055, .04, 0);
-for (const m of [cuerpoL, puntaL, clipL]) m.castShadow = true;
-lapicera.add(cuerpoL, puntaL, clipL); etiquetar([cuerpoL, puntaL, clipL], {tipo: 'lapicera'});
+// (el taco y el taco bibliográfico están en el inventario, abajo a la izquierda: ver «Inventario»)
 
 // ---------- Fichas: textura de papel con el texto ----------
 const W = 740, H = 525;
@@ -319,10 +330,11 @@ const W = 740, H = 525;
 // mapa: si se pasa, se llena con dónde quedó cada palabra, para convertir un click en una posición del texto.
 function texto(g, crudo, x0, y0, ancho, alto, max, marca = null, mapa = null) {
   const cs = []; let s = false, u = false;
+  const marcas = [...crudo.matchAll(MARCA)].map(m => [m.index, m.index + m[0].length]), desde = marcas[0]?.[0] ?? Infinity;
   for (let i = 0; i < crudo.length; i++) {
     if (crudo.startsWith('~~', i)) { s = !s; i++; continue; }
     if (crudo.startsWith('__', i)) { u = !u; i++; continue; }
-    cs.push({ch: crudo[i], s, u, r: i});
+    cs.push({ch: crudo[i], s, u, r: i, mk: marcas.some(([a, b]) => i >= a && i < b), ag: i >= desde});
   }
   const plano = cs.map(c => c.ch).join('');
   for (const m of plano.matchAll(enlaceRe()))
@@ -355,7 +367,7 @@ function texto(g, crudo, x0, y0, ancho, alto, max, marca = null, mapa = null) {
       const x2 = x + g.measureText(p.slice(0, Math.max(0, s1 - ini))).width + (sigue ? esp : 0);
       if (x2 > x1) { g.fillStyle = 'rgba(217,164,65,.45)'; g.fillRect(x1, y - tam * .95, x2 - x1, tam * 1.25); }
     }
-    g.fillStyle = est.ln ? ROJO : TINTA; g.fillText(p, x, y);
+    g.fillStyle = est.ln ? ROJO : est.mk ? GRIS : est.ag ? LAPIZ : TINTA; g.fillText(p, x, y);
     if (est.s || est.u) {
       const ly = est.s ? y - 7 : y + 5;
       g.strokeStyle = g.fillStyle; g.lineWidth = 2; g.beginPath(); g.moveTo(x, ly); g.lineTo(x + w, ly); g.stroke();
@@ -469,14 +481,16 @@ const espera = ms => new Promise(r => setTimeout(r, ms));
 
 // ---------- Cajón abierto ----------
 const enCajon = new Map();
-let sobre = null;   // ficha del cajón con el mouse encima
+let sobre = null, ultK = 0;   // ficha del cajón con el mouse encima; posición de la elegida (si se va, queda la de al lado)
+// Lo que hay en el cajón: sin las fichas que están en la mano o sobre la mesa (salieron de ahí).
+const listaCajon = () => lista().filter(id => !S.mesa[id] && !mano.includes(id));
 const zDe = (i, n) => .1 - i * Math.min(.007, .27 / Math.max(n, 1));   // deja lugar adelante para las inclinadas
 // ponytail: solo se arman las fichas a ±25 de la elegida; si hay cajones enormes, pasar a instancing
 function actualizarCajon() {
   if (!abierto) return;
-  const ids = lista();
-  if (!ids.includes(S.sel)) S.sel = ids[0] ?? null;
-  const k = ids.indexOf(S.sel), desde = Math.max(0, k - 25), hasta = Math.min(ids.length, k + 26);
+  const ids = listaCajon();
+  if (!ids.includes(S.sel)) S.sel = ids[Math.min(ultK, ids.length - 1)] ?? null;
+  const k = ultK = ids.indexOf(S.sel), desde = Math.max(0, k - 25), hasta = Math.min(ids.length, k + 26);
   // el cajón sale lo que haga falta para que la elegida quede fuera del mueble (si no, las del fondo quedan bajo la tapa)
   cajones[abierto].abre = Math.min(.42, Math.max(ABRE, .25 - zDe(Math.max(k, 0), ids.length)));
   // La delantera del cajón (arriba a .12, adelante a .207) tapa la parte de abajo de las primeras fichas, vistas desde la
@@ -522,7 +536,7 @@ function cerrarCajon() {
   pista();
 }
 function moverSel(d) {
-  const ids = lista(), i = ids.indexOf(S.sel), j = Math.max(0, Math.min(ids.length - 1, i + d));
+  const ids = listaCajon(), i = ids.indexOf(S.sel), j = Math.max(0, Math.min(ids.length - 1, i + d));
   if (j !== i) { S.sel = ids[j]; actualizarCajon(); sonar('papel'); }
 }
 
@@ -546,13 +560,14 @@ function armarMesa() {
       f.position.set(w.x, MESA.h + .001 + i * .0006, w.z);
       mesaG.add(f); enMesa.set(id, f);
     });
+  if (abierto) actualizarCajon();   // lo que sale a la mesa o vuelve de ella
 }
 // Una ficha nueva sale del taco (o al lado de la ficha a la que responde) y se abre para escribir.
-function nuevaEnMesa(id, cerca) {
+function nuevaEnMesa(id, cerca, punto = null) {
   nuevaFicha(id, cerca ? null : S.cajon); sonar('taco');   // una ficha raíz va al último cajón abierto
-  // al lado de la ficha a la que responde, o si viene del taco, adelante al centro de la mesa (donde se escribe)
-  const w = cerca && S.mesa[cerca] ? aMundo(S.mesa[cerca]) : {x: -.1 + Math.random() * .1, z: .28};
-  S.mesa[id] = {...aPx(w.x + (cerca ? .17 : 0), w.z + (cerca ? .03 : 0)), z: maxZ() + 1};
+  // donde se soltó; si no, al lado de la ficha a la que responde; si no, adelante al centro de la mesa (donde se escribe)
+  const w = punto ?? (cerca && S.mesa[cerca] ? aMundo(S.mesa[cerca]) : {x: -.1 + Math.random() * .1, z: .28}), corre = cerca && !punto;
+  S.mesa[id] = {...aPx(w.x + (corre ? .17 : 0), w.z + (corre ? .03 : 0)), z: maxZ() + 1};
   guardarMesa(); armarMesa(); leer(id);
 }
 
@@ -568,7 +583,10 @@ function lienzoMano() {
 const teclaTxt = $('#tecla'), teclaTit = $('#teclaTit');
 const ladoLectura = () => lectura.rotY ? 'reverso' : 'frente';
 // Se puede escribir si la tinta está fresca, y nunca en una ficha sacada de la papelera (esa solo se lee o se restaura).
-const editable = () => !!lectura && !lectura.tirada && puedeEditar(lectura.c);
+// Con la tinta seca, el texto de la cara que se ve admite escribir solo en su agregado fresco (ver agregadoFresco); el título no.
+const editableCampo = campo => !!lectura && !lectura.tirada
+  && (campo === 'titulo' ? puedeEditar(lectura.c) : desdeEditable(lectura.c, ladoLectura()) !== null);
+const editable = () => editableCampo('texto');
 // tirada: nombre del archivo en la papelera, cuando se desarruga un bollo para leerlo.
 function leer(id, tirada = null, sinAnimar = false) {
   cerrarLectura();
@@ -582,17 +600,19 @@ function leer(id, tirada = null, sinAnimar = false) {
   if (lectura.orig) lectura.orig.visible = false;
   if (tirada && !sinAnimar) cara.scale.setScalar(.6);   // el bollo se desarruga: la ficha crece hasta su tamaño
   sonar('levantar'); panel(); pista();
-  if (editable()) enfocar(c.titulo ? 'texto' : 'titulo');
+  if (editable()) enfocar(c.titulo || !puedeEditar(c) ? 'texto' : 'titulo');
   pintarLectura();
 }
 function cerrarLectura() {
   if (!lectura) return;
-  const editada = lectura.editada;
+  const editada = lectura.editada, id = lectura.tirada ? null : lectura.id;
   teclaTxt.blur(); teclaTit.blur();
   camera.remove(lectura.g);
   if (lectura.orig) lectura.orig.visible = true;
   lectura = null; $('#panel').classList.add('oculto'); pista();
   if (editada) window.refrescar3d();   // la ficha cambió: se rearman sus copias en la mesa y el cajón
+  // una ficha nueva que se cierra sin nada escrito (1 o 2 sin querer, «Nueva después» de más) no queda
+  if (id) descartarSiVacia(id).then(no => no && (window.refrescar3d(), pista('Ficha en blanco descartada: no tenía nada escrito.')));
 }
 function girarLectura() {
   if (!lectura) return;
@@ -603,13 +623,14 @@ function girarLectura() {
   pintarLectura();
 }
 // Pone el cursor (o una selección a..b, en posiciones del texto crudo) en el título o el texto de la cara visible.
-// Con tinta seca el campo queda de solo lectura: se puede seleccionar para la lapicera, pero no escribir.
+// Con tinta seca el campo queda de solo lectura: se puede seleccionar para marcar (S, T, I), pero no escribir.
 function enfocar(campo, a = null, b = a) {
   const c = lectura.c;
   if (campo === 'titulo' && lectura.rotY) campo = 'texto';   // el reverso no tiene título
   const el = campo === 'titulo' ? teclaTit : teclaTxt;
   el.value = campo === 'titulo' ? c.titulo : c[ladoLectura()];
-  el.readOnly = !editable();
+  el.readOnly = !editableCampo(campo);
+  el.dataset.desde = campo === 'titulo' ? 0 : desdeEditable(c, ladoLectura()) ?? 0;   // lo de antes de un agregado no se toca
   el.focus();
   a ??= el.value.length; b ??= a;
   el.setSelectionRange(Math.min(a, b), Math.max(a, b), a > b ? 'backward' : 'forward');
@@ -651,13 +672,23 @@ function puntoEnFicha(uv) {
 for (const el of [teclaTxt, teclaTit]) {
   el.addEventListener('input', () => {
     if (!lectura) return;
-    const c = lectura.c, campo = el === teclaTit ? 'titulo' : ladoLectura();
-    if (!editable()) { el.value = c[campo]; el.readOnly = true; panel(); return pintarLectura(); }   // la tinta se secó
+    const c = lectura.c, campo = el === teclaTit ? 'titulo' : ladoLectura(), desde = +el.dataset.desde || 0;
+    // la tinta se secó, o algo tocó lo de antes del agregado (pegar, arrastrar texto…): vuelve como estaba
+    if (!editableCampo(el === teclaTit ? 'titulo' : 'texto') || (desde && el.value.slice(0, desde) !== c[campo].slice(0, desde))) {
+      el.value = c[campo]; el.readOnly = !editableCampo(el === teclaTit ? 'titulo' : 'texto'); panel(); return pintarLectura();
+    }
     c[campo] = el.value;
     guardarLuego(c); lectura.editada = true; panel(); pintarLectura();   // el panel refleja el título y los enlaces nuevos
   });
   for (const ev of ['keyup', 'focus', 'blur', 'select']) el.addEventListener(ev, pintarLectura);
+  el.addEventListener('beforeinput', e => soloDesde(e, +el.dataset.desde || 0));
   el.addEventListener('keydown', e => {
+    if (e.ctrlKey && e.key.toLowerCase() === 'u' && !el.readOnly) {   // subrayar lo elegido, como en un editor
+      e.preventDefault();
+      const {selectionStart: a, selectionEnd: b} = el;
+      if (a < b && a >= (+el.dataset.desde || 0)) { el.setRangeText(`__${el.value.slice(a, b)}__`, a, b, 'end'); el.dispatchEvent(new Event('input')); }
+      return;
+    }
     // Tab alterna título ↔ texto; Enter en el título pasa al texto
     if (e.key === 'Tab' || (e.key === 'Enter' && el === teclaTit)) { e.preventDefault(); enfocar(el === teclaTit ? 'texto' : 'titulo'); }
     else requestAnimationFrame(pintarLectura);   // las flechas mueven el cursor
@@ -677,6 +708,13 @@ function marcar3d(tipo) {
   guardarFicha(c); lectura.editada = true; sonar('raya');
   enfocar(lectura.campo, b + 4);   // el cursor queda después de lo marcado
   panel(); pista();
+}
+// Agregar texto al final de la cara que se ve, con tinta fresca (ficha seca): el cursor queda listo para escribir.
+function agregar3d() {
+  const r = empezarAgregado(lectura.c, ladoLectura());
+  if (r !== 'ok' && r !== 'ya') return pista(r);
+  lectura.editada = true; sonar('raya'); panel(); enfocar('texto');
+  pista('Agregado con tinta fresca: escribí al final. Lo de antes no se toca.');
 }
 function indexar3d() {
   const c = lectura.c, {el, clave, a, b} = seleccion();
@@ -703,22 +741,26 @@ function panel() {
     <div class="fila">${ids.length ? ids.map(i => `<button class="enlace" data-ir="${i}"${S.cards.has(i) ? '' : ' disabled'}>→ ${i}</button>`).join('')
       : '<p class="nota">Sin enlaces en esta cara.</p>'}</div>
     <div class="fila" title="Seleccioná texto arrastrando sobre la ficha">✒
-      <button data-a="tachar" data-lapicera>Tachar</button><button data-a="subrayar" data-lapicera>Subrayar</button>
-      ${cajonDe(c.id) === 'I' ? '' : '<button data-a="indexar" data-lapicera>Al índice</button>'}</div>
-    <div class="fila"><button data-a="girar">Girar${edit ? '' : ' (F)'}</button>${S.mesa[c.id] ? '<button data-a="alCajon" title="Sacarla de la mesa (también: arrastrala hasta el fichero)">Al cajón</button>' : '<button data-a="mesa">Al escritorio</button>'}
+      <button data-a="tachar" data-lapicera title="T">Tachar</button><button data-a="subrayar" data-lapicera title="S">Subrayar</button>
+      ${cajonDe(c.id) === 'I' ? '' : '<button data-a="indexar" data-lapicera title="I">Al índice</button>'}
+      ${cajonDe(c.id) === 'I' || desdeEditable(c, lado) !== null ? '' : '<button data-a="agregar" title="Agregar texto al final, con tinta fresca (A)">Agregar</button>'}</div>
+    <div class="fila"><button data-a="girar">Girar${edit ? '' : ' (F)'}</button>${S.mesa[c.id] ? '<button data-a="alCajon" title="Sacarla de la mesa (también: arrastrala hasta el fichero)">Al cajón</button>' : `<button data-a="mesa">Al escritorio${mano.includes(c.id) ? ' (G)' : ''}</button>`}
       ${cajonDe(c.id) === 'I' ? '' : '<button data-a="nueva" title="Nueva ficha que responde a esta (Folgezettel)">Nueva después</button>'}
       ${cajonDe(c.id) === 'P' && cajonesP().length > 1 ? `<button data-a="cajon" title="Guardarla en otro cajón (también: arrastrala desde la mesa hasta el frente del cajón)">${esc(nombreCajon(cajonDeFicha(c.id)))}…</button>` : ''}
+      ${mano.includes(c.id) ? '' : '<button data-a="mano" title="Llevarla en la mano (G)">A la mano (G)</button>'}
       <button data-a="tirar" class="tirar">Tirar</button><button data-a="cerrar">Devolver (Esc)</button></div>
-    <p class="nota">${edit ? 'Escribí directo sobre la ficha: click para ubicar el cursor, arrastrá para seleccionar. Tab: título ↔ texto. Para citar: → número.'
-      : 'Tinta seca: arrastrá sobre la ficha para seleccionar y usá la lapicera ✒ (tachar, subrayar, índice).'}</p>`;
+    <p class="nota">${edit && !puedeEditar(c) ? 'Agregado con tinta fresca: escribí al final (lo de antes no se toca). Para citar: → número.'
+      : edit ? 'Escribí directo sobre la ficha: click para ubicar el cursor, arrastrá para seleccionar. Tab: título ↔ texto. Para citar: → número.'
+      : 'Tinta seca: arrastrá sobre la ficha para seleccionar y marcá con S (subrayar), T (tachar), I (índice). A: agregar al final.'}</p>`;
   contador();
 }
 function contador() {
   const c = lectura.c, el = $('#edCont');
+  const m = [...c[ladoLectura()].matchAll(MARCA)].at(-1), edad = puedeEditar(c) ? edadMin(c) : m ? edadMin({fecha: m[1]}) : Infinity;
   if (el) el.textContent = `${c[ladoLectura()].length}/${LIM} · ` + (S.modo === 'comodo' ? 'modo cómodo'
-    : `tinta fresca: quedan ${Math.max(0, Math.ceil(TINTA_MIN - edadMin(c)))} min para corregir`);
+    : `${puedeEditar(c) ? 'tinta fresca' : 'agregado'}: quedan ${Math.max(0, Math.ceil(TINTA_MIN - edad))} min para corregir`);
 }
-// Los botones de la lapicera no se llevan el foco: así la selección sigue marcada en la ficha.
+// Los botones de marcar no se llevan el foco: así la selección sigue marcada en la ficha.
 $('#panel').addEventListener('mousedown', e => { if (e.target.closest('[data-lapicera]')) e.preventDefault(); });
 $('#panel').onclick = async e => {
   const b = e.target.closest('button'); if (!b || !lectura) return;
@@ -732,6 +774,7 @@ $('#panel').onclick = async e => {
   }
   if (a === 'tachar' || a === 'subrayar') marcar3d(a);
   if (a === 'indexar') indexar3d();
+  if (a === 'agregar') agregar3d();
   if (a === 'cerrar') cerrarLectura();
   if (a === 'nueva') { const n = await elegirDespues(id, b); if (n) { cerrarLectura(); nuevaEnMesa(n, id); } }
   if (a === 'alCajon') { cerrarLectura(); devolverAlCajon(id); }
@@ -739,7 +782,9 @@ $('#panel').onclick = async e => {
     const k = await elegirCajon(id, b);
     if (k) { moverACajon(id, k); panel(); pista(`${etiqueta(id)} ahora va en «${nombreCajon(k)}».`); if (abierto) window.refrescar3d(); }
   }
+  if (a === 'mano') { cerrarLectura(); agarrar(id); }
   if (a === 'mesa') {
+    soltarDeMano(id);
     const n = Object.keys(S.mesa).length;
     S.mesa[id] = {x: 30 + n * 34 % 400, y: 60 + n * 28 % 300, z: maxZ() + 1};
     guardarMesa(); cerrarLectura(); armarMesa();
@@ -761,6 +806,7 @@ function pasarTirada(d) {
 async function seguir3d(id) {
   if (animando || !S.cards.has(id)) return;
   cerrarLectura();
+  if (mano.includes(id)) { activa = mano.indexOf(id); mostrarMano(); return leer(id); }   // la llevás en la mano
   // Si la ficha está sobre la mesa, se va a la mesa (vista desde arriba, centrada en ella) y se levanta de ahí.
   if (S.mesa[id]) {
     if (abierto) cerrarCajon();
@@ -773,7 +819,7 @@ async function seguir3d(id) {
   if (abierto !== k) { abrirCajon(k); await espera(450); }
   if (S.modo === 'purista') {
     animando = true;
-    const ids = lista(); let i = ids.indexOf(S.sel); const j = ids.indexOf(id);
+    const ids = listaCajon(); let i = ids.indexOf(S.sel); const j = ids.indexOf(id);
     const pasos = [...recorrido(i, j)], t = Math.max(30, Math.min(110, 1600 / Math.max(1, pasos.length)));
     for (const k of pasos) { S.sel = ids[k]; actualizarCajon(); sonar('papel'); await espera(t); }
     animando = false;
@@ -851,16 +897,21 @@ $('#btnSonido').onclick = () => {
 botonSonido();
 
 // ---------- Pistas ----------
+// (la mano, ver «Mano»: se declara acá porque la pista la usa desde el primer cuadro)
+const MANO_MAX = 10;
+let mano = [], activa = 0;
 function pista(msg) {
+  $('#pista').classList.toggle('arriba', mano.length > 0);
   $('#zoom').classList.toggle('oculto', (pose !== 'mesa' && pose !== 'frente') || !!lectura);
   $('#btnTexto').classList.toggle('oculto', pose !== 'mesa' || !!lectura || !S.cargada);
   $('#pista').textContent = msg ?? (!S.cargada ? '' : lectura ? (editable()
       ? 'Escribí sobre la ficha · click en el encabezado: título · Tab: título ↔ texto · Esc o click afuera: devolverla'
-      : 'Arrastrá sobre el texto para seleccionar y usá la lapicera ✒ · click o F: girar · Esc o click afuera: devolverla')
-    : abierto ? 'Rueda o ↑↓: pasar fichas · click en la ficha levantada: leerla · Esc o click derecho: cerrar el cajón'
+      : 'Arrastrá sobre el texto para seleccionar · S subrayar · T tachar · I índice · A agregar al final · F: girar · Esc: devolverla')
+    : mano.length && !abierto ? `Mano ${mano.length}/${MANO_MAX}, activa: ${etiqueta(mano[activa])} · arrastrá una desde la mano a la mesa, a un cajón o a la papelera · click en ella: leerla · G: apoyar la activa en la mesa, donde apuntás · rueda sobre la mano o Q / E: rotar · R: la activa a su cajón`
+    : abierto ? 'Rueda o ↑↓: pasar fichas · G: a la mano (la del mouse o la elegida) · click en una: verla de cerca · arrastrarla: a la mesa · Esc o click derecho: cerrar el cajón'
     : pose === 'papelera' ? (S.papelera.size ? `${S.papelera.size} ficha(s) tirada(s) · click en un bollo o rueda para desarrugarlas y pasar entre ellas · Esc: volver` : 'La papelera está vacía · Esc: volver')
     : pose === 'frente' ? 'Arrastrá para recorrer los cajones · rueda o + −: acercar · click en un cajón: abrirlo · Esc: volver'
-    : pose === 'mesa' ? 'Arrastrá fichas para moverlas · arrastrá la madera para moverte · rueda o + −: zoom · click: leer · doble click: girar · al fichero para devolverla al cajón, a la papelera para tirarla · Esc: volver'
+    : pose === 'mesa' ? 'Arrastrá fichas para moverlas · arrastrá la madera para moverte · rueda o + −: zoom · click o G: a la mano · F: girar · al fichero para devolverla al cajón, a la papelera para tirarla · Esc: volver'
     : 'Click en un cajón para abrirlo · click en el fichero o C: los cajones de frente · click en la mesa: verla desde arriba · ?: controles');
 }
 
@@ -896,6 +947,116 @@ $('#buscar').oninput = e => {
 };
 $('#zoomMenos').onclick = () => zoomear(-1);
 
+// ---------- Inventario: fichas nuevas, abajo a la izquierda (teclas 1 y 2) ----------
+// Como la barra de sellos de Papers, Please: lo que se usa seguido va a mano en un borde, no hay que buscarlo en la mesa.
+let espacio = false;
+
+// ---------- Mano: las fichas que llevás (hasta 10), como los libros en Librarian ----------
+// Se agarran con un click (en la mesa o el cajón) y se sacan arrastrándolas desde la mano: a la mesa, a un cajón, a la
+// papelera. Así los clicks siguen haciendo lo de siempre (abrir cajones, ir a la mesa) aunque lleves fichas.
+// Una ficha en la mano no está en la mesa ni en su cajón: vuelve al cajón al guardarla (R, o soltándola en el frente).
+// (MANO_MAX, mano y activa se declaran junto a las pistas)
+// El abanico: en arco, de izquierda a derecha en el orden en que las agarraste; la activa, un poco más arriba.
+function mostrarMano() {
+  mano = mano.filter(id => S.cards.has(id)); activa = Math.min(activa, Math.max(0, mano.length - 1));
+  // la ficha mide un 12 % del ancho de la ventana (entre 150 y 230 px), no depende del zoom de la página
+  const M = $('#mano'), n = mano.length, an = Math.min(230, Math.max(150, innerWidth * .12));
+  const ancho = Math.min(innerWidth * .5, an * .55 * n), arco = Math.min(34, 6 * n);
+  M.style.setProperty('--an', an + 'px'); document.body.style.setProperty('--an', an + 'px');
+  M.classList.toggle('oculto', !n);
+  M.innerHTML = mano.map((id, i) => {
+    const c = S.cards.get(id), t = n > 1 ? i / (n - 1) - .5 : 0, x = t * ancho, y = t * t * an * .5 - (i === activa ? an * .12 : 0);
+    const txt = c.frente.replace(/~~|__/g, '').replace(MARCA, '').slice(0, 160);
+    return `<div class="naipe${i === activa ? ' activa' : ''}" data-i="${i}" style="--sepia:${sepia(c)};--r:${t * arco}deg;z-index:${i === activa ? 20 : 10 - Math.abs(i - activa)};
+      transform:translate(${x}px,${y}px) rotate(${t * arco}deg)"><div class="carta"><b>${esc(etiqueta(id))}<i>${esc(c.titulo.replace(/~~|__/g, ''))}</i></b>${esc(txt)}</div></div>`; }).join('');
+  if (abierto) actualizarCajon();   // lo que se agarra sale del cajón; lo que se guarda vuelve
+  pista();
+}
+function agarrar(id) {
+  if (!mano.includes(id)) {
+    if (mano.length >= MANO_MAX) return pista(`La mano está llena (${MANO_MAX}). Apoyá o guardá una antes.`);
+    mano.push(id);
+    if (S.mesa[id]) { delete S.mesa[id]; guardarMesa(); armarMesa(); }   // de la mesa pasa a la mano
+  }
+  activa = mano.indexOf(id); sonar('levantar'); mostrarMano();
+}
+const soltarDeMano = id => { mano = mano.filter(x => x !== id); mostrarMano(); };
+function rotarMano(d) { if (mano.length > 1) { activa = (activa + d + mano.length) % mano.length; sonar('papel'); mostrarMano(); } }
+// Dejar la activa: en la mesa (en un punto), en un cajón (el frente donde se soltó), en la papelera, o en el suyo (R).
+function apoyar(punto) {
+  const id = mano[activa]; soltarDeMano(id);
+  S.mesa[id] = {...aPx(punto.x, punto.z), z: maxZ() + 1}; guardarMesa(); armarMesa(); sonar('apoyar');
+}
+function guardarEn(k) {
+  const id = mano[activa];
+  if (k && k[0] !== cajonDe(id)[0]) return pista(`${etiqueta(id)} va en «${nombreCajon(cajonDeFicha(id))}».`);   // una B no entra en el Principal
+  if (k && k !== cajonDeFicha(id)) moverACajon(id, k);
+  soltarDeMano(id); sonar('papel'); pista(`${etiqueta(id)} quedó en «${nombreCajon(cajonDeFicha(id))}».`);
+}
+async function tirarDeMano() { const id = mano[activa]; await tirar(id); if (!S.cards.has(id)) { sonar('bollo'); mostrarMano(); } }
+$('#mano').addEventListener('wheel', e => { e.preventDefault(); rotarMano(Math.sign(e.deltaY)); }, {passive: false});
+addEventListener('resize', () => mano.length && mostrarMano());
+$('#mano').addEventListener('pointerdown', e => {
+  const n = e.target.closest('.naipe'); if (!n || e.button !== 0) return;
+  const i = +n.dataset.i, x0 = e.clientX, y0 = e.clientY; let fantasma = null;
+  n.setPointerCapture(e.pointerId);
+  const mover = ev => {
+    if (!fantasma && Math.hypot(ev.clientX - x0, ev.clientY - y0) > 6) {
+      fantasma = document.createElement('div'); fantasma.id = 'fantasma'; fantasma.innerHTML = n.querySelector('.carta').outerHTML; fantasma.style.setProperty('--sepia', n.style.getPropertyValue('--sepia'));
+      document.body.append(fantasma); n.style.visibility = 'hidden';
+    }
+    if (fantasma) fantasma.style.transform = `translate(${ev.clientX - innerWidth * .06}px, ${ev.clientY - innerWidth * .04}px) rotate(-3deg)`;
+  };
+  const soltar = ev => {
+    n.removeEventListener('pointermove', mover); n.removeEventListener('pointerup', soltar);
+    activa = i;
+    if (!fantasma) { mostrarMano(); return leer(mano[activa]); }   // un click: leerla
+    fantasma.remove(); n.style.visibility = '';
+    if (document.elementFromPoint(ev.clientX, ev.clientY) !== lienzoEl) return mostrarMano();   // soltada fuera de la escena: vuelve
+    const d = golpe(ev), t = d?.userData.tipo, p = new THREE.Vector3();
+    if (t === 'frente') return guardarEn(d.userData.cajon);
+    if (t === 'papelera' || t === 'bollo') return tirarDeMano();
+    if (ray.ray.intersectPlane(planoMesa, p)) return apoyar(p);
+    mostrarMano();
+  };
+  n.addEventListener('pointermove', mover); n.addEventListener('pointerup', soltar);
+});
+
+// Una ficha nueva del inventario: con un click, a la mesa; soltada sobre una ficha de la mesa del mismo cajón, la que
+// responde a esa («Nueva después», con el menú de números); soltada en otro lugar de la mesa, ahí.
+async function fichaNueva(tipo, suelta = null) {
+  if (lectura) cerrarLectura();
+  if (abierto) cerrarCajon();
+  if (suelta?.sobre && cajonDe(suelta.sobre) === tipo) {
+    const n = await elegirDespues(suelta.sobre, suelta.ancla);
+    if (n) nuevaEnMesa(n, suelta.sobre);
+    return;
+  }
+  nuevaEnMesa(nuevaRaiz([...S.cards.keys()], tipo === 'B' ? 'B' : ''), null, suelta?.punto);
+}
+for (const b of document.querySelectorAll('#inventario [data-inv]')) b.addEventListener('pointerdown', e => {
+  if (!S.cargada || e.button !== 0) return;
+  const tipo = b.dataset.inv, x0 = e.clientX, y0 = e.clientY; let fantasma = null;
+  b.setPointerCapture(e.pointerId);
+  const mover = ev => {
+    if (!fantasma && Math.hypot(ev.clientX - x0, ev.clientY - y0) > 6) {
+      fantasma = document.createElement('div'); fantasma.id = 'fantasma'; fantasma.innerHTML = b.querySelector('svg').outerHTML;
+      document.body.append(fantasma);
+    }
+    if (fantasma) fantasma.style.transform = `translate(${ev.clientX - 26}px, ${ev.clientY - 26}px)`;
+  };
+  const soltar = ev => {
+    b.removeEventListener('pointermove', mover); b.removeEventListener('pointerup', soltar);
+    if (!fantasma) return fichaNueva(tipo);   // un click
+    fantasma.remove();
+    if (document.elementFromPoint(ev.clientX, ev.clientY) !== lienzoEl) return;   // soltada fuera de la escena
+    const d = golpe(ev), p = new THREE.Vector3();
+    fichaNueva(tipo, {sobre: d?.userData.tipo === 'mesa' ? d.userData.id : null, punto: ray.ray.intersectPlane(planoMesa, p) ? {x: p.x, z: p.z} : null,
+      ancla: {getBoundingClientRect: () => ({left: ev.clientX, right: ev.clientX, top: ev.clientY, bottom: ev.clientY})}});
+  };
+  b.addEventListener('pointermove', mover); b.addEventListener('pointerup', soltar);
+});
+
 // ---------- Mouse y teclado ----------
 const ray = new THREE.Raycaster(), planoMesa = new THREE.Plane(new THREE.Vector3(0, 1, 0), -MESA.h);
 function apuntar(e) {
@@ -911,11 +1072,11 @@ function golpe(e) {
   return d && d.visible ? d : null;
 }
 const lienzoEl = renderer.domElement;
-let bajo = null, clickT = 0, paneo = null, desdeCajon = null, marcando = null;
+let bajo = null, paneo = null, desdeCajon = null, marcando = null, sobreMesa = null;
 lienzoEl.addEventListener('pointerdown', e => {
   if (e.button !== 0 || !S.cargada || animando) return;
   const d = golpe(e); bajo = {x: e.clientX, y: e.clientY, d};
-  bajo.uv = ultimoGolpe?.uv?.clone();
+  bajo.uv = ultimoGolpe?.uv?.clone(); bajo.punto = ultimoGolpe?.point?.clone();
   // sobre la ficha en la mano: el click ubica el cursor y arrastrar selecciona (como en un editor de texto)
   if (lectura && d?.userData.tipo === 'lectura' && bajo.uv) {
     e.preventDefault();   // que el campo invisible no pierda el foco
@@ -931,6 +1092,10 @@ lienzoEl.addEventListener('pointerdown', e => {
     enfocar(p.campo, crudoIni(p.mapa, p.j));
     lienzoEl.setPointerCapture(e.pointerId);
     return;
+  }
+  if (espacio && !lectura && (pose === 'mesa' || pose === 'frente')) {
+    paneo = pose === 'frente' ? {x: e.clientX, y: e.clientY, frente: {...vistaFrente}, movio: true} : {x: e.clientX, y: e.clientY, desde: corrimiento.clone()};
+    return lienzoEl.setPointerCapture(e.pointerId);
   }
   // cualquier ficha del cajón se puede arrastrar hasta la mesa
   if (d?.userData.tipo === 'cajon' && !lectura) desdeCajon = {id: d.userData.id, puntero: e.pointerId};
@@ -995,6 +1160,7 @@ addEventListener('pointermove', e => {
     lienzoEl.style.cursor = sobreEnlace ? 'pointer' : d?.userData.tipo === 'lectura' ? (editable() ? 'text' : '')
       : pose === 'frente' && d?.userData.tipo !== 'frente' ? 'grab'
       : d && d.userData.tipo !== 'tapa' ? 'pointer' : pose === 'mesa' ? 'grab' : '';
+    sobreMesa = !lectura && d?.userData.tipo === 'mesa' ? d : null;   // para girarla con F
     const nuevo = abierto && !lectura && d?.userData.tipo === 'cajon' ? d.userData.id : null;   // la ficha bajo el mouse sube un poco
     if (nuevo !== sobre) { sobre = nuevo; actualizarCajon(); }
     return;
@@ -1019,6 +1185,7 @@ addEventListener('pointermove', e => {
   resaltarPapelera(arrastre.sobre);
 });
 lienzoEl.addEventListener('pointerup', e => {
+  if (e.button !== 0) return;   // el derecho es «atrás» (contextmenu)
   desdeCajon = null;
   if (bajo?.ignorar) { bajo = null; return; }
   if (marcando) {
@@ -1032,7 +1199,7 @@ lienzoEl.addEventListener('pointerup', e => {
     if (pf.frente && !pf.movio && d) click(d);   // en la vista de frente, un click sin arrastrar abre el cajón
     return;
   }
-  const a = arrastre; arrastre = null; resaltarPapelera(false);
+  const a = arrastre; arrastre = null; resaltarPapelera(false); if (a?.movio) bajo = null;
   if (a?.movio) {
     if (a.sobre) return tirarDesdeMesa(a);
     if (a.alFichero) { if (a.destino && a.destino !== cajonDeFicha(a.id)) moverACajon(a.id, a.destino); return devolverAlCajon(a.id); }
@@ -1041,31 +1208,44 @@ lienzoEl.addEventListener('pointerup', e => {
     p.z = maxZ() + 1;
     guardarMesa(); armarMesa(); sonar('apoyar'); return;
   }
-  const d = bajo?.d, uv = bajo?.uv; bajo = null;
+  const d = bajo?.d, uv = bajo?.uv, punto = bajo?.punto; bajo = null;
   if (!d) return lectura && cerrarLectura();
-  click(d, uv);
+  click(d, uv, punto);
 });
-function click(d, uv) {
+function click(d, uv, punto) {
   const t = d.userData.tipo;
   if (lectura) return t === 'lectura' || cerrarLectura();   // los clicks sobre la ficha los maneja la selección
   if (t === 'frente') return abierto === d.userData.cajon ? cerrarCajon() : abrirCajon(d.userData.cajon);
-  if (t === 'cajon') { S.sel = d.userData.id; sobre = null; actualizarCajon(); return leer(S.sel); }
-  if (t === 'mesa') { clearTimeout(clickT); clickT = setTimeout(() => leer(d.userData.id), 260); return; }
+  if (t === 'cajon') { S.sel = d.userData.id; sobre = null; actualizarCajon(); return leer(S.sel); }   // a la mano: G
+  if (t === 'mesa') return agarrar(d.userData.id);   // en el acto (girarla: F con el mouse encima)
   if (t === 'tapa' && pose !== 'mesa') { if (abierto) cerrarCajon(); return irA('mesa'); }
   if (t === 'fichero' && pose !== 'frente') return irAlFrente();
-  if (t === 'taco') { if (abierto) cerrarCajon(); return nuevaEnMesa(nuevaRaiz([...S.cards.keys()], d.userData.cajon === 'B' ? 'B' : '')); }
   if (t === 'lampara') return interruptor();
-  if (t === 'lapicera') return pista('La lapicera: levantá una ficha, arrastrá sobre el texto para seleccionarlo y usá ✒ Tachar, Subrayar o Al índice.');
   if (t === 'papelera') { if (abierto) cerrarCajon(); return irA('papelera'); }
   if (t === 'bollo') { const n = d.userData.nombre; return leer(S.papelera.get(n).c.id, n); }
 }
-lienzoEl.addEventListener('dblclick', e => {
-  clearTimeout(clickT);
-  const d = golpe(e);
-  if (d?.userData.tipo !== 'mesa' || lectura) return;
-  const p = S.mesa[d.userData.id]; p.girada = !p.girada;
-  d.userData.rotY = p.girada ? Math.PI : 0; guardarMesa(); sonar('girar');
-});
+// G: agarrar o apoyar, como en los juegos. Una ficha del cajón (la que tiene el mouse encima, o la elegida), de la mesa
+// (con el mouse encima) o la que leés: a la mano. Si no, o si la que leés ya está en la mano: la activa se apoya en la
+// mesa, donde apunta el mouse (apuntando a otra cosa, adelante al centro).
+function teclaG() {
+  if (lectura?.tirada) return;
+  if (lectura) {
+    const id = lectura.id; cerrarLectura();
+    if (!mano.includes(id)) return agarrar(id);
+    activa = mano.indexOf(id);
+  } else if (abierto) { const id = sobre ?? S.sel; sobre = null; return id && agarrar(id); }
+  else if (sobreMesa && S.mesa[sobreMesa.userData.id]) { const id = sobreMesa.userData.id; sobreMesa = null; return agarrar(id); }
+  if (!mano.length) return;
+  scene.updateMatrixWorld(); ray.setFromCamera(mouse, camera);
+  const h = ray.intersectObjects(scene.children, true)[0], t = h && dueño(h.object)?.userData.tipo, p = new THREE.Vector3();
+  apoyar((t === 'tapa' || t === 'mesa') && ray.ray.intersectPlane(planoMesa, p) ? p : {x: -.1 + Math.random() * .1, z: .28});
+}
+// Girar una ficha de la mesa: F con el mouse encima (como F gira la que leés).
+function girarEnMesa(f) {
+  const p = S.mesa[f.userData.id]; if (!p) return;   // ya no está en la mesa (se la llevó la mano)
+  p.girada = !p.girada;
+  f.userData.rotY = p.girada ? Math.PI : 0; guardarMesa(); sonar('girar');
+}
 function atras() {
   if (lectura) cerrarLectura();
   else if (abierto) cerrarCajon();
@@ -1077,16 +1257,34 @@ addEventListener('keydown', e => {
   // escribiendo: las teclas son del texto (con tinta seca el campo es de solo lectura y F sigue girando)
   if (e.target.matches?.('input,textarea') && !e.target.readOnly && e.key !== 'Escape') return;
   if (e.key === 'Escape') atras();
-  if (e.key === 'f' || e.key === 'F') girarLectura();
+  if (e.key === 'f' || e.key === 'F') { if (lectura) girarLectura(); else if (sobreMesa) girarEnMesa(sobreMesa); }
   if ((lectura?.tirada || (pose === 'papelera' && !lectura)) && e.key.startsWith('Arrow')) {
     e.preventDefault(); return pasarTirada(e.key === 'ArrowDown' || e.key === 'ArrowRight' ? 1 : -1);
   }
   if (abierto && !lectura && e.key === 'ArrowUp') { e.preventDefault(); moverSel(1); }
   if (abierto && !lectura && e.key === 'ArrowDown') { e.preventDefault(); moverSel(-1); }
   if ((e.key === 'c' || e.key === 'C') && !lectura) irAlFrente();
+  const k = e.key.toLowerCase();
+  // leyendo (tinta seca: el campo es de solo lectura), sobre lo seleccionado: S subrayar, T tachar, I índice; A agregar al final
+  if (lectura && !lectura.tirada && 'stia'.includes(k) && k.length === 1) {
+    return k === 's' ? marcar3d('subrayar') : k === 't' ? marcar3d('tachar') : k === 'i' ? indexar3d() : agregar3d();
+  }
+  if (k === 'g') return teclaG();
+  if (k === '1' || k === '2') { e.preventDefault(); return fichaNueva(k === '1' ? 'P' : 'B'); }
+  if (!lectura && (k === 'q' || k === 'e')) return rotarMano(k === 'e' ? 1 : -1);
+  if (!lectura && k === 'r' && mano.length) return guardarEn(null);
+  if (e.key === ' ' && !lectura && !abierto && mano.length && pose !== 'mesa' && pose !== 'frente') { e.preventDefault(); return leer(mano[activa]); }
+  if (k === 'm' && !lectura) { if (abierto) cerrarCajon(); irA('mesa'); }
+  if ((e.key === 'Enter' || e.key === ' ') && abierto && !lectura && S.sel) { e.preventDefault(); return leer(S.sel); }
+  if (e.key === ' ' && (pose === 'mesa' || pose === 'frente') && !lectura) { e.preventDefault(); espacio = true; lienzoEl.style.cursor = 'grab'; }
+  // leyendo una ficha del cajón: ↑↓ pasa a la siguiente sin volver a guardarla
+  if (lectura && abierto && !lectura.tirada && (e.key === 'ArrowUp' || e.key === 'ArrowDown')) {
+    e.preventDefault(); moverSel(e.key === 'ArrowUp' ? 1 : -1); return leer(S.sel, null, true);
+  }
   if (e.key === '+') zoomear(1);
   if (e.key === '-') zoomear(-1);
 });
+addEventListener('keyup', e => { if (e.key === ' ') espacio = false; });
 let ultRueda = 0;
 lienzoEl.addEventListener('wheel', e => {
   if (animando || e.timeStamp - ultRueda < 60) return;
@@ -1176,8 +1374,8 @@ montarModelo();
 const F = FICHERO, SLOTS = [-.21, 0, .21], PISOS = 3, PASO = {x: F.w + .004, y: F.h + .004};
 const ficheroG = new THREE.Group(); scene.add(ficheroG);
 let cajones = {}, plantilla = null, modeloListo = false, firmaFichero = '';
-// La mesa crece hacia la derecha (a la izquierda está la pared): la lámpara queda donde está; la papelera, los tacos y la
-// lapicera se corren con el borde derecho. mesaM: las piezas del escritorio del modelo de Blender, si cargó.
+// La mesa crece hacia la derecha (a la izquierda está la pared): la lámpara queda donde está y la papelera se corre con
+// el borde derecho. mesaM: las piezas del escritorio del modelo de Blender, si cargó.
 let mesaM = null;
 const x0 = new Map(), base0 = o => x0.has(o) ? x0.get(o) : (x0.set(o, {x: o.position.x, sx: o.scale.x}), x0.get(o));
 function ajustarMesa(w) {
@@ -1251,12 +1449,13 @@ armarFichero();
 // ---------- Enganche con el núcleo ----------
 window.refrescar3d = () => {
   armarFichero();   // otra caja puede traer otro mueble
+  mostrarMano();
   armarMesa(); armarPapelera();
   if (abierto) { cajones[abierto].cartas.clear(); enCajon.clear(); actualizarCajon(); }
   if (lectura && (lectura.tirada ? !S.papelera.has(lectura.tirada) : !S.cards.has(lectura.id))) cerrarLectura();
   pista();
 };
-window.escena3d = {scene, camera, cam, poseActual, SONIDOS, abrirCajon, cerrarCajon, leer, seguir3d, moverSel, get pose() { return pose; }, set pose(p) { pose = p; }};
+window.escena3d = {scene, camera, cam, poseActual, SONIDOS, abrirCajon, cerrarCajon, leer, seguir3d, moverSel, agarrar, get pose() { return pose; }, set pose(p) { pose = p; }};
 $('#error').classList.add('oculto');
 if (S.cargada) window.refrescar3d();
 pista();

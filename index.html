@@ -68,6 +68,8 @@ textarea.txt{width:100%;border:0;outline:0;resize:none;padding:0;margin:0}
 .ln.roto{text-decoration:line-through dotted}
 .txt s{text-decoration-thickness:2px}
 .txt u{text-decoration-thickness:1.5px;text-underline-offset:3px}
+.txt .marca{font:10px ui-monospace,monospace;color:#9a8b6d}      /* «+ fecha»: cuándo se agregó */
+.txt .agregado{color:#3d3a35}                                      /* lo agregado, con otra tinta (lápiz) */
 .acciones{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
 #lectura .nota .ln{color:var(--acento)}
 
@@ -102,7 +104,7 @@ button.tirar:hover{background:#6e3a30}
 </head>
 <body>
 <header>
-  <h1>Zettelkasten</h1>
+  <h1>Zettelkasten <small style="opacity:.6;font-weight:400">v2</small></h1>
   <span id="controles" class="oculto">
     <span class="grupo"><button data-vista="cajon">Cajón</button><button data-vista="mesa">Escritorio</button><button data-vista="papelera">Papelera</button></span>
     <span class="grupo" id="cajones"></span>
@@ -194,14 +196,14 @@ function mover(d) {
   if (j !== i) ir(ids[j]);
 }
 
-function cara(c, lado, edit) {
-  const t = c[lado], frente = lado === 'frente';
+function cara(c, lado) {
+  const t = c[lado], frente = lado === 'frente', edit = puedeEditar(c), desde = desdeEditable(c, lado);
   const tit = !frente ? '<span class="tit">reverso</span>'
     : edit ? `<input class="tit" data-id="${c.id}" data-lado="titulo" maxlength="60" placeholder="Título" spellcheck="false" value="${esc(c.titulo)}">`
     : `<span class="tit" data-lado="titulo">${renderTxt(c.titulo)}</span>`;
   const cab = `<div class="cab"><a class="ln id" data-id="${c.id}">${etiqueta(c.id)}</a>${tit}<span>${c.fecha}</span></div>`;
-  const cuerpo = edit
-    ? `<textarea class="txt" data-id="${c.id}" data-lado="${lado}" maxlength="${LIM}" spellcheck="false" placeholder="${frente ? 'Una sola idea…' : 'Reverso'}">${esc(t)}</textarea><div class="cont">${t.length}/${LIM}</div>`
+  const cuerpo = desde !== null   // data-desde: lo de antes de un agregado no se toca (soloDesde)
+    ? `<textarea class="txt" data-id="${c.id}" data-lado="${lado}" data-desde="${desde}" maxlength="${LIM}" spellcheck="false" placeholder="${frente ? 'Una sola idea…' : 'Reverso'}">${esc(t)}</textarea><div class="cont">${t.length}/${LIM}</div>`
     : `<div class="txt" data-lado="${lado}">${renderTxt(t)}</div>`;
   return `<div class="cara${lado === 'reverso' ? ' atras' : ''}">${cab}${cuerpo}</div>`;
 }
@@ -212,9 +214,11 @@ function renderLectura() {
   const indice = S.cajon === 'I';
   if (!c) { L.innerHTML = indice ? '<p class="vacio">Índice vacío. Usá «Agregar al índice…» en una ficha del cajón Principal.</p>'
     : '<p class="vacio">Cajón vacío. <button data-acc="raiz">Nueva ficha</button></p>'; return; }
-  const edit = puedeEditar(c), resta = TINTA_MIN - edadMin(c);
+  const edit = puedeEditar(c), resta = TINTA_MIN - edadMin(c), lado = S.girada ? 'reverso' : 'frente';
+  // un agregado fresco también se seca: se vuelve a dibujar cuando pase su tiempo
+  const agregado = ['frente', 'reverso'].map(l => agregadoFresco(c, l) !== null && TINTA_MIN - edadMin({fecha: [...c[l].matchAll(MARCA)].at(-1)[1]})).filter(Boolean);
   L.innerHTML = `
-    <div class="ficha${S.girada ? ' girada' : ''}" data-id="${c.id}" style="--sepia:${sepia(c)}"><div class="giro">${cara(c, 'frente', edit)}${cara(c, 'reverso', edit)}</div></div>
+    <div class="ficha${S.girada ? ' girada' : ''}" data-id="${c.id}" style="--sepia:${sepia(c)}"><div class="giro">${cara(c, 'frente')}${cara(c, 'reverso')}</div></div>
     <div class="acciones">
       <button data-acc="girar">Girar ⟲</button>
       ${indice ? '' : `<button data-acc="nueva">Nueva ficha después</button>
@@ -222,14 +226,17 @@ function renderLectura() {
       ${cajonDe(c.id) === 'P' && cajonesP().length > 1 ? `<button data-acc="cajon" title="Guardarla en otro cajón">${esc(nombreCajon(cajonDeFicha(c.id)))}…</button>` : ''}
       <button data-acc="sacar"${S.mesa[c.id] ? ' disabled' : ''}>${S.mesa[c.id] ? 'En el escritorio' : 'Sacar al escritorio'}</button>
       ${indice ? '' : '<button data-acc="indice" title="Anotar esta ficha como puerta de entrada a un tema">Agregar al índice…</button>'}
-      ${edit ? '' : '<button data-acc="tachar">Tachar</button><button data-acc="subrayar">Subrayar</button>'}
+      ${edit ? '' : '<button data-acc="tachar" title="T">Tachar</button><button data-acc="subrayar" title="S">Subrayar</button>'}
+      ${edit || indice ? '' : '<button data-acc="agregar" title="Agregar texto al final, con tinta fresca (A)">Agregar ✒</button>'}
       <button data-acc="tirar" class="tirar">Tirar a la papelera</button>
     </div>
     <p class="nota">${S.modo === 'comodo' ? 'Modo cómodo: se puede editar siempre.'
       : edit ? `Tinta fresca: quedan ${Math.ceil(resta)} min para corregir.`
-      : 'Tinta seca: seleccioná texto para tacharlo o subrayarlo. Para agregar algo, escribí una ficha nueva.'}</p>
+      : agregado.length ? `Agregado con tinta fresca: quedan ${Math.ceil(Math.min(...agregado))} min para corregirlo. Lo de antes no se toca.`
+      : 'Tinta seca: seleccioná texto para tacharlo (T) o subrayarlo (S). Para sumar algo al final: Agregar ✒ (A).'}</p>
     ${S.modo === 'comodo' ? citadaPor(c.id) : ''}`;
   if (edit && S.modo === 'purista') S.secado = setTimeout(renderLectura, resta * 60000); // la tinta se seca
+  else if (agregado.length) S.secado = setTimeout(renderLectura, Math.min(...agregado) * 60000);
 }
 
 function citadaPor(id) {
@@ -246,7 +253,7 @@ function renderMesa() {
       const c = S.cards.get(id), edit = puedeEditar(c), fresca = edadMin(c) < TINTA_MIN;
       return `<div class="ficha chica${fresca ? ' en-mano' : ''}${edit ? ' editable' : ''}${p.girada ? ' girada' : ''}" data-id="${id}" style="left:${p.x}px;top:${p.y}px;--sepia:${sepia(c)}">
         <div class="herr"><button data-m="girar" title="Girar">⟲</button><button data-m="citar" title="Citar en la ficha que estás escribiendo">→</button>${cajonDe(id) === 'I' ? '' : '<button data-m="nueva" title="Nueva ficha después de esta">＋</button>'}<button data-m="devolver" title="Devolver al cajón">×</button><button data-m="tirar" class="tirar" title="Tirar a la papelera">🗑</button></div>
-        <div class="giro">${cara(c, 'frente', edit)}${cara(c, 'reverso', edit)}</div></div>`; }).join('')
+        <div class="giro">${cara(c, 'frente')}${cara(c, 'reverso')}</div></div>`; }).join('')
     || '<p class="vacio">El escritorio está vacío. Sacá fichas del cajón con «Sacar al escritorio» o empezá una con «Nueva ficha raíz».</p>');
   const frescas = fichas.map(([id]) => TINTA_MIN - edadMin(S.cards.get(id))).filter(r => r > 0);
   if (frescas.length && S.modo === 'purista') S.secadoMesa = setTimeout(() => S.vista === 'mesa' && renderMesa(), Math.min(...frescas) * 60000);
@@ -370,12 +377,15 @@ document.addEventListener('click', e => {
   if (acc === 'indice') indexar(id);
   if (acc === 'tirar') tirar(id);
   if (acc === 'tachar' || acc === 'subrayar') marcar(acc);
+  if (acc === 'agregar') agregar(id);
 });
 
 // Título y texto, en el cajón y en el escritorio.
 document.addEventListener('input', e => {
   const t = e.target; if (!t.matches('textarea.txt, input.tit')) return;
-  const c = S.cards.get(t.dataset.id); c[t.dataset.lado] = t.value;
+  const c = S.cards.get(t.dataset.id), desde = +t.dataset.desde || 0, antes = c[t.dataset.lado];
+  if (desde && t.value.slice(0, desde) !== antes.slice(0, desde)) { t.value = antes; return; }
+  c[t.dataset.lado] = t.value;
   if (t.matches('textarea')) t.nextElementSibling.textContent = `${t.value.length}/${LIM}`;
   const el = $(`#pila .lomo[data-id="${c.id}"]`); if (el) el.innerHTML = lomo(c);
   guardarLuego(c);
@@ -391,11 +401,35 @@ $('#pila').addEventListener('wheel', e => {
   if (S.animando || e.timeStamp - ultRueda < 60) return;
   ultRueda = e.timeStamp; mover(-Math.sign(e.deltaY));
 }, {passive: false});
+document.addEventListener('beforeinput', e => { if (e.target.matches('textarea.txt')) soloDesde(e, +e.target.dataset.desde || 0); });
+// Teclas (las mismas que en el 3D): N nueva después · A agregar · S subrayar · T tachar · Ctrl+U subrayar al escribir.
 document.addEventListener('keydown', e => {
-  if (!S.cargada || S.vista !== 'cajon' || S.animando || e.target.matches('textarea,input')) return;
+  if (!S.cargada || S.vista !== 'cajon' || S.animando) return;
+  const t = e.target;
+  if (t.matches?.('textarea.txt') && e.ctrlKey && e.key.toLowerCase() === 'u') {   // subrayar lo elegido, como en un editor
+    e.preventDefault();
+    const {selectionStart: a, selectionEnd: b} = t;
+    if (a < b && a >= (+t.dataset.desde || 0)) { t.setRangeText(`__${t.value.slice(a, b)}__`, a, b, 'end'); t.dispatchEvent(new Event('input', {bubbles: true})); }
+    return;
+  }
+  if (t.matches?.('textarea,input') || e.ctrlKey || e.metaKey || e.altKey) return;
+  const tecla = e.key.toLowerCase();
   if (e.key === 'ArrowUp') { e.preventDefault(); mover(1); }
   if (e.key === 'ArrowDown') { e.preventDefault(); mover(-1); }
+  if (tecla === 'a' && S.sel) { e.preventDefault(); agregar(S.sel); }
+  const hayTexto = !getSelection().isCollapsed;   // sin selección, S y T no hacen nada (no molestan con un aviso)
+  if (tecla === 's' && hayTexto) marcar('subrayar');
+  if (tecla === 't' && hayTexto) marcar('tachar');
+  if (tecla === 'n' && S.sel && S.cajon !== 'I') $('[data-acc="nueva"]')?.click();
 });
+// Agregar al final de la cara que se está viendo, con tinta fresca; el cursor queda listo para escribir.
+function agregar(id) {
+  const c = S.cards.get(id), lado = S.girada ? 'reverso' : 'frente', r = empezarAgregado(c, lado);
+  if (r !== 'ok' && r !== 'ya') return alert(r);
+  const giro = S.girada; renderLectura(); if (giro) $('#lectura .ficha').classList.add('girada');
+  const ta = $(`#lectura textarea[data-lado="${lado}"]`);
+  if (ta) { ta.focus(); ta.setSelectionRange(ta.value.length, ta.value.length); }
+}
 
 // Escritorio: arrastrar (las fichas que se están escribiendo, solo desde la cabecera) y girar con doble click
 let arr = null;

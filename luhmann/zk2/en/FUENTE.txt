@@ -2,7 +2,7 @@ Niklas Luhmann, Zettelkasten II (1963-1997), fichas sin fecha.
 Capítulos y secciones importados: 1, 2, 7, 9, 9/8, 21, 536 (solo lo ya publicado por el archivo).
 Transcripción: Niklas Luhmann-Archiv, Universität Bielefeld. Última importación: 2026-09-29.
 Licencia: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/
-Traducción automática del alemán al inglés con DeepL y con una IA local (Ollama, qwen3.5), por capítulo; misma licencia.
+Traducción automática del alemán al inglés con DeepL y con una IA local (Ollama, qwen3.5:9b), sin revisión humana; por capítulo; misma licencia.
 Las fichas de capítulos todavía sin traducir no están en esta caja.
 Adaptado al formato de esta app: subrayado como __x__, referencias como → número, sin escaneos.
 Cada ficha en el archivo: https://niklas-luhmann-archiv.de/bestand/zettelkasten/zettel/ZK_2_NB_<número con - en vez de / y ,>_V

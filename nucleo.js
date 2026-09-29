@@ -57,25 +57,27 @@ function opcionesDespues(id, existe) {
   const libre = (base, primero) => { let x = base + primero; while (existe(x)) x = base + inc(x.slice(base.length)); return x; };
   const base = id.replace(/\(\d+\)$/, ''), ult = segs(base).at(-1), ops = [];   // 1(2) sigue como 1
   const hermano = base.slice(0, base.length - ult.length) + inc(ult);
-  if (!existe(hermano)) ops.push({id: hermano, que: 'sigue la línea'});
-  ops.push({id: libre(id, /\d/.test(ult) ? 'a' : '1'), que: 'abre una rama'});
-  if (cajonDe(id) === 'P' && ult[0] !== ',') ops.push({id: libre(id, ',1'), que: 'intercala (antes de las ramas)'});
-  if (/^\d+$/.test(id)) { let n = 1; while (existe(`${id}/${n}`)) n++; ops.push({id: `${id}/${n}`, que: 'subsección numerada'}); }
+  if (!existe(hermano)) ops.push({id: hermano, que: window.t('sigue la línea')});
+  ops.push({id: libre(id, /\d/.test(ult) ? 'a' : '1'), que: window.t('abre una rama')});
+  if (cajonDe(id) === 'P' && ult[0] !== ',') ops.push({id: libre(id, ',1'), que: window.t('intercala (antes de las ramas)')});
+  if (/^\d+$/.test(id)) { let n = 1; while (existe(`${id}/${n}`)) n++; ops.push({id: `${id}/${n}`, que: window.t('subsección numerada')}); }
   return ops;
 }
-const elegirDespues = (id, boton) => menuFlotante(`Nueva después de ${etiqueta(id)}:`,
+const elegirDespues = (id, boton) => menuFlotante(window.t("Nueva después de {n0}:", {n0: etiqueta(id)}),
   opcionesDespues(id, x => S.cards.has(x)).map(o => ({valor: o.id, etiqueta: o.id, que: o.que})), boton);
 // Los cajones del Principal (en una caja propia, uno solo; en un mueble, varios) y a cuál mover una ficha.
 const cajonesP = () => S.cajones.filter(c => c.k[0] === 'P');
 const nombreCajon = k => S.cajones.find(c => c.k === k)?.nombre ?? k;
-const elegirCajon = (id, boton) => menuFlotante(`Guardar ${etiqueta(id)} en:`,
-  cajonesP().filter(c => c.k !== cajonDeFicha(id)).map(c => ({valor: c.k, etiqueta: c.nombre.replace(/^Cajón /, ''), que: c.nombre})), boton);
+const elegirCajon = (id, boton) => menuFlotante(window.t("Guardar {n0} en:", {n0: etiqueta(id)}),
+  cajonesP().filter(c => c.k !== cajonDeFicha(id)).map(c => ({valor: c.k, etiqueta: (/^\d+$/.test(c.cab) ? c.cab : c.nombre), que: c.nombre})), boton);
 function moverACajon(id, k) {
   if (cajonDe(id) !== 'P' || !S.fisico || !S.cajones.some(c => c.k === k)) return false;
   S.fisico.set(id, k); guardarOrden();
   return true;
 }
 // Menú chico junto al botón. Devuelve el valor elegido, o null si se cierra (Esc o click afuera).
+const menusPendientes = new Set();
+function cancelarMenus() { for (const cancelar of [...menusPendientes]) cancelar(); }
 function menuFlotante(titulo, ops, boton) {
   document.getElementById('menuNumero')?.remove();
   const m = document.createElement('div'); m.id = 'menuNumero';
@@ -88,10 +90,13 @@ function menuFlotante(titulo, ops, boton) {
   m.style.top = (r.bottom + 4 + h < innerHeight ? r.bottom + 4 : Math.max(8, r.top - h - 4)) + 'px';
   m.querySelector('button').focus();
   return new Promise(ok => {
-    const cerrar = v => { m.remove(); removeEventListener('pointerdown', fuera, true); removeEventListener('keydown', tecla, true); ok(v); };
+    let terminado = false;
+    const cerrar = v => { if (terminado) return; terminado = true; menusPendientes.delete(cancelar); m.remove(); removeEventListener('pointerdown', fuera, true); removeEventListener('keydown', tecla, true); ok(v); };
+    const cancelar = () => cerrar(null);
     const fuera = e => { if (!m.contains(e.target)) cerrar(null); };
     const tecla = e => { if (e.key === 'Escape') { e.stopImmediatePropagation(); cerrar(null); } };
     m.onclick = e => { const b = e.target.closest('button'); if (b) cerrar(b.dataset.id); };
+    menusPendientes.add(cancelar);
     addEventListener('pointerdown', fuera, true); addEventListener('keydown', tecla, true);
   });
 }
@@ -129,7 +134,7 @@ const cajonDe = id => id[0] === 'B' ? 'B' : id[0] === 'I' ? 'I' : 'P';
 const etiqueta = id => cajonDe(id) === 'I' ? id.slice(1).toUpperCase() : id;
 // Los cajones del mueble. Una caja propia tiene tres: Principal, Bibliografía e Índice. Una caja que trae su mueble
 // (orden.txt con «# 15» antes de las fichas de cada cajón, como la de Luhmann) reparte el Principal en esos cajones.
-const CAJONES_BASE = [{k: 'P', nombre: 'Principal'}, {k: 'B', nombre: 'Bibliografía'}, {k: 'I', nombre: 'Índice'}];
+const CAJONES_BASE = [{k: 'P', get nombre() { return window.t('Principal'); }}, {k: 'B', get nombre() { return window.t('Bibliografía'); }}, {k: 'I', get nombre() { return window.t('Índice'); }}];
 function armarCajones(orden) {
   S.orden = S.fisico = null; S.cajones = CAJONES_BASE;
   if (!orden) return;
@@ -138,7 +143,7 @@ function armarCajones(orden) {
   for (const l of orden.split('\n').map(l => l.trim()).filter(Boolean)) {
     if (l.startsWith('#')) {
       const nombre = l.slice(1).trim();
-      k = 'P' + nombre; propios.push({k, nombre: /^\d+$/.test(nombre) ? `Cajón ${nombre}` : nombre, cab: nombre});
+      k = 'P' + nombre; propios.push({k, get nombre() { return /^\d+$/.test(nombre) ? window.t('Cajón {n}', {n: nombre}) : nombre === 'Principal' ? window.t('Principal') : nombre; }, cab: nombre});
     } else { ids.push(l); if (k) fisico.set(l, k); }
   }
   S.orden = new Map(ids.map((id, i) => [id, i]));
@@ -171,13 +176,13 @@ const siguienteCajon = () => String(S.cajones.filter(c => c.k[0] === 'P').length
 function nuevoCajon(nombre) {
   nombre = nombre?.replace(/\s+/g, ' ').trim();
   if (!nombre) return null;
-  if (S.cajones.some(c => c.cab === nombre || c.nombre === nombre)) { alert(`Ya hay un cajón «${nombre}».`); return null; }
+  if (S.cajones.some(c => c.cab === nombre || c.nombre === nombre)) { alert(window.t("Ya hay un cajón «{n0}».", {n0: nombre})); return null; }
   if (!S.fisico) {
     S.fisico = new Map([...S.cards.keys()].filter(id => cajonDe(id) === 'P').map(id => [id, 'PPrincipal']));
-    S.cajones = [{k: 'PPrincipal', nombre: 'Principal', cab: 'Principal'}, ...CAJONES_BASE.slice(1)];
+    S.cajones = [{k: 'PPrincipal', get nombre() { return window.t('Principal'); }, cab: 'Principal'}, ...CAJONES_BASE.slice(1)];
   }
   const k = 'P' + nombre, i = S.cajones.findIndex(c => c.k === 'B');
-  S.cajones = [...S.cajones.slice(0, i), {k, nombre: /^\d+$/.test(nombre) ? `Cajón ${nombre}` : nombre, cab: nombre}, ...S.cajones.slice(i)];
+  S.cajones = [...S.cajones.slice(0, i), {k, get nombre() { return /^\d+$/.test(nombre) ? window.t('Cajón {n}', {n: nombre}) : nombre === 'Principal' ? window.t('Principal') : nombre; }, cab: nombre}, ...S.cajones.slice(i)];
   guardarOrden();
   S.cajon = k; S.sel = null;
   return k;
@@ -202,7 +207,8 @@ function renderTxt(t) {
 }
 // Al tirar una ficha: se tachan sus enlaces (y la línea entera en el índice). Al restaurarla, se destachan.
 const noSigue = '(?![0-9a-zA-Z(]|[/,][0-9a-zA-Z])';   // «→ 9/8» no es «→ 9/8,1» ni «→ 9/8a»
-const refRe = id => new RegExp(`(?:→|->)\\s*${id}${noSigue}`);
+const escaparRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const refRe = id => new RegExp(`(?:→|->)\\s*${escaparRe(id)}${noSigue}`);
 function tacharRefs(id, c) {
   const re = new RegExp(refRe(id).source, 'g'), unaRef = refRe(id);
   const tachar = t => cajonDe(c.id) === 'I'
@@ -211,7 +217,7 @@ function tacharRefs(id, c) {
   return cambiarLados(c, tachar);
 }
 function desTacharRefs(id, c) {
-  const re = new RegExp(`~~([^~\\n]*?(?:→|->)\\s*${id})~~${noSigue}`, 'g');
+  const re = new RegExp(`~~([^~\\n]*?(?:→|->)\\s*${escaparRe(id)})~~${noSigue}`, 'g');
   return cambiarLados(c, t => t.replace(re, '$1'));
 }
 function cambiarLados(c, f) {
@@ -247,7 +253,7 @@ function desdeEditable(c, lado) {
 function empezarAgregado(c, lado) {
   if (desdeEditable(c, lado) !== null) return 'ya';
   const antes = c[lado].replace(/\s+$/, ''), nuevo = (antes ? antes + '\n' : '') + `+ ${ahora()}\n`;
-  if (nuevo.length + LIBRE_MIN > LIM) return 'No entra: seguí en el otro lado de la ficha o en una ficha nueva (Nueva después).';
+  if (nuevo.length + LIBRE_MIN > LIM) return window.t('No entra: seguí en el otro lado de la ficha o en una ficha nueva (Nueva después).');
   c[lado] = nuevo; guardarFicha(c);
   return 'ok';
 }
@@ -257,17 +263,35 @@ function soloDesde(e, desde) {
   const {selectionStart: a, selectionEnd: b} = e.target;
   if (a < desde || (a === b && a === desde && /^delete.*Backward/.test(e.inputType))) e.preventDefault();
 }
-const primera = c => (c.titulo || c.frente.split('\n')[0] || '(vacía)').replace(/~~|__/g, '');
+const primera = c => (c.titulo || c.frente.split('\n')[0] || window.t('(vacía)')).replace(/~~|__/g, '');
 const maxZ = () => Math.max(0, ...Object.values(S.mesa).map(p => p.z || 0));
 
 // ---------- Guardado ----------
-async function escribir(nombre, txt) {
-  if (!S.dir) return true; // modo ejemplo: solo en memoria
-  try {
-    const w = await (await S.dir.getFileHandle(nombre, {create: true})).createWritable();
-    await w.write(txt); await w.close();
-    return true;
-  } catch (e) { alert(`No se pudo guardar ${nombre}: ${e.message}`); return false; }
+// La cola pertenece a una caja. El destino se captura al pedir una escritura, nunca después de un await.
+let cambiandoCaja = false, generacionCaja = 0;
+const operaciones = new Set(), colasArchivo = new Map(), erroresGuardado = new Map();
+function observar(p) {
+  operaciones.add(p);
+  p.then(() => { operaciones.delete(p); window.guardarSesion?.(); }, () => { operaciones.delete(p); window.guardarSesion?.(); });
+  return p;
+}
+function encolar(clave, tarea) {
+  const p = (colasArchivo.get(clave) ?? Promise.resolve()).catch(() => {}).then(async () => {
+    try { await tarea(); erroresGuardado.delete(clave); return true; }
+    catch (e) { erroresGuardado.set(clave, tarea); alert(window.t("No se pudo guardar {n0}: {n1}", {n0: clave, n1: e.message})); return false; }
+  });
+  colasArchivo.set(clave, p);
+  return observar(p);
+}
+async function escribirEn(dir, nombre, txt) {
+  if (!dir) return;
+  const w = await (await dir.getFileHandle(nombre, {create: true})).createWritable();
+  try { await w.write(txt); await w.close(); }
+  catch (e) { await w.abort().catch(() => {}); throw e; }
+}
+function escribir(nombre, txt) {
+  const dir = S.dir;
+  return encolar(nombre, () => escribirEn(dir, nombre, txt));
 }
 // El nombre del archivo lleva el título: «1a2 Fichas atómicas.txt». Lo que no vale en Windows se saca.
 const limpiarNombre = t => t.replace(/~~|__/g, '').replace(/[\\/:*?"<>|\t\r\n]/g, '').replace(/\s+/g, ' ')
@@ -284,16 +308,17 @@ const idDeArchivo = nombre => { const m = nombre.match(/^(B?\d(?:[0-9a-z]|\^[A-Z
 // Si cambió el título: primero se escribe el archivo nuevo y recién después se borra el viejo.
 // Los guardados de una misma ficha van en fila, para que dos renombres no se crucen.
 const colaGuardado = new Map();
+const mismoNombre = (a, b) => a.normalize('NFC').toLowerCase() === b.normalize('NFC').toLowerCase();
 function guardarFicha(c) {
-  const p = (colaGuardado.get(c.id) ?? Promise.resolve()).then(async () => {
-    const viejo = S.archivos.get(c.id);
-    let nombre = nombreArchivo(c);
+  const dir = S.dir, archivos = S.archivos, copia = {...c};
+  const p = encolar('ficha:' + c.id, async () => {
+    const viejo = archivos.get(copia.id);
+    let nombre = nombreArchivo(copia);
     // Windows no distingue mayúsculas: renombrar solo por mayúsculas borraría el archivo recién escrito
-    if (viejo && viejo !== nombre && viejo.toLowerCase() === nombre.toLowerCase()) nombre = viejo;
-    if (!await escribir(nombre, serFicha(c))) return false;
-    S.archivos.set(c.id, nombre);
-    if (S.dir && viejo && viejo !== nombre) try { await S.dir.removeEntry(viejo); } catch {}
-    return true;
+    if (viejo && mismoNombre(viejo, nombre)) nombre = viejo;
+    await escribirEn(dir, nombre, serFicha(copia));
+    if (dir && viejo && viejo !== nombre) await dir.removeEntry(viejo);
+    archivos.set(copia.id, nombre);
   });
   colaGuardado.set(c.id, p);
   return p;
@@ -304,7 +329,42 @@ function guardarLuego(c) {
   clearTimeout(pendientes.get(c.id));
   pendientes.set(c.id, setTimeout(() => { pendientes.delete(c.id); guardarFicha(c); }, 400));
 }
-addEventListener('beforeunload', e => { if (pendientes.size) e.preventDefault(); });
+addEventListener('beforeunload', e => {
+  if (pendientes.size || operaciones.size || erroresGuardado.size) { e.preventDefault(); e.returnValue = ''; }
+});
+async function terminarGuardados() {
+  for (const [id, reloj] of pendientes) {
+    clearTimeout(reloj); pendientes.delete(id);
+    if (S.cards.has(id)) guardarFicha(S.cards.get(id));
+  }
+  while (operaciones.size) await Promise.allSettled([...operaciones]);
+  for (const [clave, tarea] of [...erroresGuardado]) await encolar(clave, tarea);
+  return erroresGuardado.size === 0;
+}
+async function cambiarDeCaja(cargar) {
+  if (cambiandoCaja) return false;
+  cambiandoCaja = true; generacionCaja++;
+  cancelarMenus();
+  document.documentElement.setAttribute('aria-busy', 'true');
+  try {
+    if (!await terminarGuardados()) return false;
+    const aplicar = await cargar(); // la caja actual sigue intacta si falla la lectura
+    if (!aplicar) return false;
+    await window.alCambiarCaja?.();
+    if (!await terminarGuardados()) return false;
+    if (window.antesDeCambiarCaja && !await window.antesDeCambiarCaja()) return false;
+    recienCreadas.clear(); colaGuardado.clear(); colasArchivo.clear();
+    clearTimeout(S.secado); clearTimeout(S.secadoMesa);
+    Object.assign(S, {sel: null, girada: false, filtro: '', animando: false, escribiendo: null});
+    if ($('#buscar')) $('#buscar').value = '';
+    aplicar();
+    return true;
+  } catch (e) { alert(window.t("No se pudo abrir la caja: {n0}", {n0: e.message})); return false; }
+  finally { cambiandoCaja = false; document.documentElement.removeAttribute('aria-busy'); }
+}
+// No se aceptan acciones nuevas mientras se termina de guardar o cargar una caja.
+for (const evento of ['click', 'keydown', 'input', 'pointerdown', 'pointerup', 'pointermove', 'wheel'])
+  addEventListener(evento, e => { if (cambiandoCaja) { e.preventDefault(); e.stopImmediatePropagation(); } }, {capture: true, passive: false});
 
 // Respaldo: al abrir la caja, una copia por día de las fichas y la mesa en respaldos/AAAA-MM-DD/.
 // Se guardan los 30 días más recientes; solo se borran carpetas con nombre de fecha dentro de respaldos/.
@@ -369,17 +429,17 @@ function armarTexto() {
   return md;
 }
 // Muestra el borrador y, con carpeta abierta, lo guarda en borradores/.
-async function armarBorrador() {
+async function _armarBorrador() {
   const md = armarTexto();
-  if (!md) return alert('No hay fichas del cajón Principal sobre la mesa.');
-  let nota = 'Modo ejemplo: el borrador no se guarda.';
+  if (!md) return alert(window.t('No hay fichas del cajón Principal sobre la mesa.'));
+  let nota = window.t('Modo ejemplo: el borrador no se guarda.');
   if (S.dir) {
     const nombre = `${ahora().replace(':', '')} ${limpiarNombre(md.split('\n')[0].slice(2))}.md`.trim();
     try {
       const w = await (await (await S.dir.getDirectoryHandle('borradores', {create: true})).getFileHandle(nombre, {create: true})).createWritable();
       await w.write(md); await w.close();
-      nota = `Guardado en borradores/${nombre}`;
-    } catch (e) { nota = `No se pudo guardar: ${e.message}`; }
+      nota = window.t("Guardado en borradores/{n0}", {n0: nombre});
+    } catch (e) { nota = window.t("No se pudo guardar: {n0}", {n0: e.message}); }
   }
   mostrarBorrador(md, nota);
 }
@@ -388,13 +448,13 @@ function mostrarBorrador(md, nota = '') {
   const d = document.createElement('div'); d.id = 'borrador';
   d.style.cssText = 'position:fixed;inset:0;z-index:5000;background:rgba(10,7,5,.7);display:flex;align-items:center;justify-content:center;padding:16px';
   d.innerHTML = `<div style="background:#1f1812;border:1px solid #6a5540;border-radius:8px;padding:12px;width:min(760px,100%);height:min(80vh,100%);display:flex;flex-direction:column;gap:8px;color:#efe6d0;font:14px system-ui,sans-serif">
-    <div style="display:flex;gap:8px;align-items:center"><b style="flex:1">Borrador</b><button data-b="copiar">Copiar</button><button data-b="cerrar">Cerrar</button></div>
+    <div style="display:flex;gap:8px;align-items:center"><b style="flex:1" data-t>Borrador</b><button data-b="copiar" data-t>Copiar</button><button data-b="cerrar" data-t>Cerrar</button></div>
     <textarea spellcheck="false" style="flex:1;resize:none;background:#f5eed8;color:#1f2d57;border:0;border-radius:4px;padding:12px;font:14px/1.5 ui-monospace,Consolas,monospace"></textarea>
     <small style="color:#b3a486">${esc(nota)}</small></div>`;
   d.querySelector('textarea').value = md;
   d.onclick = async e => {
     const b = e.target.dataset?.b;
-    if (b === 'copiar') { await navigator.clipboard.writeText(d.querySelector('textarea').value); e.target.textContent = 'Copiado ✓'; }
+    if (b === 'copiar') { await navigator.clipboard.writeText(d.querySelector('textarea').value); e.target.textContent = window.t('Copiado ✓'); }
     if (b === 'cerrar' || e.target === d) d.remove();
   };
   d.onkeydown = e => { e.stopPropagation(); if (e.key === 'Escape') d.remove(); };   // las teclas no llegan al escritorio de atrás
@@ -407,55 +467,72 @@ const idb = (modo, f) => new Promise((ok, mal) => {
   r.onupgradeneeded = () => r.result.createObjectStore('kv');
   r.onerror = () => mal(r.error);
   r.onsuccess = () => { const tx = r.result.transaction('kv', modo), q = f(tx.objectStore('kv'));
-    tx.oncomplete = () => ok(q.result); tx.onerror = () => mal(tx.error); };
+    tx.oncomplete = () => { r.result.close(); ok(q.result); };
+    tx.onerror = tx.onabort = () => { r.result.close(); mal(tx.error); }; };
 });
 
+function leerArchivos(leidos) {
+  const caja = {cards: new Map(), archivos: new Map(), mesa: {}, papelera: new Map(), ordenTexto: '', registro: null};
+  const fechas = new Map();
+  for (const {nombre, txt, archivo} of leidos) {
+    const id = idDeArchivo(nombre);
+    if (nombre === 'registro.txt') caja.registro = txt;
+    else if (nombre === 'orden.txt') caja.ordenTexto = txt;
+    else if (nombre === 'escritorio.json') {
+      const mesa = JSON.parse(txt);
+      if (mesa && typeof mesa === 'object' && !Array.isArray(mesa))
+        for (const [id, pos] of Object.entries(mesa))
+          if (pos && Number.isFinite(pos.x) && Number.isFinite(pos.y)) caja.mesa[id] = pos;
+    } else if (id && !(fechas.get(id) > (archivo?.lastModified ?? 0))) {
+      caja.cards.set(id, parseFicha(id, txt)); caja.archivos.set(id, nombre); fechas.set(id, archivo?.lastModified ?? 0);
+    }
+  }
+  return caja;
+}
+function instalarCaja(caja, dir, origen, nombre) {
+  Object.assign(S, caja, {dir, origen, nombre, vista: 'cajon'});
+  armarCajones(caja.ordenTexto);
+  indexarSecas(); empezar(nombre);
+}
 async function abrirCarpeta(dir) {
   if (!dir) {
-    if (!window.showDirectoryPicker) return alert('Este navegador no puede abrir carpetas. Usá Chrome o Edge.');
+    if (!window.showDirectoryPicker) return alert(window.t('Este navegador no puede abrir carpetas. Usá Chrome o Edge.'));
     try { dir = await showDirectoryPicker({id: 'zettelkasten', mode: 'readwrite'}); } catch { return; }
-  } else if (await dir.requestPermission({mode: 'readwrite'}) !== 'granted') return;
-  try { await respaldar(dir); } catch (e) { alert(`No se pudo hacer el respaldo de hoy (${e.message}). La caja se abre igual.`); }
-  S.dir = dir; S.cards.clear(); S.archivos.clear(); S.mesa = {}; S.papelera.clear(); armarCajones(null);
-  const fechas = new Map();
-  try {
-    for await (const [nombre, h] of (await dir.getDirectoryHandle('papelera')).entries()) {
-      const m = h.kind === 'file' && nombre.match(/^(\S+) (.+)\.txt$/);
-      if (m) S.papelera.set(nombre, {c: parseFicha(archivoAId(m[1]), await (await h.getFile()).text()), borrada: m[2]});
-    }
-  } catch {} // todavía no hay papelera
-  let registroViejo = null;
-  const hs = [];
-  for await (const [nombre, h] of dir.entries()) if (h.kind === 'file') hs.push([nombre, h]);
-  const leidos = await enParalelo(hs, 32, async ([nombre, h]) => { const archivo = await h.getFile(); return {nombre, archivo, txt: await archivo.text()}; });
-  for (const {nombre, archivo, txt} of leidos) {
-    const id = idDeArchivo(nombre);
-    if (nombre === 'registro.txt') registroViejo = txt;
-    else if (nombre === 'orden.txt') armarCajones(txt);
-    else if (nombre === 'escritorio.json') { try { S.mesa = JSON.parse(txt) || {}; } catch {} }
-    // ponytail: si quedaron dos archivos con el mismo número, gana el modificado más reciente; el otro queda en disco sin tocar
-    else if (id && !(fechas.get(id) > archivo.lastModified)) {
-      S.cards.set(id, parseFicha(id, txt)); S.archivos.set(id, nombre); fechas.set(id, archivo.lastModified);
-    }
-  }
-  idb('readwrite', s => s.put(dir, 'dir')).catch(() => {});
-  // Los archivos viejos («1a.txt») pasan a llevar el título en el nombre.
-  for (const c of S.cards.values()) if (S.archivos.get(c.id) !== nombreArchivo(c)) await guardarFicha(c);
-  if (registroViejo && ![...S.cards.keys()].some(id => cajonDe(id) === 'I'))
-    for (const e of parseRegistro(registroViejo)) for (const id of e.ids) agregarIndice(e.termino, id, true);
-  if (!S.cards.size && confirm('La carpeta está vacía. ¿Copiar las fichas de ejemplo para empezar?')) {
-    cargarEjemplo();
-    for (const c of S.cards.values()) await guardarFicha(c);
-    await guardarMesa();
-  }
-  indexarSecas();
-  empezar(dir.name);
+  } else if (await dir.queryPermission({mode: 'readwrite'}) !== 'granted'
+    && await dir.requestPermission({mode: 'readwrite'}) !== 'granted') return;
+  await cambiarDeCaja(async () => {
+    try { await respaldar(dir); } catch (e) { alert(window.t("No se pudo hacer el respaldo de hoy ({n0}). La caja se abre igual.", {n0: e.message})); }
+    const hs = [];
+    for await (const [nombre, h] of dir.entries())
+      if (h.kind === 'file' && (idDeArchivo(nombre) || ['orden.txt', 'registro.txt', 'escritorio.json'].includes(nombre))) hs.push([nombre, h]);
+    const caja = leerArchivos(await enParalelo(hs, 32, async ([nombre, h]) => {
+      const archivo = await h.getFile(); return {nombre, archivo, txt: await archivo.text()};
+    }));
+    try {
+      for await (const [nombre, h] of (await dir.getDirectoryHandle('papelera')).entries()) {
+        const m = h.kind === 'file' && nombre.match(/^(\S+) (.+)\.txt$/);
+        if (m) caja.papelera.set(nombre, {c: parseFicha(archivoAId(m[1]), await (await h.getFile()).text()), borrada: m[2]});
+      }
+    } catch (e) { if (e.name !== 'NotFoundError') throw e; }
+    const ejemplo = !caja.cards.size && confirm(window.t('La carpeta está vacía. ¿Copiar las fichas de ejemplo para empezar?'));
+    return () => {
+      instalarCaja(ejemplo ? cajaEjemplo() : caja, dir, 'carpeta', dir.name);
+      idb('readwrite', s => s.put(dir, 'dir')).catch(() => {});
+      for (const c of S.cards.values()) if (!S.archivos.has(c.id) || !mismoNombre(S.archivos.get(c.id), nombreArchivo(c))) guardarFicha(c);
+      if (caja.registro && ![...S.cards.keys()].some(id => cajonDe(id) === 'I'))
+        for (const e of parseRegistro(caja.registro)) for (const id of e.ids) agregarIndice(e.termino, id, true);
+      if (ejemplo) guardarMesa();
+    };
+  });
 }
-function cargarEjemplo() {
-  S.cards.clear(); S.archivos.clear(); S.papelera.clear(); armarCajones(null);
-  for (const [id, t] of Object.entries(EJEMPLO.fichas)) S.cards.set(id, parseFicha(id, t));
-  S.mesa = structuredClone(EJEMPLO.mesa);
-  indexarSecas();
+function cajaEjemplo() {
+  const ejemplo = typeof EJEMPLOS === 'undefined' ? EJEMPLO : EJEMPLOS[idioma];
+  const caja = leerArchivos(Object.entries(ejemplo.fichas).map(([id, txt]) => ({nombre: idArchivo(id) + '.txt', txt})));
+  caja.archivos.clear(); caja.mesa = structuredClone(ejemplo.mesa);
+  return caja;
+}
+async function cargarEjemplo() {
+  return cambiarDeCaja(async () => () => instalarCaja(cajaEjemplo(), null, 'ejemplo', 'ejemplo (no se guarda)'));
 }
 
 // ---------- Cajón, índice, papelera ----------
@@ -488,7 +565,7 @@ function nuevaFicha(id, cajon = null) {
 // Una ficha nueva que se cierra sin escribir nada (la sacaste sin querer) no queda: se descarta, sin pasar por la
 // papelera porque no tenía nada. Solo las creadas en esta sesión: una ficha vacía vieja no se toca.
 const recienCreadas = new Set();
-async function descartarSiVacia(id) {
+async function _descartarSiVacia(id) {
   const c = S.cards.get(id);
   if (!c || !recienCreadas.has(id) || c.titulo.trim() || c.frente.trim() || c.reverso.trim()) return false;
   recienCreadas.delete(id); clearTimeout(pendientes.get(id)); pendientes.delete(id);
@@ -514,7 +591,7 @@ function agregarIndice(termino, id, libre = false) {
     .filter(l => !l.startsWith('~~')).map(l => l.replace(/__/g, '').trim().toLowerCase()); // las tachadas no cuentan
   if (lineas.includes(linea.toLowerCase())) return 'ya está';
   if (!libre && S.modo === 'purista' && lineas.filter(l => l.startsWith(termino.toLowerCase() + ' →')).length >= 3)
-    return `«${termino}» ya tiene 3 fichas de entrada. El índice solo guarda puntos de entrada: enlazá desde una de ellas.`;
+    return window.t("«{n0}» ya tiene 3 fichas de entrada. El índice solo guarda puntos de entrada: enlazá desde una de ellas.", {n0: termino});
   // cuando el frente se llena se sigue en el reverso, y cuando se llenan las dos caras, en una ficha nueva de la misma letra
   let c = fichas.at(-1), lado = c && ['frente', 'reverso'].find(k => (c[k] + '\n' + linea).length <= LIM);
   if (!lado) { c = nuevaFicha('I' + l + (fichas.length ? fichas.length + 1 : '')); lado = 'frente'; }
@@ -540,10 +617,10 @@ function indexarSecas() {
 }
 // Cada 30 s, salvo mientras escribís (para no sacarte el cursor): se reintenta en la próxima vuelta.
 setInterval(() => {
-  if (S.cargada && !document.activeElement?.matches?.('input,textarea') && indexarSecas()) render();
+  if (!cambiandoCaja && S.cargada && !document.activeElement?.matches?.('input,textarea') && indexarSecas()) render();
 }, 30000);
 // Papelera: primero se copia a papelera/, después se borra el original. Nunca se pierde nada.
-async function tirar(id) {
+async function _tirar(id) {
   const c = S.cards.get(id), citan = citantes(id);
   if (!confirm(`¿Tirar la ficha ${etiqueta(id)}${c.titulo ? ` «${c.titulo}»` : ''} a la papelera?`
     + (citan.length ? `\n\nLa citan: ${citan.map(etiqueta).join(', ')}. Esos enlaces se van a tachar.` : ''))) return;
@@ -557,7 +634,7 @@ async function tirar(id) {
       const w = await (await pap.getFileHandle(nombre, {create: true})).createWritable();
       await w.write(serFicha(c)); await w.close();
       await S.dir.removeEntry(S.archivos.get(id) ?? idArchivo(id) + '.txt');
-    } catch (e) { return alert(`No se pudo tirar ${id}: ${e.message}`); }
+    } catch (e) { return alert(window.t("No se pudo tirar {n0}: {n1}", {n0: id, n1: e.message})); }
   }
   S.archivos.delete(id);
   const ids = lista(), i = ids.indexOf(id);
@@ -570,13 +647,13 @@ async function tirar(id) {
 }
 
 // Primero vuelve a escribirse la ficha; solo si salió bien se borra de papelera/.
-async function restaurar(nombre) {
+async function _restaurar(nombre) {
   const {c} = S.papelera.get(nombre);
   let id = c.id;
   if (S.cards.has(id)) {
-    if (cajonDe(id) === 'I') return alert(`Ya existe la ficha ${etiqueta(id)} del índice. Copiá sus líneas a mano.`);
+    if (cajonDe(id) === 'I') return alert(window.t("Ya existe la ficha {n0} del índice. Copiá sus líneas a mano.", {n0: etiqueta(id)}));
     id = nuevaRaiz([...S.cards.keys()], cajonDe(id) === 'B' ? 'B' : '');
-    if (!confirm(`El número ${c.id} ya lo usa otra ficha. ¿Restaurarla como ${id}?`)) return;
+    if (!confirm(window.t("El número {n0} ya lo usa otra ficha. ¿Restaurarla como {n1}?", {n0: c.id, n1: id}))) return;
   }
   const r = {...c, id};
   if (!await guardarFicha(r)) return;
@@ -618,10 +695,69 @@ const EJEMPLO = {
   },
   mesa: {'1': {x: 40, y: 70, z: 1}, '2b': {x: 360, y: 140, z: 2}},
 };
+const EJEMPLOS = {
+  es: EJEMPLO,
+  en: {mesa: EJEMPLO.mesa, fichas: {
+    '1': '2024-03-02 10:15\n# The box as a conversation partner\nA Zettelkasten is not an archive: it is a conversation partner. Ask it a question, and the box answers with something never stored explicitly. → 1a',
+    '1a': '2024-03-02 10:40\n# The second brain\nLuhmann describes it as a “second brain” you can talk with. → B1\n=== reverso ===\nFor that conversation, the box needs its own structure: if it only returns what you put in, it is a mirror.',
+    '1a1': '2024-05-11 18:02\n# Surprise\nSurprise: the box returns connections nobody planned. See serendipity → 3',
+    '1b': '2024-03-09 09:30\n# Atomic cards\nAtomic cards: one idea per card. The fixed A6 size makes you choose. → 2a',
+    '1b1': '2024-03-09 09:45\n# One idea, one card\nIf an idea does not fit on a card, it is two ideas.',
+    '1c': '2024-06-20 21:10\n# Place, do not classify\nNumbers do not classify; they locate. A card does not “belong” to a topic: it sits beside another. → 2',
+    '2': '2024-04-01 11:00\n# Folgezettel\nFolgezettel: position carries meaning. A new card goes after the card it responds to.\n=== reverso ===\n1 → 1a → 1a1 → 1b → 2\nIf 1b already exists, a new response after 1a goes at 1a1.',
+    '2a': '2024-04-01 11:20\n# Unlimited branching\nInsert anywhere: branches are unlimited, and the order is never rearranged. → 2b',
+    '2b': '2024-04-03 16:05\n# One-way links\nLinks go one way: the destination card does not know it was cited. → 4',
+    '2b1': '2025-01-14 08:50\n# The backlink problem\nDigital backlinks change the system: if everything points to everything, nothing points to anything.',
+    '3': '2024-07-07 19:30\n# Serendipity\nSerendipity: looking for a card reveals its neighbors. The path matters as much as the destination. → 1a1',
+    '3a': '2025-02-02 12:00\n# Against search\nFull-text search jumps straight to the result and loses the path. → 3',
+    '4': '2024-08-15 10:10\n# The index\nThe keyword index has few entries per term: only starting points. From there, follow links. → 1',
+    '4a': '2025-06-01 17:45\n# Ink\nInk is not ~~erased~~; it is corrected. Cross it out, __underline__ it, or comment with another card. → 2',
+    '5': '2026-01-10 15:00\n# The desk\nDesk: to write, cards leave the box, are arranged on the table, then return to their place.',
+    B1: '2024-03-02 10:30\n# Luhmann 1981\nLuhmann, N. (1981). “Kommunikation mit Zettelkästen”.\n=== reverso ===\nAn essay describing the box as a communication partner.',
+    B2: '2025-01-14 08:40\n# Schmidt 2016\nSchmidt, J. F. K. (2016). “Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine”.',
+    Ib: '2024-03-02 11:00\nbox as conversation partner → 1',
+    Ii: '2025-06-01 17:50\nink → 4a',
+    If: '2024-04-01 11:05\nFolgezettel → 2',
+    Il: '2024-04-03 16:10\nlinks → 2b',
+    Is: '2024-07-07 19:40\nserendipity → 3\nserendipity → 1a1',
+  }},
+  de: {mesa: EJEMPLO.mesa, fichas: {
+    '1': '2024-03-02 10:15\n# Der Zettelkasten als Gesprächspartner\nDer Zettelkasten ist kein Archiv, sondern ein Gesprächspartner. Man fragt ihn, und der Kasten antwortet mit etwas, das nicht ausdrücklich gespeichert wurde. → 1a',
+    '1a': '2024-03-02 10:40\n# Das zweite Gehirn\nLuhmann beschreibt ihn als ein „zweites Gehirn“, mit dem man sich unterhalten kann. → B1\n=== reverso ===\nFür dieses Gespräch braucht der Kasten eine eigene Struktur: Gibt er nur zurück, was man eingegeben hat, ist er ein Spiegel.',
+    '1a1': '2024-05-11 18:02\n# Überraschung\nÜberraschung: Der Kasten zeigt Verbindungen, die niemand geplant hat. Siehe Serendipität → 3',
+    '1b': '2024-03-09 09:30\n# Atomare Zettel\nAtomare Zettel: eine Idee pro Zettel. Das feste A6-Format zwingt zur Auswahl. → 2a',
+    '1b1': '2024-03-09 09:45\n# Eine Idee, ein Zettel\nPasst eine Idee nicht auf einen Zettel, sind es zwei Ideen.',
+    '1c': '2024-06-20 21:10\n# Verorten, nicht klassifizieren\nNummern klassifizieren nicht, sie verorten. Ein Zettel „gehört“ nicht zu einem Thema: Er steht neben einem anderen. → 2',
+    '2': '2024-04-01 11:00\n# Folgezettel\nFolgezettel: Die Position trägt Bedeutung. Ein neuer Zettel kommt hinter den Zettel, auf den er antwortet.\n=== reverso ===\n1 → 1a → 1a1 → 1b → 2\nGibt es 1b schon, kommt ein neuer Zettel nach 1a auf 1a1.',
+    '2a': '2024-04-01 11:20\n# Unbegrenzte Verzweigung\nÜberall einfügen: Verzweigungen sind unbegrenzt, die Reihenfolge wird nie neu geordnet. → 2b',
+    '2b': '2024-04-03 16:05\n# Einseitige Verweise\nVerweise gehen nur in eine Richtung: Der Zielzettel weiß nicht, dass er zitiert wird. → 4',
+    '2b1': '2025-01-14 08:50\n# Das Problem der Rückverweise\nDigitale Rückverweise verändern das System: Wenn alles auf alles verweist, verweist nichts mehr auf etwas.',
+    '3': '2024-07-07 19:30\n# Serendipität\nSerendipität: Bei der Suche nach einem Zettel sieht man seine Nachbarn. Der Weg zählt ebenso wie das Ziel. → 1a1',
+    '3a': '2025-02-02 12:00\n# Gegen die Suche\nDie Volltextsuche springt direkt zum Ergebnis und verliert den Weg. → 3',
+    '4': '2024-08-15 10:10\n# Das Register\nDas Schlagwortregister hat nur wenige Einträge pro Begriff: bloße Einstiegspunkte. Von dort folgt man den Verweisen. → 1',
+    '4a': '2025-06-01 17:45\n# Tinte\nTinte wird nicht ~~gelöscht~~, sondern korrigiert. Man streicht, __unterstreicht__ oder kommentiert mit einem anderen Zettel. → 2',
+    '5': '2026-01-10 15:00\n# Der Schreibtisch\nSchreibtisch: Zum Schreiben nimmt man die Zettel aus dem Kasten, ordnet sie auf dem Tisch und legt sie danach zurück.',
+    B1: '2024-03-02 10:30\n# Luhmann 1981\nLuhmann, N. (1981). „Kommunikation mit Zettelkästen“.\n=== reverso ===\nEin Essay, der den Kasten als Kommunikationspartner beschreibt.',
+    B2: '2025-01-14 08:40\n# Schmidt 2016\nSchmidt, J. F. K. (2016). „Niklas Luhmann’s Card Index: Thinking Tool, Communication Partner, Publication Machine“.',
+    Ik: '2024-03-02 11:00\nKasten als Gesprächspartner → 1',
+    It: '2025-06-01 17:50\nTinte → 4a',
+    If: '2024-04-01 11:05\nFolgezettel → 2',
+    Iv: '2024-04-03 16:10\nVerweise → 2b',
+    Is: '2024-07-07 19:40\nSerendipität → 3\nSerendipität → 1a1',
+  }},
+};
 
 // Self-check: abrir index.html#test y mirar la consola.
-function test() {
+async function test() {
   let fallos = 0; const ok = (c, m) => { if (!c) { fallos++; console.error('✗', m); } };
+  const idiomaAntes = idioma; cambiarIdioma('es');
+  idioma = 'en'; ok(window.t('Cajón {n}', {n: 3}) === 'Drawer 3', 'traducción con variable');
+  idioma = 'de'; ok(window.t('Cajón {n}', {n: 3}) === 'Auszug 3', 'traducción alemana con variable');
+  for (const lang of ['es', 'en', 'de']) {
+    idioma = lang; const caja = cajaEjemplo();
+    ok(caja.cards.size === 22 && caja.cards.has(lang === 'en' ? 'Ib' : lang === 'de' ? 'Ik' : 'Ic'), `ejemplo ${lang}: 22 fichas e índice traducido`);
+  }
+  idioma = 'es';
   const orden = ['2', '1b', '10', '1a2', '1', '1a', '9', '1a1', '1aa', '1z'].sort(cmpId).join(' ');
   ok(orden === '1 1a 1a1 1a2 1b 1z 1aa 2 9 10', 'orden: ' + orden);
   const hay = (...ids) => x => ids.includes(x);
@@ -703,7 +839,7 @@ function test() {
   { const [cartas, mesaD, dirD] = [S.cards, S.mesa, S.dir]; S.cards = new Map(); S.mesa = {}; S.dir = null;
     nuevaFicha('50'); S.mesa['50'] = {x: 0, y: 0}; nuevaFicha('51'); S.cards.get('51').frente = 'algo';
     S.cards.set('52', {id: '52', fecha: '2020-01-01 10:00', titulo: '', frente: '', reverso: ''});
-    Promise.all(['50', '51', '52'].map(descartarSiVacia)).then(r => {
+    await Promise.all(['50', '51', '52'].map(descartarSiVacia)).then(r => {
       ok(r.join() === 'true,false,false' && !S.cards.has('50') && !S.mesa['50'] && S.cards.has('51') && S.cards.has('52'), 'descartar la nueva vacía');
       [S.cards, S.mesa, S.dir] = [cartas, mesaD, dirD];
       if (fallos) { console.error(`✗ ${fallos} fallos`); document.title = '✗ tests'; }
@@ -763,9 +899,11 @@ function test() {
   ok(md.includes('## Dos (2)\n\nSegunda\n\natrás') && md.includes('## (3)\n\nsin título'), 'armar: reverso y sin título');
   ok(md.endsWith('## Bibliografía\n\n- B1. Luhmann (1981).\n') && !md.includes('No citada') && !md.includes('a → 1'), 'armar: bibliografía');
   S.cards = antes; S.dir = dirAntes; S.mesa = mesaAntes;
+  cambiarIdioma(idiomaAntes);
+  await terminarGuardados();
   console.log(fallos ? `✗ ${fallos} fallos` : '✓ todos los tests pasan');
   document.title = fallos ? '✗ tests' : '✓ tests';
-  testRespaldo();
+  await testRespaldo();
 }
 // Respaldo contra el sistema de archivos interno del navegador (OPFS): nada toca la carpeta real.
 async function testRespaldo() {
@@ -786,4 +924,12 @@ async function testRespaldo() {
   console[bien ? 'log' : 'error'](bien ? '✓ respaldo' : '✗ respaldo: ' + dias.join(' '));
   if (!bien) document.title = '✗ tests';
 }
-if (location.hash === '#test') test();
+if (location.hash === '#test') addEventListener('load', () => test().catch(e => { console.error(e); document.title = '✗ tests'; }));
+
+function tirar(...args) { return observar(_tirar(...args)); }
+
+function restaurar(...args) { return observar(_restaurar(...args)); }
+
+function descartarSiVacia(...args) { return observar(_descartarSiVacia(...args)); }
+
+function armarBorrador(...args) { return observar(_armarBorrador(...args)); }

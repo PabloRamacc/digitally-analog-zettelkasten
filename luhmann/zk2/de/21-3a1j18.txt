@@ -1,0 +1,4 @@
+s/f
+Mit Aldrich / Pfeffer 1976, S. 92 → B411 lassen sich im Anschluss an H.E. Aldrich / S. Mindlin, Uncertainty and dependence: two conceptions of the environment, in L. Karpik (ed.), Organization and Environment, New York 1976 → B412[*] zwei verschiedene Ansätze im Umwelt-Begriff unterscheiden: 1.) Umwelt als __Information__ = Problem bzw. Kontingenz als __Unsicherheit__;
+2.) Umwelt als __Ressource__ = Problem bzw. Kontingenz als __Abhängigkeit__.
+Dies entspricht genau den beiden Kontingenzbegriffen.

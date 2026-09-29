@@ -1,0 +1,3 @@
+s/f
+The level of functional fulfillment remains bound to the complexity of the function system and thus to those reductions supporting and enabling this complexity.
+Exchanging these reductions for others and replacing them becomes increasingly difficult as the system grows more complex, especially because secondary interdependencies arise that must be superseded. {1}

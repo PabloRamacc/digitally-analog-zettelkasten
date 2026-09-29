@@ -1,0 +1,2 @@
+s/f
+The problem of subdividing a system into subsystems must be distinguished from the problem of constructing a system as a multivariable model. Subsystems are "concrete" units, not variables in the strict sense. So too Hagen, p. 145 → B338, cited → 25/4,3.

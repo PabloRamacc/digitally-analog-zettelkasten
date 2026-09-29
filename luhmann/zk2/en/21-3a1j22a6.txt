@@ -1,0 +1,2 @@
+s/f
+It is often claimed that the term complexity has meaning only relatively to observation – so e.g., Rapoport 1973, p. 437 → B425: "'Complexity' refers to the number of features of the situation which must be taken into account in describing or understanding it." This acquires a more than merely subjective- or analytical sense when self-observation is included.

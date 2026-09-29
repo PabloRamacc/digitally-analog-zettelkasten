@@ -1,0 +1,2 @@
+s/f
+It should be noted that __second-order cybernetics__ was originally conceived from the perspective of control operations and not from observation operations.

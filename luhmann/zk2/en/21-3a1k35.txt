@@ -1,0 +1,2 @@
+s/f
+The problem of functional analysis is the equating (or controlled variation) of reference problems. What determines the identity of a problem? {1}

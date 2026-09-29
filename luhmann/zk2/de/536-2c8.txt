@@ -1,0 +1,4 @@
+s/f
+Umweltkonstanten zurückgreifen muss, sie aber dabei nach internen Grundsätzen umdefiniert, modifiziert, legitimiert, so dass diese Eigenschaften aus dem neuen Systemzusammenhang heraus einen anderen Sinn erhalten (funktional gesprochen: durch andere Aequivalente ersetzbar sind).
+Für alle drei Regeltypen dürfte gelten, dass die Grenzdefinition der Erwartungsstabilisierung dient. Sie erleichtern die Voraussicht dessen, was sich in diesem System ereignen kann, und die Einstellung darauf. Diese These, die Goffman → B1729 selbst nur andeutet (S. 26 → B1729), hängt mit der Definition der Systemstruktur durch Verhaltenserwartungen zusammen (s.o. → 536/2c4 ).
+Solche Grenzen finden sich insb als Kommunikationsgrenzen, als Grenzen zwischen ausdrückbaren und nicht ausdrückbaren Ansichten, jenseits derer man → 536/2c9

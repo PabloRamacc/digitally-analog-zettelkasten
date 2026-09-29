@@ -1,0 +1,4 @@
+s/f
+__System differentiation / black boxes / observation / theory__
+System differentiation not only produces system/environment relations; it also generates system/system relations within the differentiated system. Each subsystem is found not only in an internal systemic environment, but also in __relations to other subsystems__. This entails consequences that must be developed independently.
+Subsystems are always black boxes for one another. Even if they were transparent to themselves, they would not be so for each other. Transparency is → 21/3d5b11w26a

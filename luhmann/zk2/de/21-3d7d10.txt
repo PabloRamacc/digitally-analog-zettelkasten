@@ -1,0 +1,3 @@
+s/f
+Das Input/OutputModell gibt ferner eine Grundlage, von der aus das Problem der Differenzierung behandelt werden kann.
+Differenzierung ist ein Erfordernis, das sich aus umweltoffener Problemverarbeitung bei einer Mehrheit von Grenzen ergibt.

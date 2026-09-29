@@ -1,0 +1,5 @@
+s/f
+A system that has access to its environment also has access to itself. → 21/3a1j23,1; → 21/3a1j23,2
+This means: A system that can have access to its environment can also have access to itself.
+And: A system that can have access to its environment __must be able to have access to itself__ (this in turn has implications for the pretension of rationality).
+A system that can have access to its environment puts itself under pressure; it must arrange itself accordingly.

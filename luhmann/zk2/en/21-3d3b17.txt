@@ -1,0 +1,6 @@
+s/f
+__Autonomy and Time__ – the relationship should be treated more extensively.
+Time availability is a kind of indicator for autonomy; cf. also leisure → 7/12; → 21/3d27a3d.
+Autonomy can also be defined as a system state in which variables are not directly determined by time.
+E.g., Haken 1978, p. 113 → B1189: "We confine our analysis to so-called __autonomous systems__ in which F1, F2 do not explicitly depend on time."
+Here far-reaching implications could be attached regarding feedback effects → 21/3d3b17a

@@ -1,0 +1,5 @@
+s/f
+→ 21/3a1a Vielleicht kann man auch sagen: dass sie voneinander unabhängig sind.
+Vgl. auch → 21/3a3b ; → 21/3a1a8b .
+Das wäre indes nur eindeutig klar, wenn deutlich gemacht wird, welche Art von Abhängigkeit negiert wird. Alle ungezielten Negationen sind in dieser Weise unklar.
+Unabhängig soll weder heissen: logisch unabhängig definierbar im Sinne von Grundbegriffen eines hypothetical- deduktiven Systems – dessen ganze Logik hier nicht anwendbar ist, noch: ohne Rückwirkung aufeinander: Es ist nicht gesagt, dass es für __andere__ Bezugsgesichtspunkte gleichgültig ist, welche Alternative als funktionale Leistung gewählt wird. Auch sind Aequivalenzserien der einzelnen Funktionen nicht exklusiv in dem Sinne, dass eine Leistung nur in einer Funktion relevant → 21/3a1a3a

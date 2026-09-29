@@ -1,0 +1,2 @@
+s/f
+→ 21/3d6 Zu beachten ist, dass __komparative Statik__ an sich noch keine Dynamik ist. Sie vergleicht zeitverschiedene Zustände eines Systems, nicht aber ermittelt sie die Kausalbeziehungen zwischen diesen. So Angermann 1963, S. 36 → B1395 über komp__e__rative Statik auf Grund von: E. Schams, Komperative Statik, Zeitschrift für Nationalökonomie 2 (1931), S. 27ff. → B1396 E. Preiser, Dynamische Wirtschaftstheorie. Jahrbuch für Nationalökonomie und Statistik 155 (1942), S. 140ff. → B1397[*]

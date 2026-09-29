@@ -1,0 +1,4 @@
+s/f
+Grundsätzliche Problemstellung: __Wie ist es möglich, die System/Umwelt-Beziehungen von der Organisation (= selektiven Relationierung) und nicht von den Elementen des Systems abhängig zu machen?__
+Zwei Grundvorstellungen: 1.) Verstärkung der Selektivität der Relationierung;
+2.) Lockerung der Bindung zwischen den Elementen in dem Sinne, dass eine Bindung je nach Ordnungsmuster in Betracht kommt oder nicht.

@@ -1,0 +1,5 @@
+s/f
+Selection criteria should
+a.) take place __as early as possible__ (but remain subject to correction) in order to avoid unnecessary effort and disappointment.
+b.) They should be made __by the teacher rather than the student__, because the teacher’s class-specific bias is presumably less pronounced or, at any rate, easier to control.
+Both become more difficult to implement as selection pressure increases.

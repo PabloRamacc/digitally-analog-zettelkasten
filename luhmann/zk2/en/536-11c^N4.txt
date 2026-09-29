@@ -1,0 +1,3 @@
+s/f
+To better understand what thematic concentration means and what its effects are, it is necessary to examine the concept and function of a __theme__ in greater detail; see → 536/11dB .
+Themes are relatively loose forms of integration. They do not entail determinism; they do not force the standardization of all __processes__ in the system to the extent that only one process would run at a time (= computer).

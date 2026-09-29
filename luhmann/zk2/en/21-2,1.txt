@@ -1,0 +1,5 @@
+s/f
+→ 21/2 Definitions: 1.) For definitions by system contribution see → 21/3,3.
+2.) Definitions as variable relations (analogous to the mathematical function concept.
+Lesser, p. 392 → B274: "A genuinely functional relation is one which is established between two or more terms or variables such that it can be asserted that under certain defined conditions (which form one term of the relation) certain determined expressions of those conditions (which is the other term of the relation) are observed."
+Numerous definitions of various kinds – without source information – listed in Pierce 1960, p. 167f. → B276

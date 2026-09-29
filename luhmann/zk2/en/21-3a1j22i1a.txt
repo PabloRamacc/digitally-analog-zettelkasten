@@ -1,0 +1,6 @@
+s/f
+The observer is a position in which acceptance or rejection decisions can be made (must?).
+If this holds true, it has far-reaching theoretical implications; cf. → 21/3d18d59g8.
+Above all, acceptance and rejection must be handled asymmetrically, since the assumed or rejected distinction itself is not capable of being accepted or rejected.
+How does this relate to latent/manifest as an observation schema?
+Is the recursivity of observing → 21/3a1j22i1b

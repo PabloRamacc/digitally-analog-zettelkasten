@@ -1,0 +1,2 @@
+s/f
+This view is reached approximately in Katz / Kahn 1966 → B993, who however retain the term closed system in a problematic way (cf. → 21/3d7c8 ). See e.g. p. 59 → B993: "__system openness__ […] refers to the degree to which the system is receptive to all types of inputs. Systems vary with respect to the general range of inputs that can be absorbed and with respect to openness to particular types of inputs." Cf. also → 21/3d19g3 → 21/3d19g4 .

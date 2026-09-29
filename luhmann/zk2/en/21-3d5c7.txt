@@ -1,0 +1,3 @@
+s/f
+Both system problems as well as pattern variables are __logically-classificatory terms__.
+See e.g. Revisited , p. 467 → B956: "Both the pattern variables and the four system-problems are conceptual schemes, or sets of categories, for classifying the components of action. They provide a frame of reference within which such classification can be made. The figures presented below indicate the methods, sets of rules and pro[S. 468]cedures, that state how these categories may be used analytically; they imply __theorems__ – propositions that admit of logical, not empirical, proof – which state a set of determinate relationships among the categories and, in so doing, outline a __theory__ of action.

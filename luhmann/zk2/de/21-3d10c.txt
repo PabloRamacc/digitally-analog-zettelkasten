@@ -1,0 +1,3 @@
+s/f
+Es gibt verschiedene Möglichkeiten, die Geschlossenheit eines Systems zu definieren, zum Beispiel: 1.) die Umwelt ist für das System ohne Relevanz, eine leere Grösse;
+2.) das System ist __nur__ über spezifizierte Input/ OutputKanäle mit der Umwelt verbunden. So Le Moigne 1977, S. 67 → B199 (– quasi-isolé) im Anschluss an Greniewski → B1681.

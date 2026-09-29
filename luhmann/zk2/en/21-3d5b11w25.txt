@@ -1,0 +1,5 @@
+s/f
+__Differentiation / Internal Differentiation__
+See also → 21/3d27a3 for differentiation. → 21/3d5b11w25,1 Based on the aforementioned concept of system differentiation, hypotheses regarding the relationship between external and internal differentiation can be developed: 1.) __External differentiation enables__ subsequent __internal differentiation__ in terms of increasing improbability. Thus, internal differentiation presupposes external differentiation.
+2.) __Internal differentiation enhances external differentiation__, i.e., the complexity of differences between system and environment.
+→ 21/3d5b11w25a

@@ -1,0 +1,4 @@
+s/f
+Nur von analytischen Systemen kann man sinnvoll sagen, dass sie aus Variablen __bestehen__. Konkrete Systeme haben limitierte Änderungsmöglichkeiten.
+Der Variablenbegriff bezeichnet eine Abstraktion der Änderungsmöglichkeiten eines Systems, die auch solche einschließt, die konkret gar nicht realisiert werden können (z.B. aus Gründen konkreter Kompatibilität). → 21/3d5b7ka
+Diese Überlegung zeigt: analytische Systeme enthalten __zu viel__ Möglichkeiten. Sie dienen dazu, die Realität als Selektion (und insofern: als verständlich) erscheinen zu lassen.

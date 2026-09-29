@@ -1,0 +1,4 @@
+s/f
+If this card is causally relevant to G1 of S1, and if S2 exhibits G2, a variation in this card may be either functional or dysfunctional with respect to G1, and at the same time functional, dysfunctional or nonfunctional with respect to G2.
+(iii) Ein System S1, das G1 aufweist, kann zwei untergeordnete Systeme S2 und S3 als Teile enthalten, wobei diese Teile jeweils G2 bzw. G3 aufweisen. In einem Element, das zu S2 (und damit auch zu S1), aber nicht zu S3 gehört, ist eine Variation sowohl für G1 als auch für G2 kausal relevant; sie kann funktional bezüglich aller drei G's sein oder dysfunktional bezüglich aller von ihnen, oder sie kann bezüglich G3 unfunktional und bezüglich eines der anderen G's funktional, jedoch in Bezug auf das dritte dysfunktional sein."X
+See also Nagel 1961, p. 532 → B253 (similarly, briefly).

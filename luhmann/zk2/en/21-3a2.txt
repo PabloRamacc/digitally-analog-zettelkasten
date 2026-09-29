@@ -1,0 +1,7 @@
+s/f
+the performances of "variables" (although this often happens). For the relationship between a stock prerequisite and the performance that fulfills it is not that of a variable to its input values; only the class of all suitable performances can be called variables.
+In the analysis of empirical systems, the following methodological terms must therefore be distinguished: 1.) the system itself;
+2.) the stock prerequisites (cf. → 21/3a1a );
+3.) the variables (classes of performances that can fulfill the stock prerequisites); → 21/3a2a
+4.) the individual functional performances. See also → 21/7e.
+In addition comes 5.) The environment.

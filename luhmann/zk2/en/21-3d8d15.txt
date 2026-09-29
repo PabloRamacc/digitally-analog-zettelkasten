@@ -1,0 +1,4 @@
+s/f
+The part/whole schema requires __homogeneity__ of the parts in the whole. → 21/3d8d15,1
+House: rooms, but not beams and stones. Book: pages, but not letters.
+However, there are difficulties specifying criteria for homogeneity; especially when this schema is used as a guiding difference and paradigm for large areas of content.

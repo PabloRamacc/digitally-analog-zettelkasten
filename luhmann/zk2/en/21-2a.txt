@@ -1,0 +1,7 @@
+s/f
+On the __mathematical concept of function__ (cf. also → 21/2,1)
+It is generally described as fundamentally different from the biological-sociological concept of function. → 21/2a(R) ; → 21/2aa
+For example, Nagel, p. 248f. → B252: "It will be evident that the sense of the word 'function' as used in the preceding paragraph does not coincide with the meaning of the word as it is employed in mathematical analysis and its various special applications. In mathematics a function is a class of ordered pairs of elements (y,x), where those members of the pairs [p. 249] which are values of the (so-called 'independent') variable 'x' are called the 'arguments', while those which are values of the (so-called 'dependent') variable 'y' are the values 'corresponding to' the x's. → 21/2a1
+=== reverso ===
+→ 21/2a Further evidence: Emmet, p. 47f. → B314; Firth, p. 238 → B337.
+Nadel 1951, p. 369 → B259 places both simply side by side: "Both these meanings of 'function' are important", but only elaborates further on the biol concept of function.

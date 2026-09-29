@@ -1,0 +1,2 @@
+s/f
+Werte sind unlösbare Probleme. Sie dienen der Reproduktion des Schemas Problem / Problemlösung, verhindern dessen Kollabieren in der Form eines gelösten Problems.

@@ -1,0 +1,5 @@
+s/f
+Der Input/Output-Gedanke hängt mit der Unterscheidung offener und geschlossener Systeme eng zusammen. → 21/3d7d3(R)
+Es gibt keine zur Umwelt beziehungslosen Systeme. Geschlossenheit kann deshalb nicht vollständige Abgeschlossenheit heissen. Geschlossenheit heisst vielmehr, dass das System so organisiert ist, dass es auf Umweltveränderungen entweder überhaupt nicht oder auf eine eindeutig festliegende Weise reagiert. Diese Alternative ist Bedingung der Eindeutigkeit. Ein System könnte nicht determiniert sein, wenn es nicht zugleich exklusiv und indifferent wäre. Diese Exklusivität und Indifferenz hat das __Wort__ Geschlossenheit im Auge. Sie ist aber nicht als solche wichtig, sondern nur als Bedingung eindeutiger Determination.
+=== reverso ===
+→ 21/3d7d3 Auswertung für Politik / Verwaltung → 35/5i

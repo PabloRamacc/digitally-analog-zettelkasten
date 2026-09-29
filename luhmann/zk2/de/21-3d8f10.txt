@@ -1,0 +1,3 @@
+s/f
+Ein besonderer Typ koordinierender Generalisierung liegt im Bereich kausaler – im Unterschied zu symbolischen – Koordinationen. Es gibt Systemverbindungen durch __formalisierte Zwischen-Handlungen__ (grundsätzlich → 23/11b ).
+Solche Formalisierungen begrenzen die Möglichkeiten wechselseitiger Einflussnahme auf wenige Kommunikationen und zwingen daher jedes System, seine eigenen Intentionen zu generalisieren, erlauben dem anderen System relative Freiheit in der Auswertung solcher formalen Kommunikationen. Vgl. auch → 5/1d1 ; → 532/5a26 .

@@ -1,0 +1,5 @@
+s/f
+An interest of mathematical decision theory in problems of the exchange of future value orientations is beginning to emerge, stimulated primarily by models of sequential decision-making.
+See also Koopmans 1964 → B711: The classical theory of decision making is based on a strict analytical separation between preferences and opportunities → 21/3a1pe9g9,1. However, this is only realistic if one considers consequences within a relatively short time frame. Instead, models must be constructed that allow the decider "to retain some flexibility with regard to his future preference." (p. 246 → B711)
+The critique is based on the perspective of approaching realistic decision-making and does not rely on a fundamentally time-dependent theory of value.
+Into the conceptions developed by Koopmans → B711, which are not very radical, is then above all the advantage of a postponement of the → 21/3a1pe9g9a

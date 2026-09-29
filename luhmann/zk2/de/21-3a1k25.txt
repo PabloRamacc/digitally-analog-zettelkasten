@@ -1,0 +1,5 @@
+s/f
+Der Begriff des __Problems__ bezeichnet zugleich __Elemente eines Plans für das Vorgehen bei der Problemlösung.__ Im Problem selbst liegt zwar keine Lösungsgarantie, wohl aber eine Fixierung der Bedingungen, unter denen Lösungen als Lösungen anerkannt werden können und insofern eine vorgreifende Strukturierung des Lösungsprozesses. System Anknüpfung für → 342/3 .
+Vgl. hierzu die Darstellung von Reitman 1964 → B541, die immer wieder darauf zurückkommt, dass die "attributes of the problem constraints on problem solution (constraints on problem solving)" darstellen. Siehe insb. S. 291f. → B541
+Bemerkenswert folgende Einzelheiten: 1.) Auch die Problemstellung selbst unterliegt solchen constraints, nämlich denen der Ursprungsprobleme, aus denen die Problemstellung abgeleitet wird. S. 283 → B541: "A good portion of the discussion concerns the constraints imposed on the current problem by those from which it derives."
+→ 21/3a1k25a

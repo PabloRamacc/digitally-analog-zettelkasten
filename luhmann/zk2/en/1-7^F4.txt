@@ -1,0 +1,3 @@
+s/f
+A peculiar difficulty is the sheer number of variables. When they are considered together, it takes particular courage to apply the ceteris paribus clause and to search for invariant relationships between specific variables.
+This raises the question of whether this theoretical framework is sufficient to reduce complexity in the way it claims to.

@@ -1,0 +1,3 @@
+s/f
+Observation must use a difference schema; the term is thereby defined.
+This simultaneously explains that every observation limits itself and therefore must tolerate other perspectives beside it.

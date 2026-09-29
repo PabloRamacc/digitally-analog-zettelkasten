@@ -1,0 +1,3 @@
+s/f
+Mit der Mehrheit möglicher Systemreferenzen hängt zusammen, dass konkrete Ereignisse nicht mit Hilfe von eindeutigen Qualitätsbezeichnungen begriffen werden können. __Alle__ Begriffe der Systemtheorie bezeichnen Funktionen, die konkrete Ereignisse erst innerhalb bestimmter Systeme gewinnen und die sie nur in Bezug auf diese Systeme besitzen. Es handelt sich mithin nie um "innere" Qualitäten ihrer selbst.
+Diese Systemrelativierung bleibt, wohl gemerkt, auf konkrete Ereignisse beschränkt. Sie schliesst die Bildung allgemeiner Begriffe für mehrere oder gar alle Systeme keineswegs aus. Sie besagt nicht etwa, dass für jedes System eine eigene Begriffssprache geschaffen werden müsse.

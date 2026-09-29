@@ -1,0 +1,3 @@
+s/f
+Consequently, every system must solve the problem of balancing tensions and absorbing loads (__stress absorption__). This formulates a functional reference problem that should serve as a starting point for numerous analyses. In particular, the idea of the plasticity and malleability of tensions can help bring into view functionally equivalent sub-problem formulations and thus functionally equivalent solution inequalities.
+The thought comes up in connection with Gore (1964), p. 45 → B144, using the formulations "stress absorption" and "tension-dissipating devices." See also → 32/3g8f.

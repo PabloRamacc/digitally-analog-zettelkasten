@@ -1,0 +1,3 @@
+s/f
+General considerations for a multi-level structure within the subject area itself: 1.) The operations at different levels each follow specific system/environment conditions. They cannot be reduced to one another. This means that the operations at one level cannot be predicted based on knowledge of other levels, but only based on knowledge of the environment specific to that level.
+→ 1/14b5a1

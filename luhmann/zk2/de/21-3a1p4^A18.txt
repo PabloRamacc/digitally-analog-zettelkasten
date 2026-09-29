@@ -1,0 +1,3 @@
+s/f
+Die Kennzeichnung eines Symboles als Generalisierung bedeutet ferner, __dass jeder aktuelle Symbolgebrauch selektiv__ sein muss, d.h. nur einen Ausschnitt der Möglichkeiten des Symbols aktualisiert. Vgl. auch → 21/3a1p4a ; → 352/10c .
+Dieser Gedanke ergibt die Möglichkeit, die Selektion als solche zum Thema zu machen und auf ihr Differenzierungsprinzip hin zu erforschen bzw. als Ausgangspunkt für eine Typenbildung zu benutzen.

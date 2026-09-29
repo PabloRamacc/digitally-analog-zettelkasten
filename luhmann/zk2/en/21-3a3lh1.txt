@@ -1,0 +1,5 @@
+s/f
+Abstraction includes self-reference when done consciously.
+"Consciousness of Abstraction" as a principle of General Semantics by Korzybski 1933, p. 412ff. → B971.
+Perhaps one could also say: abstraction includes self-reference in systems when it occurs for the system within a system.
+Despite all abstraction, what is crucial is __from what__ abstraction takes place.

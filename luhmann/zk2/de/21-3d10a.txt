@@ -1,0 +1,5 @@
+s/f
+zum definierenden Kriterium eines geschlossenen Systems gemacht werden, so dass es deren mindestens drei (aequivalente) gibt: Eindeutigkeit des Systemverlaufs, Umweltunabhängigkeit, Vollständigkeit von eindeutigen Wechselbeziehungen der Elemente.
+Im Begriff des determinierten oder geschlossenen Systems ist das ceteris paribus-Argument impliziert.
+Im Grunde gehört der Begriff nicht in die Systemtheorie, sondern in die Modelltheorie, denn es handelt sich nicht um eine Qualifikation konkreter Systeme, sondern um ein Moment ihrer rationalen Konstruktion.
+Daher besser bei → 25/4c weiterzubehandeln.

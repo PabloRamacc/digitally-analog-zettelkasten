@@ -1,0 +1,4 @@
+s/f
+Der Problembegriff muss im Verhältnis von gelösten und ungelösten Problemen etwas invariantes, identisch bleibendes garantieren. Es kann sich nicht alles ändern, wenn ein Problem gelöst wird.
+Die Invarianz besteht in der Kontingenz, im Erscheinen von Kontingenz an sei es wirklichen verwirklichten, sei es bloss möglichen Problemlösungen.
+Die Formulierung des Problembegriffs erfordert also eine doppelstufige Modalisierung.

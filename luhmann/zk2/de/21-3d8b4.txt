@@ -1,0 +1,5 @@
+s/f
+Einzelgesichtspunkte für eine Klärung des Problems struktureller Kompatibilitäten: 1.) Strukturelle Differenzierung und Bildung von relativ unabhängigen Teilsystemen (Limitierung von Interdependenz erhöht strukturelle Kompatibilität);
+2.) funktionale Aequivalenz – = unschädliche Substitutionsmöglichkeiten;
+3.) Differenzierung / Generalisierung / Respezifikation;
+4.) evolutionary universals – oder entsprechende komplexitätssteigernde Reduktionen.

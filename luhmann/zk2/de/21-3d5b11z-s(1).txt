@@ -1,0 +1,3 @@
+s/f
+In höher differenzierten Systemen treten Bedingungen der Kompatibilität der Teilsysteme an die Stelle von konkreteren Constraints des Gesamtsystems. M.a.W.: Die Constraints des Gesamtsystems nehmen die Form von Kompatibilitätsbedingungen bzw. von Mutualität der Interchanges an.
+Parsons 1969, S. 493 → B1368 in Bezug auf Polity: "Generally, the most fully differentiated system is to be regarded as that in which all three of the principal interchange systems are realtively 'free' from constraints other than the mutuality of the functional 'interests' of the polity on the one hand, each of the other primary functional subsystems on the other."

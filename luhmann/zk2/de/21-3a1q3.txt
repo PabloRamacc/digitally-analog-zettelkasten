@@ -1,0 +1,2 @@
+s/f
+Problem / Problemlösung als eine __Unterscheidung__, mit der eine Methodologie begründet wird; enthält auch die Möglichkeit des re-entry, denn die Problemlösung ist das Problem.

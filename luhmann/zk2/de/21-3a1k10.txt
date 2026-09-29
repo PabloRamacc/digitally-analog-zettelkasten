@@ -1,0 +1,4 @@
+s/f
+Handlungen funktional-aequivalent. Jede Feststellung von Unterschieden setzt andere Gesichtspunkte voraus, jede Feststellung von dysfunktionalen Folgen andere Bezugsprobleme.
+Logisch ist ein solcher Theorieansatz also unvollkommen. Er formuliert nicht sämtliche Prämissen. Das könnte hingenommen werden mit der Begründung, dass es sich ohnehin nicht um ein hypothetisch-deduktives System handelt.
+Wesentlich ist jedoch ein zweiter Gedanke. Die aufgewiesene Problematik der Unvollständigkeit ist vielleicht nur auf dem Boden einer Aktionswissenschaft unlösbar, die die kausale Interpretation des Handelns zum letzten Bezugsschema macht und die Stabilisierung eines Systems wiederholter Handlungen zum Bezugsproblem macht.

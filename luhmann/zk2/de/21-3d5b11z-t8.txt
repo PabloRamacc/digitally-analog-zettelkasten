@@ -1,0 +1,3 @@
+s/f
+Das Modell der Systemreferenzen lässt sich komplizierter darstellen, wenn man berücksichtigt, dass __jede__ dieser drei Systemreferenzen zur Relationierung der anderen benutzt werden kann. Da auch die anderen jeweils schon Relationen sind, handelt es sich um ein in sich selbst rückbezogenes Verfahren der Relationierung von Relationen. → 21/3d29d
+Beispiel: Unter dem Gesichtspunkt der Funktion kann man die Reflexionsrelation zu sich selbst begrenzen und umgekehrt.

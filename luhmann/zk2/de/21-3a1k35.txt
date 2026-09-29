@@ -1,0 +1,2 @@
+s/f
+Das Problem der funktionalen Analyse ist das Identischhalten (bzw. kontrollierte Variieren) der Bezugsprobleme. Was bestimmt die Identität eines Problems?

@@ -1,0 +1,3 @@
+s/f
+Abgrenzung gegen den Begriff der operativen Geschlossenheit
+Von Autonomie könnte man insofern sprechen, als __Strukturen__ des Systems __ausschließlich__ durch Operationen des Systems produziert und benutzt (erinnert, vergessen) werden können.

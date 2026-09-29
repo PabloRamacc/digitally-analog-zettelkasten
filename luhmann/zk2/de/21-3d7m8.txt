@@ -1,0 +1,3 @@
+s/f
+Der Grundgedanke der System/Umwelt- Theorie ist, dass bei einer gegebenen Differenz von System und Umwelt selbst unter relativ einfachen Bedingungen Komplexität aufgebaut wird dadurch, dass das System sich mit der Umwelt auseinandersetzt. → 21/3d7m8,1 Dazu grundsätzlich Simon 1969 → B1448. Man kann diesen Gedanken auch formulieren als Theorie artifizieller oder kontingenter Komplexität. Dazu → 21/3d18c24f6 .
+Auf diese Weise kommt zugleich eine genetische bzw. historische Perspektive zum Zuge. Nur genetisch kann hohe Komplexität aus einfachen → 21/3d7m9

@@ -1,0 +1,3 @@
+s/f
+Problem formal zu definieren als __spezifizierbare Disjunktion__.
+Das war früher: der Begriff der Gattung. Sind Probleme temporalisierte Gattungsbegriffe? Porphyrius, Isagoge, Kap III, §16 → B551

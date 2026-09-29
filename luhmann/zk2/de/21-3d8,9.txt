@@ -1,0 +1,2 @@
+s/f
+→ 21/3d8 Eine Systemverschachtelung liegt immer dann vor, wenn eine Handlung in mehreren Systemen eine Funktion erfüllt, also mehrere Systeme an der Handlung interessiert sind.

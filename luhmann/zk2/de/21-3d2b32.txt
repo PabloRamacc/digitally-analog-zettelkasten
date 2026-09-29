@@ -1,0 +1,4 @@
+s/f
+Begriff und Analyse von Interdependenz muss auf das Relationierungsmodell der Komplexität umgestellt werden; vgl. → 21/3d18c60 .
+Der Begriff der Interdependenz bezieht sich nicht auf 'Teile' und nicht auf 'Elemente' (Ereignisse), sondern auf __Relationen__.
+Damit kann man zugleich deutlich machen, dass Systeme mit absoluter Interdependenz ebenso wie absolut interdependenzlose Systeme ausgeschlossen sind.

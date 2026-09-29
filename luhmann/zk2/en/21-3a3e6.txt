@@ -1,0 +1,3 @@
+s/f
+→ 21/3a3e One can also formulate it as follows: In a determined system, precise restoration mechanisms are constructible that compensate for certain types of environmental changes from which the system itself depends. Environment and mechanism are therefore conceived as variable within certain limits, defined by the problem of system existence. To this extent, the concept of equivalence plays a role here. See also → 21/6b2 ; → 21/3,3e - → 21/3,3f.
+A determined system is given when for every "disturbing" environmental change in itself there exists one and __only one__ "correct", i.e., system-preserving compensation by the mechanism – this compensation can naturally consist of a series of steps, simultaneous changes of various variables, or sequential ones. → 21/3a3e7

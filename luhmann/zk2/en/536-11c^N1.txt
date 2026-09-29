@@ -1,0 +1,4 @@
+s/f
+Thematic focus enables simplification through a serial arrangement—that is, by arranging system events in a sequential order.
+Just one thing at a time, and all differences are brought into a sequence.
+Costs: low complexity and high time consumption.

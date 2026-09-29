@@ -1,0 +1,5 @@
+s/f
+__Interaction Theory / Formal Organization__ → 536/9,1
+It should be noted that interaction theory is a strong—and arguably the most important—alternative theory of formal organization to the one in → 532/4e . It does not start from the distinction between formal and informal organization, nor from the concept of behavioral expectations, but rather from actual behavior in interactions; it can therefore be applied __directly__ to formally organized behavior.
+The question, of course, is: What are the limiting criteria
+One variant (Homans, W.F. Whyte) tends toward fairly simple basic models, while another (Chapple, Sayles) focuses on quantification, which is also based on highly simplifying assumptions. → 536/9,2 A typical feature of interaction theory of this kind is that it treats the phenomenon of self-regulation in social life → 536/9a

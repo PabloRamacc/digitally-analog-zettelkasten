@@ -1,0 +1,3 @@
+s/f
+to consider a conflict resolution strategy with __playbacks__.
+Behavior during conflict is recorded and replayed to the participants so that they can observe themselves in their behavior toward others.

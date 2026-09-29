@@ -1,0 +1,2 @@
+s/f
+is achieved by switching from positive to negative causality: the "if-then" is transformed into a "then-if not," thereby opening up an advantage. {1}

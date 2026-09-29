@@ -1,0 +1,4 @@
+s/f
+__Methodologie der Problemorientierung__ → 21/3a1qa ; → 21/3a1qb
+Alternative zur üblichen Weise der Kausalerklärung durch Einführung einer falschen Annahme ceteris paribus.
+Kausalität wird nicht bestritten, aber Kausalerklärungen können nur gewonnen werden durch __Einschränkung__ der Verfügbarkeit von funktional aequivalenten Alternativen, d.h. methodologisch zunächst: durch Vergleich.

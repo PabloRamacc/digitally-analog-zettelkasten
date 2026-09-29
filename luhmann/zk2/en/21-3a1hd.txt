@@ -1,0 +1,4 @@
+s/f
+__in R__; and the function, relative to R, of an __item i in s__ consists in i's effecting the satisfaction of __some such functional requirement__.
+For a similar specification of the reference term in functional analysis, Hempel (p. 296) → B258, besides Nagel → B252, also cites Marion J. Levy, The Structure of Society, p. 76ff. → B328 and G. Sommerhoff, Analytical Biology, New York[*] 1950. → B384 See also → 21/3a3e1 - → 21/3a3e4.
+In a similar sense Blalock (p. 90 → B385) demands that when making statements about the equilibrium of a system (in an unspecified further sense: that "something" remains unchanged), it must always be specified with respect to which variable a system is in equilibrium. Similarly Hall-Fagen, p. 23 → B386 for stability. → 21/3a1he

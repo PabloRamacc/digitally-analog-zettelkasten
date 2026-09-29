@@ -1,0 +1,5 @@
+s/f
+Problem of the statistical relationship between levels:
+Higher levels can become relevant due to clusters of events or through non-normally additive circuits or similar threshold devices.
+If the relationship between the levels is controlled solely by statistical means, __time__ becomes particularly relevant. The question then is: 1.) how often within certain time periods, or
+2.) what is still present at specific points in time

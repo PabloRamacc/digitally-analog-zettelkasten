@@ -1,0 +1,3 @@
+s/f
+not the case the sign is a signal, and the sign-process is a signal-process. More succinctly, a symbol is a sign produced by its interpreter which acts as a substitute for some other sign with which it is synonymous; all signs not symbols are signals. The advantage of such symbols is found in the fact that they may occur in the absence of signals provided by the environment; an action or state of the interpreter itself becomes (or produces) a sign guiding behavior with respect to the environment. […] The relative independence of such signs from signals provided by the environment has, however, as its reverse pole certain disadvantages: symbols are especially unreliable."
+Zum sign-Begriff vgl. → 21/3a1pc10c .

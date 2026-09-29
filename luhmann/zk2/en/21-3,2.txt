@@ -1,0 +1,2 @@
+s/f
+→ 21/3 __On Terminology__: Empirical models and systems are not reference points in the strict sense; with regard to them, no functional equivalences can yet be determined. They may perhaps generally be termed as __systems__ (which are functionally analyzed or constructed). In models, variables serve as functional reference points in the strict sense, while in empirical systems it is the stock prerequisites that do so.

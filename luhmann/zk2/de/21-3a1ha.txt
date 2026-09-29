@@ -1,0 +1,4 @@
+s/f
+→ 21/3a1h S. 272 → B252:
+"(i) A given item will in general be an element in several systems. Suppose that an item belongs to the three systems S1, S2, S3, where the first is a part of the second, the second a part of the third, and G1, G2 and G3 are G's in them respectively. Assume that the item is causally relevant to G1 and G2, but not to G3, and that it is represented by the co-ordinate 'A'. Then a change in A will be nonfunctional with respect to G3; but it may be functional in relation to both G1 and G2, dysfunctional in relation to both, or functional relative to one and dysfunctional relative to the other.
+(ii) A given item may be an element in a system S1, which is part of the environment of another system S2. → 21/3a1hb

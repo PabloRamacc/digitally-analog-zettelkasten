@@ -1,0 +1,3 @@
+s/f
+Als Operation sagt die Selbstbeschreibung notwendigerweise etwas über sich selbst aus, da sie sich ihrem Gegenstand einordnet.
+Kann man das als "indexical expression" bezeichnen? Oder als performative utterance (Austin) oder als speech act (Searle)?

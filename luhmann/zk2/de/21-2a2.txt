@@ -1,0 +1,2 @@
+s/f
+funktional-aequivalenten Verbindungsmöglichkeiten. Alle Werte von y sind insofern funktional-aequivalent, als sie durch die Einsatzwerte der Variable x determiniert werden können. Die Besonderheit der mathematischen Funktion liegt also darin, __dass die Determinierbarkeit zum Prinzip der Aequivalentsetzung gemacht wird__. Die eindeutige Determinierung von Einsatzwerten schliesst also die – stets mehrdeutige – Aequivalenz nicht aus, sondern konstituiert sie gerade.

@@ -1,0 +1,4 @@
+s/f
+In der Funktionsrichtung wird das Gesamtsystem als __Einheit__ anvisiert, in der Leistungsrichtung dagegen als __Komplexität__.
+Dieser Unterschied hat vermutlich weittragende Folgen. Komplexität der Umwelt ist systemintern schwieriger auf ein generalisiertes Konzept zu bringen als Einheit des Gesamtsystems. Es fehlt nicht für Funktion, wohl aber für Leistung an übergreifenden Aussagemöglichkeiten.
+Daraus ergibt sich 1.) der Leistungsbereich lässt sich weniger → 21/3d5b11z/t12a

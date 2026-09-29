@@ -1,0 +1,4 @@
+s/f
+→ 21/3 Vielleicht kann generell gesagt werden, dass Entscheidungsmodelle sich auf Erwartungen, Systeme dagegen auf Handlungen erstrecken.
+Nicht Handlungen, wohl aber Erwartungen können im Modellsinne abstrakt sein.
+Daraus, dass Handlungen an Erwartungen orientiert werden, ergibt sich dann zugleich der Zusammenhang von System und Modell.

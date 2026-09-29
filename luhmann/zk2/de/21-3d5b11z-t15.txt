@@ -1,0 +1,3 @@
+s/f
+Die Unterscheidung von Funktion / Leistung und Reflexion kann benutzt werden, um das allgemeine Verhältnis von __Generalisierung und Respezifikation__ zu artikulieren; vgl. → 21/3d5b11d8d .[*]
+Die Funktion selbst wird abstrakt formuliert. Sie ist weder logisch-deduktiv noch hermeneutisch respezifizierbar. Man kann nicht inhärente Limitationen in sie hineininterpretieren und dann interpretativ wieder herausholen. Das heißt: Das Respezifikationsproblem kann erst zureichend (nichthermeneutisch) gelöst → 21/3d5b11z/t15a

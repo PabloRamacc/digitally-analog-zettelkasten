@@ -1,0 +1,4 @@
+s/f
+Solving requirements leads to the conclusion that such a system must be internally differentiated into subsystems through which life is sustained by the performance of multiple subsystems. Analysis within subsystems is thus an inevitable consequence from 1.) the application of functional systems analysis as a fundamental methodological tool;
+2.) the choice of stock problems as a functional reference point; and
+3.) the insight that in every system, several functional problems must be solved.

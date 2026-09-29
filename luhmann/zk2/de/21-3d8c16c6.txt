@@ -1,0 +1,2 @@
+s/f
+Knappheitsprobleme entstehen in Bezug auf die Lösung eines Verteilungsproblems, hängen also davon ab, dass überhaupt systeminterne Verteilungsprobleme anfallen. Über die Verteilungstheorie ergibt sich ein Zusammenhang mit der Theorie sozialer Differenzierung; vgl. → 7/21a .

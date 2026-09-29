@@ -1,0 +1,3 @@
+s/f
+Distinction between concrete system and analytical system → 21/3d5b7,1; → 21/3d5b7,2 in The Structure of Social Action, p. 35, 731f. → B1229 is not entirely clear, since it should be an interpretation "in terms of the action frame of reference" in every case. However, there is no interpretation of concreta "in terms of". One can at best distinguish various levels of abstraction.
+One probably comes closest to the concept of concrete system if one understands it as a system of concrete units, i.e., the last graspable units within the sense-relation of action theory – and all these units; in contrast to the analytical system, which orders these units again under an abstracting perspective.

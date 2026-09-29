@@ -1,0 +1,2 @@
+s/f
+__Interaction__ can __be defined__, in contrast to other types of relationships (e.g., purely logical, classificatory, comparative, statistical), as relationships that are subject to the problem of __double contingency__.

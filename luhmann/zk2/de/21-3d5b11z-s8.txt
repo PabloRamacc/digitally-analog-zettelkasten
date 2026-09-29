@@ -1,0 +1,3 @@
+s/f
+Koordination über Input und Output kostet viel Zeit. Sie wird daher undurchführbar, wenn die Prozesse selbst zu viel Zeit kosten, so dass die Umwelt währenddessen nicht konstant bleibt.
+Das betrifft einerseits den Erziehungsprozess, andererseits Prozesse der __Strukturänderung__ in Systemen, die auf der Prozessebene schon über Input / Output koordiniert werden, aber auf der Strukturebene noch aggregiert werden müssen. Beispiel: Rechtssystem und Rechtsdogmatik.

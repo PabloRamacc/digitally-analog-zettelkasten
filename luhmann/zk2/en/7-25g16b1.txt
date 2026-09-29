@@ -1,0 +1,4 @@
+s/f
+Distinguishing between school and college depending on whether the client’s role is treated as that of a student (i.e., a minor) or a college student (i.e., an adult).
+This means that the dividing line must be blurred or shifted when the client’s age status becomes unclear.
+This depends not least on the student’s other roles.

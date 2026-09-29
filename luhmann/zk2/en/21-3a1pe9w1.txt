@@ -1,0 +1,3 @@
+s/f
+make necessary.
+When one places a value for acceptance or rejection, it is no longer a value but rather a preference. (this consideration forces us to distinguish more strongly than before between values and preferences)

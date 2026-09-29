@@ -1,0 +1,2 @@
+s/f
+Wenn man Interdependenz als Variable behandeln will, setzt das im Grunde voraus, dass der Systembegriff anders definiert wird – und zwar durch __Grenzen__ (relative Invarianz).

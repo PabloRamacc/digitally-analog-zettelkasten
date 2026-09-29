@@ -1,0 +1,5 @@
+s/f
+8.) Nur durch Analyse höherer Systemebenen kann man erklären, __wo__ Probleme auf unteren Systemebenen vorkommen.
+Das heisst: höhere Systeme __kontextieren__ untere Systeme.
+Sie sorgen für Konkretion in der Vielfalt, für geordnete Komplexität dadurch, dass sie abstrakter sind.
+Beispiel: Das Gesetz des freien Falls erklärt, welche Fragen man stellen muss, um das System zu finden, das man kennen muss, wenn man erklären will, wie Körper wirklich fallen.

@@ -1,0 +1,3 @@
+s/f
+Für die Annahme einer System/Subsystem-Beziehung wird man grundsätzlich fordern müssen, dass das System die Umwelt des Subsystems definiert, derart, dass die adaptiven Probleme des Subsystems mit den Funktionen zusammenfallen, die es im System zu erfüllen hat.
+Das ist z.B. eine stillschweigende Vermutung bei Vallier → B1664.

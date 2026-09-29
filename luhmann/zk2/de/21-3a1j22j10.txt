@@ -1,0 +1,5 @@
+s/f
+Jede Beobachtung ist eine Operation und ist als Operation __mit Bezug auf deren Referenz naiv__.
+Das ist nur eine andere Formulierung für die Theorie des blinden Flecks.
+Daraus folgt, dass alle Beobachtungen, auch die Beobachtung von Beobachtern, unter __diesem__ Gesichtspunkt __gleich__gestellt sind. Es gibt insofern keine __Reflexivitätshierarchie__ mit zunehmender Distanz zur Realität zunehmender Medialisierung der Realitätsverhältnisse.
+Siehe dazu die, allerdings radikalere, Kritik solcher Vorstellungen bei Latour 1988, S. 168f. → B479

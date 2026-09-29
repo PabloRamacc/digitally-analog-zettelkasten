@@ -1,0 +1,4 @@
+s/f
+Allgemeine Überlegungen zu Wachstumsproblemen
+Mit dem Freisetzen des Operierens von Funktionssystemen entsteht in den Funktionssystemen hohe Eigenkomplexität, die das weitere Verbessern der Funktionserfüllung immer stärker limitiert. Zunehmende Kosten ist nur ein sekundärer Ausdruck dieses Sachverhalts.
+Vgl. Reschers These einer "logarithmic retardation" mit ähnlicher, aber wissenschaftsspezifischer Begründung: Rescher 1978 → B1336

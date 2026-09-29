@@ -1,0 +1,2 @@
+s/f
+Differenzierung allgemein (Systemdifferenzierung!) als Entlastung von Synchronisierungsanforderungen. Deshalb: Konstitution unterschiedlicher Zeiten, deshalb Generalisierung und Abstraktion der Zeithorizonte.

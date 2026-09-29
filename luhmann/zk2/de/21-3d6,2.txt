@@ -1,0 +1,4 @@
+s/f
+Auch __Hagen → B338__ benutzt die Unterscheidung von Statik und Dynamik; zu seinem Begriff eines statischen Gleichgewichts, wozu er auch bewegliche Gleichgewichte (moving equilibrium) mit sich ändernden Parametern rechnet, vgl. namentlich → 25/1,4 ; → 25/1oa .
+Unter dynamischer Analyse versteht er die Verfolgung des Weges, in dem die Änderung von Parametern im System aufgefangen wird – wobei vorausgesetzt wird, dass das System dafür einen gewissen – oft sehr langen Zeitraum benötigt.
+Vgl. S. 147 → B338: "In contrast to comparative statics [d.h. blosses Nebeneinanderstellen der Gleichgewichtsmöglichkeiten für verschiedene Parameter (dazu → 25/1oa ff.)], analysis may be made of the __path of change__ → 21/3d6,2a

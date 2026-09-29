@@ -1,0 +1,5 @@
+s/f
+Wichtig ist eine Klarstellung der Systemreferenz:
+Die Abweichung bezieht sich auf systemeigene Normen, nicht auf die Normen externer oder umfassender Systeme.
+Einfache Systeme können sehr tolerant sein gegenüber dem Bruch von Umweltnormen, diesen oft geradezu fordern, und doch sehr strikt in Bezug auf eigene Normen.
+Lockerheit in __beiden__ Richtungen wird aus Bars berichtet; vgl. Cavan 1966, S. 67ff. → B1477 Dies scheint vor allem deshalb möglich zu sein, weil das System als folgenlos ausdifferenziert ist.

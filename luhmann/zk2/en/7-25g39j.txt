@@ -1,0 +1,4 @@
+s/f
+Exams are based on __conditional programs__. They take the form: __If__ a certain level of performance is demonstrated, a corresponding certificate is awarded.
+The condition is behavior demonstrated during the exam itself; the program outcome triggered by this is the awarding of a certificate.
+These conditional programs are substituted for goal-oriented programs wherever goals cannot be sufficiently specified. The educational system then finds its rigid framework in an examination system that, it is hoped, educates as a side effect.

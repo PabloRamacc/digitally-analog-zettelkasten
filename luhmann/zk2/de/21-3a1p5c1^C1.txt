@@ -1,0 +1,4 @@
+s/f
+__der Konsistenzanforderung__: __Ausserhalb__ der Region sind andere Erscheinungen und Identifikationen möglich, jedenfalls wenn die Region kommunikativ abgedichtet werden kann; innerhalb der Region muss eine einheitlich- konsistente Schau gegeben werden, oder der Gesamteindruck wird diskreditiert.
+Im Einzelnen unterscheidet Goffman , S. 66ff. → B739 (S. 106 → B814)[*] → B814 neben der neutralen Aussenwelt, die einfach irrelevant ist, __front region__ und __backstage__. Front region ist der Platz der Schau, der Platz, wo die Identität dargestellt, behauptet, vor das Publikum gebracht wird. Backstage ist der normalerweise unzugängliche Bereich, wo alle bestandsnotwendigen Handlungen stattfinden (einschliesslich Vorbereitung und Erholung), die inkonsistent sind und deshalb nicht gezeigt werden.
+Diese Unterscheidung macht deutlich, dass in den regionalen Grenzen der Identifikationsdarstellung zugleich praktische Möglichkeiten des Umgangs mit Widersprüchen liegen.

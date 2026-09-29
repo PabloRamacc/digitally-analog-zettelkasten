@@ -1,0 +1,3 @@
+s/f
+The overarching system can affect both the __selection area__ of the environment for its subsystems and the __selection criteria__ of these subsystems. Its own criterion concerns the __relationship__ between __selection area__ and __selection criterion__ within itself.
+The overall system may enable subsystems to select under __more__ possibilities in a __stricter__ (not arbitrary) manner when it simultaneously acts on systems as environments for other systems and on systems as selectors. Herein lie at the same time starting points for a → 21/3d5b11w5a

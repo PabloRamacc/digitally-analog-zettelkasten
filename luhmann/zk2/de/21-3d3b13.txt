@@ -1,0 +1,3 @@
+s/f
+Fragestellung: __in bezug auf welche Systemvariablen (Strukturmerkmale) besteht in einem System Autonomie?__
+Zum Beispiel: in bezug auf die Status-Festlegung?

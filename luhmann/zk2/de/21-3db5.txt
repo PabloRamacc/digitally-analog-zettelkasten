@@ -1,0 +1,5 @@
+s/f
+[*]
+Systembegriff
+__Def__ Ackoff - Emery 1972, S. 18 → B1002: "a set of interrelated elements, each of which is related directly or indirectly to every other element, and no subset of it[*] is unrelated to any other subset."
+__Kritik__: Diese Definition schließt die Umwelt nicht aus, sondern ein, da auch sie Beziehungen zum System unterhält.

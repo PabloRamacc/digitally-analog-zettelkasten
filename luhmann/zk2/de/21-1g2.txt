@@ -1,0 +1,4 @@
+s/f
+__Vorurteile__:
+Der Nachweis, dass funktionale Analyse ohne inhärenten konservativen bias wirken, ist nach Van Parijs 1981, S. 217ff. → B330 zu ihrer Legitimation notwendig.
+Es fehlt das gleiche Argument gegen progressive bias.

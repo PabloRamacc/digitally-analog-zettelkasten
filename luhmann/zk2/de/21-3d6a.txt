@@ -1,0 +1,2 @@
+s/f
+Dynamik und Statik gelten als sich ergänzende und damit vollständige Formen der Systemanalyse. Das heisst: eine Analyse muss entweder statisch oder dynamisch geführt werden. Vgl. z.B. Hagen, S. 149 → B338: "the only possible states of a system are equilibrium and dynamic."

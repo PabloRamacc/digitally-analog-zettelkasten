@@ -1,0 +1,3 @@
+s/f
+Beobachtungen.
+Eine durch wahr/unwahr-Beobachtung kontrollierte Beobachtung soll __Erkennen__ heißen. Siehe → 7/25a82 .

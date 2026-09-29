@@ -1,0 +1,4 @@
+s/f
+In the functional direction, the total system is viewed as a __unit__, whereas in the performance direction it is seen as __complexity__.
+This difference presumably has far-reaching consequences. The complexity of the environment is more difficult to bring into a generalized concept internally within the system than unity of the total system. There are not lacking possibilities for statement regarding function, but rather performance across overarching domains.
+This results in 1.) the performance area can be lessened → 21/3d5b11z/t12a

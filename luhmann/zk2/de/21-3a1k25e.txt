@@ -1,0 +1,4 @@
+s/f
+that the attributes of the one are interpreted as constraints on the attributes of the other."
+6.) Das Vorgehen bei der Problemlösung kann vereinfacht werden, indem man vorübergehend gewisse Lösungen Constraints vernachlässigt, ignoriert, oder gar Lösungsversuche ganz "out of context" entwickelt und sie __danach__ in den Zusammenhang einzufügen sucht mit einzelnen Modifikationen an den constraints oder an den Lösungen (S. 306ff. → B541).
+Vgl. zu all dem ausführlicher Reitman 1965 → B515.

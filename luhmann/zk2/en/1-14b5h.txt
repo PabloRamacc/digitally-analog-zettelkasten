@@ -1,0 +1,5 @@
+s/f
+8.) Only by analyzing higher levels of the system can one explain __where__ problems occur at lower levels of the system.
+This means that higher-level systems __provide context for__ lower-level systems.
+They provide concreteness within diversity and ordered complexity precisely because they are more abstract.
+Example: The law of free fall explains what questions one must ask to identify the system one needs to understand in order to explain how objects actually fall.

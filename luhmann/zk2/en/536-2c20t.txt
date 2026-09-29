@@ -1,0 +1,5 @@
+s/f
+Basic structure of a discussion system: __separation of topic and contributions.__
+This is what makes the following possible: a.) neutralizing the question of truth;
+b.) Neutralizing personal references, __objective__ discussion in the sense of neutralizing the sources of the contributions.
+The separation of topic and contributions can be understood according to the schema of differentiation, generalization, and respecification. The __differentiation__ of the question of truth into true or false statements requires a __generalization__ of topics, which must then be __respecified__ by contributions.

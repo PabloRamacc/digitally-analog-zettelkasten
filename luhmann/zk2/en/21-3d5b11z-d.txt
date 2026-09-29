@@ -1,0 +1,2 @@
+s/f
+Treating subsystems as systems is also necessary because otherwise the concept of complexity differentiation cannot be operationalized.

@@ -1,0 +1,4 @@
+s/f
+Werte sind eine hochabstrakte Form der sachlichen Generalisierung von Verhaltenserwartungen (vgl. → 21/3d14g1 ) und insofern von besonderer Bedeutung für die __Integration von Systemen__.
+Festlegung auf Werte ist mit einer hochgradigen Vereinzelung und Nichtfestlegung (Delegation) von Entscheidungen zu vereinbaren und deshalb ein auch für __sehr komplexe Systeme geeigneter Integrationsmodus__.
+In phänomenologische Sprache übersetzt, könnte man Werte auch als sehr weit offene Verweisungen bezeichnen. Sie verweisen auf Entscheidungen, die unbestimmt aber bestimmbar sind, sobald Werte auf Situationen bezogen werden. Eine Wertordnung dient als __allgemeinste Herstellung eines Zusammenhanges horizonthafter → 21/3a1pe9k1__

@@ -1,0 +1,4 @@
+s/f
+Thematische Konzentration ermöglicht Vereinfachung durch ein serielles Arrangement, durch serielle Ordnung der Systemereignisse.
+Nur eines auf einmal, und alle Verschiedenheiten werden in ein Nacheinander gebracht.
+Kosten: geringe Komplexität und hoher Zeitverbrauch.

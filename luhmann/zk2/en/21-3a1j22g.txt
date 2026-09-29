@@ -1,0 +1,4 @@
+s/f
+__Observation / Model / System__ → 21/3a1j22ga
+The observation of a system can (must?) be carried out with the aid of a model of a system. Only in this way, at any rate, is the transition from observation to description possible.
+This has far-reaching epistemological consequences. See also the critique of Cartesian epistemology by Le Moigne → B199.

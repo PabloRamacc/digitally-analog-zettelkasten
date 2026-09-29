@@ -1,0 +1,4 @@
+s/f
+→ 536/11cP A fundamental question is whether we should expect only exogenous variations or also endogenous ones.
+The question is framed incorrectly, since in all variations, __both__ the system __and__ the environment are causal factors.
+Consequently, only attribution problems can arise.

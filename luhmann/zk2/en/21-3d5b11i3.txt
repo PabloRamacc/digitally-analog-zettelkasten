@@ -1,0 +1,2 @@
+s/f
+See also → 21/3d5b11da, where the representation of dependent or independent variables is somewhat different: if an attempt is made at functional differentiation (specification), one must refer to a system of higher order (i.e., create System/Subsystem orders in which the specified functions have meaning). This line of thought clarifies the connection between specification and functional differentiation.

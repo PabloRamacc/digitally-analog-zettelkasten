@@ -1,0 +1,7 @@
+s/f
+__Geschlossenes = determiniertes System__ → 21/3d10(R) ; → 21/3d10,1
+Es ist wichtig, dass __Determiniertheit des Systemverlaufs dasselbe besagt wie Umweltabhängikeit__. → 21/3d10,1 Man kann also die Determiniertheit eines Systems durch seine Umweltunabhängigkeit definieren. Dabei ist vorausgesetzt, dass ein System ohne Umwelteinwirkung nur je __eine__ Möglichkeit der Weiterentwicklung bzw. des Fortbestehens hat. Es kommt dann auch nicht darauf an, wie das System in den Anfangszustand gelangt ist. Vgl. auch → 25/4c .
+Es ist zu beachten, dass die Determiniertheit des Systemverlaufs (nur je __eine__ Änderungsmöglichkeit) zugleich impliziert, dass jedes Element eindeutige Beziehungen zu jedem einzelnen anderen Element hat in dem Sinne, dass – wenn sein Zustand geändert wird – voraussagbar ist, wie dann der Zustand eines jeden anderen Elementes sein wird. Auch dies kann → 21/3d10a
+=== reverso ===
+→ 21/3d10 Lit und Hinweise:
+Hall - Fagen, Definition of System, General Systems 1 (1956), S. 18-28, S. 25ff. → B386 Le Moigne, La théorie du système général, Paris 1977, S. 66ff. → B199

@@ -1,0 +1,5 @@
+s/f
+Vergleich mit Computern, die sehr typisch sind für ein solches serielles Arrangement; es auch von sich aus nicht ändern können.
+Vgl. die Bemerkung von Reitman 1965, S. 197f. → B515 zum GPS[*] von Newell-Simon → B1950:
+"To say that GPS is __serial__ means that at any time there is only [S. 198] one active process and, consequently, only one source of change in the system at that time. Any process activated is guaranteed that while __it__ is operating __nothing__ anywhere else in the system changes except insofar as __it__ makes the change directly or else calls upon some other routine to do so …."
+Reitman → B515 selbst versucht, um Bewusstseinsprozesse → 536/11cN3

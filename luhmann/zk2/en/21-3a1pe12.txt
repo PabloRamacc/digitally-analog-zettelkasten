@@ -1,0 +1,4 @@
+s/f
+The theory of expectation must initially be kept free from specific system references. In particular, it is to be assumed that __the function of expectation stabilization is relevant for every action system and__ – provisionally accepted as such – __is the central problem__. Of course, this functional formulation can at any time be restricted and refined by limiting itself to certain types of systems (e.g., social order, personality) or even narrower kinds of systems down to concrete ones.
+This is entirely compatible with examining the problem of expectation stabilization initially on the most general level, namely for action systems in general. If this possibility proves successful, it simultaneously serves as proof of the central position of the problem of expectations.
+See also → 21/3a1p5b .

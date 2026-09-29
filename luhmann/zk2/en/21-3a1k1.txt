@@ -1,0 +1,2 @@
+s/f
+__possible__. This means – among other things – that a problem does not disappear with a solution, but can be solved differently even after a solution has been implemented. Functional problems are permanent problems [rephrased: only permanent problems are suitable as functional reference points]; functional solutions are interchangeable.

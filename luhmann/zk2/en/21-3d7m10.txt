@@ -1,0 +1,2 @@
+s/f
+For the system, unchangeables of the environment are __parameters__; for the system, unchangeables of the system are __constraints__. → 21/3d7m10,1; → 21/3d7m10,2.

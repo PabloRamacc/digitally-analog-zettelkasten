@@ -1,0 +1,3 @@
+s/f
+More precise formulation: It must read: __Majority of system/environment references__.
+The problem does not simply lie in the fact that there is a plurality of systems from which one can choose as research objects; it lies not only in choosing and holding onto a topic. But with the choice of a system, environments also change, thereby changing complexity differences, thereby changing the relations between systems and environments that account for each respective gradient of complexity, and thereby changing reference problems for all functional statements.

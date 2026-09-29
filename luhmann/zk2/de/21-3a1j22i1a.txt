@@ -1,0 +1,6 @@
+s/f
+Der Beobachter ist eine Position, in der man Akzeptions- bzw. Rejektionsentscheidungen treffen kann (muß?).
+Wenn das zutrifft, hat das sehr weitreichende theoretische Folgen; vgl. → 21/3d18d59g8 .
+Vor allem Akzeption und Rejektion müssen asymmetrisch gehandhabt werden, da die angenommene bzw. abgelehnte Unterscheidung selbst nicht akzeptions- bzw. rejektionsfähig ist.
+Wie hängt dies mit latent / manifest als Beobachtungsschema zusammen?
+Wird die Rekursivität des Beobachtens → 21/3a1j22i1b

@@ -1,0 +1,3 @@
+s/f
+The starting point for the theory of differentiation is that it concerns a __increase in complexity__ of a system. To some extent, e.g., by Ashby, complexity and differentiation are simply equated. However, this refers only to a specific type of increase in complexity, namely an increase through subsystem formation.
+On this basis one could argue: functional differentiation is an increase in complexity, structural differentiation a reduction of this increased complexity (as indeed also Riggs 1966b, p. 250 → B1253), and the latter being possible only through the former.

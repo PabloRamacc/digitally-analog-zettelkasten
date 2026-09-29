@@ -1,0 +1,5 @@
+s/f
+The input/output concept is closely linked to the distinction between open and closed systems. → 21/3d7d3 (R)
+There are no systems without a relationship to the environment; therefore, closure cannot mean complete isolation. Closure rather means that the system is organized in such a way that it either does not react at all or reacts in an unequivocally fixed manner to changes in the environment. This alternative is the condition of unambiguity. A system could not be determined if it were not simultaneously exclusive and indifferent. It is this exclusivity and indifference that the __word__ closure has in mind, but they are important only as such a condition for unique determination, not per se.
+=== reverso ===
+Evaluation for politics/administration → 21/3d7d3→ 35/5i

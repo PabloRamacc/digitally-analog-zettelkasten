@@ -1,0 +1,2 @@
+s/f
+Die Invarianz des Systems lässt sich angesichts des notwendigen Verzichts auf eine spezifische Korrelation von input und output nur erreichen durch generalisierende Prozesse.

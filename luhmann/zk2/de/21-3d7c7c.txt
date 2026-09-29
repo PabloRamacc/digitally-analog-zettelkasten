@@ -1,0 +1,3 @@
+s/f
+Systemoffenheit als Variable muss mit anderen Variablen korreliert werden, insb mit 1.) Grad der Ausdifferenzierung;
+2.) Grad der Eigenkomplexität.

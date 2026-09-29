@@ -1,0 +1,4 @@
+s/f
+griffen full-function und null-function variabel ist, wie oft und unter welchen Bedingungen die part-functions konstant bleiben bzw. mitvariieren.
+Für die Bezeichnung der Grenze, bei deren Überschreitung die part-function nicht mehr konstant bleibt (isoliert), sondern mitvariiert, verwendet Ashby → B980 auch den __Schwellen__begriff (S. 163 → B980).
+Ashby → B980 scheint nicht vorauszusetzen, dass das Durchlassen der Wirkungen durch die part-functions für das Gesamtsystem funktional sinnvoll ist; es kann auch zu starke Störung, Zusammenbruch bedeuten, andererseits aber auch Problemmehrung, Aktivierung neuer Lösungsmöglichkeiten. Hier scheint ein wesentlicher Unterschied zur Theorie der Verbindungsstellen, selektiven Filter usw. zu liegen, die in vollem Umfange → 21/3d8g16

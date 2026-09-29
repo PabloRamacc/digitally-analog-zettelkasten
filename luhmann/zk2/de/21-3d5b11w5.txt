@@ -1,0 +1,3 @@
+s/f
+Das übergreifende System kann sowohl den __Selektionsbereich__ der Umwelt seiner Teilsysteme betreffen als auch die __Selektionskriterien__ dieser Teilsysteme. Sein __eigenes__ Kriterium betrifft das __Verhältnis__ von __Selektionsbereich__ und __Selektionskriterium__ in sich selbst.
+Das Gesamtsystem kann es ermöglichen, dass Teilsysteme unter __mehr__ Möglichkeiten __strenger__ (nicht – beliebiger) auswählen können, wenn es zugleich auf Systeme als Umwelt anderer Systeme und auf Systeme als Selektoren einwirkt. Hierin liegen zugleich Ansatzpunkte für eine → 21/3d5b11w5a

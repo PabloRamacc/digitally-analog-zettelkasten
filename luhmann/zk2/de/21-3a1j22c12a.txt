@@ -1,0 +1,4 @@
+s/f
+Die Mindestanforderung an die Regulierung ist die Fixierung einer __Differenz__, die aus der Menge der möglichen Zustände gute und schlechte diskriminiert.
+Vgl. das Modell bei Conant / Ashby, S. 90f. → B449 im Punkt Z.
+Die Regulierung selbst müsste nun aber gedacht werden als Teil der guten Zustände, die sie zu erreichen bzw. beizubehalten strebt.

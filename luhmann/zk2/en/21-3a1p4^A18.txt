@@ -1,0 +1,3 @@
+s/f
+Furthermore, marking a symbol as generalization also means that __each current use of the symbol must be selective__, i.e., it actualizes only an excerpt of the possibilities of the symbol. See also → 21/3a1p4a ; → 352/10c.
+This thought yields the possibility to make selection itself into a topic and to investigate its principle of differentiation or to use it as a starting point for typology formation.

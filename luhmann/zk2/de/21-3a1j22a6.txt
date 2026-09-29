@@ -1,0 +1,2 @@
+s/f
+Oft wird behauptet, der Begriff Komplexität habe nur relativ auf Beobachtung Sinn – so z.B. Rapoport 1973, S. 437 → B425: "'Complexity' refers to the number of features of the situation which must be taken into account in describing or understanding it." Dies bekommt einen mehr als nur subjetiv- oder analytischen Sinn, wenn Selbstbeobachtung einbezogen wird.

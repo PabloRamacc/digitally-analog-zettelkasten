@@ -1,0 +1,4 @@
+s/f
+The formation of episodes requires structures that make it possible to determine a beginning and an end.
+Mostly programs and strategies.
+There must be a way to select episodes; otherwise, there is no point in defining their temporal boundaries.

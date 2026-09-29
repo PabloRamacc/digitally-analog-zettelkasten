@@ -1,0 +1,6 @@
+s/f
+__Definitions__: See also → 44/2,6,1; → 21/11f.
+Herbst, S. 15 → B987: "A __system__ is defined as a boundary-maintaining set of interdependent elements."
+Herbst 1961, S. 71 → B988: "The term system is used to refer to a set of activity elements which (I) are interdependent with respect to their functioning and (II) operate as a boundary-maintaining unit."
+Bertalanffy 1950, S. 143 → B989: "A system can be defined as a complex of interacting elements P1, p2 … pn. Interaction means that the elements stand in a certain relation, R, so that their behaviour in R is different from their behavior in another Relation, R'."
+Bertalanffy 1949, S. 115 → B990: "We define [*] a number of interacting elements p1, p2 … pn characterized by quantitative mass Q1, Q2 … Qn." → 21/3db1

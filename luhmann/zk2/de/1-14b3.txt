@@ -1,0 +1,4 @@
+s/f
+Gibt es allgemeine Begriffsschemata für die Analyse von Systemen mit Differenzierung verschiedener Funktionsebenen? Zum Beispiel: 1.) Generalisierung – Indifferenz – kontrollierte Sensibilität; vgl. → 21/3d5b11d17 .
+2.) Differenzierung – Generalisierung – Respezifikation; vgl. → 21/3d5b11d8d .
+3.) Mehrheit von Ebenen – insb lebensweltlich in den Systemen konstituierte und wissenschaftlich konstituierte (lebensweltlich latente); vgl. → 25/7a .

@@ -1,0 +1,3 @@
+s/f
+to be able to simulate it better, at least by incorporating the ability to cause interference.
+See pp. 203ff. → B515 the Argus program described there, in which distractions are incorporated and regulated as much as possible (through priorities, indifference sets, etc.).

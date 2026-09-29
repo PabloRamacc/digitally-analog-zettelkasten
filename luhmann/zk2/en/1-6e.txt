@@ -1,0 +1,2 @@
+s/f
+The part-whole schema reduces the problem of system interconnections to the very one-sided approach of a nesting or system-subsystem model, thereby obscuring the system-environment issue, particularly the typical situation of partial overlap (involvement). The parts are __entirely__ __within__ the system, and conversely, there is __nothing__ in the system that is not a part of it.

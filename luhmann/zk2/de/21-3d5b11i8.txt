@@ -1,0 +1,3 @@
+s/f
+Funktionale Differenzierung bedeutet, daß das System das Richtmass seiner Aussenwirkungen (Output) nicht notwendig in sich selbst, sondern in seiner Funktion sucht (und dafür vergütet wird).
+Das ist der Grundgedanke der Parsons'schen Interchange Patterns. Damit werden, aufs Ganze gesehen, mehr Aussenwirkungen möglich, was wiederum intern ein höheres Organisationswissen voraussetzt.

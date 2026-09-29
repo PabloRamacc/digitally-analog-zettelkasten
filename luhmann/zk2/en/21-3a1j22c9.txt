@@ -1,0 +1,3 @@
+s/f
+In the context of self-observation, the __information-theoretic concept of complexity__ should be used: information about the missing information needed to fully grasp a system—a measure of ignorance or uncertainty; see Atlan → B417.
+A system can introduce its own complexity into itself only in this form or in the form of strongly simplified models.

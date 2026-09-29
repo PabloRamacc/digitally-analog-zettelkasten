@@ -1,0 +1,2 @@
+s/f
+Man kann versuchen, den Systembegriff methodisch-operativ zu klären. __System soll jeder Zusammenhang heissen, dessen Bestand problematisch und zum Gegenstand einer funktionalen Analyse gemacht werden kann.__ System ist einfach die Bezeichnung für die Mindestvoraussetzungen einer bestandsfunktionalen Analyse. Das ist natürlich nur eine formale oder operative Definition, keine inhaltliche Beschreibung. Aber sie enthält ziemlich klare Hinweise für die Ausarbeitung einer inhaltlichen Beschreibung. Vgl. auch → 532/1c .

@@ -1,0 +1,4 @@
+s/f
+Variablenmodelle dieser Art sind zumeist auf __statistische__ Methoden zugeschnitten.
+Siehe z.B. Blank 1965 → B97.
+Der Nachteil einer statistisch vergleichenden Methode scheint zu sein, dass sie auf einen Strukturvergleich – nicht auf einen funktionalen Vergleich, hinausläuft.

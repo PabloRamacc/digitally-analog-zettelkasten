@@ -1,0 +1,4 @@
+s/f
+Das Problem der Trennung von System und Bestandsvoraussetzungen hängt zusammen mit der Notwendigkeit __abstrakter__ Bezugsgesichtspunkte. In Relation auf konkrete Weltdinge gibt es natürlich keine Funktionen, weil zu jeder Funktion ein __offener__ (ergänzungsbedürftiger) Aequivalenz-Gesichtspunkt gehört.
+Damit hängt weiter zusammen, dass die __Identität des Systems__ problematisch ist und über eine gewisse Reichweite von konkreten Verschiebungen hin festgehalten werden muss. Wird diese Voraussetzung nicht gemacht, hat es keinen Sinn, von Bestand zu reden; sie ist im Bestandsbegriff impliziert. Genau diese Frage ist auch das Anliegen von Hempel → B258, zit → 21/3a1hc / → 21/3a1hd .
+Vielleicht kann man daraus den Schluss ziehen, __dass die Identität des bestandsproblematischen__ → 21/3a1h5

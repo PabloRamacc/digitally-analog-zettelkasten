@@ -1,0 +1,6 @@
+s/f
+The part/whole schema suffers from internal paradoxes that must be brought to light by means of modern logic.
+If a whole consists of parts, there must be something in the __im__ whole that is not the whole itself. But this means that even the whole can only be a part of the whole.
+The conclusion would be: __the whole is less than the sum of its parts__.
+The question about the __more__ was wrongly phrased. → 21/3d9c1a
+Thus, the enigmatic nature of the new formulation is not resolved; but one now sees: 1.) a connection with Russell's → 21/3d9c2

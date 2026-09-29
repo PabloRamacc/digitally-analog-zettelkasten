@@ -1,0 +1,3 @@
+s/f
+Systemdifferenzierung __ermöglicht__ (höhere) Komplexität im System und in der für das System zugänglichen Umwelt.
+Sie allein gewährleistet aber noch nicht die Realisierbarkeit und Haltbarkeit (Reproduzierbarkeit) entsprechender Systemkomplexität. Dazu müssen __weitere__ strukturelle Bedingungen hinzutreten. Allein deshalb schon muss begrifflich zwischen Differenzierung und Komplexität unterschieden werden. Vgl. anschliessend → 21/3d5b11w19a8 .

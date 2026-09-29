@@ -1,0 +1,3 @@
+s/f
+Die Beziehung von __Operation__ und __Beobachtung__ kann zur Unterscheidung von __Code__ und __Programm__ in Beziehung gesetzt werden. Der Code erzeugt die Operationen des Systems, das Programm beobacht ermöglicht die Beobachtung der Operationen des Systems.
+Vgl. auch → 21/3d18d59g9 .

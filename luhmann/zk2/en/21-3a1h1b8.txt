@@ -1,0 +1,4 @@
+s/f
+Multiple Funktionen werden gleichzeitig oder sukzessiv einem gegebenen Teil zugewiesen. {1}
+Thus, __multifunctionality__ itself has a function for solving the problem of __functional overcrowding__ and is therefore a __functional equivalent__ to __functional differentiation__, which fulfills the same function in other ways.
+This level of discussion can be linked back to the general theory of __complexity__ through the insight that functional overload is a consequence of highly complex environmental demands on the system—that is, an "internal reproduction" of the problem of high systemic complexity.

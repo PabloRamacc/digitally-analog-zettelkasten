@@ -1,0 +1,5 @@
+s/f
+__Hypertrophie__ als Folge der funktionalen Ausdifferenzierung funktionaler Methode.
+Die Hypertrophie liegt in dem Ziel, __alles__ vergleichbar zu machen – etwa alles als Reduktion von Komplexität aufzufassen.
+Anders formuliert: Möglichst Verschiedenartiges vergleichbar zu machen, ohne Rücksicht auf reale Substitutionsmöglichkeiten.
+SystemAnknüpfung → 21/3d26g78 .

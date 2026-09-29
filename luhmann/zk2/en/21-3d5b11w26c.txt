@@ -1,0 +1,2 @@
+s/f
+From the fact that subsystems observe each other and thereby constitute black-box relationships, epistemological difficulties follow. A unified description of the practice of such systems is not possible—or only with the aid of extraordinary abstractions.

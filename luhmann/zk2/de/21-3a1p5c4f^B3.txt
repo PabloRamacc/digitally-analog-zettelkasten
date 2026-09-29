@@ -1,0 +1,3 @@
+s/f
+Diese Abhängigkeit bezieht sich nicht nur auf die Vermeidung unabsichtlicher Fehlleistungen. Sie hat ihren Kern in dem Problem der __Unterbindung von Indiskretionen__. Sobald das Problem der Indiskretion in einer Gruppe auftritt, hat man einen sicheren Anhaltspunkt dafür, dass die Gruppe team-Merkmale aufweist. Umgekehrt handelt es sich in der Regel um andersartige Gruppen, wenn Indiskretionen nicht denkbar sind. Das Problem der Indiskretion kann daher als Index für den hier behandelten Gruppentyp eines Darstellungsteams verwandt werden.
+Vgl. auch → 532/5d2a4B6 und den dortigen Anwendungsfall.

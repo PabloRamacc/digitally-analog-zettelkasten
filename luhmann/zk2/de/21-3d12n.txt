@@ -1,0 +1,3 @@
+s/f
+Das Problem der Mehrheit von Systemreferenzen hat einen Bezug zur __Technik__.
+Man kann sich die Entlastungsleistungen der Technik vorstellen als bezogen auf die Komplexitätsanforderungen, die durch den Versuch bedingt sind, mehrere Systemreferenzen zugleich zu berücksichtigen.

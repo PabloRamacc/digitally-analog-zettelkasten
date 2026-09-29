@@ -1,0 +1,5 @@
+s/f
+[*] des Systems ergeben. → 21/3d5c1a Wenn man diese Beziehungen als Bereich einer Bestandsgefährdung, also unter dem Gesichtspunkt einer Problematik des Fortbestandes des Systems auffasst, ist das schlüssig. (Für Parsons versteht sich dieser Zwischenschritt vermutlich von selbst.) Parsons geht jedoch weiter und unterlegt jedem Bestandsproblembereich einen ganz bestimmten Sinn, der als solcher streng genommen nicht mehr aus dem Aktion-System- Schema folgt, sondern eine problematische Interpretation enthält, die nicht weiter – weder logisch noch empirisch – gerechtfertigt wird. 1.) Die Innenproblematik des Systems zu sich selbst heisst "__latent pattern maintenance__"; → 21/3d5c1A
+2.) die Beziehung des Systems zu seiner Umwelt "__goal attainment__"; → 21/3d5c1B
+3.) die Beziehung der Einzelaktion zur Umwelt "__Adaptation__"; → 21/3d5c1C
+4.) die Beziehung der Einzelaktion zur Innenproblematik heisst "__Integration__". → 21/3d5c1D

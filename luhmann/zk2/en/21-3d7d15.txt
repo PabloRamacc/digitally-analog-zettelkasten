@@ -1,0 +1,3 @@
+s/f
+The input/output analysis presupposes "concrete" system boundaries experienced by the actor themselves, i.e., those of the acting subject itself. The extension to analytical systems is problematic. Criticism of Parsons' overstretching of the model. {1} {2} {3}.
+Similar concerns with Nettl 1966, p. 332 → B995 "These concepts [i.e., input, output] are quite frank and openly dependent on a structural base and theory." in the distinction of two system types: one for boundary interchanges, input/output analyses with a structure-dependent concept of system (the term 'structure' not happily chosen); the other for functional and thus analytical subsystems of an overall system.

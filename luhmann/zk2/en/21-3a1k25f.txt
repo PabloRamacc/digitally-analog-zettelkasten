@@ -1,0 +1,4 @@
+s/f
+Reitman's starting point is the insight that defining problems itself constitutes a problem. This connects the concept of problems with programming theory.
+Specifically on ill-defined problems in 1965, p. 148ff. → B515
+An ill-defined problem also means that when solving a problem there does not necessarily exist consensus as to whether the solution solves the problem and can be accepted as such.

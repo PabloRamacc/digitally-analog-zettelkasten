@@ -1,0 +1,4 @@
+s/f
+Zwei Selektionsfehler sind zu bedenken: Zu hart und zu weich. Es können Geeignete abgewiesen und es können Ungeeignete zugelassen werden; → 7/25g57ea vgl. → 3/9c3b17b .
+Die Relation zwischen diesen beiden Ungleichheiten definiert das __Rationalitätsproblem__ der Erziehungsselektion.
+Es ist dadurch bestimmt, dass die Vermeidung zu harter und zu weicher Selektion nicht zugleich optimiert werden kann. (Hopper 1968, S. 33 → B3271 mit Einschränkung – "at least not in the short run", etc.)

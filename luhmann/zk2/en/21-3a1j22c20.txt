@@ -1,0 +1,4 @@
+s/f
+The terms self-description/other-description refer to the descriptive subject.
+They stand therefore crosswise to the (more common) distinction of internal/external descriptions (e.g., R. Rose [*] 1973 → B450), which refer to the object of description.
+The comparison leads to the question: can a self-description be an external description? Precisely this is denied by the theory of autopoiesis. Why?

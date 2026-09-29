@@ -1,0 +1,3 @@
+s/f
+Kann die Problemstufenordnung mit einer Systemverschachtelung gleichgesetzt werden?
+So z.B. Cancian, S. 823 → B349. Aus der Definition des funktionalen Systems (vgl. → 21/3,3e ) ergibt sich für ihn sie die "possibility of ordering systems hierarchically and of treating (sub)systems as state co-ordinates maintaining G's in a more inclusive system". Vgl. dazu auch → 54/2ga / → 54/2gb .

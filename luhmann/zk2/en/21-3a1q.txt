@@ -1,0 +1,4 @@
+s/f
+__Methodology of Problem Orientation__ → 21/3a1qa; → 21/3a1qb
+Alternative to the usual mode of causal explanation through introducing a false assumption ceteris paribus.
+Causality is not denied, but causal explanations can only be obtained by __restricting__ the availability of functionally equivalent alternatives; methodologically first: through comparison.

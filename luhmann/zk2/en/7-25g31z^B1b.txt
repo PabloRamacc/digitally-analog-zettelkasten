@@ -1,0 +1,3 @@
+s/f
+Periods must be kept fixed under the assumption of __constant sum__. Extending one period shortens another, usually the one that follows. Or there is a domino effect.
+This also applies to episodes.

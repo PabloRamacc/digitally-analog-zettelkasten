@@ -1,0 +1,2 @@
+s/f
+"Multiple storage" als Notwendigkeit der Speicherung von komplexen (komplex auszuwertenden) Informationen.

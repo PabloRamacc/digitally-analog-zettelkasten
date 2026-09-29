@@ -1,0 +1,2 @@
+s/f
+With the increase of tempo and mutual interdependence, the system's sensitivity to errors grows – both for synchronization errors as well as for substantive errors themselves. Errors propagate more rapidly and further due to the strong factual-temporal dependence of all tasks.

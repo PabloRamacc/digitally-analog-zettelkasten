@@ -1,0 +1,5 @@
+s/f
+als solche ersetzbar und daher für den Fortbestand des Gesamtsystems nicht ausschlaggebend sind. → 21/3a1f2(R) Etzioni → B26 übersieht ausserdem, dass Funktionen nicht auf den Bestand als solchen, sondern __immer nur__ auf einzelne Bestandsvoraussetzungen bezogen sind; vgl. → 21/3a1h . Deshalb ist es auch im Rahmen eines Bestandsmodells möglich, "bessere" und "schlechtere" funktionale Leistungen zu unterscheiden, – nämlich im Hinblick auf Rückwirkungen auf __andere__ funktionale Bestandsvoraussetzungen (anders ausdrücklich Etzioni, ASQ 60, S. 272 → B26).
+Der Fehler Etzioni → B26s liegt darin, dass er die Kompliziertheit des Bestandsproblems verkennt und 1.) die Mehrheit der Bestandsvoraussetzungen sowie 2.) die gesamte Sekundärordnung ausser Acht lässt.
+=== reverso ===
+→ 21/3a1f2 In etwa diesem Sinne unterscheidet Weiner, S. 151 → B374 survival problems und maintenance problems.

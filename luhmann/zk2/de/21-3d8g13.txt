@@ -1,0 +1,4 @@
+s/f
+Einen wesentlichen Beitrag zur Theorie der Subsysteme und ihres Beitrags zur Systemerhaltung bringt Ashby 1954, insb. S. 136ff., 153ff. → B980 → 21/3d8g13a 1.) Es wird der Begriff der __Independence__ von "Variablen oder Systemen" (S. 153 → B980) voneinander erörtert:
+"Given a system that includes two variables A and B, and two lines of behaviour whose initial states differ only in the values of B, A is independent of B if A's behaviours on the two lines are identical." (Ashby 1954, S. 155 → B980)
+2.) Absolute Independence wird nicht einfach als Fehlen jeder Kausalbeziehungen definiert begriffen, sondern durch invariant wirkende Zwischenvariablen, deren Grösse und Wirkungsweise von den Änderungen der zu isolierenden Variablen nicht betroffen wird, d.h. als → 21/3d8g14

@@ -1,0 +1,3 @@
+s/f
+The relationship between __operation__ and __observation__ can be related to the distinction of __code__ and __program__. The code generates the operations of the system, while the program enables observation of the system's operations.
+See also → 21/3d18d59g9.

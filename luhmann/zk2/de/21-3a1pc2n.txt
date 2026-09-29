@@ -1,0 +1,5 @@
+s/f
+Welche Anforderungen müssen an ein __Kommunikationsnetz__ gestellt werden, damit sich Vertrauen bilden kann?
+Jedenfalls: Es müssen Möglichkeiten unabhängiger Meinungsbildung (ggf.) Konsensbildung gegeben sein – unabhängig von dem, dem zu vertrauen ist. Eine aktuelle Ausschöpfung dieser Möglichkeiten ist natürlich nicht Voraussetzung.
+Vgl. eine Bemerkung von Crozier 1963, S. 298 → B123: "… il n'y a aucun moyen de faire confiance à personne dans un système où l'on ne peut se référer à un consensus indépenant":
+Die These ist jedoch von meinem Vertrauensbegriff (Handeln auf Grund noch unerfüllter Erwartungen) nicht zu begründen. Sie setzt einen engeren Vertrauensbegriff voraus.

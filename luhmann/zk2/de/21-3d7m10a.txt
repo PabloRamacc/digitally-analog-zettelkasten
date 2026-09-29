@@ -1,0 +1,2 @@
+s/f
+Der Begriff "constraints" setzt Systemelemente voraus, die über Freiheitsgrade verfügen. Nur solche Elemente lassen sich (oder können sich) einschränken.

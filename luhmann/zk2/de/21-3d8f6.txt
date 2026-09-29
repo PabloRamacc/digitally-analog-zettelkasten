@@ -1,0 +1,2 @@
+s/f
+Diese Multifunktionalität macht Änderungen problematisch, denn sie müssen stets mehrere Funktionen befriedigen, und bei einigermassen komplexen Verhältnissen dysfunktionale Konsequenzen nahezu unvermeidlich. Vgl. z.B. → 45/3 .

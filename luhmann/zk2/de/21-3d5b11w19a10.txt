@@ -1,0 +1,2 @@
+s/f
+Zirkuläres Verhältnis zu Komplexität: Sie wird einerseits durch funktionale Differenzierung gesteigert. Aber infolge hoher Komplexität ist funktionale Differenzierung erst möglich und stabilisierbar. Es sind dann mehr Abhängigkeiten und mehr Unabhängigkeiten zwischen System und Umwelt möglich, mehr Beziehungen, die ein Auseinanderbrechen der Gesellschaft verhindern.

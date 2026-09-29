@@ -1,0 +1,2 @@
+s/f
+Observation observes itself and constructs an observer for this purpose that fulfills the function of a structure guaranteeing fit (Anschlussfähigkeit). {1}

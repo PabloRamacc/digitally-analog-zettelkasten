@@ -1,0 +1,2 @@
+s/f
+→ 21/3d6 It should be noted that __comparative statics__ in itself is not yet dynamics; it compares states of a system at different times, but does not determine the causal relationships between them. So Angermann 1963, p. 36 → B1395 on comp__e__rative statics based on: E. Schams, Comparative Statics, Zeitschrift für Nationalökonomie 2 (1931), pp. 27ff. → B1396 E. Preiser, Dynamic Economic Theory. Jahrbuch für Nationalökonomie und Statistik 155 (1942), pp. 140ff. → B1397[*]

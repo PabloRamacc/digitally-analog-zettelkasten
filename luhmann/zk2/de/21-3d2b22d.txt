@@ -1,0 +1,2 @@
+s/f
+Es gibt Zusammenhänge zwischen basalen Technologien (core technologies) und Hierarchiebildung, die auf dem Prinzip einer technisch-strikten Kopplung kausale Elemente aufbauen. Aber Reproduktion des Systems erfordert loose coupling.

@@ -1,0 +1,7 @@
+s/f
+Zum __math Funktionsbegriff__ (vgl. auch → 21/2,1 )
+Er wird generell als unüberbrückbar verschieden vom biologisch-sozialwissenschaftlichen Funktionsbegriff geschildert. → 21/2a(R) ; → 21/2aa
+So z.B. Nagel, S. 248f. → B252: "It will be evident that the sense of the word 'function' as used in the preceding paragraph does not coincide with the meaning of the word as it is employed in mathematical analysis and its various special applications. In mathematics a function is a class of ordered pairs of elements (y,x), where those members of the pairs [S. 249] which are values of the (so-called 'independent') variable 'x' are called the 'arguments', while those which are values of the (so-called 'dependent') variable 'y' are the values 'corresponding to' the x's. → 21/2a1
+=== reverso ===
+→ 21/2a Weitere Belege: Emmet, S. 47f. → B314; Firth, S. 238 → B337.
+Nadel 1951, S. 369 → B259 stellt beide einfach nebeneinander: "Both these meanings of 'function' are important", arbeitet aber nur den biol Funktionsbegriff näher aus.

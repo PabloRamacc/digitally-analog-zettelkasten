@@ -1,0 +1,4 @@
+s/f
+Im Interaktionssystem Schulstunde muss der Lehrer auf zwei verschiedene Arten von Strukturen zugleich achten. __Beide__ sind mögliche Widerstandsquellen und können interkorrelieren:
+1.) die Personen der Schüler als Umwelt des Systems;
+2.) die sozialen Strukturen der peer groups, soziometrische Präferenzen, Meinungsidentifikationen, etc. Die Frage ist, wann ist für was soziale Unterscheidung wahrscheinlich. Sozialstrukturen __nicht__ aus der Kenntnis der Personen prognostizierbar.

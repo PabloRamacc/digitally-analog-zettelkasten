@@ -1,0 +1,4 @@
+s/f
+Der Begriff Generalisierung ist reicht zur Beschreibung von Stabilitätsbedingungen komplexer Systeme nicht aus. Er muss durch eine komplexere Beschreibung ersetzt werden.
+Ein erster Vorschlag: __Generalisierung – Indifferenz – kontrollierte Sensibilität__.
+Das "einfache Dasein" muss mithin durch ein Syndrom verschiedenartiger Leistungen ersetzt werden. Hier dadurch, dass ein gesteigertes Risiko der Indifferenz übernommen und unter Kontrolle gehalten wird.

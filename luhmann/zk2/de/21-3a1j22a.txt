@@ -1,0 +1,4 @@
+s/f
+und es muss diese Umwelt spezifizieren können (z.B.: andere Menschen), wenn es sich bestimmten Beobachtungen aussetzen will.
+Für eine exakte Bestimmung von Objekten mag es erforderlich sein, genauer anzugeben, aus welcher Position ihrer Umwelt heraus sie beobachtet werden können.
+Vgl. auch → 21/3d27a12b .

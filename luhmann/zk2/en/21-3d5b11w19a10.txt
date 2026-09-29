@@ -1,0 +1,2 @@
+s/f
+Circular relationship to complexity: On the one hand it is increased by functional differentiation. But as a result of high complexity, functional differentiation becomes possible and stabilizable only then. More dependencies and more independencies between system and environment become possible, more relationships that prevent the disintegration of society.

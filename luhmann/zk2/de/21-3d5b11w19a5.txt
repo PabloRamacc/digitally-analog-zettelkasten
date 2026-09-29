@@ -1,0 +1,2 @@
+s/f
+Funktionale Differenzierung realisiert ein komplexitätsbedingtes Interesse an Änderbarkeit der Teilsysteme und ihrer Strukturen – und __Bürokratie__ wirkt dem entgegen.

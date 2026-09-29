@@ -1,0 +1,3 @@
+s/f
+enthüllt diese Funktionalität (die bei der Konstruktion des Modells bereits eingeplant ist – sonst wäre die Konstruktion fehlerhaft) und klärt die verschiedenen (modellgerechten) Anwendungsmöglichkeiten, deren Mehrzahl sich aus der Mehrheit von funktionalen Alternativen ergibt (was nicht ausschliesst, dass das Modell u.U. eine oder auch gar keine "Lösung" hat. Modelle werden theoretisch konstruiert und dann in einer bestimmten Anwendung realisiert.
+Empirische Systeme, z.B. konkrete Aktionszusammenhänge, eignen sich nicht ohne weiteres als Bezugsgesichtspunkte für eine funktionale Analyse. Sie müssen erst in bestimmter Weise → 21/3a1

@@ -1,0 +1,2 @@
+s/f
+It follows from the characteristic of presence that the system can have only __one situation__ at a time, meaning it consists of sequences of situations, and therefore needs (and can) coordinate situations only historically.

@@ -1,0 +1,3 @@
+s/f
+Level differentiation enables decoupling at the horizontal level; this, in turn, presupposes level differentiation; Simon 1973, p. 15ff. → B247; see also loose coupling; further application → 21/3d27f1h .
+See also the definition of hierarchy as a system with more than one simultaneous activity (which is certainly inaccurate) by Rosen in Whyte et al. 1969 → B248, cited in Pattee 1973, p. 79 → B249.

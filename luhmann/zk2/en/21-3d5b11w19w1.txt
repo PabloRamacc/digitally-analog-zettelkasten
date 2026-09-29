@@ -1,0 +1,2 @@
+s/f
+the stability of the system is now defined autopoietically and no longer as __structural__ stability.

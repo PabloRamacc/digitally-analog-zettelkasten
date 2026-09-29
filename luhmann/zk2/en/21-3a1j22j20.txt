@@ -1,0 +1,3 @@
+s/f
+Second-order observation (and in general: the structural design of observing) __overlaps__ the difference between __self-reference and other-reference__ (which enables it to observe them under additional conditions).
+Second-order observation confronts itself with its own problems, which apply to both cases—namely self-referential and other-referential operations; cf. → 21/3d26g125.

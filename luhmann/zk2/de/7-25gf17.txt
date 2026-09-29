@@ -1,0 +1,4 @@
+s/f
+Funktion der Erziehung: __Aufbau und Erhaltung von Varianz__ als primäres Requisite sozialer Partizipation.
+System Anknüpfung bei Interpenetration → 21/3d18c50e13 .
+Ersetzt die Formel Lernen der Lernfähigkeit, die dasselbe meint, aber auf einen engeren Kontext theoretischer Ausarbeitung verweist.

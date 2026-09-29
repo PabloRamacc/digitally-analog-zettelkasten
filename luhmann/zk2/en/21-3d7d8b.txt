@@ -1,0 +1,3 @@
+s/f
+In this sense it is incorrect to criticize the input/output theory for disregarding values – so Nettl 1966, p. 318f. → B995: Values would be relegated into an analysis of inputs.
+What holds true is merely that the model as such does not express its own preference for certain values, but rather provides functional specifications for any given values.

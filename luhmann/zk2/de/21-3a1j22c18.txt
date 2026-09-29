@@ -1,0 +1,4 @@
+s/f
+Selbstbeschreibungen haben eine Funktion für Input/Output-Arrangements. Sie wählen (für das beschriebene System) Empfindlichkeiten nach Massgabe __eigener__ Empfindlichkeiten.
+Sie reduzieren – der Idee nach, aber kaum der Realität nach – 1.) die Umweltbeziehungen auf die Ebene von Information;
+2.) die relevanten Informationen auf modellrelevante Informationen.

@@ -1,0 +1,2 @@
+s/f
+Wichtig ist die Vermeidung der Interpretation von requisite variety als __Herrschaft__ im Sinne einer Anweisung zu bestimmtem Verhalten. Requisite variety bezieht sich im Gegenteil auf Einstellung auf unpredictable events.

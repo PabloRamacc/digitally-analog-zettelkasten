@@ -1,0 +1,2 @@
+s/f
+Vgl. auch → 21/3d5b11da , wo die Darstellung von abhängigen bzw. unabhängigen Variablen etwas anders ist: Wenn eine funktionale Differenzierung (Spezifikation) versucht wird, muss man sich auf ein System höherer Ordnung beziehen (also System/ Subsystem-Ordnungen schaffen, in welchen die spezifizierten Funktionen Sinn haben). Dieser Gedankengang verdeutlicht den Zusammenhang von Spezifikation und funktionaler Differenzierung.

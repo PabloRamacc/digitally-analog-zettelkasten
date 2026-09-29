@@ -1,0 +1,4 @@
+s/f
+Bedingungen einer formaleren Nachanalyse: 1.) Komplexität erzwingt Reduktionsprozess;
+2.) Steuerung über Erwartungserwartungen;
+3.) Motivierung einer Teilnahme an jener Ebene in Abkehrung von den jeweils persönlichkeitsbedingten Meinungen.

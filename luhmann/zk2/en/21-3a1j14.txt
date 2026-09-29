@@ -1,0 +1,3 @@
+s/f
+__Complexity gradient__ means: The system does not stand in the same relationship to its environment as the environment stands to the system.
+Familiar model: Developed on the case of knowledge and object.

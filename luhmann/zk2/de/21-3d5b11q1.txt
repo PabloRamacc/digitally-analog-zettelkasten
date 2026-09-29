@@ -1,0 +1,4 @@
+s/f
+Dem liegt ein allgemeiner Gedanke der Systemtheorie zu Grunde: dass ein System sich durch interne Differenzierung weniger störungsanfällig machen kann, weil alle Störungen nur Teile, also nur spezifische Leistungen (u.U. freilich: lebenswichtige Leistungen) betreffen, also isolierbar und lokalisierbar sind.
+In der Autonomie von Teilsystemen liegt, mit anderen Worten, ein gewisser Schutz gegen das Durchschlagen von Störungen aus einem Funktionskreis in einen anderen. Es hängt also von der Umweltlage (bzw. von den sonstigen, funktional aequivalenten Stabilisierungsstrategien) eines Systems ab, wieviel Autonomie es seinen Teilen gewähren muss.
+Aus diesen Überlegungen lässt sich auch die Notwendigkeit einer hierarchischen Ordnung in komplexen Systeme ableiten, mit der die Einheit des Systems trotz Zugeständnis von → 21/3d5b11q2

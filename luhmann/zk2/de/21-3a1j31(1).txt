@@ -1,0 +1,4 @@
+s/f
+Nische und Umwelt nach Maturana 1982, S. 36f. → B437
+__In meiner Terminologie__: Eine Umwelt hat __für ein System, dessen Umwelt sie ist__, keine Grenzen, sondern nur Horizonte, die die Umwelt gegen ein variables Jenseits abschirmen. Jede Interaktion mit der Umwelt erweitert oder verkürzt diese Horizonte.
+Für einen Beobachter stellt sich die Situation anders dar. Er kann Grenzen der Umwelt anderer Systeme sehen, weil er die Beschränkungen der Interaktionsfähigkeit dieser Systeme beobachten kann.

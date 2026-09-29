@@ -1,0 +1,3 @@
+s/f
+General considerations on evaluating __acentric systems__. → 21/3d5b11w19ta
+Higher logical seriality? Systems without a central controller depend on adaptation and selection within the subsystems.

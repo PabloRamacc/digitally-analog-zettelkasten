@@ -1,0 +1,3 @@
+s/f
+For the assumption of a system/subsystem relationship one will fundamentally have to demand that the system defines the environment of the subsystem in such a way that the adaptive problems of the subsystem coincide with the functions it has to fulfill within the system.
+This is, for example, an implicit conjecture by Vallier → B1664.

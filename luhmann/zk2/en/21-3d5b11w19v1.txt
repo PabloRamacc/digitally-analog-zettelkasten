@@ -1,0 +1,2 @@
+s/f
+This aspect can also be formulated decision-theoretically: through the differentiation of a functional system, it is forced to cast all expectable behavior into the form of a decision.

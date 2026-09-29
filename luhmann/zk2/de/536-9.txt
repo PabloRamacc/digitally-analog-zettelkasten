@@ -1,0 +1,5 @@
+s/f
+__Interaktionstheorie / formale Organisation__ → 536/9,1
+Es ist zu beachten, dass die Interaktionstheorie eine starke und wohl die wichtigste Alternativtheorie der formalen Organisation zu dem in → 532/4e entwickelten Ansatz ausgebildet hat. Sie geht nicht von der Unterscheidung formaler und informaler Organisation aus, auch nicht vom Begriff der Verhaltenserwartung, sondern vom faktischen Verhalten in Interaktionen, lässt sich also __direkt__ auf formal organisiertes Verhalten anwenden.
+Die Frage ist natürlich: Mit welchen begrenzenden Kriterien
+Eine Variante (Homans, W.F. Whyte) steuert auf ziemlich einfache Grundmodelle zu, eine andere (Chapple, Sayles) auf Quantifikation, die ebenfalls auf sehr stark vereinfachenden Annahmen beruht. → 536/9,2 Typisch ist für die Interaktionstheorie dieser Prägung, dass sie das Selbststeuerungsphänomen im sozialen Leben → 536/9a

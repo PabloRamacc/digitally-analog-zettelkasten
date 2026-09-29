@@ -1,0 +1,3 @@
+s/f
+Zur Unterscheidung Zweck / Funktion
+Der Zweck dient der Beobachtung erster Ordnung, die Funktion einer Beobachtung zweiter Ordnung.

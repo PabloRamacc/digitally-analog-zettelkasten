@@ -1,0 +1,6 @@
+s/f
+→ 21/3a1 __Zum Begriff des funktionalen Problems__ → 21/3a1ka ; → 21/3a1kb ; → 21/3a1kc ; → 21/3a1kd [*]
+__Jeder funktionale Bezugsgesichtspunkt hat die formale Struktur eines "Problems"__ → 21/3a1k(R) : __Er ist festgelegte__ – und insofern relativ invariante – __Offenheit__. Er enthält eine gewisse strukturelle Vorentscheidung über mögliche Relevanz; und er ist ausfüllungsbedürftig (Frege). Man kann auch von relationaler Offenheit sprechen: von einer Beziehung mit einem nicht festgelegten Ende.
+Im Unterschied zum Problem im allgemeinen Sinne, dessen Offenheit wesentlich und nur Ungewissheit ist, hat das funktionale Bezugsproblem eine engere Charakteristik: Seine Offenheit – und das besagt im subjektiven Aspekt stets auch: Ungewissheit – hat einen speziellen Grund, nämlich den, dass __mehrere Lösungen__ → 21/3a1k1
+=== reverso ===
+→ 21/3a1k Belege: Cohen 1948 → B361 kennt den Begriff Bestandsvoraussetzungen noch nicht; er spricht von functional problems.

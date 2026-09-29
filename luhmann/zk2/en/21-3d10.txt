@@ -1,0 +1,7 @@
+s/f
+__Closed = Determined System__ → 21/3d10(R) ; → 21/3d10,1
+It is important that __determinacy of the system course means the same as environmental dependence__. → 21/3d10,1 Thus, one can define the determinacy of a system through its independence from the environment. It is presupposed here that a system without environmental influence has only __one__ possibility for further development or continued existence. Then it also does not matter how the system came into the initial state. See also → 25/4c.
+It must be noted that the determinacy of the system course (only __one__ possible change) simultaneously implies that each element has unique relationships to every other individual element in the sense that – if its state is changed – it can be predicted what then the state of any other element will be. This too can → 21/3d10a
+=== reverso ===
+→ 21/3d10 Readings and notes:
+Hall – Fagen, Definition des Systems, Allgemeine Systeme 1 (1956), S. 18–28, S. 25 ff. → B386 Moigne, General Systems Theory, Paris 1977, p. 66ff. → B199

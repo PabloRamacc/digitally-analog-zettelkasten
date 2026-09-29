@@ -1,0 +1,4 @@
+s/f
+Loh 1972, Ms., S. 31 → B1000:[*] → B517 "System" heisse derjenige Sachverhalt zu einem solchen Problem, das mittels relationaler Formen gelöst werden kann; zum Verständnis: → 21/3d29d .
+Ackoff 1974, S. 13 → B1001: "A system is a set of two or more interrelated elements of any kind …" Einschränkung in der Erläuterung von Anforderungen an die Interrelation von Elementen.
+Rescher 1979, S. 181 → B46: "the concept of a system indicates a whole composed of elements that are joined together by linkages operating under the unifying aegis of a connecting principle." Soll sowohl für Sachsysteme als auch für kognitive Systeme gelten.

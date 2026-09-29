@@ -1,0 +1,2 @@
+s/f
+Ein wichtiger Anwendungsfall ist die Quantenphysik. Die Quantenphysik kann nicht von Messergebnissen als Primärdaten ausgehen, sondern erfordert in __dieser__ Hinsicht eine __Beschreibung von Beschreibungen__.

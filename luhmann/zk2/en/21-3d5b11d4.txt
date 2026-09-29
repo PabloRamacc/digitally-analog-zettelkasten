@@ -1,0 +1,4 @@
+s/f
+ensures that other parts in the system can respond to this by choosing functional equivalents for their systemic performance.
+The question of at which point within the system and through which mechanical, electro-magnetic or communicative processes the change is absorbed is in principle secondary, although it holds characteristic significance for the structure of certain systems.
+This also demonstrates that absolute interdependence of all parts constitutes a particularly unfavorable limiting case—all must then choose equivalents—and by no means represents the ideal of a well-organized system.

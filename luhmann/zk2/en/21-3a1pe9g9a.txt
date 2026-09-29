@@ -1,0 +1,3 @@
+s/f
+Choice is built in. This happens by restricting the preference order no longer abstractly fixed but to all alternatives, "that may conceivably be opportunities" (p. 249 → B711). Thus the problem is brought down to a basic concept so to speak.
+Unfortunately, Koopmans → B711 does not address the question of whether preferences related to opportunities can also be ordered transitively; he seems to take this for granted. But that is precisely the critical point.

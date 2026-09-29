@@ -1,0 +1,5 @@
+s/f
+Ein Interesse der mathematischen Entscheidungstheorie an Problemen des Wechsels künftiger Werteinstellungen beginnt sich abzuzeichnen, angeregt vor allem durch die Modelle des sequential decision-making.
+Siehe hierzu Koopmans 1964 → B711: Die klassische Entscheidungstheorie basiere auf strenger analytischer Trennung von Präferenz und Opportunität → 21/3a1pe9g9,1 . Das sei jedoch nur realistisch, wenn man nur Folgen in einem relativ kurzen Zeitraum in Betracht ziehe. Man müsse stattdessen Modelle konstruieren, welche dem Entscheidenden erlauben, "to retain some flexibility with regard to his future preference." (S. 246 → B711)
+Die Kritik steht unter dem Gesichtspunkt einer Annäherung an realistisches Entscheiden und basiert nicht auf einer grundsätzlich zeitabhängigen Werttheorie.
+In die von Koopmans → B711 entwickelten Vorstellungen, die nicht sehr radikal sind, wird dann vor allem der Vorteil einer Vertagung der → 21/3a1pe9g9a

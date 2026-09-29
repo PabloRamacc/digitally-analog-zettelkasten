@@ -1,0 +1,4 @@
+s/f
+Self-description as a regulatory (possibly planning) prerequisite.
+See Braaten 1973 → B448, referring to R.S. Conant / W.R. Ashby, Every Good Regulator of a System Must Be a Model of That System, Int. J. of System Science 1 (1970), pp. 89-97 → B449 Photok
+For Conant/Ashby → B449, however, the regulator lies outside the states to be regulated. (The thermostat must indeed represent the world as a hot/cold world but does not presuppose a world that could overheat or undercool it itself.) → 21/3a1j22c12a

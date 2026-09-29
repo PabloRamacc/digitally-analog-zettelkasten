@@ -1,0 +1,4 @@
+s/f
+Anforderungen zu lösen sind, ergibt diese Überlegung, dass ein solches System intern in Subsysteme differenziert sein muss, durch die Leistung mehrerer Subsysteme am Leben erhalten wird. Die Analyse in Subsystemen ist mithin eine zwingende Konsequenz aus 1.) der Anwendung der funktionalen Systemanalyse als grundsätzliches methodisches Hilfsmittel;
+2.) der Wahl des Bestandsproblems als funktionalem Bezugsgesichtspunkt;
+3.) der Einsicht, dass in jedem System mehrere funktionale Probleme zu lösen sind.

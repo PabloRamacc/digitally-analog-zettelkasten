@@ -1,0 +1,4 @@
+s/f
+Ashby 1954 makes a significant contribution to the theory of subsystems and their role in system maintenance, especially pp. 136ff., 153ff. → B980 → 21/3d8g13a 1.) The concept of __Independence__ from "variables or systems" (p. 153 → B980) is discussed:
+"Given a system that includes two variables A and B, and two lines of behaviour whose initial states differ only in the values of B, A is independent of B if A's behaviours on the two lines are identical." (Ashby 1954, p. 155 → B980)
+2.) Absolute Independence is not simply defined as a lack of any causal relationships, but rather through intervening variables that act invariantly, whose magnitude and mode of action are unaffected by changes in the variables to be isolated; i.e., as → 21/3d8g14

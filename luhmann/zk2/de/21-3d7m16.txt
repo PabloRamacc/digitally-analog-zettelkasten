@@ -1,0 +1,2 @@
+s/f
+Beide Darstellungen haben ihr Recht. Sie müssen deshalb in eine umfassendere theoretische Konzeption integriert werden. Das geschieht durch die Vorstellung eines __Komplexitätsgefälles__ als Quelle von Problemen und durch Reduktion entstandenen systemspezifischen Bedürfnissen, die dann durch Input/Output-Prozesse befriedigt werden.

@@ -1,0 +1,3 @@
+s/f
+Ausgangspunkt für die Theorie der Differenzierung ist, dass es sich um eine __Steigerung der Komplexität__ eines Systems handelt. Zum Teil wird, z.B. von Ashby, Komplexität und Differenzierung einfach gleichgesetzt. Es handelt sich aber nur um eine bestimmte Art der Komplexitätssteigerung, nämlich Steigerung durch Untersystembildung.
+Auf dieser Grundlage könnte man argumentieren: funktionale Differenzierung sei Steigerung der Komplexität, strukturelle Differenzierung Reduktion dieser gesteigerten Komplexität (so übrigens auch Riggs 1966b, S. 250 → B1253), und jene sei nur durch diese möglich.

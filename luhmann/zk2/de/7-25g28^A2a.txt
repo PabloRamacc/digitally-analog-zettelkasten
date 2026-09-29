@@ -1,0 +1,2 @@
+s/f
+Geringer Impact ist daran ablesbar, dass die Kenntnis der Input-Grösse der beste Prädiktor für die Output-Grösse ist.

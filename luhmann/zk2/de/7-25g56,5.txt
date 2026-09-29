@@ -1,0 +1,5 @@
+s/f
+→ 7/25g56 Allgemeine Merkmale des Begriffs __Technologie__: → 7/25g56,5,1
+Technologie setzt Zugriffsfähigkeit voraus, Durchsichtigkeit der relationalen Struktur für ändernde Zugriffe – also ein Mehr-Ebenen-System.
+Insofern ist der Begriff systemabhängig.
+Dabei ist es eine sekundäre Frage, ob der Zugriff durch den Handelnden selbst erfolgt, oder durch einen anderen und ob er der Anpassung an eine Umwelt dient, oder dem Lernen nach eigenen Kriterien.

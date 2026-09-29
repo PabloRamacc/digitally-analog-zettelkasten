@@ -1,0 +1,4 @@
+s/f
+is called a system of active elements or, briefly, a system."
+Jacob und Wilhelm Grimm, Deutsches Wörterbuch, Abt. IV, Bd. 10, Leipzig 1942, Sp. 1433 → B998: "ein sinnvoll gegliedertes ganzes, dessen [*] teile in einem zweckmässigen zusammenhang stehen oder unter einem höheren prinzip, einer idee, einem gesetz sich zu einer einheit zusammenordnen."
+Rapoport 1968, S. 453 → B999: "Therefore, I accept the definition of a system as (1) something consisting of a set (finite or infinite) of entities (2) among which a set of relations is specified, so that (3) deductions are possible from some relations to others or from the relations among the entities to the behavior or the history of the system." → 21/3db4

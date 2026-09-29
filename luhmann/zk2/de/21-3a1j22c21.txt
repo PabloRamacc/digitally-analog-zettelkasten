@@ -1,0 +1,3 @@
+s/f
+Selbstbeschreibung als Rekonstruktion der Komplexität.
+Das ermöglicht eine Wiedereinführung der Komplexität in das komplexe System mit Hilfe einer Reduktion – z.B. auf unklare Ziele.

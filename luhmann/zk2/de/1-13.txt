@@ -1,0 +1,4 @@
+s/f
+__Organisationstypologien → 1/13,4 ; → 1/13,5 ; → 1/13,6 und -klassifikationen → 1/13,1 ; → 1/13,2__
+Grundsätzlich haben Typologien nur Sinn, wenn sie nicht aus einer einfachen Aufzählung beobachteter Unterschiedlichkeiten bestehen, sondern theoretisch konstruiert sind, so dass zumindest die Vollständigkeit der Typen kontrollierbar ist.
+__Litzur Methodologie__: (speziell für Organisationen) Mechanic, Some Considerations in the Methodology of Organizational Studies, in: H.J. Leavitt (Hrsg.), The Social Science of Organizations: Four Perspectives, Englewood Cliffs, N.J. 1963, S. 137-182, S. 158ff. → B188

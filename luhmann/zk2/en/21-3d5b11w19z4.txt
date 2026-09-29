@@ -1,0 +1,2 @@
+s/f
+It must be emphasized more strongly that functional differentiation emphasizes the __difference__ of the __functions__ (reference problems), not just the difference of functional equivalents. {1}

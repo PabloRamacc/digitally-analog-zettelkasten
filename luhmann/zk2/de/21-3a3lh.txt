@@ -1,0 +1,5 @@
+s/f
+__Generalisierung / Abstraktion__
+Das Verhältnis der Begriffe könnte mit Hilfe der System/Umwelt-Differenz geklärt werden.
+__Abstraktion__ ist Reduktion von Umweltkomplexität, Absehen von Einzelheiten der Umwelt.
+__Generalisierung__ ist ein internes Strukturerfordernis bei interner Differenzierung.

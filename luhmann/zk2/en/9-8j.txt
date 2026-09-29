@@ -1,0 +1,5 @@
+s/f
+In the Zettelkasten, there is a card that contains the argument that refutes the claims on all the other cards.
+But this card disappears as soon as you pull out the Zettelkasten.
+In other words, it takes on a different number, changes its position, and then can’t be found.
+A wild card.

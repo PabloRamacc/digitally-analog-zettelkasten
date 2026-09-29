@@ -1,0 +1,4 @@
+s/f
+General considerations on growth problems
+With the release of operating from function systems arises in the function systems high self-complexity that increasingly limits further improvement of functional performance. Increasing costs is only a secondary expression of this fact.
+See Rescher's thesis of "logarithmic retardation" with similar but discipline-specific justification: Rescher 1978 → B1336

@@ -1,0 +1,5 @@
+s/f
+Das Problem der mehrfachen Systemreferenz stellt sich nicht nur auf der Ebene der funktionalen Analyse, sondern zunächst und primär auf der Ebene des erwarteten Handelns.
+Man kann mit ein- und derselben Handlung die Erwartungen mehrerer verschiedener Systeme erfüllen bzw. durchkreuzen.
+Vgl. dazu Barnard 1938, S. 111f. → B32, der diese Möglichkeit des Beitrags zu verschiedenen Organisationen in einem Akt als "the critical fact in all complex organization" bezeichnet. (S. 112 → B32) → 21/3d12ba
+Es ist eine Frage der Intensität der Systemverschachtelung, in welchem Umfange Handlungen möglich sind, die die Erwartungen mehrerer Systeme erfüllen; es ist Sache guter Organisation, diesen Bereich zu vergrössern. Dazu allg → 532/5a(1) .

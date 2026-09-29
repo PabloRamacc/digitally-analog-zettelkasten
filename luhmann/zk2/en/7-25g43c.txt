@@ -1,0 +1,2 @@
+s/f
+Learning ability can be traced back to the concept of __temporal complexity__. Thus, the entire theory of complexity is applicable here. Learning capacity is greater when a system can assume __more__ and __more diverse__ states in succession __and link them relationally__. Relational linking means bringing about this connection through a combination of continuity and discontinuity.

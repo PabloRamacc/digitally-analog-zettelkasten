@@ -1,0 +1,4 @@
+s/f
+Als Ausweg bietet sich durch die Theorie der Reduktion von Komplexität ein dritter Gedanke an:
+Konflikt ist eine Form, in der __in__ sozialen Systemen das Problem der Reduktion von Komplexität gestellt und (mit hohen Kosten) gelöst werden kann.
+Ein in Grenzen taugliches funktionales Aequivalent für Ordnung.

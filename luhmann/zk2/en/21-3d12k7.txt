@@ -1,0 +1,2 @@
+s/f
+Mutual specifications: When proceeding reductionistically, one needs holistic decisions for further specification of the procedure; when proceeding holistically, the reverse applies.

@@ -1,0 +1,3 @@
+s/f
+An diesem Beispiel zu belegen: Theoriesubstitution erfolgt nicht auf Grund der Notwendigkeit, akkumuliertes, richtiges Wissen zu verwalten – also nicht auf Grund erreichter höherer Komplexität.
+Sie erfolgt trotzdem, aber relativ autonom auf Grund angebbarer Probleme sowie spezifischer Sensibilitäten, ebenso auf Grund eines Wegfalls von Plausibilitätsgrundlagen.

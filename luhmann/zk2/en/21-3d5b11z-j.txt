@@ -1,0 +1,6 @@
+s/f
+__Adequacy__
+S. adequate complexity → 21/3d18c35.
+The criteria and control concepts for the concept of adequacy must be developed from the theory of system differentiation. Precisely therefore is adequacy not identity, equality or similarity.
+The term refers to system/environment relations, thus to reductions with respect to an excessively complex (but in a certain sense self-ordered) environment.
+Adequate are reductions not as shortened representations but as operation manuals, → 21/3d5b11z/j1

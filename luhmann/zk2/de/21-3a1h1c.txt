@@ -1,0 +1,3 @@
+s/f
+→ 21/3a1h1 Die Anerkennung einer Mehrheit von Bestandsvoraussetzungen und die Anerkennung eines Unterschieds zwischen dem Bestandsinteresse des Systems als ganzem und der Erfüllung einzelner Bestandsvoraussetzungen läuft auf die Anerkennung von Widersprüchen im System und der Bestandsfähigkeit trotz Widersprüchen hinaus.
+Die übliche Formulierung ist, dass die einzelnen Bestandsvoraussetzungen nur __begrenzt komplementär__ sind, d.h. nicht alle Bestrebungen zu ihrer Erfüllung sind ohne Schäden für andere Bestandsvoraussetzungen möglich. M.a.W. Nicht alle Bestandsvoraussetzungen sind gleichzeitig maximierbar. Oder: Der optimale Zustand des Systems ist nicht gleichbedeutend mit der maximalen Realisierung einzelner (oder aller) Bestandsvoraussetzungen.

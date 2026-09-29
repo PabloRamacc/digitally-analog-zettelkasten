@@ -1,0 +1,5 @@
+s/f
+__Compatibility of systems and within systems__
+Terms by Hall - Fagen, p. 24 → B386 without clear logical clarification of the relationship. Correct: "Systems might be compatible in some respects and incompatible in others".
+__Systems are compatible as long as they do not have dysfunctional consequences for each other__. Just like reciprocity, compatibility can also only be determined with regard to certain inventory prerequisites.
+Reciprocity and incompatibility exclude one another – precisely because of this requirement for specification – not at all. Systems can provide reciprocal services for each other, even though they are simultaneously incompatible in some other respect. See also → 21/6e. → 21/3d8ba

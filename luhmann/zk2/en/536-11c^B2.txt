@@ -1,0 +1,3 @@
+s/f
+In this context, issues such as the prevalence of system references and the nesting of systems within one another must also be addressed. For example, conversations in a bar; discussions in a college seminar.
+The question is: How complex can nested structures be while still being effectively controlled, and how great can the degree of heterogeneity between the involved systems be?

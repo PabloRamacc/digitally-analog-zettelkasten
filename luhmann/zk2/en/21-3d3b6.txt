@@ -1,0 +1,3 @@
+s/f
+Probably it will be advisable to move to a more broadly conceived concept of autonomy in view of the paradox pointed out by Deutsch regarding the term of autonomy. As autonomy, one could denote the ability of a system to treat communications as causal factors __selectively__, i.e., as __information__ (without presupposing program control and memory).
+This extension is connected to the insight that a system's environmental relations are not controlled exclusively by feedback relationships, as often assumed in applied cybernetics. {1}

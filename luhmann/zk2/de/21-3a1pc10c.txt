@@ -1,0 +1,4 @@
+s/f
+Für den Behaviorismus ist – trotz Verwendung des Terminus funktionale Aequivalenz* – die kausalwissenschaftliche Behandlung des Problems der Generalisierung kennzeichnend. Infolgedessen fehlt es an einer theoretischen, systematischen Erklärung des Gedankens der Generalisierung. Er wird induktiv gefunden, experimentell belegt und dann zur Verdeckung der theoretischen Schwächen des kausalwissenschaftlichen Ansatzes der Verhaltenstheorie verwendet.
+Eine entsprechende Problematik liegt dem Zeichenbegriff von Morris → B644 zu Grunde. Vgl. die Definition S. 354 → B644: "Roughly: something that __directs behavior__ with respect to something that is __not at the moment a stimulus__. More accurately: If A is a preparatory-stimulus that, in the absence of stimulus- objects initiating response-sequences of a certain behavior-family, causes in some organism a disposition to respond by response-sequences of this behavior-family, then A is a sign."
+* z.B. bei Hull → B636.

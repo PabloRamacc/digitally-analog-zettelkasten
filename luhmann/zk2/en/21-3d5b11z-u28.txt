@@ -1,0 +1,4 @@
+s/f
+__Ethnics__ → 21/3d5b11z/u28,1; → 21/3d5b11z/u28,3
+Ethnics are subsystems of societies that regulate __inclusion__ at the subsystem level. → 21/3d5b11z/u28,2 (Attempt to distinguish from a term that is growing too excessively.)
+In this context, inclusion means as elsewhere: enabling access to other roles. Therefore, ethnic differentiation fundamentally collides with functional differentiation, which proceeds from an entirely different principle of inclusion.

@@ -1,0 +1,5 @@
+s/f
+__Criticism of the Example Technique__
+1.) Lack of reflection: You make something clear without explaining how you make it clear;
+2.) Cannot be scaled up: Too many examples undermine each other;
+3.) They draw too much attention to themselves and generate too much follow-up communication.

@@ -1,0 +1,4 @@
+s/f
+Functionally equivalent actions. Every assertion of differences presupposes other criteria; every assertion of dysfunctional consequences presupposes other reference problems. {1} {2} {3}
+Thus, such a theoretical approach is logically incomplete; it does not formulate all premises. This could be accepted with the justification that this is in any case not a hypothetical-deductive system.
+However, a second thought is essential. The pointed problem of incompleteness may perhaps be unsolvable only on the ground of an action science that makes the causal interpretation of acting into the ultimate reference scheme and turns the stabilization of a system of repeated actions into the referential problem.

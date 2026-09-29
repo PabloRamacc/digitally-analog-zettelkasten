@@ -1,0 +1,2 @@
+s/f
+wird durch Umschaltung von positiver auf negative Kausalität erreicht, das Wenn-Dann wird in ein Dann-Wenn nicht transformiert und dadurch eröffnet sich ein Vorteil.

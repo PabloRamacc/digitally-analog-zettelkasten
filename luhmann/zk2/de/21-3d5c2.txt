@@ -1,0 +1,3 @@
+s/f
+Diese 4 system problems sind independent in dem Sinne, dass die Lösung des einen noch nicht die Lösung eines anderen impliziert. (Vorlesung → B702)[*]
+Ähnlich Parsons 1959c, S. 631 → B959: "independently variable in the sense that change of state with respect to any one cannot be interpreted to have an automatically given relation to change of state in any of the others (except so far as this relation comes to be known and formulated as a law of the system)."

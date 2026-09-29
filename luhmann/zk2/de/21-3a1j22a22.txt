@@ -1,0 +1,4 @@
+s/f
+Bei sorgfältiger Sprechweise muss man das __Schema__ des Beobachtens (Unterscheidung, Kontext) von der __Operation__ des Beobachtens unterscheiden.
+Das Schema kann aber gedacht werden als Bezeichnung einer Vielzahl möglicher Operationen; etwa: Der Saturn beobachtet vorbeifliegende Sonden (wenn man da wäre, würde man).
+Wichtig für spezielle Relativitätstheorie.

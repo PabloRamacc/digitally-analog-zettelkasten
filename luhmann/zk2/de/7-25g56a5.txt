@@ -1,0 +1,6 @@
+s/f
+Ein weiteres Erfordernis von Technologien ist __zeitlicher__ Art.
+__Am Ende__ der Operationen, die die Technologie angibt, muss feststellbar sein, ob der Effekt eingetreten ist oder nicht. → 7/25g56a5,1 ; → 7/25g56a5,2
+D.h. die Erfolgskontrolle muss mit dem Ende der Operationen __zeitlich zusammenfallen__.
+Diese Bedingung ähnelt der Prämisse __teleologischer Prozesse__.
+Sie hängt auch mit dem Erfordernis der Faktoren- Isolierung zusammen; denn nach dem Ende der Operationen kann nicht mehr → 7/25g56a5a

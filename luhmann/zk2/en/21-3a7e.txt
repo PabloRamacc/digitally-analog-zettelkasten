@@ -1,0 +1,3 @@
+s/f
+define Marney/Smith 1964, p. 113 → B983:
+a system is an __adaptive__ system if and only if its behavior maintains its essential variables within the limits of their respective norms. Here 'essential' variables are interpreted as those measures of an environment to which the survival of the system is sensitive." For this they cite Ashby, Design for a brain → B984, and refer to the correspondence with the concept of homeostasis.

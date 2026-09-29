@@ -1,0 +1,3 @@
+s/f
+The preceding derivation of the pattern variables can claim logical completeness only if it defines the pairs unilaterally—that is, through a principle and its negation. Parsons does not observe this basic tenet—in his endeavor to give each side of the pairs its own contour. Thus, however, the logical completeness of the schema is endangered. This consideration converges with the logic of rubricization according to identified unit and function of identification, which also provides only two possibilities in each case, thus a total of four.
+This does not mean that the notion of a pair or dimension of pattern variables must be abandoned; it merely states that this dimension is defined unilaterally; the "two" pattern variables of an → 21/3d5c3f

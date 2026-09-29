@@ -1,0 +1,2 @@
+s/f
+The main difficulties of the functional analysis of empirical systems undoubtedly lie in the construction of these variables, i.e., in grasping the principle on which their values for a specific functional reference point are functionally equivalent; and only with the aid of such a construction principle can one control the completeness of the captured input values. It is questionable whether general, formalizable rules can even be given for this purpose. Nagel 1956, p. 264 → B252 denies it for his analogous problem of state-variables ( → 21/3a3b ).

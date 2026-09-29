@@ -1,0 +1,3 @@
+s/f
+→ 21/3d5c3b In der Vorlesung → B702[*] schien Parsons die grundsätzliche Actor/Situation–System/Environment-Unterscheidung für die Gegenunterscheidung verwenden zu wollen. Das würde ergeben:
+Das hätte den Vorzug, eine enge Beziehung zu den 4 System- problems herzustellen, die ebenfalls auf dieser Unterscheidung beruhen. Da jedoch das allgemeine Schema der Pattern Variablen in PV Revisited → B956 bereits alle 8 Pattern Variablen verwendet, um die beiden System-Probleme L und G zu kennzeichnen, ist eine solche Aufteilung eigentlich nicht möglich.

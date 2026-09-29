@@ -1,0 +1,3 @@
+s/f
+Systems differentiation __enables__ higher complexity within the system and in its accessible environment.
+However, it alone does not yet guarantee the realizability and durability (reproducibility) of corresponding system complexity. For this, __additional__ structural conditions must come into play. Precisely for that reason already a conceptual distinction between differentiation and complexity is necessary. See subsequently → 21/3d5b11w19a8.

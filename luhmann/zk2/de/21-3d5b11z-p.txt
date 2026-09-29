@@ -1,0 +1,4 @@
+s/f
+Differenzierung führt zur __Verzeitlichung von Komplexität__.
+Umsetzung eines __simultan__ gegebenen Umweltverhältnisses in __partielle__ Systemereignisse, die sich intern kettenförmig auswirken in einem __zeitlichen Nacheinander__ von Leistungsausfällen, Erwartungsenttäuschungen, Anpassungsmassnahmen.
+Vgl. auch → 21/3d5b11z/v2 .

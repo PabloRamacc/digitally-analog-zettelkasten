@@ -1,0 +1,2 @@
+s/f
+Fundamental concern: High job codification makes changes unlikely. See Jerald Hage and Michael Aiken, “Program Change and Organizational Properties,” American Journal of Sociology 72 (1967), pp. 503–518 → B3055[*].

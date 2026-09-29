@@ -1,0 +1,4 @@
+s/f
+[*]
+Höhere Komplexität in Systemen wird erst möglich, wenn die Umwelt keine Zufallsverteilung aufweist, sondern selbst (durch Systembildungen) strukturiert ist.
+Ähnlich Emery / Trist 1973, S. 45ff. → B416: Clustered Environment ermöglicht höher organisierte Verhaltensweisen. Evtl. für Zusammenhänge zwischen Evolutionstheorie und Systemtheorie auswerten.

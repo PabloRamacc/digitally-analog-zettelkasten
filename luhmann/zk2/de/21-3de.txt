@@ -1,0 +1,6 @@
+s/f
+__Weitere Systemkonzeptionen:__
+Nach Almond 1960, S. 7f. → B388 liegt ein System vor, wenn ein "set of interactions" mindestens die folgenden Eigenschaften hat: 1.) comprehensiveness (Einbeziehung aller systemrelevanten inputs und outputs),
+2.) interdependence ("that a change in one subset of interactions […] produces changes in all the other subsets"; S. 8 → B388),
+3.) existence of boundaries.
+Trotz der zentralen Bedeutung, die Almond → B388 dem Systembegriff gibt, völlig unklar! Nicht einmal eine explizit vollständige Charakterisierung, geschweige denn irgendeine Klarheit über den Zusammenhang der einzelnen Kriterien.

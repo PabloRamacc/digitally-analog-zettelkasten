@@ -1,0 +1,2 @@
+s/f
+The functions immediately orient themselves to the function-related operations. Their position in the system expresses their functional priority. The remaining operations only take this into account, finding themselves limited or "directed" by the system of primary-functional operations. This is __not__ a hierarchical relationship.

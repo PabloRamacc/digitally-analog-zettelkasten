@@ -1,0 +1,2 @@
+s/f
+Interdependenz wird vielfach gedacht als Schema für __Vorhersage__ von Wirkungsweitergaben im System. Durch Aufnahme von Interdependenzen in ein Systemmodell ist es möglich, die Auswirkungen der Änderung einer Variable auf andere vorherzusagen. So im Prinzip auch Parsons und vor allem die allg Systemlehre.

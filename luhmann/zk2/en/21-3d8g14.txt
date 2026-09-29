@@ -1,0 +1,5 @@
+s/f
+Impermeability to changes. "In other words, A and C must be separated by a wall of constancies." (p. 159 → B980). Such unaltered variables are also called "__null-function__" by Ashby 1954, p. 81 → B980 et al.
+3.) For subsystem theory it is now characteristic that this absolute separation is relativized by the concept of __part-function__. "The part-function has finite intervals of change and finite intervals of constancy." (p. 80 → B980)
+Thus there are separating variables that are partly constant, partly changing with the separated variables; they separate once, allow effects to pass through another time, isolate parts of the system one moment, connect them in the next.
+With this concept, interdependence within the system can be represented as a variable (fundamentally see → 21/3d2b), namely by distinguishing between boundary con- → 21/3d8g15

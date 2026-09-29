@@ -1,0 +1,6 @@
+s/f
+The system-subsystem differentiation is closely linked to the notion that the four system problems constitute a __complete__ list of functional differentiation criteria for any action system. Therefore, there can be no expansion or further subdivision at the same systemic level. Any further differentiation must therefore refer to other systems (which likewise exhibit those four problems and none others).
+Cf. Lecture 1960 → B702[*] explicitly: "Any more elaborated classification involves an elaboration of the system scheme: one total system and different subsystems." → 21/3d5b14(R) This necessity in turn forces us to adopt an analytical concept of system.
+The almost unavoidable diversity of possible system references is thus a direct consequence of the abstract simplicity of the starting schema and has → 21/3d5b15
+=== reverso ===
+→ 21/3d5b14 Therefore also e.g., WP, p. 253 → B954: "We have stated that the fundamental key to the analysis of structural differentiation of action systems lies in the relationship of system and subsystem.

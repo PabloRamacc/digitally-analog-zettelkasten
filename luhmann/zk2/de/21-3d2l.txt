@@ -1,0 +1,5 @@
+s/f
+→ 21/3d2 Der Gedanke der relativen Invarianz (Independenz) bzw. des Bestandes hat drei grundsätzliche Anwendungsmöglichkeiten: 1.) Auf das System selbst.
+2.) Auf die Subsysteme des Systems. → 21/3d2lA
+3.) Auf die Umwelt des Systems (die Art ihrer Strukturierung). → 21/3d2lB
+Dabei kann man in all diesen Fällen die relative Invarianz bzw. die Interdependenz als Variable behandeln, die je verschiedene Werte annehmen kann.

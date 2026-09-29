@@ -1,0 +1,4 @@
+s/f
+Bei der Analyse empirischer Systeme braucht __nicht__ vorausgesetzt zu werden, dass das System selbsterhaltende bzw. bezüglich einzelner Merkmale __erhaltende oder wiederherstellende Mechanismen besitzt__. → 21/3a3g ; → 21/3a3i ; → 21/3a3j ; → 21/3a3k
+Diese Voraussetzung macht Nagel → B252 in seiner Formalisierung des Funktionalismus. → 21/3a3a Das ist jedoch eine unnötige Einschränkung des Anwendungsbereichs der funktionalen Analyse. Dagegen __→ 21/3a1g - → 21/3a1g1__ → 21/3a3i ; → 21/3a3a ; → 21/3a10 ; → 21/3a1m .
+Es kommt hinzu, dass die Annahme selbsterhaltender Mechanismen im Grunde eine Abgrenzung zwischen System und Umwelt unmöglich macht (bzw. dazu zwingt, künstliche ceteris paribus Argumentationen und Konstantsetzungen einzufüh- → 21/3a4

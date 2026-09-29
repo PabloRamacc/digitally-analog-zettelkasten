@@ -1,0 +1,3 @@
+s/f
+Zwei-EbenenStruktur des Selektionsproblems
+Die Selektion der Selektionskriterien kann nach anderen Verfahren und durch andere Instanzen erfolgen als die Selektion der Schüler.

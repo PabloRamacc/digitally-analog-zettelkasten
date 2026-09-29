@@ -1,0 +1,5 @@
+s/f
+__Wahl der einer Systemreferenz als Entparadoxierung__
+Anknüpfung: Weltparadox → 21/3d18a50
+Die Wahl einer Systemreferenz fixiert eine System/Umwelt-Differenz. Sie schließt keine Objekte an (wie die Wahl eines Gegenstandes, für den man sich interessiert), sondern nur die Wahl anderer Systemreferenzen als Prämisse für eine Bestimmbarkeit schlechthin.
+Die Festlegung einer Systemreferenz ist eine einheitliche Operation der distinction/ indication im Sinne von Spencer Brown, → 21/3d12o1

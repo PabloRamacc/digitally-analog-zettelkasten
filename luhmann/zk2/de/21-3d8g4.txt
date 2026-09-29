@@ -1,0 +1,2 @@
+s/f
+Das Problem der Aufgliederung eines Systems in Subsysteme muss unterschieden werden von dem Problem der Konstruktion eines Systems als multivariables Modell. Subsysteme sind "konkrete" Einheiten, keine Variablen im strengen Sinne. So auch Hagen, S. 145 → B338, zit → 25/4,3 .

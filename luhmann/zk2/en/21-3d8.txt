@@ -1,0 +1,4 @@
+s/f
+__System nesting__ → 21/3d8,1; → 21/3d8,2; → 21/3d8,4; → 21/3d8,8; → 21/3d8,10 [*]
+Systems can "contain" subsystems, e.g., Blalock, p. 85f. → B385 ("A System Composed of Other Systems."). The designation "Composed Of," contained are merely explanatory metaphors; not as fruitful Hall - Fagen, p. 20f. (Subsystems) → B386.
+It must be noted that actions from which systems "consist" can simultaneously function in other systems. Systems can therefore be completely separate, partially entangled, or entirely nested within one another, depending on whether they do not, partially, or wholly consist of the same actions. → 21/3d8,6; → 21/3d8,10 In this sense, a distinction must be made between involved systems and subsystems (contained systems).

@@ -1,0 +1,2 @@
+s/f
+Die Bedeutung des Beobachter- Begriffs hängt mit der Einsicht zusammen, dass jede Referenz nur mit Bezugnahme auf eine andere Referenz eingeführt werden kann.

@@ -1,0 +1,4 @@
+s/f
+Drei Entwicklungstypen: 1.) Zeugung durch ein komplexeres System, das als __Grund__ die Entstehung des Abgeleiteten erklärt.
+2.) Differenzierung als Entwicklungsprozess: Ersetzung __eines__ diffusen durch zwei oder mehr spezifischere Zustände (__komplexeres__ System wird hier durch den Begriff der Diffusität ersetzt).
+3.) Systemkatalyse bei zunehmend grösseren und voraussetzungsreicheren Anforderungen an die Umwelt.

@@ -1,0 +1,4 @@
+s/f
+Es gibt __zwei verschiedene Formen der Darstellung von System/Umwelt-Beziehungen__, → 21/3d7m15,1 nämlich 1.) durch strukturelle Charakterisierung ihrer Differenzen – insb Komplexitätsgefälle. Hier muss mit __gleichen__ Begriffen gearbeitet werden.
+2.) durch dynamische, prozessbezogene Konzepte wie Problem / Problemlösung, Bedürfnis / Befriedigung, Erwartung / Erfüllung. Hier müssen System und Umwelt als __ungleich__ charakterisiert werden.
+Ein knapper Hinweis auf diesen Unterschied auch bei Hunt 1971, S. 6 → B1451.

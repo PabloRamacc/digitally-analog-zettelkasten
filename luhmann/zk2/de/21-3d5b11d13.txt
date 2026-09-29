@@ -1,0 +1,4 @@
+s/f
+Die klassische Gegenüberstellung von Differenzierung und Integration ist vermutlich unvollständig und irreführend, → 21/3d5b11d13a ; → 21/3d5b11d13b ; → 21/3d5b11d13c was sich besonders in der Gesellschaftstheorie verhängnisvoll auswirkt.
+Vermutlich ist Integration nicht das einzige Korrektiv oder Komplement der fortschreitenden Differenzierung. Vielmehr wird Differenzierung nicht nur auf der Ebene des Gesamtsystems, sondern auch auf der Ebene der Teilsysteme dadurch gebremst, __dass diese in ihrer Struktur eine geordnete Umwelt voraussetzen, die nur durch das Gesamtsystem__ garantiert werden kann.
+Dieses Argument kommt mit seiner vollen → 21/3d5b11d14

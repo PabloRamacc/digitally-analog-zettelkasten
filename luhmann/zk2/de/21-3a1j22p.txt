@@ -1,0 +1,4 @@
+s/f
+Der Beobachter ist __konstitutiv__ unsicher, weil er zwischen zwei Quellen seiner Unsicherheit, extern und intern, nicht unterscheiden (oder besser: nicht definitiv unterscheiden kann.
+Und dies deshalb nicht, weil er diese Unterscheidung als Unterscheidung, d.h. als Implikationsverhältnis operieren muss.
+Eine etwas andere Begründung derselben These bei Morin 1984 (Stanford) → B498. Der Beobachter beobachtet im Hinblick auf order __and__ disorder und ist eingeschlossen in eine Welt, die beides schon enthält.

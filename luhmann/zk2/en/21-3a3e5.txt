@@ -1,0 +1,4 @@
+s/f
+→ 21/3a3e The hypothesis of a "recovery mechanism" obscures the problem of __completeness of inventory prerequisites__; cf. → 21/3a1e4.
+When speaking about such a recovery mechanism with reference to the system as such, it means that the specific functional conditions of this mechanism simultaneously fully specify the conditions for the continuation of the system. This can only be carried out with far-reaching ceteris/paribus assumptions.
+One can also restrict the postulate of such a mechanism to certain systemic features, in particular the fulfillment of certain inventory prerequisites of the system. So it is handled in biology. So too Nagel and Hempel.

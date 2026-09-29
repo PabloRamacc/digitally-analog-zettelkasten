@@ -1,0 +1,3 @@
+s/f
+of such correspondence. In any particular case, however, the special functional relation must be assigned by means of a set of prescribed rules or specifications, which may be of any kind that shall suffice for the determination of the value of y corresponding to each value of x.
+Nagel 1961, p. 523 → B253 speaks about the mathematical concept of function ("where the term 'function' is abstractly defined as any relation between two classes of elements such that for every member of one of the classes there is a uniquely determined member of the other class.".

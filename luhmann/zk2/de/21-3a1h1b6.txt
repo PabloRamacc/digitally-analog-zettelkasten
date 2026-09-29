@@ -1,0 +1,3 @@
+s/f
+Der Gedanke der Multifunktionalität ist die genaue Umkehrung des Gedankens der funktionalen Aequivalenz – und vermutlich deshalb so wichtig. Wenn im Prinzip jede Funktion sich auf mehrere Strukturen beziehen kann, so umgekehrt auch jede Struktur auf mehrere Funktionen.
+Vielleicht rächt sich deshalb die funktionale Spezifizierung der Strukturen durch so viele Dysfunktionen.

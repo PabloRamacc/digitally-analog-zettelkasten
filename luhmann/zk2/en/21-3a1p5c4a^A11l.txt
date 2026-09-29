@@ -1,0 +1,3 @@
+s/f
+It is inherent to the nature of secrecy problems that generally more must be kept secret than would actually be required by the matter itself; for insofar as information is disclosed at all, control over who should know what and when is lost, and then even important things can no longer remain secret. Here one must think not only about the problem of passing on important secrets but also that disclosing trivial partial information may give rise to questions that cannot be left unanswered or can only be answered with considerable disruption.
+This problematic situation constitutes a decisive obstacle to precisely calibrated maneuvering with secrets.

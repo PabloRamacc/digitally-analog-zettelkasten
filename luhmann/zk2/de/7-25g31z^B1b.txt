@@ -1,0 +1,3 @@
+s/f
+Perioden müssen starr gehalten werden unter der Annahme von __Summenkonstanz__. Die Verlängerung einer Periode verkürzt eine andere, zumeist die anschließende. Oder es gibt einen Dominoeffekt.
+Das gilt aber auch für Episoden.

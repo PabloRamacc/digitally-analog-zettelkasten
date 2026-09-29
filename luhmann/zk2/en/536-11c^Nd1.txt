@@ -1,0 +1,4 @@
+s/f
+__See Bateson et al., 1956, on this point. → B1669 interpretable__.
+Structures are learned through __communication about communication;__ in particular, through communication about complex communication sequences.
+Bateson et al., p. 257 → B1669 Following Russell’s theory of types, they speak of a “different order of message,” namely a “message about a sequence of messages.”

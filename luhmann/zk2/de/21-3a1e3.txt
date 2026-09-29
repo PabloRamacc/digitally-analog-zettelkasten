@@ -1,0 +1,2 @@
+s/f
+Ein besonderes Problem des Verhältnisses von Bestandsvoraussetzungen zueinander ist das ihrer __Konsistenz__. Während Modelle als konsistenzfähig konstruiert werden können, kann bei den Bestandsvoraussetzungen empirischer Systeme die __Voraussetzung der Konsistenz nicht gemacht werden__. Das ist nur eine andere Formel für das Problem der dysfunktionalen Konsequenzen ( → 21/4 ) und Grundlage für die Behauptung, dass das Zweckmodell zur Interpretation empirischer Systeme nicht ausreicht; vgl. → 532/4b6d .

@@ -1,0 +1,2 @@
+s/f
+→ 21/3d2l Hier gilt dasselbe wie zu → 21/3d2lA . Gemeint ist nicht die Tatsache, dass Systeme sich selbst invariant halten, sondern die Funktion, die es für ein System hat, dass sich in __seiner__ __Umwelt__ Systeme invariant halten. Das wird unter dem Gesichtspunkt der Umweltstruktur bzw. der Komplexitätsreduktion zu erörtern sein; vgl. → 32/3g8d .

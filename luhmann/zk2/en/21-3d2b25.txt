@@ -1,0 +1,5 @@
+s/f
+In the preceding context it is important to clarify precisely why system complexity increases with increasing interdependence—and not decreases as one might suppose.
+This should be expressible mathematically.
+Result: Complexity increases with the establishment of __relationships__ in the system, because this also entails a dependence of relationships on other relationships; thus each element can have multiple possible fates.
+Perhaps an element—for example, a cell—still has only two possibilities → 21/3d2b25a

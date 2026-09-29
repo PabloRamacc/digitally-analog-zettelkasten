@@ -1,0 +1,2 @@
+s/f
+functional analyses tend to be too narrow (and perhaps not intended that way either), even if one attributes all problems to difficulties in the generalization of expectations, __in itself__.

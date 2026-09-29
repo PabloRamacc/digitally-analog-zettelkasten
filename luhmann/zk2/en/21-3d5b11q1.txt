@@ -1,0 +1,4 @@
+s/f
+This is based on a general thought of systems theory: that a system can make itself less susceptible to disturbances through internal differentiation because all disturbances affect only parts, thus only specific performances (perhaps indeed life-sustaining ones), and are therefore isolable and localizable.
+In the autonomy of subsystems lies, in other words, a certain protection against disturbances breaking through from one functional circle into another. Thus it depends on the environmental situation (or on other functionally equivalent stabilization strategies) of a system how much autonomy it must grant its parts.
+From these considerations can also be derived the necessity of a hierarchical order in complex systems with which the unity of the system is maintained despite concessions to → 21/3d5b11q2

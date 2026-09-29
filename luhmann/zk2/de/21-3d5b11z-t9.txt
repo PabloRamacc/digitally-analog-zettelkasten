@@ -1,0 +1,3 @@
+s/f
+Zu beachten sind gewisse formale (vielleicht nur äusserliche) Parallelen zwischen diesem Modell der Relationierung von Relationen und dem Begriff der Stelle in der Organisationstheorie.
+Dabei ist auf die Verdichtung der Problemstellung in der Form einer Identifikation hinzuweisen.

@@ -1,0 +1,5 @@
+s/f
+Im Zettelkasten ist ein Zettel, der das Argument enthält, das die Behauptungen auf allen anderen Zetteln widerlegt.
+Aber dieser Zettel verschwindet, sobald man den Zettelkasten aufzieht.
+D.h. er nimmt eine andere Nummer an, verstellt sich und ist dann nicht zu finden.
+Ein Joker.

@@ -1,0 +1,4 @@
+s/f
+__Systemverschachtelung__ → 21/3d8,1 ; → 21/3d8,2 ; → 21/3d8,4 ; → 21/3d8,8 ; → 21/3d8,10 [*]
+Systeme können Subsysteme "enthalten". So z.B. Blalock, S. 85f. → B385 ("A System Composed of Other Systems."). Die Bezeichnung "Composed Of", enthalten sind lediglich erläuterungsbedürftige Metaphern; nicht ergiebiger Hall - Fagen, S. 20f. (Subsystems) → B386.
+Es ist zu beachten, dass Handlungen, aus denen Systeme "bestehen", zugleich in anderen Systemen fungieren können. Systeme können daher gänzlich getrennt, teilweise verflochten oder ganz ineinander enthalten sein, je nachdem, ob sie nicht, teilweise oder ganz aus denselben Handlungen bestehen. → 21/3d8,6 ; → 21/3d8,10 In diesem Sinne muss zwischen involvierten Systemen und Subsystemen (enthaltenen Systemen) unterschieden werden.

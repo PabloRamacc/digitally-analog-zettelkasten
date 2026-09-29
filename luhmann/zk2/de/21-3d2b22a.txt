@@ -1,0 +1,4 @@
+s/f
+Auf Organisationsebene vgl. zu Systemen mit loser Interdependenz Weick 1976, ASQ → B1160, sowohl Funktionen, als auch methodische Probleme betreffend.
+Vgl. auch R.B. Glassman, Persistence and Loose Coupling in Living Systems, Behavioral Science 18 (1973), S. 83-98 → B1144 Simon 1973, S. 15ff. → B247
+Weick im Academy of Management Review, Heft 3[*], 1990 → B1161 Japp 1991 → B1162 für Prävention

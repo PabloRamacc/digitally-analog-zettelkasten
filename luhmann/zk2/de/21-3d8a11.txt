@@ -1,0 +1,3 @@
+s/f
+Reziprozität ist ein Anwendungsfall von __Konditionalität__.
+Die Möglichkeiten beider Seiten werden eingeschränkt dadurch, dass sie aufeinander konditioniert werden. Moderne Gesellschaft ist hier auf Dekonditionierung angewiesen.

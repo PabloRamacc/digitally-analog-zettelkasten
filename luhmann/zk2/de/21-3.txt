@@ -1,0 +1,5 @@
+s/f
+__Zur Bezugseinheit der funktionalen Analyse__ → 21/3,3 ; → 21/3,11 ; → 21/3,12 ; → 21/3,15
+Es muss eine grundsätzliche __Unterscheidung__ eingeführt werden zwischen __empirischen und konstruierten Bezugseinheiten__, m.a.W. zwischen empirischen Systemen – in der Sozialwissenschaft: __Aktionssystemen__ → 21/3,13 und __Modellen__ (Variablenkonstruktionen). → 21/3,1 ; → 21/3,2 ; → 21/3,4 ; → 21/3,5 ; → 21/3,8 ; → 21/3,10 ; → 21/3,18
+__Gemeinsam__ ist die Methodologie der funktionalen Analyse, der Funktionsbegriff und die damit gegebene methodologische Funktion der Bezugseinheit überhaupt.
+__Modelle__ sind Variablenkonstruktionen von __unmittelbarer funktionaler Relevanz__, d.h. sie "bestehen" aus Variablen, die füreinander als funktionale Bezugsgesichtspunkte fungieren. Die funktionale Analyse → 21/3a

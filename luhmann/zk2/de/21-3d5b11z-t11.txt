@@ -1,0 +1,2 @@
+s/f
+An der Funktion orientieren sich unmittelbar die funktionsbezogenen Operationen. Deren Stellung im System drückt den funktionalen Primat aus. Die übrigen Operationen nehmen nur Rücksicht auf, finden sich limitiert oder "eingewiesen" durch das System der primärfunktionalen Operationen. Das ist __kein__ hierarchisches Verhältnis.

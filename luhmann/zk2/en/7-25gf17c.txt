@@ -1,0 +1,2 @@
+s/f
+To define variance in terms of complexity theory as the ability to restructure the relationships between elements; see → 21/3d18c65 .

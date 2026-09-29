@@ -1,0 +1,3 @@
+s/f
+A __determined system with reactive mechanisms__ has the main advantage that it allows for __predictions__ about the state of the system under certain environmental conditions. And this is probably the reason why one accepts the design problems and limited scope of application of such systems. → 21/3a3e1 One can then be sure that the continuation of the system can be ensured if a specific environment exists or can be created. → 21/3a3e5; → 21/3a3e6
+Even then a prediction is only possible in conjunction with specific action recipes (Dingler). One must feed the organism and so on. It therefore seems entirely conceivable and sensible to expand the scope of functional analysis by considering manufacturing processes at all – → 21/3a3f

@@ -1,0 +1,5 @@
+s/f
+The term __problem__ denotes at the same time __elements of a plan for proceeding in solving the problem.__ Although no guarantee of solution lies within the problem itself, there is indeed a fixation of the conditions under which solutions can be recognized as such and thus a preemptive structuring of the process of solution. System connection to → 342/3.
+See also Reitman 1964's presentation → B541, which repeatedly returns to the fact that "attributes of the problem constraints on problem solution (constraints on problem solving)" represent them. See especially p. 291f. → B541
+The following details are noteworthy: 1.) Even the formulation of the problem itself is subject to such constraints, namely those of the original problems from which the formulation is derived. P. 283 → B541: "A good portion of the discussion concerns the constraints imposed on the current problem by those from which it derives."
+→ 21/3a1k25a

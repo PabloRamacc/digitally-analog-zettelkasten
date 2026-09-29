@@ -1,0 +1,6 @@
+s/f
+Deutsch (1963), pp. 128ff., 205ff. → B962 defines autonomy as self-steering through feedback mechanisms. → 21/3d3b3(R) p. 206 → B962: "Autonomy, in this view, depends on the balancing of two feedback flows of data: one from the system's performance in the present and in its environment; the other from the system's past, in the form of symbols recalled from its memory."
+This means that the autonomy problem is defined by the inside/outside difference.
+Autonomy presupposes memory. See also → 353/1d; so Deutsch, esp. p. 220 → B962. Conversely, however, maintaining an ordered memory also presupposes autonomy.
+=== reverso ===
+The error of this view lies in equating autonomy with a specific form of its preservation → 21/3d3b3.

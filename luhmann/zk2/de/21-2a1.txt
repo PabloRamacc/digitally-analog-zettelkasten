@@ -1,0 +1,4 @@
+s/f
+To say that one variable is a function of another in this sense, is to assert that there is a rule which determines the values of the dependent variable from the values of the independent variable in a given range."
+Es muss noch genauer überlegt werden, wie dieser Funktionsbegriff unter den hier gebildeten subsumiert werden kann.
+Entscheidend ist wohl, dass die Funktion nicht zwischen Einsatzwerten behauptet wird, sondern zwischen den Variablen als solchen. Nur dadurch ist sie allgemein und mehrdeutig – in mehrfachem Sinne anwendbar. In Bezug auf die unabhängige Variable, die als funktionaler Bezugsgesichtspunkt fungiert, bietet die abhängige Variable einen Komplex von → 21/2a2

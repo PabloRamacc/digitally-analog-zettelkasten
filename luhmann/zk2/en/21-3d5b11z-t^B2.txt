@@ -1,0 +1,2 @@
+s/f
+In the case of reflection, self-reference enables one to __not specify which environment is meant or implied__. The reference to the system itself corresponds to a reference to environment in general.

@@ -1,0 +1,4 @@
+s/f
+In all three directions there are __problems of self-reference__: 1.) The function refers to its own contingency. → 21/3d5b11z/t16,1
+2.) Performance falls into external circles; it creates the need that it satisfies. Cf. for an example Offe 1975, esp. p. 230 → B3409. → 21/3d5b11z/t16,2
+3.) With reflection the system relates itself to its environment.

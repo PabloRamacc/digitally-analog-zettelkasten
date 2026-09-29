@@ -1,0 +1,3 @@
+s/f
+As an operation, the self-description necessarily says something about itself because it positions itself with respect to its object.
+Can one call this an "indexical expression"? Or a performative utterance (Austin), or as a speech act (Searle)?

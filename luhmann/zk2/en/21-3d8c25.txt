@@ -1,0 +1,4 @@
+s/f
+The relationship between the terms __conflict__ and __instability__ must be clarified. → 21/3d8c25,1 ; → 21/10h
+Conflicts are instabilities to which a system is forced (almost) to react.
+In the form of conflict, an instability of a system enters into a precarious state that forces a reaction on this state (instead of just: on the triggering actions).

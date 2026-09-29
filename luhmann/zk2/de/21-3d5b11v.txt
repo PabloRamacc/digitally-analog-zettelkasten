@@ -1,0 +1,3 @@
+s/f
+Differenzierung / Kommunikationslast
+Funktional-strukturelle Differenzierung bedeutet steigende Anforderungen an das Kommunikationswesen. Diese Anforderungen ergeben sich aus einer Änderung der Rollenstruktur. Rollen werden jetzt stärker auseinandergezogen und nur noch über __komplementär__ einander zugeordnete Rollen integriert. Das bedeutet, dass die Integration zunehmend durch das Kommunikationsnetz in Form von expliziten Kommunikationen geleistet werden muss. In allen einfach strukturierten Systemen herrschen dagegen __personale__ Rollenkombinationen vor, was besagt, dass die Integration durch Rücksicht auf eigene andere Rollen, also ohne Kommunikation, vollzogen wird.

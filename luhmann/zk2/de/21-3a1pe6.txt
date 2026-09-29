@@ -1,0 +1,4 @@
+s/f
+__Verifikation von Aussagen über Erwartungen__
+Der Erwartungsbegriff dient hauptsächlich als intervening variable zur Erklärung beobachtbaren Verhaltens. Vgl. auch Stogdill, S. 63 → B321: "The validity of a concept such as expectation is dependent upon its utility for explaining the effects which are observed rather than upon its direct visibility."
+Man kann aber natürlich auch auf (unzuverlässige) "verbal reports" der Erwartenden zurückgreifen.

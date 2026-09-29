@@ -1,0 +1,3 @@
+s/f
+Zum Kontext von Selbstbeobachtung wäre der __informationstheoretische Begriff von Komplexität__ zu verwenden: Information über die Information, die einem fehlt, um das System vollständig erfassen zu können – ein Mass für Unwissendheit bzw. Unsicherheit; s. Atlan → B417.
+Ein System kann die eigene Komplexität in sich selbst nur in dieser Form oder in Form stark simplifizierter Modelle einführen.

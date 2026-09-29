@@ -1,0 +1,3 @@
+s/f
+For the general structure of memory, see Ashby 1967, p. 103 → B250.
+According to this, it is important not to rely on a vast number of point-by-point accesses, but rather to be able to draw on __relationships__ between notes—that is, on __references__—that make more information available at once than one has in mind during a search impulse or even when one’s thoughts are fixed on a particular idea.

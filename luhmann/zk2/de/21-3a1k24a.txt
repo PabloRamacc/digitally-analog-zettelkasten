@@ -1,0 +1,4 @@
+s/f
+Ein Mittel zwischen lösbaren und unlösbaren Problemen ist das unklar definierte Problem im Sinne von Reitman 1964 → B541.
+Unklare Probleme bedeuten u.a., 1.) dass das Problem während der Ausarbeitung der Lösung modifiziert werden kann, um es den Arbeitsergebnissen, glücklichen Einfällen, erreichbaren Lösungen anzupassen (Reitman, insb. S. 307ff. → B541);
+2.) dass der Konsens über die Dualität einer Lösung als Lösung nicht von vorneherein gesichert ist.

@@ -1,0 +1,5 @@
+s/f
+Problem der statistischen Beziehung zwischen Ebenen:
+Höhere Ebenen können durch Häufungen von Ereignissen oder durch unnormal-additive Schaltungen bzw. ähnliche Threshold-devices relevant werden.
+Im Falle einer nur statistischen Steuerung der Beziehung zwischen den Ebenen wird in besonderem Sinne __Zeit__ relevant. Die Frage ist dann: 1.) wie oft in bestimmten Zeiträumen bzw.
+2.) was alles noch zu bestimmten Zeitpunkten

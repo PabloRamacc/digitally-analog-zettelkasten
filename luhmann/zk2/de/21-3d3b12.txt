@@ -1,0 +1,4 @@
+s/f
+Ein besonderes Problem entsteht, wenn man zwei Systemreferenzen zugleich ins Auge fasst und von der __Autonomie von Systemteilen (bzw. Teilsystemen) spricht__.
+Dieses Problem muss im Zusammenhang gesehen werden mit den Problemkreisen Kontingenz / Freiheit im System. → 7/20d
+Die Frage ist, wie weit Autonomie der Teilsysteme notwendige Bedingung der Komplexität der Gesamtsysteme ist, oder ob es funktionale Aequivalente dafür gibt – etwa hohe strukturelle Variabilität auf der Ebene des Gesamtsystems.

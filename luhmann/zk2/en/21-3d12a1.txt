@@ -1,0 +1,4 @@
+s/f
+That the application of systems theory requires choosing a system reference means two things: 1.) It must always be specified which system is being referred to (which system should be observed) and what consequently constitutes its environment.
+2.) The specification itself can only be made by a system that thereby expresses its own preferences, installing itself as an observer.
+Choosing a system reference is __not__ choosing an object for more detailed investigation, but introducing a cut (a → 21/3d12a2

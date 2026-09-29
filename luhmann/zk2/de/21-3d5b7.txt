@@ -1,0 +1,3 @@
+s/f
+Unterscheidung von concrete system und analytical system → 21/3d5b7,1 ; → 21/3d5b7,2 in The Structure of Social Action, S. 35, 731f. → B1229 wird nicht völlig klar, da es sich in jedem Falle um eine Interpretation "in terms of the action frame of reference" handeln soll. Es gibt aber keine Interpretation von concreta "in terms of". Man kann dann allenfalls verschiedene Stufen der Abstraktion unterscheiden.
+Vermutlich kommt man dem Begriff des concrete system am nächsten, wenn man es als System der concrete units, d.h. der letzten im Sinnbezug der Aktionstheorie noch greifbaren Einheiten – und aller dieser Einheiten – versteht; im Gegensatz zum analytischen System, das diese Einheiten wiederum unter einer abstrahierenden Perspektive ordnet.

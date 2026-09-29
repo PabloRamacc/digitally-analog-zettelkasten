@@ -1,0 +1,2 @@
+s/f
+Further literature on reduced interdependence: Glassman, *Persistence and Loose Coupling in Living Systems*, in: Behavioral Science 18 (1973 → B1144

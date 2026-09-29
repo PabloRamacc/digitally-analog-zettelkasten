@@ -1,0 +1,2 @@
+s/f
+For the overall problem of system/causality, it is crucial to realize → 21/3d7fa—rarely explicitly stated—that while a system regulates causal processes (programs them), it cannot be causally explained __as a system__. In particular, the relationship between the whole system and its parts is not a causal one (in either direction!).

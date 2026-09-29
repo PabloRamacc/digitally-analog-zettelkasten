@@ -1,0 +1,4 @@
+s/f
+A special problem arises when one considers two system references simultaneously and speaks of the __autonomy of system parts (or subsystems)__.
+This problem must be seen in connection with the issue areas contingency / freedom within the system. → 7/20d
+The question is how far autonomy of subsystems is a necessary condition for the complexity of total systems, or whether there are functional equivalents for it – such as high structural variability at the level of the total system.

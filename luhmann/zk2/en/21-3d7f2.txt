@@ -1,0 +1,3 @@
+s/f
+For this, the concept of __latent causality__ is crucial. → 21/3d7f2,1 Although one finds this notion assumed as self-evident everywhere – so notably in equilibrium theory; cf. → 25/1 –, it is rarely examined explicitly for its fundamental significance.
+Latent causality means that __potential__ causes are __secured__. Causes exist which are ineffective at the time but become effective under certain conditions. Latent causality thus presupposes, like all concepts of possibility, that the __conditions of possibility__ are defined. It can be rationalized if one develops the conditions of possibility into meaningful selection rules. In this sense, for example, "memory" is transformed from information-ver- → 21/3d7f3

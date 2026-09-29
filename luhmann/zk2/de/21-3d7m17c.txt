@@ -1,0 +1,2 @@
+s/f
+Die Differenzierung der drei Ebenen ist ihrerseits durch die Differenzierung von System und Umwelt bedingt. Schon die Strukturbildung ist nur in Systemen durch sie selbst möglich, setzt Systemgrenzen voraus und ist begrenzt auf die Funktion __interner__ Prozesssteuerung. Das heißt: nur Systeme (nicht: Umwelten) können diese Ebenen trennen. Ihre Trennung ist ein Aspekt des Systemaufbaus selbst.

@@ -1,0 +1,2 @@
+s/f
+Wenn man das Verhältnis dieser beiden Aspekte der System/Umwelt-Beziehung als __variabel__ ansieht, führt das zu der Frage: ist letztlich __jede__ Selektion adaptiv, __jede__ Reduktion von Komplexität zu begrüssen? Diese Frage stellen sich auch Fullan / Loubser, S. 280 → B1450: "are we ultimately faced with the tautology that the response that works is adaptive?"

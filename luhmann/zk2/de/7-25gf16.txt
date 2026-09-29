@@ -1,0 +1,6 @@
+s/f
+Generell gilt für ausdifferenzierte Systeme, dass die __Funktion__ mit der Ausdifferenzierung __variiert__.
+Das bedeutet ein Selbststeuerungsproblem, das nur in der Pädagogik gelöst werden kann, denn es handelt sich um eine zweiseitig variable Relation, die nur
+1.) durch ein Zeitschema oder
+2.) durch sonstige Interdependenzunterbrechungen kontrollierbar wird.
+Zusammenhang mit dem Problem der Reflexivität der Funktionsbestimmung als Lernen von Lernfähigkeit.

@@ -1,0 +1,3 @@
+s/f
+Functional analyses with regard to the problem of conflict can be conducted in a double sense, depending on which system reference is chosen: the total system in which the conflict takes place or the involved individual systems. {1}
+In the first case, the analysis proceeds to functionally equivalent forms of conflict resolution. In the second case, it proceeds to functionally equivalent forms of conflict behavior; for this purpose → 21/3d8c12 . → 21/3d8c4ba .

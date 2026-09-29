@@ -1,0 +1,4 @@
+s/f
+__Verification of Statements about Expectations__
+The concept of expectation serves mainly as an intervening variable for explaining observable behavior. See also Stogdill, p. 63 → B321: "The validity of a concept such as expectation is dependent upon its utility for explaining the effects which are observed rather than upon its direct visibility."
+One can naturally also rely on (unreliable) __"verbal reports"__ from those who expect.

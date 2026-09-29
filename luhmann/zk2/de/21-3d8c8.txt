@@ -1,0 +1,4 @@
+s/f
+Da funktionale Strukturen nicht ohne weiteres durchsichtig und bewusst sind, da Funktionen als Probleme weder auf eine einzige Lösung noch auf eine einzige Ausdrucksform festgelegt sind, muss die funktionale Theorie grundsätzlich __zwischen Themen (Gegenständen) und Gründen (= funktionale Systembeziehungen) von Konflikten unterscheiden__. → 21/3d8c8a ; → 21/3d8c8b ; → 21/3d8c8c
+Diese Unterscheidung besagt, dass ein sich aus funktionalen Divergenzen ergebender Konflikt mehrere mögliche Ausdrucksformen und Themen finden kann und dass man eben deshalb am Gegenstand des Konfliktes nicht ohne weiteres seinen Grund und daher auch nicht ohne weiteres eine Möglichkeit definitiver Beilegung des Konfliktes finden kann.
+Diese Unterscheidung besagt nicht, dass die Beziehungen von Grund und Thema rein zufällig sind; aber sie sind extrem komplex. Für die funktionale Theorie lassen sie sich durch → 21/3d8c9

@@ -1,0 +1,5 @@
+s/f
+Grundlegend für die Erläuterung dieses allg action-system paradigm ist 1.) der Gedanke interner Differenzierung (= System, vgl. → 21/3d5b11 ) in terms of system problems;
+2.) die actor (attitude)-situation (modalities of objects Unterscheidung).
+Daraus ergibt sich die Aufstellung von 4 funktional-spezifischen subsystems.
+Zwei von ihnen sind spezialisiert auf Orientierung des Handelnden bzw. Bedeutung von Objekten unter Anwendung der Actor-situationUnterscheidung. Und zwar ist die Orientierung des Handelnden ein pattern maintenance problem, die Bedeutung der Objekte ein goal gratifica attainment problem. Darin liegen bereits erhebliche Verzeichnungen. Diese beiden Systeme verwenden zu ihrer → 21/3d5c4d2

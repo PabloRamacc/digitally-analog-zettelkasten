@@ -1,0 +1,3 @@
+s/f
+There are various ways to define the closure of a system, for example: 1.) the environment is irrelevant for the system, an empty magnitude;
+2.) the system is connected to its environment __only__ via specified input/output channels. Thus Le Moigne 1977, p. 67 → B199 (– quasi-isolé), following Greniewski → B1681.

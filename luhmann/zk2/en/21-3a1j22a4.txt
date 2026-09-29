@@ -1,0 +1,4 @@
+s/f
+An observer can observe a system only at the level of its elements.
+In autopoietic systems, co-observation presupposes self-referential element connections.
+See also Maturana 1981, p. 22 → B423: "an observer cannot identify the components independently of the autopoietic system that they integrate.

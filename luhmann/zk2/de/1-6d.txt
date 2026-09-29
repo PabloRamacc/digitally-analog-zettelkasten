@@ -1,0 +1,3 @@
+s/f
+Zur Geschichte des ontologischen Teil-Begriffs vgl. Beer 1961, S. 14 → B68:
+"Leibniz said that it __expresses__ the whole, and this was because he saw parts not as divisions of space or divisions of function but as __dynamically involved__ in the whole: a 'systems' outlook. Hegel went further: every relation by which terms are related is an integral part of the terms it relates. And Whitehead went further still, by making Hegel's indivisible but passive System of relatedness __active__. His doctrine of 'prehension' saw things as formulating their own nature out of other things, by seizing on relationships with them."

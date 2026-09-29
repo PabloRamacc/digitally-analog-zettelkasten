@@ -1,0 +1,5 @@
+s/f
+Simmel 1890, S. 117ff. → B1238 unterstreicht drei Gründe der Kraftersparnis durch Differenzierung: 1.) Vermeidung von überflüssiger Reibung ( → 21/3d5b11f3 );
+2.) Vermeidung von Umwegen;
+3.) Vermeidung einer überflüssigen Koordination der Mittel.
+Dahinter steht der Grundgedanke, dass Differenzierung eine genauere Zweckausrichtung erlaubt, weil die Relevanz genauer definiert werden kann.

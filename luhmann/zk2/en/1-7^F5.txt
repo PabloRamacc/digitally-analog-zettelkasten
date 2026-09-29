@@ -1,0 +1,3 @@
+s/f
+The technique consists primarily of breaking down basic concepts into variables or dimensions, the interdependence of which is then tested.
+The theoretical framework from which the variables are derived remains obscure.

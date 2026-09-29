@@ -1481,6 +1481,7 @@ window.alCambiarCaja = async () => {
   irA('general');
 };
 window.alCambiarIdioma = () => {
+  cancelarMenus();
   for (const textura of cacheTex.values()) { textura.frente.dispose(); textura.dorso.dispose(); }
   cacheTex.clear(); firmaFichero = ''; render(); window.refrescar3d();
   if (lectura) { panel(); pintarLectura(); } else $('#panel').classList.add('oculto');

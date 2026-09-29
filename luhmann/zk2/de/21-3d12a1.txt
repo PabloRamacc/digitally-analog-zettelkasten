@@ -1,0 +1,4 @@
+s/f
+Dass die Anwendung von Systemtheorie die Wahl einer Systemreferenz erfordert, heißt ein doppeltes: 1.) Es muss immer angegeben , von welchem System die Rede ist (welches System beobachtet werden soll) und was infolgedessen Umwelt ist.
+2.) Die Angabe selbst kann nur durch ein System gemacht werden, das damit eigene Präferenzen ausdrückt, indem es sich als Beobachter installiert.
+Die Wahl einer Systemreferenz ist __nicht__ die Wahl eines Objektes für genauere Untersuchung, sondern die Einführung eines Schnittes (einer → 21/3d12a2

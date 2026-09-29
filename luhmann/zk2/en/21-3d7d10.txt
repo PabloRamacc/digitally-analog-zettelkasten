@@ -1,0 +1,3 @@
+s/f
+The input/output model furthermore provides a basis from which the problem of differentiation can be addressed.
+Differentiation is a requirement that arises from environmentally open problem processing given a plurality of boundaries.

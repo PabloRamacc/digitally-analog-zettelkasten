@@ -1,0 +1,5 @@
+s/f
+__Action systems__ are to be characterized by 1.) the special nature of their elements: actions;
+2.) the special nature of their interconnection: expectations.
+See also → 5311/4 ; Systems theory / Action theory → 21/3d18a.
+Also see Parsons 1961c, p. 223 → B1227, according to which systems consist of "units" and "patterned relations among units". The units can likewise be represented as systems through shifting the chosen system reference, so that ultimately everything resolves into patterned relations. From this perspective, the significance of the concept of norm for Parsons' systems theory is to be understood.

@@ -1,0 +1,4 @@
+s/f
+The __primary__ uncertainty regarding how to act is stabilized by a secondary uncertainty.
+The secondary uncertainty stems from the technology deficit and concerns the question of where the causes of errors lie and where (at what level) changes would improve performance levels.
+“Stabilized” means that the primary uncertainty is, on the one hand, stabilized and, on the other hand, made permanent.

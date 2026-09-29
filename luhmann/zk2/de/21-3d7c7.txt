@@ -1,0 +1,3 @@
+s/f
+Der Gegensatz von offenen und geschlossenen Systemen bleibt (wenn mehr damit gemeint sein soll als ein Gegensatz von richtiger und falscher Systemtheorie) unklar, weil es keine geschlossenen Systeme ohne jeden Kausalzusammenhang mit der Umwelt geben kann.
+Demgegenüber bietet es Vorteile, nicht einen dichotomisch formulierten Gegensatz, sondern eine Variable anzunehmen, nämlich die __Variable Offenheit des Systems oder Durchlässigkeit seiner Grenzen__. Ein System ist um so offener, je mehr Informationen aus seiner Umwelt es aufnehmen und verarbeiten kann. Vgl. auch → 21/3d19g ; → 21/3d7i .

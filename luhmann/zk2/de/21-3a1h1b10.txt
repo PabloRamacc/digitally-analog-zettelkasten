@@ -1,0 +1,2 @@
+s/f
+Die Nachteile der Multifunktionalität liegen darin, dass sie Änderungen erschwert bzw. mit unabsehbaren Konsequenzen in anderen Funktionsbereichen ausstattet.

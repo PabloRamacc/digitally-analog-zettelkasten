@@ -1,0 +1,3 @@
+s/f
+__Problem joints__
+Problems are the joints of a system—and accordingly, in theory—where things can be moved and repositioned differently.

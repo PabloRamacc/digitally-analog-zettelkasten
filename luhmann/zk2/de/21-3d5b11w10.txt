@@ -1,0 +1,3 @@
+s/f
+Die System/Umwelt-Theorie ermöglicht es, Systembildung als __reflexiven Mechanismus__ darzustellen, weil sie es ermöglicht, die __Funktion__ der Systembildung anzugeben.
+Reflexiv wird Systembildung, wenn sie auf sich selbst angewandt wird. Das heisst: Die Funktion der Systembildung wird in Systemen wiederholt. Bei der Systembildung kann man dann damit rechnen, dass der gleiche Prozess der Grenzsetzung und Kontinuitätsunterbrechung __nochmals__ zum Zuge kommt. Das entlastet die primäre Systembildung von Entscheidungen.

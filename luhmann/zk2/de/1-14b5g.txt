@@ -1,0 +1,5 @@
+s/f
+7.) Ebenen setzen im Verhältnis zueinander korrektes Funktionieren voraus.
+Sie dienen __nicht__ der Fehlerkorrektur oder der Überwachung von Programmausführungen. Nur so kann __jede__ Ebene eine __eigene__ Funktion übernehmen.
+__Trotzdem__ gilt, ! > " that connected disorder on one level of organization gives rise to significant pattern on a higher level". < ! – so Cyril Stanley Smith, Structural Hierarchy in Inorganic Systems, in: Whyte / Wilson / Wilson 1969, S. 61-85 (S. 83) → B246.
+→ 1/14b5h

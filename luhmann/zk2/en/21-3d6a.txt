@@ -1,0 +1,2 @@
+s/f
+Dynamics and statics are regarded as complementary and thus complete forms of systems analysis. This means: an analysis must be conducted either statically or dynamically. Cf., e.g., Hagen, p. 149 → B338: "the only possible states of a system are equilibrium and dynamic.

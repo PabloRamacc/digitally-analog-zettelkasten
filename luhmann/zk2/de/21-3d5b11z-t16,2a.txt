@@ -1,0 +1,3 @@
+s/f
+Speziell für den Leistungsbereich (oder auch: allgemein?) gilt, dass __sowohl__ der Bedarf als auch die Leistungsabsicht als Ausgangsdatum gesetzt werden können.
+Ein System muss jedoch gerade mit solchen __Invariant__setzungen __inkonsistent__ verfahren, d.h. sie wechseln können, um das Langfristrisiko der Setzung neutralisieren zu können.

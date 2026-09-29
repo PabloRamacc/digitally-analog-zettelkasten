@@ -1,0 +1,3 @@
+s/f
+Die Anforderungen an Selbstbeschreibungen müssen weiter präzisiert werden, besonders für dynamische Systeme mit temporalisierter Komplexität.
+Es genügt dann nicht, eine statische Struktur einfach modellförmig, landkartenmässig abzubilden. Die Selbstbeschreibung muss von Elementen und Erwartungen aus aufgeführt werden, die Stabilität und Instabilität kombinieren – vielleicht kann man auch präziser sagen: von Formen aus, die temporäre Elemente als erwartbar erscheinen lassen. Ein gutes → 21/3a1j22c14

@@ -1,0 +1,4 @@
+s/f
+Der Zusammenhang Generalisierung / Respezifikation kann dadurch verfeinert werden, dass man ihn auf die durch Systemdifferenzierung gebildete Differenz von Systemreferenzen bezieht. Sobald es zu funktionaler Differenzierung kommt, setzen __zwei__ Symbolentwicklungen ein: 1.) Auf der Ebene der Gesamtgesellschaft müssen Symbole __generalisiert__,
+2.) auf der Ebene der Teilsysteme müssen Symbole __abstrahiert__ werden.
+Generalisierung und Abstraktion unterscheiden sich dadurch, dass die erste Negationsmöglichkeiten → 21/3d5b11d8e4

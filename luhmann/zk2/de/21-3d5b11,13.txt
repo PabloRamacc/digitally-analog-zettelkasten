@@ -1,0 +1,4 @@
+s/f
+→ 21/3d5b11 Sehr wichtig ist eine deutliche Unterscheidung von funktionaler Spezifikation und Systemdifferenzierung.
+Die Unterscheidung ergibt, dass es eher ein Ausnahmefall ist, wenn eine Systemdifferenzierung dem Prinzip funktionaler Spezifikation folgt.
+Zu funktionaler Spezifikation als allgemeinem Entwicklungsgesetz vgl. Tatje / Naroll 1970 → B1257. Vgl. als Ausgehungspublikation: Raoul Narroll, A Preliminary Index of Social Development, American Anthropologist 58 (1956), S. 687-715 → B1258.

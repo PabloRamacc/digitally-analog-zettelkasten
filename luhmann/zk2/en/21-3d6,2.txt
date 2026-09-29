@@ -1,0 +1,4 @@
+s/f
+__Hagen → B338__ also uses the distinction between statics and dynamics; regarding his concept of a static equilibrium, to which he also counts moving equilibria (moving equilibrium) with changing parameters, see in particular → 25/1,4; → 25/1oa.
+By dynamic analysis he understands the tracing of the path along which changes to parameters within the system are captured – presupposing that the system requires a certain period for this, often one that is very long.
+See p. 147 → B338: "In contrast to comparative statics [i.e., merely juxtaposing equilibrium possibilities for different parameters (→ 25/1oa et seqq.)], analysis can focus on the __path of change__ → 21/3d6,2a

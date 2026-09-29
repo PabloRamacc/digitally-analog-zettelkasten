@@ -1,0 +1,4 @@
+s/f
+__Anwesendheit__ ist als Kategorie im theoretischen Kontext "einfacher Systeme" funktional- aequivalent für __Mitgliedschaft__ in organisierten Systemen.
+Mitgliedschaft ist das __abstraktere__ funktionale Äquivalent für Anwesendheit.
+Ein über Mitgliedschaften konstruiertes Sozialsystem hat daher mehr Möglichkeiten, kann höhere Komplexität erreichen.

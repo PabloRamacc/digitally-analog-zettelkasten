@@ -1,0 +1,5 @@
+s/f
+Im vorstehenden Zusammenhang ist es wichtig, genau klarzustellen, weshalb Systemkomplexität bei zunehmender Interdependenz zunimmt – und nicht etwa abnimmt.
+Dies müsste mathematisch angebbar sein.
+Im Ergebnis: Komplexität nimmt mit der Herstellung von __Beziehungen__ im System zu, weil damit auch eine Abhängigkeit der Beziehung von Beziehungen eintritt, also jedes Element ein vielfach auslösbares anderes Schicksal haben kann.
+Möglicherweise hat ein Element – etwa eine Zelle, nach wie vor nur die beiden Möglichkeiten → 21/3d2b25a

@@ -1,0 +1,2 @@
+s/f
+→ 536/11c In diesem Zusammenhang auch: Spezifikation mit ihren Rückwirkungen auf die Innenstruktur des Systems erörtern, insb Spezifikation des __Sinnes__ der Zusammenkunft; Spezifikation der Kommunikationsthemen; Spezifikation von Rollen; Spezifikation der Aspekte, in denen der andere Mensch relevant wird.

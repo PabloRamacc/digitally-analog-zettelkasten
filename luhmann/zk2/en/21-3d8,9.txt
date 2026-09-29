@@ -1,0 +1,2 @@
+s/f
+A system nesting occurs whenever an action fulfills a function across multiple systems, meaning that several systems are interested in the action → 21/3d8.

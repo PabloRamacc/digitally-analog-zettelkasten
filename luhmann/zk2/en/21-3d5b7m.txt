@@ -1,0 +1,2 @@
+s/f
+The thesis of analytical systems (elements, structures) has never been sufficiently reflected epistemologically. It seems to stem from the mathematical worldview, or more precisely: from assignments based on __measurements__, for which units, mass and aggregation can indeed be used arbitrarily.

@@ -1,0 +1,4 @@
+s/f
+In the analysis of empirical systems it need not be presupposed that the system possesses self-preserving or, with respect to individual characteristics, preserving or restoring mechanisms. → 21/3a3g ; → 21/3a3i ; → 21/3a3j ; → 21/3a3k
+This precondition makes it possible for Nagel to → B252 in his formalization of functionalism. → 21/3a3a This is however an unnecessary restriction of the scope of functional analysis. Against this → 21/3a1g - → 21/3a1g1 → 21/3a3i ; → 21/3a3a ; → 21/3a10 ; → 21/3a1m .
+It adds to the fact that the assumption of self-maintaining mechanisms essentially makes a distinction between system and environment impossible (or forces one to introduce artificial *ceteris paribus* arguments and constellations). → 21/3a4

@@ -1,0 +1,4 @@
+s/f
+in gewissen Hinsichten "dichter" ist als ihr Zusammenhang mit der Aussenwelt.
+Die Invarianz eines solchen Systems ist stets __relativ__. Sie gilt nur für einen bestimmten Kreis von Veränderungen (sei es in sich selbst gegenüber einer konstanten Umwelt, sei es in der Umwelt bei eigener Konstanz). Die Invarianz des Systems, bzw. seine Bestandsfestigkeit, kann daher – in funktionalen Analysen grösserer Zusammenhänge – als eine __Variable__ behandelt werden. → 21/3d3a ; → 21/3d3c
+Wenn dagegen der Bestand eines Systems als solcher analysiert, d.h. wenn nach seinen functional prerequisites gefragt werden soll, muss eine bestimmte Bestandsfestigkeit vorausgesetzt werden, da natürlich die erforderlichen Bestandsvoraussetzungen → 21/3d4

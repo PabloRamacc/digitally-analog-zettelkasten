@@ -1,0 +1,5 @@
+s/f
+What does it mean: to have access to the environment?
+At least more than: being able to act upon the environment, extract its resources.
+But: in what sense "more"? Not a linear increase but a threshold problem; perhaps precisely definable with reference to the problem of interdependencies within the environment.
+The issue certainly exceeds mere causal operationalization.

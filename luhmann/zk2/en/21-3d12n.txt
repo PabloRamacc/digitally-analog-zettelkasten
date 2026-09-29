@@ -1,0 +1,3 @@
+s/f
+The problem of the plurality of system references relates to __technology__.
+One can conceive of the relieving functions of technology as being related to complexity requirements that arise from the attempt to take several system references into account simultaneously.

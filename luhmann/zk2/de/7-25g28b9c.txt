@@ -1,0 +1,2 @@
+s/f
+Normalverteilung selbst ist keinerlei Garantie für Validität (bzw. in __diesem__ Sinne: Objektivität).

@@ -1,0 +1,2 @@
+s/f
+Breaks are, so to speak, islands of behavior without consequences within the system; they are regulated by the system not in terms of content, but only in terms of form (e.g., in terms of time limits and permissibility).

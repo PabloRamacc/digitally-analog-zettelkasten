@@ -1,0 +1,3 @@
+s/f
+__Komplexitätsgefälle__ bedeutet: Das System steht nicht in derselben Beziehung zur Umwelt wie die Umwelt zum System.
+Bekanntes Modell: Am Fall von Erkenntnis und Gegenstand entwickelt.

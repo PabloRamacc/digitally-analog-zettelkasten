@@ -1,0 +1,5 @@
+s/f
+It must be examined whether it makes sense – and what kind of sense – to place stock prerequisites into a hierarchical relationship so that some are more important than others. Nagel 1956, p. 272 → B252 assumes this possibility without further analysis.
+For the time being only a hierarchical order in terms of gradation of functional problems is conceivable: there are prerequisites from which existence directly depends and others from which existence depends on performances that are provided for those existential prerequisites.
+See also → 21/3a1i.
+For less rigorously conceived "Traits G" (cf. → 21/3a1g), Nagel formulates on p. 254 → B252: "some of the G's with respect to which S is self-maintaining may constitute → 21/3a1e2

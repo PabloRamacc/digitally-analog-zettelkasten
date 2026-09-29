@@ -1,0 +1,5 @@
+s/f
+What systematic "constraints" on portable interdependence exist: 1.) limited capacity for attention;
+2.) contradictory dependencies in the sense that a decision, if it depends on A, cannot simultaneously depend on B, because otherwise it would have to be changed in contradictory directions at once.
+Both aspects are addressed in the manuscript La Porte → B1156.
+A "logization" of the decision system would create more favorable conditions in both directions and eliminate constraints even in the limiting case of successful axiomatization and machine execution of Be[...]ngs.

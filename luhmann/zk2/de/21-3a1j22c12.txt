@@ -1,0 +1,4 @@
+s/f
+Selbstbeschreibung als Regulierungs-(evtl. Planungs-)Voraussetzung.
+Vgl. Bråten 1973 → B448 unter Bezugnahme auf R.S. Conant / W.R. Ashby, Every Good Regulator of a System Must Be a Model of That System, Int. J. of System Science 1 (1970), S. 89-97 → B449 Photok
+Für Conant / Ashby → B449 liegt jedoch der Regulator ausserhalb der zu regulierenden Zustände. (Der Thermostat muss zwar die Welt als Hitze/ Kälte-Welt abbilden, setzt aber keine Welt voraus, die ihn selbst überhitzen oder unterkühlen könnte.) → 21/3a1j22c12a

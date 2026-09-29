@@ -1,0 +1,2 @@
+s/f
+Ein Merkmal ist für diese Systems Theory durchgehend kennzeichnend: die dem Computer abgelesene starke Trennung von Programm und Datenfluss.

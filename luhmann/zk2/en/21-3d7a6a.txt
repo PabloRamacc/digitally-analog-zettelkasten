@@ -1,0 +1,4 @@
+s/f
+Further aspects of complications in causal analysis of systems: 1.) One factor affects many others.
+2.) Individual factors are influenced by many others.
+3.) The influence is not necessarily unidirectional—linearly increasing, positive or diminishing, negative—but it can reverse itself. What benefits may become harmful upon multiplication.

@@ -1,0 +1,2 @@
+s/f
+Perhaps the most important question this theory raises is __whether discrimination at the input boundary is permitted solely on the basis of functional considerations or also on the basis of performance considerations.__

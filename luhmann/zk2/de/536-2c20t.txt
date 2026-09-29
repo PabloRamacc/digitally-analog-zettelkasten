@@ -1,0 +1,5 @@
+s/f
+Grundstruktur eines Diskussionssystems: __Trennung von Thema und Beiträgen.__
+Das erst ermöglicht: a.) Neutralisierung der Wahrheitsfrage;
+b.) Neutralisierung der personalen Bezüge, __sachliche__ Diskussion i.S. einer Neutralisierung der Quellen der Beiträge.
+Die Trennung von Thema und Beiträgen lässt sich nach dem Schema Differenzierung, Generalisierung, Respezifikation begreifen. Die __Differenzierung__ der Wahrheitsfrage in wahre oder falsche Aussagen erfordert eine __Generalisierung__ von Themen, die dann durch Beiträge __respezifiziert__ werden müssen.

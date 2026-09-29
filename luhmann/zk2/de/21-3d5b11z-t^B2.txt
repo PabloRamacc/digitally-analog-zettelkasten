@@ -1,0 +1,2 @@
+s/f
+Im Falle der Reflexion ermöglicht der Selbstbezug, __nicht zu spezifizieren, welche Umwelt gemeint bzw. impliziert ist__. Dem Bezug auf das System selbst entspricht der Bezug auf Umwelt schlechthin.

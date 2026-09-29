@@ -1,0 +1,3 @@
+s/f
+zwischen allen Teilsystemen einer Systemebene.
+Diese Spezifikationsweise ist – vor allem in den beiden letzten Hinsichten – an das AGIL- Schema gebunden, vor allem an die Vorab- Begrenzung der Zahl von Funktionen.

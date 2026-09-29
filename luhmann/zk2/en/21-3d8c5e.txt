@@ -1,0 +1,7 @@
+s/f
+! > Expectation fulfillment is not recorded as an inherent limitation of ability, but rather as a separate determination of expectations. < ! → 21/3d8c5e(R)
+e.g., p. 144 → B369: "When a person says he is 'unable' to do something, what he seems to be doing is to take certain of the circumstances in which he is involved and treat them as 'givens' or unchangeable. At certain times, these circumstances may, indeed, be unchangeable; often as not, however they are unchangeable only because the person has not thought of changing them or because he would not want to do so, even if he could. __In short, commitments generate constraints__."
+p. 145 → B369: "… Perhaps this can be generalized and we can say that a constraint exists when a given pattern of behavior generates tensions for Ego. Ego, therefore, will be 'unable' to satisfy Alter's expectancies when doing so creates more tension for him than not doing so."
+→ 21/3d8c5f
+=== reverso ===
+→ 21/3d8c5e A question in the same direction by Simon, Comments, p. 162 → B88: Limits of rationality: which "behavior variates" are treated as variables, i.e., rationally decidable, and which as fixed, i.e., burden on rationalization?

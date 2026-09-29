@@ -1,0 +1,2 @@
+s/f
+Zur Operationalisierung und systembezogenen Messung von Interdependenz Zajonc 1960, S. 160 → B1167: "If we define the dependence of the attribute Ai on the Attribute Aj as equal to one[*] when a change in Aj produces a change in Ai, and as equal to 0 when change in Aj does not produce a change in Ai, then a dependency matrix can be constructed for all attributes of a given cognitive structure, and the total dependency of each attribute may easily be obtained by summing the entries in the appropriate row."

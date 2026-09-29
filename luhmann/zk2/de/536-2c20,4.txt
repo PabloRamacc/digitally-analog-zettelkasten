@@ -1,0 +1,6 @@
+s/f
+Übersicht über allg Systemvariablen und Problemstellungen: 1.) Rationalisierbarkeit, Zweck?
+2.) Komplexität
+3.) Zeitstruktur, Prozesscharakter, Auslieferung an die eigene Geschichte
+4.) Grad der Personalisierung
+5.) Mode (i.S.v. Bateson) and mode control

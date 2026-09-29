@@ -1,0 +1,3 @@
+s/f
+Ebenendifferenzierung ermöglicht auf der horizontalen Ebene Entkopplungen; diese setzen wiederum Ebenen-Differenzierung voraus; Simon 1973, S. 15f. → B247; vgl. loose coupling; ferner Anwendung → 21/3d27f1h .
+Vgl. hierzu die Definition von Hierarchie als System mit mehr als einer simultanen Aktivität (so sicherlich unzutreffend) bei Rosen in Whyte etc. 1969 → B248, zit nach Pattee 1973, S. 79 → B249.

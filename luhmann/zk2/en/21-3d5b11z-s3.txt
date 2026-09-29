@@ -1,0 +1,3 @@
+s/f
+Connection with the pattern variables __quality – performance__.
+Aggregation is oriented towards attributes; coordination is oriented towards performances.

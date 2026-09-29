@@ -1,0 +1,4 @@
+s/f
+and it must be able to specify this environment (e.g.: other people) if it wishes to expose itself to certain observations.
+For an exact determination of objects, it may be necessary to more precisely specify from which position in their environment they can be observed.
+See also → 21/3d27a12b .

@@ -1,0 +1,4 @@
+s/f
+during the responses there should be a wall of null-functions between the variables A and the step-functions S." ( S. 173 → B980)
+Die Spezifikation erlaubt zugleich eine __schnellere__ Anpassung und damit u.U. die Überwindung des kritischen Zeitproblems in allen Anpassungsvorgängen. Vgl. insb. S. 177f. → B980 Siehe dazu grundsätzlich → 7/9e(2) . Ein "fully connected" System ohne interne Invarianzen würde in einer komplexen Umwelt übermässig lange Zeit zur Anpassung benötigen (S. 135f. → B980).
+! > Der vielleicht wichtigste Gesichtspunkt klingt nur kurz an. Dass ein System durch Subsystembildung die Vorteile gewinnt, die darin bestehen, __dass die Teile einander als Umwelten behandeln können__. Ashby 1954, S. 174 → B980: "In other words, within a multistable system, subsystem adapts to subsystem in exactly the same way as animal adapts to environment." < !

@@ -1,0 +1,2 @@
+s/f
+Ein weiteres Problem in diesem Zusammenhang ist, ob nicht zwischen Bestandsvoraussetzungen (notwendigen Ursachen) und definierenden Merkmalen eines Systems streng unterschieden werden muss. Möglicherweise geht durch diese Unterscheidung gerade der Kerngedanke des Begriffs verloren. Vielleicht __sind__ die identifizierenden Merkmale als solche und nur sie die Bestandsvoraussetzungen und alles andere bereits Variablen für funktionale Erfüllungsleistungen.

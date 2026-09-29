@@ -1,0 +1,3 @@
+s/f
+Direct and indirect behavior in interaction systems can be distinguished based on how much freedom of response is granted to the partner.
+See Amidon and Flanders 1971 → B1995.

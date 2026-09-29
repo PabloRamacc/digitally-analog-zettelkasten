@@ -1,0 +1,3 @@
+s/f
+Die Micro/Macro-Unterscheidung ist ein Schema für __Problem__formulierungen. Sie kann deshalb nur durch Problemformulierungen ersetzt werden, die sich davon unabhängig machen und auf andere Unterscheidungen abstellen.
+Ein gutes Beispiel für die Problematisierung der Unterscheidungsabhängigkeiten von Problemstellungen; durchgehendes Thema bei Fielding 1988 → B1696.

@@ -1,0 +1,2 @@
+s/f
+→ 21/3a1p5c Grundsätzlich wichtig ist, dass sich dieses Problem, seine Lösungserfordernisse, funktional aequivalente Lösungsmöglichkeiten, Folgeprobleme __als solche erörtern lassen__, ohne dass darüber auf den Inhalt der konkreten Identifikationen eingegangen werden muss. Diese abstrakte Fragestellung rückt äusserlich ganz heterogene Verhaltensweisen theoretisch eng aneinander.

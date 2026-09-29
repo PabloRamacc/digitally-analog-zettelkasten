@@ -1,0 +1,4 @@
+s/f
+Weitere Gesichtspunkte der Komplikationen bei kausaler Analyse von Systemen: 1.) Ein Faktor wirkt auf viele andere.
+2.) Einzelne Faktoren werden von vielen anderen beeinflusst.
+3.) Die Beeinflussung ist nicht notwendig einsinnig – linear steigernd, positiv bzw. mindernd, negativ; sondern sie kann sich umkehren. Was nützt, kann bei Vermehrung schädlich werden.

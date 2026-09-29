@@ -1,0 +1,4 @@
+s/f
+See also Working P., p. 164 → B954: "No more than the statement of the principle of inertia does the statement of this principle imply that actions and reactions empirically are always equal and opposite; it does imply that where they are not equal and opposite, a problem is presented. The concept of equilibrium implies that where they are not, the source of the discrepancy, the excess or deficit of input must lie __outside__ the set of variables which constitute the stable state of the system."
+This becomes clear: essentially, the equilibrium model does not serve to describe reality but rather serves to define problems.
+But what exactly is the analytical meaning, the methodological function of such a model? See also → 25/1m(1) ; → 25/1gA.

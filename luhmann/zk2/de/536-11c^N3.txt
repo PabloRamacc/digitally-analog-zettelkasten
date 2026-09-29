@@ -1,0 +1,3 @@
+s/f
+besser simulieren zu können, zumindest Störfähigkeit einzubauen.
+Dazu sein auf S. 203ff. → B515 beschriebenes Programm Argus, in dem nach Möglichkeit distractions eingebaut und geregelt werden (durch Prioritäten, Indifferenzen etc.).

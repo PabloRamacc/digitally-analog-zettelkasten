@@ -1,0 +1,4 @@
+s/f
+→ 21/3 It can generally be said that decision models extend to expectations, whereas systems extend to actions.
+Not actions but expectations can be abstract in the sense of models.
+From the fact that actions are oriented towards expectations arises at the same time the connection between system and model.

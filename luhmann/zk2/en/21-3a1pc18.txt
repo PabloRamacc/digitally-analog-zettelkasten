@@ -1,0 +1,2 @@
+s/f
+The basic thesis: __generalization is latent differentiation__ (→ 21/3d5b11d5) must be made fruitful for expectation theory.

@@ -1,0 +1,4 @@
+s/f
+Der Problembegriff ist weiter zu klären im Zusammenhang mit dem Bedingungsverhältnis von Steigerung und Reduktion von Komplexität. Siehe auch → 21/3a1k30b .
+Probleme entstehen aus Systemstrukturen (= constraints), die zugleich als Beschränkungen und als Erweiterungen von Möglichkeiten fungieren. Die weitere Klärung hängt daher u.a. von der Möglichkeitstheorie ab.
+Um ein Problem zu konstituieren, müssen die strukturellen Constraints eine __Teilmenge__ enthalten, die Hinweise auf Lösungsmöglichkeiten enthalten. Vgl. den Hinweis auf Simon → B547 bei Kirsch III, S. 112 → B548. → 21/3a1k29

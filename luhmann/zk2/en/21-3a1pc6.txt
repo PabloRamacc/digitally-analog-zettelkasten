@@ -1,0 +1,8 @@
+s/f
+__Temporal generalization of expectations__ → 21/3a1pc6(R)
+See also → 23/3d; → 54/2c; → 54/2h; → 21/3d8c5d; → 31/3c11.
+Every expectation implies a certain temporal conception regarding the point in time or period during which what is expected occurs. In this regard, an expectation can be generalized; that is, it may fix a specific point in time. If the event does not occur at this point __not__, the expectation is disappointed. A later occurrence constitutes another event and pertains to other expectations. For example, as with a rendezvous. Or it may leave open more or less of an interval during which the event can happen. However, the question cannot remain entirely open; one may be uncertain regarding whether something will occur __at all__. But one cannot expect anything with certainty without any temporal conception whatsoever.
+Temporal generalization is especially important in behavioral expectations. It allows the other person room for maneuver and → 21/3a1pc6a
+=== reverso ===
+→ 21/3a1pc6 Literature:
+Gouldner, Wildcat, p. 142f. → B369 (cf. → 21/3d8c5d) Louis Schneider / Sverre Lysgaard, The Deferred Gratification Pattern, American Sociological Review 1953, pp. 142-48 → B631

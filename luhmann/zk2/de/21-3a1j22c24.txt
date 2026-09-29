@@ -1,0 +1,3 @@
+s/f
+Selbstbeobachtung ist immer an die Verwendung __interner__ Operationen gebunden. Ein System kann sich nie "von aussen" beobachten, weil dazu nicht verfügbare Operationen erforderlich wären.
+Vgl. auch die Unterscheidung perceiving oneself / transcending oneself bei Hofstadter 1979, S. 478 → B434.

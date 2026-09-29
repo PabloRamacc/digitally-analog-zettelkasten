@@ -1,0 +1,4 @@
+s/f
+Methodologie der Problemorientierung ist Methode der Simulation einer praktischen Entscheidung.
+Dabei ist die Entscheidung selbst Teil des Problems. Das Problem verändert sich daher mit den Entscheidungsmöglichkeiten.
+Auf rein theoretischer Ebene heißt dies: dass die Theorie sich selbst in ihren Gegenstand hineindenkt. Auch die Evolutionstheorie ist in diesem methodologischen Rahmen zu entfalten; sie schließt Design und Planung nicht in der Form eines Gegenbegriffs aus, wie die bisherige Tradition es will.

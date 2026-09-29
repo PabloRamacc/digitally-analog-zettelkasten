@@ -1,0 +1,6 @@
+s/f
+Johnson et al. 1964, p. 367 → B36: "A system is 'an organized or complex whole; an assemblage or combination of things or parts forming a complex or unitary whole.'"
+Johnson et al. 1963, p. 91 → B11: "A system will be defined as an array of components designed to accomplish a particular objective according to plan."
+Ackoff 1961, p. 27 / 28 → B14: "Initially we can define a system broadly and crudely as any entity, conceptual or physical, [p. 28] which consists of interdependent parts." "A whole which is compounded of many parts. An ensemble of attributes." Cherry, On Human Communication, p. 307 → B991
+Berrien 1964, p. 206 → B992: "System refers to a collection of inter-related processes or events encompassed by a recognizable boundary."
+Katz / Kahn, p. 453 → B993, cit → 21/3d7caa. → 21/3db2

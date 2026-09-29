@@ -1,0 +1,3 @@
+s/f
+Second-order cybernetics must take into account the fact that __it cannot form a hierarchy itself__, i.e., __cannot offer a complete description of itself__: neither from above (from a highest point) nor from outside (in the sense of an internal description of an external position, from which the whole would be observable.
+This consequence is also drawn for type theory or for the level hierarchy, which then wrongly is called a hierarchy (e.g., Löfgren in Jantsch 1981, p. 134f → B477 with reference to Russell himself).

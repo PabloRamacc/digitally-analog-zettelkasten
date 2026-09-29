@@ -1,0 +1,3 @@
+s/f
+Solange man bei einem mengentheoretischen Systembegriff und bei der klassischen Logik bleibt, kann man die Differenz von System und Umwelt nicht adaequat deuten.
+Denn die Umwelt, die dann ebenfalls als eine Menge von Elementen gedacht werden muss, wird dann automatisch zum System, zum "anderen" System.

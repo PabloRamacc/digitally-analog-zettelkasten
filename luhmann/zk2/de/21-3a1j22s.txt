@@ -1,0 +1,4 @@
+s/f
+Die Beobachtung zweiter – im Unterscheid von erster – Ordnung kann an einer unterschiedlichen Einstellung zum Problem der Referenz expliziert werden, d.h. zur operativen Einheit von indication / distinction.
+Der Beobachter erster Ordnung vollzieht die Bezeichnung, er referiert und setzt dabei voraus, dass dies eine Unterscheidung (Selektion etc.) erfordert.
+Der Beobachter zweiter Ordnung __thematisiert__ (bezeichnet) die Unterscheidung selbst und muss deshalb eine andere Unterscheidung implizieren und so weiter.

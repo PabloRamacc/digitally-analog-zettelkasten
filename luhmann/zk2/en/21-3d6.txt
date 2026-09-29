@@ -1,0 +1,5 @@
+s/f
+The definition of a system's stock as relative invariance makes it clear that there is no point in distinguishing between __statics and dynamics → 21/3d6(R)__ in the sense of two different perspectives. → 21/3d6,1 ; → 21/3d6,4(1) ; → 21/3d6,5 ; → 21/3d6,4(2) __This distinction belongs to a causal-scientific theory of organization. The static perspective abstracts from the environment as a cause for changes within the system and therefore – since there is no perpetual motion machine possible – from any change in the system.__
+The functional method, on the other hand, cannot draw a strict boundary between statics and dynamics because it defines __every__ stock as a problem, thus presupposing variability from the outset, and because it also defines stock requirements such that both internal and external factors can be considered as functional performances, meaning that internals and externals are interchangeable within the framework of the same function.
+=== reverso ===
+see → 21/3d6, cf. → 25/1o1a

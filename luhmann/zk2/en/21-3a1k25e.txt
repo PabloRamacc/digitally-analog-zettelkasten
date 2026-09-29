@@ -1,0 +1,4 @@
+s/f
+that the attributes of one are interpreted as constraints on the attributes of the other."
+6.) The procedure in problem-solving can be simplified by temporarily neglecting, ignoring certain solutions or even developing solution attempts entirely "out of context" and then seeking to insert them into the context with individual modifications to the constraints or to the solutions (p. 306ff → B541).
+See Reitman 1965 → B515 for a more detailed discussion on all this.

@@ -1,0 +1,2 @@
+s/f
+Eine Konsequenz dieser Einsicht ist die __Nichtbeliebigkeit des Vollzugs der Selbstreferenz__. Eine andere: die __Spezifikation__ des System/Umwelt- Problems in dem Masse, als Möglichkeiten der Umweltkontrolle zunehmen.

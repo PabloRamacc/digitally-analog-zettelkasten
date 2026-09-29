@@ -1,0 +1,2 @@
+s/f
+Die Konzeption für interne Differenzierung von Klassen scheint immer von Personen ausgegangen zu sein, nicht dagegen von Interaktionen als Subsystemen.

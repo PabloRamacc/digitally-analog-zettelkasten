@@ -1,0 +1,3 @@
+s/f
+Important is the newly emerging insight that closure refers __only__ to self-reference and not to causality.
+See also on concurrent self-reference → 21/3d26g116b.

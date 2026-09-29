@@ -1,0 +1,3 @@
+s/f
+For this differentiation, it is important to clearly define the boundaries—so that, for example, one can distinguish between consequences within the system (that affect future behavior within the system) and consequences outside the system.
+The system’s future and past must also be distinguished.

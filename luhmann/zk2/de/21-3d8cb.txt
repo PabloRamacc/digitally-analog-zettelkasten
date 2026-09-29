@@ -1,0 +1,4 @@
+s/f
+→ 21/3d8c Beziehungen zwischen Systemen sind aber immer nur im Rahmen eines übergeordneten Systems nötig und möglich. Sobald man von solchen Beziehungen spricht bzw. sie feststellt, impliziert man ein übergeordnetes System. Insofern hat die Theorie des Konflikts stets auch einen systeminternen Aspekt. Ob intern oder extern ist lediglich eine Frage der Systemreferenz: welches System man meint.
+Vgl. hierzu auch den Vorschlag Sjobergs, S. 206 → B397, die Tatsache von contradictory functional requirements als "essential ingredient of any theory of conflict" zu sehen.
+Grundsätzlich lässt sich also feststellen, dass sich die Lösungsmöglichkeiten für Konflikte, aber auch – tiefer gesehen – die Möglichkeiten für Konflikte selbst und die verfügbaren Konfliktstypen aus der Struktur eines → 21/3d8cb1

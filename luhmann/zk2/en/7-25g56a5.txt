@@ -1,0 +1,6 @@
+s/f
+Another requirement of technologies is __temporal__ in nature.
+__At the end__ of the operations specified by the technology, it must be possible to determine whether the effect has occurred or not. → 7/25g56a5,1 ; → 7/25g56a5,2
+That is, the success assessment must __coincide__ with the end of the operations __in terms of timing__.
+This condition resembles the premise of __teleological processes__.
+It is also related to the requirement of factor isolation; for once the operations have ended, it is no longer possible to → 7/25g56a5a

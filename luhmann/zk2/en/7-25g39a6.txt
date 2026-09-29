@@ -1,0 +1,5 @@
+s/f
+One of the weaknesses of the examination interaction system is its narrow scope and low complexity.
+Unlike the overall selection process of the educational system, it offers hardly any opportunities for self-referential correction or for responding to successes and failures in learning.
+Every minute __definitely__ counts; in this respect, time dominates the proceedings.
+And perhaps it is this factor, much more than external determination (domination!), that instills fear.

@@ -1,0 +1,6 @@
+s/f
+→ 7/25g56,9 Mathew 1975, p. 105 → B3249:
+"We describe a task as __well-defined__ if and only if: 1.) the input categories are mutually exclusive.
+2.) the input categories are exhaustive.
+3.) One and only one strategy is specified (by map t) for each input category. (The map t may be many-to-one but never one-to-many.)
+4.) the input categories and strategies are defined in purely objective terms (i.e., different performers’ perceptions of the categories and strategies are the same). → 7/25g56,9,1a

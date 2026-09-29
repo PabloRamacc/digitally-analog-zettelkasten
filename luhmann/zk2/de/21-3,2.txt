@@ -1,0 +1,2 @@
+s/f
+→ 21/3 __Zur Terminologie__: Empirische Modelle und Systeme sind nicht Bezugsgesichtspunkte im strengen Sinne; denn im Hinblick auf sie lassen sich noch keine funktionalen Aequivalenzen feststellen. Sie lassen sich vielleicht allgemein als __Systeme__ bezeichnen (die funktional analysiert bzw. konstruiert werden). In Modellen fungieren die Variablen, in empirischen Systemen die Bestandsvoraussetzungen als funktionale Bezugsgesichtspunkte im strengen Sinne.

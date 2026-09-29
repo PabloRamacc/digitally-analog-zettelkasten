@@ -1,0 +1,7 @@
+s/f
+Versuch einer Aufgliederung mit geringerem Abstraktionsgrad und ohne ausreichende Begründung:
+1.) Dauer des Systems (Komplexität in der Zeit);
+2.) sachliche Kriterien, insb: a.) eigene Komplexität der sachlichen Möglichkeiten (strukturell zugelassene Komplexität);
+b.) Spezialisierbarkeit und Ausdifferenzierbarkeit (die ihrerseits von entsprechenden strukturellen Vorkehrungen im System abhängt.
+3.) Intensität des personalen Engagements (totale Institution als Grenzfall).
+→ 536/11bB3

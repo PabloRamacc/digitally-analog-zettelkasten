@@ -1,0 +1,4 @@
+s/f
+Knappheitsverhalten unter Summenkonstanzprämissen führt zu __direktem__ Verhalten gegen die Natur und damit zu Produktionsmaximierungsversuchen im System. Siehe dazu Röpke 1971, S. 452 → B1479.
+Das bedeutet, dass das Verhalten nicht in der systeminternen Rationalität des __Verhältnisses__ von Aufwand und Ertrag kalkuliert wird.
+Erst die volle, von Gütermengen unabhängig gemachte Abstraktion des Knappheitsprinzips ermöglicht es, Rationalität als Zweck/ Mittel-Rationalität ins System zu verlagern.

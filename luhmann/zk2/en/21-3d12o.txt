@@ -1,0 +1,5 @@
+s/f
+__Selection of a system reference as de-paradoxification__
+Connection: World paradox → 21/3d18a50
+The choice of a system reference fixes a system/environment difference. It does not attach objects (such as the selection of an object one is interested in), but only attaches other system references as a premise for determinability per se.
+Establishing a system reference constitutes a uniform operation of distinction/indication in the sense of Spencer Brown, → 21/3d12o1

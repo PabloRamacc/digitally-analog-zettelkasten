@@ -1,0 +1,2 @@
+s/f
+Lernfähigkeit lässt sich zurückführen auf den Begriff der __temporalen Komplexität__. Damit ist die gesamte Komplexitätstheorie hier anwendbar. Die Lernfähigkeit ist grösser, wenn ein System __mehr__ und __verschiedenartigere__ Zustände im Nacheinander annehmen __und relational verknüpfen__ kann. Relational verknüpfen heißt: mit einer Kombination von Kontinuität und Diskontinuität herbeiführen.

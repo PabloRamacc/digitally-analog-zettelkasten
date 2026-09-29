@@ -1,0 +1,3 @@
+s/f
+Die vorstehenden Überlegungen müssen mit dem System/Umwelt-Konzept verknüpft werden.
+__Weil__ die Herstellung eines "Gleichgewichts" von Independenzen und Interdependenzen __spezifische__ Anforderungen stellt, müssen Systeme sich von Umwelten unterscheiden, in denen diese Anforderungen durch __andere__ Systeme __anders__ erfüllt werden.

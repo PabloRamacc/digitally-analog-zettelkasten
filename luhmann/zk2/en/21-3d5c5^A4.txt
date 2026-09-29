@@ -1,0 +1,6 @@
+s/f
+von Wertorientierungen. Solche Muster sind [S. 50] für alle sozialen Handlungen relevant. Für jedes System jedoch sind sie am konstantesten und relativ unabhängig von der Dringlichkeit unmittelbarer Zielbedürfnisse sowie den Erfordernissen adaptiver und integrativer Probleme, die an das System gestellt werden.
+Diese relative Konstanz und Isolation von Erfordernissen bedeutet nicht, dass Mustererhaltung „automatisch" erfolgt, d. h., ohne Mechanismus. Im Gegenteil: Solche Muster werden nur durch Organisation potenziell sehr instabiler Elemente (im Prozess der Sozialisierung) institutionalisiert, und um erfolgreich zu sein, erfordern diese Organisationen komplexe „Wartungsoperationen.
+Pattern maintenance and tension management differ from[*] integrative problems in that they focus on the __unit__ of the system, not the system itself. [ → 21/3d5c5A4(R) ] Integration is the problem of inter-unit relationships, pattern maintenance of intra-unit states and processes. Of course such a → 21/3d5c5A5
+=== reverso ===
+→ 21/3d5c5A4 Note: "This is what is implied by referring to __latent__ pattern maintenance and tension management.

@@ -1,0 +1,4 @@
+s/f
+__Worin liegen die ausschlaggebenden Vorteile funktionaler Differenzierung?__
+Sie ermöglicht es, Entscheidungen auf Wahlen zwischen vergleichbaren Alternativen (also zwischen funktional aequivalenten Problemlösungen zu bringen und so zu rationalisieren. Sie ermöglicht zugleich Abstraktion und Vereinfachung des Entscheidungsprozesses und damit mehr Leistung bei gleicher Aufmerksamkeitsbeanspruchung.
+Stephen Toulmin 1964, S. 354 → B1279 nennt dies das "Chalk-and-Cheese Principle: namely, that the structure of departments and advisory committees should be so ordered that, at each point, decisions have to be taken __between commensurable alternatives__." Eine Entscheidung zwischen Kreide und Käse kann nur __politisch__ getroffen werden.

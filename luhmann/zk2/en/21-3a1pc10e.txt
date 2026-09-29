@@ -1,0 +1,5 @@
+s/f
+__Generalization / functional equivalence__
+In behaviorist psychology, generalization is treated approximately as the reinforcement of functional equivalence. The term "functional equivalence" or "stimulus equivalence" appears explicitly in this context.
+See e.g., Hull, S, 197 → B636: "All of these stimuli are functionally equivalent in that they have the capacity to evoke the same reaction. This spreading of the results of learning to other stimuli is called primary stimulus generalization. The fact that many similar stimuli possess the potentiality of evoking the same reaction constitutes __primary stimulus equivalence__."
+Stendenbach, S. 91 → B641 explicitly refers to functional equivalence, as does Stendenbach 1964, p. 71 → B643.

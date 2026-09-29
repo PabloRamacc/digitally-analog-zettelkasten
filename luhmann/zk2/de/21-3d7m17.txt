@@ -1,0 +1,4 @@
+s/f
+Es gibt mehrere Ebenen der Reduktion von Komplexität in System/Umwelt-Beziehungen: → 21/3d7m17,1 1.) Prozessuale Kausalität – was bewirkt was – führt zur Selektion einer __relevanten Umwelt__.
+2.) Strukturbildung führt zur Unabhängigkeit von Punkt-für-Punkt-Relationen mit der relevanten Umwelt. Diese wird generalisiert und respezifiziert und kommt so für die interne Prozesssteuerung nur selektiv in Betracht. Risikoübernahme.
+3.) Reflexion führt zur Selbst-Thematisierung und → 21/3d7m17a

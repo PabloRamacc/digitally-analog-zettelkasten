@@ -1,0 +1,4 @@
+s/f
+The concept of the problem essentially includes the __majority__ of possible solutions. This is a non-eliminable aspect – even and especially when one has solved the problem.
+Similarly, for the concept of problem-solving, the observed selectivity is essential.
+A language that uses the notion of problem must therefore always be a relational language that keeps in mind its relationship to other possibilities.

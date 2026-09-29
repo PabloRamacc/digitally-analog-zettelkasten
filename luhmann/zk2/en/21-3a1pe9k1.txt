@@ -1,0 +1,2 @@
+s/f
+__Reference__ between actions. Values can integrate actions without proof of a causal connection (and thus also without reference to operationalized purposes).

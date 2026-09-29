@@ -1,0 +1,4 @@
+s/f
+Die __primäre__ Ungewissheit, wie man handeln soll, wird durch eine sekundäre Ungewissheit stabilisiert.
+Die sekundäre Ungewissheit folgt aus dem Technologiedefizit und betrifft die Frage, wo die Ursachen von Fehlern liegen und wo (auf welcher Ebene) Änderungen Leistungsniveaus verbessern würden.
+"Stabilisiert" heißt: Die primäre Ungewissheit wird einerseits stabilisiert, andererseits auf Dauer gestellt.

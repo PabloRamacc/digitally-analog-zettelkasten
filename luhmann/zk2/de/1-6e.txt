@@ -1,0 +1,2 @@
+s/f
+Das Teil-Ganzes-Schema bringt das Systemverbindungsproblem auf den sehr einseitigen Weg eines Verschachtelungs- oder System-Subsystem-Modells und verstellt dadurch die System-Umwelt-Problematik, insb. die typische Situation einer teilweisen Überschneidung (involvement). Die Teile sind __ganz__ __im__ System und andererseits ist __nichts__ im System, was nicht Teil ist.

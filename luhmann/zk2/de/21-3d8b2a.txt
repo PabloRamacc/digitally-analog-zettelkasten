@@ -1,0 +1,3 @@
+s/f
+Wegen dieser Schwierigkeiten empfiehlt sich ein Umweg über Negation, ein negativer Approach. Es werden nur Inkompatibilitäten definiert, Kompatibilität wird unterstellt. An Störungen und auftretenden Problemen erkennt man die Inkompatibilität.
+Das entspricht auch dem Verlauf der Evolution, ebenso wie dem Vorgehen beim Design komplexer Systeme; s. C. Alexander → B1172.

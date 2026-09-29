@@ -1,0 +1,5 @@
+s/f
+Es muss noch näher ausgeführt werden, welche methodischen Vorteile es hat, ein System im Hinblick auf Subsysteme, sei es konkrete, sei es funktional abstrahierte Subsysteme zu analysieren.
+Ein System kann nur dauerhaft bestehen, wenn seine funktionalen Probleme mit einer gewissen Verlässlichkeit laufend gelöst werden.
+Dazu ist eine Leistungsstabilität (Beitragsstabilität) erforderlich, die in gewissem Masse von Störungen und Veränderungen unabhängig (unempfindlich) sein muss: also ihrerseits nur wiederum eine Systemleistung sein kann.
+Wenn man nun anerkennen muss, dass in jedem konkreten System mehrere funktionale Probleme mit teilweise widerspruchsvollen → 21/3d8g6

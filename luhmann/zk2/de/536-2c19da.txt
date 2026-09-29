@@ -1,0 +1,2 @@
+s/f
+→ 536/2c19d Hintergrund dieser Fragestellung: das Problem übermässiger Komplexität.

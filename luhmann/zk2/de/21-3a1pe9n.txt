@@ -1,0 +1,4 @@
+s/f
+Die Punktualisierung der Werte definiert eine spezifische Form von Komplexität – ein Kräftefeld mit angebbaren Gesichtspunkten und unübersehbaren Konstellationen.
+Darauf __muss__ prozedural geantwortet werden, mit einer bestimmten Vorgehenstechnik.
+Siehe zum Vergleich die Behandlung von Design- Problemen bei Chr. Alexander 1964 → B719.

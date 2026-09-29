@@ -1,0 +1,3 @@
+s/f
+Eine eigentümliche Schwierigkeit ist die Unzahl der Variablen. Stellt man sie zusammen, braucht es besonderen Mut, die Ceterisparibus Klausel zu gebrauchen und nach invarianten Relationen zwischen spezifischen Variablen zu suchen.
+Daraus resultiert die Frage, ob diese Theorieform ausreicht, um Komplexität in der Weise kleinzuarbeiten, wie sie es beansprucht.

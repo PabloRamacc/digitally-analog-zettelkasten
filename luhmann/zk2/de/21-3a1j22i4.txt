@@ -1,0 +1,2 @@
+s/f
+Wenn ein System über einen rejection value verfügt, verfügt es über Möglichkeiten der Selbstbeobachtung.

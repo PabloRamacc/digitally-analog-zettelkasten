@@ -1,0 +1,5 @@
+s/f
+Aus den vorstehenden Überlegungen ergibt sich die Frage, was in einfachen Systemen getan werden kann, um Kommunikation über strukturell relevante Themen, d.h. Kommunikation über Kommunikationen herzustellen.
+Es muss möglich sein, eine __Meta-Kommunikation als Kommunikation zu führen__, d.h. Kommunikation auf __Themen__ zu beziehen, die für __ganze Gruppen oder Sequenzen von kommunikativen Akten stehen.__
+Thematisierung kommunikativer Kontrolle von Kommunikationen.
+Hier liegen die Ansätze zur Strukturtheorie, die dann in der Organisationstheorie aufgenommen werden.

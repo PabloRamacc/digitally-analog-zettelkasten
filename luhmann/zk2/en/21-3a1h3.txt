@@ -1,0 +1,2 @@
+s/f
+Because there are multiple stock prerequisites of a system, it is possible to distinguish between __"better" and "worse" functional performances__ even in the analysis of stocks, namely with regard to their repercussions on stock problems that do not function as functional reference points. See also → 21/3a1f1 - → 21/3a1f2.

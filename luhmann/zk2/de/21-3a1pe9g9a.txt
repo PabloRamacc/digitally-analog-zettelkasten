@@ -1,0 +1,3 @@
+s/f
+Wahl eingebaut. Das geschieht, indem die Präferenzordnung nicht mehr abstrakt fixiert, sondern auf alle Alternativen eingeschränkt werden, "that may conceivably be opportunities" (S. 249 → B711). Damit wird das Problem sozusagen auf einen Grundbegriff gebracht.
+Leider geht Koopmans → B711 nicht auf die Frage ein, ob auch Präferenzen, die auf Opportunitäten bezogen sind, transitiv geordnet sein können. Er scheint das für selbstverständlich zu halten. Das ist aber der kritische Punkt.

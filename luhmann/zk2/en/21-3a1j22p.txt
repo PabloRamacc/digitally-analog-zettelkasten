@@ -1,0 +1,4 @@
+s/f
+The observer is __constitutively__ uncertain because he cannot distinguish between two sources of his uncertainty, external and internal (or better: cannot definitely distinguish them).
+And this is not the case because he must operate this distinction *as* a distinction, i.e., as an implication relationship.
+A somewhat different justification of the same thesis by Morin 1984 (Stanford) → B498. The observer observes with regard to order __and__ disorder and is included in a world that already contains both.

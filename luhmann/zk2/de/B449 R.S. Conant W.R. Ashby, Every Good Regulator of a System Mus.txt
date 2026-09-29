@@ -1,0 +1,4 @@
+s/f
+# R.S. Conant / W.R. Ashby, Every Good Regulator of a System Must Be a Model of That System, Int. J. of System Science 1 (1970)
+R.S. Conant / W.R. Ashby, Every Good Regulator of a System Must Be a Model of That System, Int. J. of System Science 1 (1970)
+https://niklas-luhmann-archiv.de/bestand/literatur/item/conant_ashby_1970_regulator

@@ -1,0 +1,4 @@
+s/f
+Ein Beobachter kann ein System nur auf der Ebene seiner Elemente beobachten.
+Bei autopoietischen Systemen setzt das Mitbeobachtung selbstreferentieller Elementverknüpfungen voraus.
+Vgl. auch Maturana 1981, S. 22 → B423: "an observer cannot identify the components independently of the autopoietic system that they integrate."

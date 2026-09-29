@@ -1,0 +1,3 @@
+s/f
+Selektionsweisen. Riggs → B1253 denkt indes nicht in Folgeproblemen, sondern in unabhängigen Variablen, deren Auseinanderentwicklung (high differention – low performance) das System in einem hochproblematischen Zustand bringt und es als "prismatic" definiert.
+Mit steigender Differenzierung steigt der Bedarf für performances und damit auch die Anfälligkeit des Systems für fehlende performances (S. 238f. → B1253).

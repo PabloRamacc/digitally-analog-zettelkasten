@@ -1,0 +1,6 @@
+s/f
+→ 21/3d12 __system reference__, in principle
+Starting point: the distinction between system and system reference.
+Systems are real objects, not analytical constructs.
+Unlike Morris, one must also avoid diluting the concept of a system by mixing it with determining performances of an observer.
+The __reference__ of the system reference arises instead from the perspective of an observer (scientific or non-scientific). The → 21/3d12,5a

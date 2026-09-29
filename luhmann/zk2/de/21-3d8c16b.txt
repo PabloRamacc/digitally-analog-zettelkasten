@@ -1,0 +1,5 @@
+s/f
+Dieser Theorieansatz lässt sich verbinden mit den Überlegungen zur Variable Komplexität (dazu insb. → 21/3d18c ; → 21/3d20 ).
+Mit Steigerung der Komplexität von Umwelt und System ist eine Steigerung der Komplexitätslast zu erwarten, mithin höhere Ansprüche an das Konfliktslösungspotential von Systemen.
+Diese Konzeption findet sich kurz skizziert bei Vickers 1959, insb. S. 107f. → B1432 → 21/3d8c16ba (im Hinblick auf wachsenden Entscheidungsbedarf) und S. 107 → B1432:X "No man ever is or ever should be so fully satisfied as a well-fed cat. For the fuller his development, the more largely the possibilities open to him exceed all that he can actualize. A wide choice is a chance to choose one of many acceptable alternatives. The → 21/3d8c16b1
+X Zuvor Zitat → 21/3d8c16ca

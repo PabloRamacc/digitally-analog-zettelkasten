@@ -1,0 +1,4 @@
+s/f
+To say that one variable is a function of another in this sense, is to assert that there is a rule which determines the values of the dependent variable from the values of the independent variable in a given range."
+It must still be considered more precisely how this concept of __function__ can be subsumed under those formed here.
+What seems decisive is that the function is not asserted between input values, but rather between the variables as such; only through this does it become general and ambiguous—in multiple senses applicable. With regard to the independent variable, which functions as a functional reference point, the dependent variable offers a complex of → 21/2a2

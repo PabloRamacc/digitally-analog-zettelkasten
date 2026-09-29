@@ -1,0 +1,3 @@
+s/f
+System theories that focus on __operation__ describe systems as observer-independent (although this remains a construction of an observer).
+In contrast, system descriptions that work with the concept of relation presuppose an observer who determines which relations he wishes to use for the system description.

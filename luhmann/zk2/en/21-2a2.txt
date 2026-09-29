@@ -1,0 +1,2 @@
+s/f
+functionally equivalent connection possibilities. All values of y are functionally equivalent insofar as they can be determined by the input values of variable x. The peculiarity of the mathematical function thus lies in __that determinability is made into the principle of equivalence substitution__. Unique determination of input values therefore does not exclude – but rather constantly ambiguous – equivalence, but constitutes it precisely.

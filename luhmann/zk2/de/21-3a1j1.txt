@@ -1,0 +1,4 @@
+s/f
+standsvoraussetzungen entweder in den umweltadaptiven oder in den systeminternen Zusammenhang oder in beide.
+Diese Überlegungen sind eine Konsequenz der Fragestellung: Bestand eines (begrenzten) Systems.
+Es fragt sich, ob man darüber hinaus __allgemeine__ Erkenntnisse über Korrelationen zwischen beiden Arten von Bestandsvoraussetzungen gewinnen kann.

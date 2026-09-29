@@ -1,0 +1,4 @@
+s/f
+For Behaviorism – despite using the term functional equivalence* – it is characteristic that the problem of generalization be treated causally-scientifically. Consequently, there lacks a theoretical, systematic explanation of the thought of generalization; rather, it is found inductively, experimentally corroborated, and then used to conceal the theoretical weaknesses of the causal-scientific approach of behavior theory.
+A corresponding problematic underlies Morris's → B644 concept of sign. See definition p. 354 → B644: "Roughly: something that __directs behavior__ with respect to something that is __not at the moment a stimulus__. More accurately: If A is a preparatory-stimulus that, in the absence of stimulus-objects initiating response-sequences of a certain behavior-family, causes in some organism a disposition to respond by response-sequences of this behavior-family, then A is a sign."
+* e.g. with Hull → B636.

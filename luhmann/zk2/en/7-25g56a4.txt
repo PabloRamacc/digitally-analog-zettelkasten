@@ -1,0 +1,4 @@
+s/f
+More generally, the inability to sufficiently causally isolate clients is a problem for all professions involved in “people processing.”
+Technology should only be used where this problem can be reasonably solved or where the influence on factors for which it is solvable can be reduced.
+__This__ problem is particularly acute in the classroom, since here the lack of isolation (of the child) is a prerequisite for any technology.

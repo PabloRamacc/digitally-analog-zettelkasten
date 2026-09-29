@@ -1,0 +1,4 @@
+s/f
+If this item is causally relevant to G1 of S1, and if S2 exhibits G2, a variation in this item may be either functional or dysfunctional with respect to G1, and at the same time functional, dysfunctional or nonfunctional with respect to G2.
+(iii) A system S1 that exhibits G1 may contain two subordinate systems S2 and S3 as parts, where these parts exhibit G2 and G3 respectively. In an item which is an element of S2 (and hence of S1) but not of S3 is causally relevant to both G1 and G2, a variation in it may be functional with respect to all three G's, or dysfunctional with respect to all of them, or nonfunctional with respect to G3 and functional with respect to one of the other G's but dysfunctional in relation to the third one."X
+XVgl. auch Nagel 1961, S. 532 → B253 (ähnlich, kurz).

@@ -1,0 +1,3 @@
+s/f
+einem doppelten Sinne: als Systemkomplexität und als Weltkomplexität.
+Das allein ist jedoch unzureichend, weil die Bestandsfrage ein Kriterium ist, was unabhängig ist von der abstrakten Komplexität (Erhaltung durch Indifferenz).

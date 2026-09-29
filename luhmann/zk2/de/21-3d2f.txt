@@ -1,0 +1,3 @@
+s/f
+Im Rahmen von Modellkonstruktion kann das Bestandskriterium als Kriterium der Konsistenz von Variablen verwandt werden. Es ist zweifellos ein relativ loses, bis nahezu nichtssagendes Kriterium, das viele Gleichgewichtsmöglichkeiten offen lässt. Vgl. dazu auch → 25/4c7b .
+Unter der Voraussetzung der Verwendung dieses Kriteriums bei der Modellkonstruktion können Bestand und Gleichgewicht gleichgesetzt werden.

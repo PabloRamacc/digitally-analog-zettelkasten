@@ -1,0 +1,3 @@
+s/f
+In the context of model construction, the stock criterion can be used as a consistency criterion for variables. It is undoubtedly a relatively loose, almost nonsensical criterion that leaves many equilibrium possibilities open. See also → 25/4c7b.
+Under the assumption that this criterion is used for model construction, stock can be equated with equilibrium.

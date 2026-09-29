@@ -1,0 +1,3 @@
+s/f
+Die Technik besteht vor allem darin, dass Grundbegriffe in Variablen oder Dimensionen zerlegt werden, deren Interdependenz dann getestet wird.
+Das theoretische Vorverständnis, aus dem man die Variablen gewinnt, bleibt dunkel.

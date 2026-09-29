@@ -1,0 +1,3 @@
+s/f
+Autonomie / Systemkomplexität
+Autonomie ist die Fähigkeit zur selektiven Steuerung von Input/Output-Prozessen. Diese Fähigkeit ist mitbedingt durch hohe Systemkomplexität. Je mehr Zustände ein System annehmen kann, desto grösser kann sein Selektionsbereich in der Umwelt sein. Die Regeln der Selektion eigener Zustände werden mit den Regeln der Selektion passender Umweltleistungen so integriert, dass entweder diese jene oder jene diese führen. Erst durch diese Verzahnung mit der Umwelt entsteht überhaupt Autonomie. Autonomie lässt sich daher nicht als Freiheit im Sinne von Indeterminiertheit begreifen.

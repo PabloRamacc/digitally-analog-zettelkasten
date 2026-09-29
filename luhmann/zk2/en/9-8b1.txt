@@ -1,0 +1,2 @@
+s/f
+Given the above point, it is important that the organization of the Zettelkasten __not__ be aggregated __solely__ under terms or complex individual topics—although that is, of course, also necessary. However, the references must not merely encompass the umbrella terms that aggregate the guiding perspectives; rather, they must selectively extract the material collected under them.

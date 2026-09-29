@@ -1,0 +1,2 @@
+s/f
+Related to the phenomenon of pauses are interim periods that are reserved for necessary but non-conforming behavior and during which the system rules do not apply—e.g., time spent generating the display, troubleshooting, or performing repairs.

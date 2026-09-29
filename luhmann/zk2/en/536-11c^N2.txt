@@ -1,0 +1,5 @@
+s/f
+by comparing them to computers, which are very typical examples of such a serial arrangement; they, too, cannot change on their own.”
+See Reitman’s remark in 1965, pp. 197ff. → B515 to Newell and Simon’s GPS[*] → B1950:
+"To say that GPS is __serial__ means that at any given time there is only [p. 198] one active process and, consequently, only one source of change in the system at that time. Any activated process is guaranteed that, while __it__ is operating, __nothing__ anywhere else in the system changes except to the extent that __it__ makes the change directly or calls upon some other routine to do so …."
+Reitman → B515 himself attempts to define processes of consciousness → 536/11cN3

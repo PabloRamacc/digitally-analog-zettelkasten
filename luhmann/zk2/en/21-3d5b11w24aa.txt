@@ -1,0 +1,2 @@
+s/f
+__Changed!__ Circularity consists in the fact that a part can identify itself only as a part if it refers to the whole. In this reference, it must presuppose itself as a part of the whole. → 21/3d5b11w24a

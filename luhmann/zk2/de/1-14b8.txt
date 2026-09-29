@@ -1,0 +1,3 @@
+s/f
+Die Unterscheidung von Levels sollte, wo immer möglich, durch die Unterscheidung von __Systemen__ ersetzt werden.
+Denn Systeme können der Selbstreferenz Rechnung tragen, während der Begriff der Ebene erfunden ist, um sie auszuschließen.

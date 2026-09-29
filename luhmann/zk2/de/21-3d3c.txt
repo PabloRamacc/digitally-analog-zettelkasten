@@ -1,0 +1,3 @@
+s/f
+→ 21/3d3 Dies ist genau dieselbe These wie die obige ( → 21/3d2b ), dass Interdependenzen als Variable anzusehen sind; denn Invarianz ist nichts anderes als die Negation von Interdependenz.
+In diesem Sinne erörtert z.B. Ashby 1954 → B980 die __In__dependenzen (nicht: __Inter__dependenzen, aber das wäre dasselbe) in einem System als Variable – siehe insb. S. 153ff → B980.

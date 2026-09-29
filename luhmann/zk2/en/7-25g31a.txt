@@ -1,0 +1,3 @@
+s/f
+Changes in interaction styles in computer-assisted instruction: → 7/25g31aa
+- less lecture-style communication; - decentralization of the learning environment without - a uniform focus; - reduced time pressure; - greater individualization of the teacher’s role; - simultaneous occurrence of different learning processes.

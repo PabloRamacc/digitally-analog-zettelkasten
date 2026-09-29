@@ -1,0 +1,5 @@
+s/f
+Individual points for clarifying the problem of structural compatibilities: 1.) Structural differentiation and formation of relatively independent subsystems (limitation of interdependence increases structural compatibility);
+2.) functional equivalence = harmless substitution possibilities;
+3.) Differentiation / Generalization / Respecification;
+4.) evolutionary universals – or corresponding complexity-increasing reductions.

@@ -1,0 +1,3 @@
+s/f
+Reducing grading to a __binary distinction__ in Dohse, p. 119 → B2749:
+"Grading indicates whether the student’s performance meets the specified requirements or not. Thus, the __polarity__ of grading is established in the sense of a positive or negative judgment. A further differentiation of the statements ‘sufficient/insufficient’ or ‘adequate/inadequate’ is determined by a __comparison of performance__.”

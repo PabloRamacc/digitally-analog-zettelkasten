@@ -1,0 +1,3 @@
+s/f
+Enger Zusammenhang mit dem Problem des Latent Pattern Maintenance.
+Über Pausen hinweg werden Bestände erhalten, Systemgeschichten und Verbindlichkeiten bewahrt, um nicht jedesmal wieder von vorne anfangen zu müssen.

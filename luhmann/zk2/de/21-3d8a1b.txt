@@ -1,0 +1,3 @@
+s/f
+dann notwendig, wenn ein System nicht alle functional requisites eines anderen erfüllt, unabhängig davon, ob das Austauschverhältnis gleich ist oder nicht. Die Ungleichheit des Austausches ist als solche noch kein funktionales Problem, das aequivalente Lösungen notwendig machen würde. Ein Problem ist lediglich die Austauschbarkeit eines Systemes gegen ein anderes, die für das ausgewechselte System die reziproken Leistungen entfallen lässt und deretwegen es auf "Gleichheit" seines Angebotes gegenüber seinen Konkurrenten achten muss.
+Gouldner ist noch nicht im Vollbesitz der Methoden des Aequivalenzfunktionalismus, um diesen Sachverhalt zu entwirren. Der Gedanke der Gleichheit des Austausches stammt aus einer motivationskausalen Betrachtungsweise.

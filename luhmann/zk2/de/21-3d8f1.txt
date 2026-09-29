@@ -1,0 +1,3 @@
+s/f
+Aus der spezifischen Funktionsbestimmung solcher koordinierenden Generalisierungen folgen genaue Hinweise darauf, wie solche Generalisierungen beschaffen sein müssen. "Koordinierende Generalisierungen" ist eine Bezeichnung für eine Klasse funktional-aequivalenter Leistungsmöglichkeiten.
+Darin liegt ein grundsätzlicher Fortschritt gegenüber dem einfachen Begriff der Generalisierung, der als solcher noch kein Kriterium der __Richtung__ der Generalisierung enthält und deshalb leicht als bloss klassifikatorische Generalisierung gedeutet werden kann und damit am Problem der Widersprüche und dysfunktionalen Konsequenzen vorbeigeht; vgl. → 21/4e1 .

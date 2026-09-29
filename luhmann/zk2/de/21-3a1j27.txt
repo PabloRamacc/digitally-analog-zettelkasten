@@ -1,0 +1,5 @@
+s/f
+__Abbildung der Umwelt im System__
+Die Mindestanforderung an die Abbildung (Representation) der Umwelt im System ist die Einrichtung einer __Differenz__.
+Beispiel Thermostat, an und aus für Temperaturdifferenzen in der Umwelt. Vgl. auch → 21/3d18d59 .
+Von hier aus auch Zugang zur Analyse der Bedeutung von Logik für Erkenntnissysteme.

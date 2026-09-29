@@ -1,0 +1,2 @@
+s/f
+Die Theorie der pattern-variables behandelt letztlich Kombinationsprobleme, d.h. mögliche Relationen zwischen ihnen. Und durch __relationale__ Muster, nicht durch die Pattern Variables selbst, werden über cross-classification Typen gewonnen. Vgl. Fig 2 bei Loubser 1970 → B1383.

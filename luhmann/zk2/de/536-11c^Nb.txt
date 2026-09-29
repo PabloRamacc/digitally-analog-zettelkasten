@@ -1,0 +1,6 @@
+s/f
+→ 536/11cN Ein weiterer Ausgangspunkt wäre: __Grad der Strukturiertheit eines Systems als Variable__!
+Wie weit ist Komplexität durch Strukturen schon absorbiert; wie weit muss dies noch geleistet werden
+Bisher: ziemlich vage Unterscheidung von Structured Situations und Unstructured Situations, z.B. bei McCall-Simmons 1966, S. 127ff. → B914
+Zusammenhang auch mit: unbestimmter und bestimmter Komplexität.
+Ferner mit Absorption von Konflikten bei Austragung im System.

@@ -1,0 +1,2 @@
+s/f
+A consequence of this insight is the __non-arbitrariness of the execution of self-reference__. Another one: the __specification__ of the system/environment problem to that extent as possibilities for environmental control increase.

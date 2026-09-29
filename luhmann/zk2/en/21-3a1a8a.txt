@@ -1,0 +1,6 @@
+s/f
+Also important on the topic is also Levy, esp. p. 62 → B328:
+A __functional prerequisite__, …, is a generalized condition necessary for the maintenance of the unit to which it belongs, given the degree of abstraction in the definition of that unit and the most general context applicable to such a unit.
+For calculating the required performances, Levy uses the term __structural requisite__ → B328. S. 63 → B328: "A structural requisite, …, is a pattern (or observable uniformity) of action (or operation) necessary for the continued existence of the unit …" etc., as above.
+These terms are intended as concepts of static analysis (without time difference, thus strictly speaking not causal conditions!); for dynamic analysis the terms __functional or structural prerequisites__ are introduced.
+Following this, extensive investigations into the stock prerequisites of a society. → 21/3a1a8b

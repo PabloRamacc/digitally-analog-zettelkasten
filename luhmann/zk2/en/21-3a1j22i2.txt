@@ -1,0 +1,4 @@
+s/f
+The rejection value requires a systems-theoretical interpretation; see in particular Günther 1976 I, p. 189–247 (in particular p. 230) → B457
+This has two consequences: 1.) The rejection value is at the same time an external and an internal value (see also Bråten 1984 → B458). It is imposed on a binary-coded system __externally__, but can be internalized with the consequence that then __all__ values of the system can function as rejection values.
+Günther (S. 231) → B457 speaks of a "deeper duality" = that between accepting and not accepting the rejection value, and again → 21/3a1j22i3

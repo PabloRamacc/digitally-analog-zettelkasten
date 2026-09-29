@@ -1,0 +1,2 @@
+s/f
+→ 21/3d2 Funktional gesehen ist die Bestandsformel eine Substitutionsformel für das Urproblem der Weltkomplexität – eine Ersatzformel, die eine Verschiebung dieses Problems nach innen ermöglicht und dadurch Ansatzpunkte für systeminterne Techniken der Bestandserhaltung definiert. Und zwar relativ auf die Zeitdimension. Vgl. dazu → 32/3g8f4 ; → 21/3d18c13

@@ -1,0 +1,2 @@
+s/f
+In der Multiplikation von Systemreferenzen liegt eine Bedingung dafür, dass binäre Codes verwendet werden können. Die Multiplikation ermöglicht es nämlich, zwischen Code und Selektionskriterien zu differenzieren. Auf diese Weise wird verhindert, dass der binäre Schematismus als reine Dichotomie benutzt, d.h. direkt konkretisiert wird.

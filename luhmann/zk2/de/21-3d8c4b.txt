@@ -1,0 +1,3 @@
+s/f
+__Funktionale Analysen__ in Bezug auf das Problem des Konfliktes können __in doppeltem Sinne__ geführt werden, je nachdem, welche __Systemreferenz__ gewählt wird: das Gesamtsystem, in welchem der Konflikt sich abspielt, oder die beteiligten Einzelsysteme.
+Im __ersten__ Falle geht die Analyse auf funktionalaequivalente __Formen der Konfliktslösung__. Im zweiten Falle geht die Analyse auf funktional aequivalente __Formen des Konfliktsverhaltens__; hierzu → 21/3d8c12 . → 21/3d8c4ba .

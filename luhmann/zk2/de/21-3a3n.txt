@@ -1,0 +1,4 @@
+s/f
+Parsons nimmt Wiederherstellungsmechanismen nicht als faktisch notwendig vorhanden, wohl aber als Postulat seines Modells an.
+Vgl. z.B. Working P., S. 108 → B953: "In concentrating our attention in this way we have been very careful not to imply that there is any inherent presumption that empirical systems must remain in equilibrium, or return to any given state when the equilibrium has been disturbed. We merely use the concept of the equilibrating system as a theoretical model."
+Das ist jedoch keine Lösung. Das Modell ist als Wirklichkeitsbeschreibung gedacht. Entweder muss es auf alle Aktionssysteme anwendbar sein, oder auf einen engeren Ausschnitt, für dessen Abgrenzung dann Kriterien angegeben werden müssen. Jede Differenz zwischen Theorie und Wirklichkeit ist einfach ein Fehler der Theorie.

@@ -1,0 +1,5 @@
+s/f
+__Kompatibilität von Systemen und in Systemen__
+Begriffe bei Hall - Fagen, S. 24 → B386 ohne klare logische Klärung der Beziehung. Richtig: "Systems might be compatible in some respects and incompatible in others".
+__Systeme sind kompatibel, soweit sie keine dysfunktionalen Konsequenzen füreinander haben__. Ebenso wie Reziprozität kann auch Kompatibilität nur in Bezug auf bestimmte Bestandsvoraussetzungen festgestellt werden.
+Reziprozität und Inkompatibilität schliessen sich – eben wegen dieses Spezifizierungserfordernisses – nicht aus. Systeme können füreinander reziproke Leistungen erbringen, obwohl sie gleichzeitig in anderer Hinsicht inkompatibel sind. Vgl. auch → 21/6e . → 21/3d8ba

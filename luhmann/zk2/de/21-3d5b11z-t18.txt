@@ -1,0 +1,2 @@
+s/f
+Grundsätzliche Unterscheidung des Abstraktions- bzw. Selektionsstils: __Leistungsorientierungen__ seligieren __sektoral__; __Funktionsorientierungen__ seligieren __aspekthaft__. Darin ist impliziert, dass unterschiedliche Dekompositionsanweisungen gegeben werden müssen.

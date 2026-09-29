@@ -1,0 +1,4 @@
+s/f
+Funktionale Bezugsgesichtspunkte müssen so formuliert werden, __dass sie sich als eindeutige Kriterien für die Unterscheidung von funktionalen und dysfunktionalen Leistungen eignen.__ → 21/3b(R) Das ist notwendig, weil sich sonst keine Aequvalenzen festellen lassen. Denn wenn eine Leistung in Bezug auf einen Gesichtspunkt, z.B. in Bezug auf eine Bestandsvoraussetzung, sowohl funktional als auch dysfunktional ist, wären sämtliche funktionalen __und__ dysfunktionalen Leistungen für sie gleichwertige Alternative und es bestünde deshalb keine klare Richtlinie für die funktionale Variation. Wenn sich solche gemischt funktionalen Leistungen feststellen lassen, ist mithin der funktionale Bezugsgesichtspunkt falsch formuliert und muss umformuliert werden. Vgl. auch → 21/4 . → 21/3b1
+=== reverso ===
+→ 21/3b Das ist problematisch, weil hier das Kriterium des Todes fehlt; vgl. → 21/2b4 - → 21/2b5 .

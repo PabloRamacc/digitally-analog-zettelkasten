@@ -1,0 +1,5 @@
+s/f
+systemfunktional gedacht sind. → 21/3d8g16b
+4.) Die Funktion solcher Teilsystembildung, die isoliert. ohne alle Zusammenhänge zu unterbrechen, sieht Ashby → B980 in einer __Spezifikation__ und in einer __Zeitersparnis__ der Umweltanpassung des Gesamtsystems. Auf diese Weise kann das Problem der Stabilisierung besser gelöst werden (S. 164ff. → B980). Ein System, das sich auf diese Weise stabilisiert, nennt Ashby → B980 __multistable__.
+S. 171 → B980: "a multistable system consists of many ultrastable systems joined main variable to main variable, all the main variables being part-functions."
+Im Einzelnen: Die Spezifikation bedeutet, dass ein System mehrere Anpassungen erwerben kann, die sich wechselseitig nicht behindern, dass es Anpassungen "lernen" kann, ohne in gleichem Umfange Anpassungen zu verlieren. → 21/3d8g16a "For the responses to be unchanged – for the first adaptation to be retained – it is necessary and sufficient that → 21/3d8g17

@@ -1,0 +1,3 @@
+s/f
+System differentiation increases the __capacity for generating internal uncertainty__. It enables the system to produce opinion differences and uncertainties itself. This can also be used via the differentiation of boundary points to transport relevant external uncertainties into the system or reconstruct them within the system.
+See Goldner's analysis of an Industrial Relations Unit, 1970 → B1281.

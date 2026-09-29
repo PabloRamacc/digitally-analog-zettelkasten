@@ -1,0 +1,7 @@
+s/f
+Eine Komplikation im Verhältnis der Bestandsvoraussetzungen ergibt sich durch die __Ordnung der Bestandsprobleme__. Diese folgt daraus, dass bestandsbezogene funktionale Leistungen wiederum Bestandsprobleme zweiter Ordnung aufwerfen, nämlich diejenigen eines kontinuierlichen Leistungsvorrates oder Leistungsstroms, der nun wiederum als Bestandsproblem bestimmte Voraussetzungen hat und bestimmte – im Rahmen dieser Voraussetzungen austauschbare – Leistungen erfordert. Alle Probleme wiederholen sich hier auf sekundärer Ebene, d.h. mit der Massgabe, dass sie durch Austauschvorgänge auf der primären Ebene entfallen können. → 21/3a1f(R) Vgl. → 21/3a1k3 .
+=== reverso ===
+→ 21/3a1f Dieser wichtige Ordnungsgedanke fehlt z.B. bei Aberle u.a. → B362; vgl. → 21/3a1a6 ff.
+Auswertung für Theorie der Änderungen → 54/2g
+Vgl. auch → 21/4f .
+Zusammenhang mit Spannungsbegriff → 21/3d8c5,10

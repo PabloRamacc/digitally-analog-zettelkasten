@@ -1,0 +1,3 @@
+s/f
+Unterscheidung: loose vertical coupling und loose horizontal coupling bei Simon 1973, S. 15f. → B247
+Zusammenhang mit Kybernetik der Ultrastabilität und der Teilfunktionen.

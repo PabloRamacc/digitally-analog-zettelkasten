@@ -1,0 +1,3 @@
+s/f
+Wenig ausgearbeitet und als schwierig bewusst ist die Unterscheidung von "order of complexity" und "scope and degree of complexity" bei Marney / Smith, S. 122 → B983.
+Immerhin lohnt sich festzuhalten, dass die Steigerung der Komplexität nicht eine lineare Entwicklung ist, sondern dass das Potential für höhere Komplexität zunächst auch in einfachen Systemen liegen kann, die anders organisiert sind als schon vorhandene, sehr komplexe: Vorderasiatische Reiche / griech Polis; Gedanke der Entwicklungsschwellen?

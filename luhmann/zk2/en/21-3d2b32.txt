@@ -1,0 +1,4 @@
+s/f
+The concept and analysis of interdependence must be shifted to the relational model of complexity; cf. → 21/3d18c60.
+The term "interdependence" does not refer to 'parts' or to 'elements' (events), but rather to __relations__.
+This simultaneously makes it clear that systems with absolute interdependence as well as absolutely non-interdependent systems are excluded.

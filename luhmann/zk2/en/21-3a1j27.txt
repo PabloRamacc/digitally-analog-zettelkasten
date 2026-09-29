@@ -1,0 +1,5 @@
+s/f
+__Representation of the Environment in the System__
+The minimum requirement for the representation (Abbildung) of the environment within the system is the establishment of a __difference__.
+Example: thermostat, on and off for temperature differences in the environment. See also → 21/3d18d59.
+From here also access to an analysis of the significance of logic for cognitive systems.

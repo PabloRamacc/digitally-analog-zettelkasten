@@ -1,0 +1,5 @@
+s/f
+Das Technologie-Problem muss, analog zum Ansatz der funktionalen Analyse, verlagert werden auf ein __Verhältnis zwischen Ursachen__ angesichts einer gegebenen Wirkungsabsicht.
+Die einen Ursachen können __inputs__ heißen; die anderen __Strategien__; vgl. → 7/25g56,9,1 .
+Die Technologie setzt __kontingente__ Ursachenkombinationen voraus und sucht die Kombination im Hinblick auf Wirkungen zu steuern.
+Eben deshalb muss, als weitere Mitursache, eine kontingenzüberwindende __Kognition__ eingebaut werden, die die Auswahl der Strategien, ggf. auch die Auswahl der Inputs, z.B. die Auswahl der → 7/25g56n1

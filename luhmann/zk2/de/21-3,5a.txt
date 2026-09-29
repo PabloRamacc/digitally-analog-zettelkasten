@@ -1,0 +1,5 @@
+s/f
+→ 21/3,5 Belege für diese Ansicht:
+Deutsch , a.a.O., z.B. S. 356, 360f. → B352 Daher betont Deutsch → B352 insb auch die heuristische und die predictive Funktion von Modellen.
+Coombs et al. 1954, S. 25f. → B353: "It might be well here to draw clearly the distinction between a model and a theory. A model is not itself a theory; it is only an available or possible or potential theory until a segment of the real world has been mapped into it. Then the model becomes a theory about the real world. As a theory, it can be accepted or rejected on the basis of how well it works. As a model, it can only be right or wrong on logical [?] grounds. A model must satisfy only internal criteria; a theory must satisfy external criteria as well."
+Danach ist ein Modell nichts anderes als eine halbfertige Theorie. Die Möglichkeit eines nichttheoretischen Gebrauchs von Modellen wird nicht in Betracht gezogen.

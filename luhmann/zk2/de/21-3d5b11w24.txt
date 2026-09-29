@@ -1,0 +1,3 @@
+s/f
+In differenzierten Systemen wird die __Selbstreferenz des Gesamtsystems umkonstruiert__, nämlich auf interne System/Umwelt-Beziehungen übertragen.
+Das Gesamtsystem bezieht sich dadurch zwangsläufig auf sich selbst, da es immer auch als Umwelt seiner Teilsysteme fungiert. Die Teilsysteme können auch an externe Umwelten direkt angeschlossen sein (z.B. Erziehung an Personen), aber sie bleiben gleichwohl zusätzlich an die interne Umwelt des Gesamtsystems gebunden und orientieren sich an der Differenz dieser Umwelten.

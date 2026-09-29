@@ -1,0 +1,4 @@
+s/f
+Are there general conceptual frameworks for analyzing systems with differentiation across various functional levels? For example: 1.) Generalization – indifference – controlled sensitivity; see → 21/3d5b11d17 .
+2.) Differentiation – generalization – respecification; cf. → 21/3d5b11d8d .
+3.) Majority of levels—in particular, those constituted within the systems in the lifeworld and those constituted scientifically (latent in the lifeworld); cf. → 25/7a .

@@ -1,0 +1,3 @@
+s/f
+Coordination via input and output costs a lot of time; it therefore becomes unfeasible when the processes themselves take too much time, so that the environment does not remain constant in the meantime.
+This concerns on the one hand the educational process, on the other hand __structural change__ processes in systems which are already coordinated at the process level via input/output but still have to be aggregated at the structural level. Example: legal system and legal dogmatics.

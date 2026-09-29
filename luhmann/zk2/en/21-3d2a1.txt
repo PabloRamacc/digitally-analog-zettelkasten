@@ -1,0 +1,2 @@
+s/f
+to be defined. It would then not state that the change of one part entails specific effects on other parts, but only: that it necessarily creates an adaptation problem for other parts, which can however within the system possibly be solved in various (functionally equivalent) ways. Interdependence in this sense would amount to nothing more than exclusion from indifference.

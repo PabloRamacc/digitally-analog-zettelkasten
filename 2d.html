@@ -470,7 +470,7 @@ $('#mesa').addEventListener('dblclick', e => {
 
 
 window.alCambiarCaja = async () => { await descartarSiVacia(S.sel); arr = null; S.animando = false; };
-window.alCambiarIdioma = () => { $('#cajones').dataset.firma = ''; render(); };
+window.alCambiarIdioma = () => { cancelarMenus(); $('#cajones').dataset.firma = ''; render(); };
 
 // ---------- Inicio ----------
 idb('readonly', s => s.get('dir')).then(h => {

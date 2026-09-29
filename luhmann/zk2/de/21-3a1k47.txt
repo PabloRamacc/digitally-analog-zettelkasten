@@ -1,0 +1,4 @@
+s/f
+Wenn Problemlösungen nur Umformulierungen bzw. Verschiebungen des Problems sind, kann man auch sagen: die Problemlösung ist ein Teil des Problems.
+Barnes 1985, S. 133 → B556: "Rational calculation … needs to be seen as part of the problem as well as a means of solving it."
+Allerdings: Damit wird die methodische Relevanz der __Unterscheidung__ von Problem und Problemlösung unterschätzt.

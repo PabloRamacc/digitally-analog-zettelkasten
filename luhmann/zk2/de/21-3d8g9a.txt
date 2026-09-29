@@ -1,0 +1,6 @@
+s/f
+→ 21/3d8g9 Das muss noch weiter ausgearbeitet werden. Es gibt mehrere Mechanismen, die eine relative Invarianz zwischen Subsystemen bewirken; und die Systembeziehungen lassen sich zunächst einmal danach typisch gruppieren, welche Mechanismen vorherrschen.
+Es gibt z.B. 1.) das Verhältnis der __Indifferenz__ → 21/3d8g9a(R) : Das heisst ein Wechsel in einem System ist irrelevant für den Bestand und die Leistungskontinuität im anderen;
+2.) das Verhältnis der __Co-Variation__ im Rahmen funktionaler Aequivalenzen: Das heisst: der Wechsel in einem System betrifft zwar das andere, kann aber in seinen Folgen durch einen Wechsel im zweiten System abgefangen, absorbiert werden. Das zweite System setzt, um die Änder- → 21/3d8g9b
+=== reverso ===
+→ 21/3d8g9a hierzu allg: → 21/6i4

@@ -1,0 +1,4 @@
+s/f
+Restricting the concept of function to self-maintaining systems p. 251f. → B252. In doing so, he misunderstands the actual, general meaning of functionality and the way out from the apparent tautology dilemma mentioned in → 21/3a1a.
+See also → 21/3a3.
+Similarly but more extensively Nagel 1953, pp. 198ff; 214ff. → B254 on the transformability of teleological into causal-mechanical statements. It is correct that there is only one type of causality, but with the assertion that it merely concerns a difference of emphasis (1953, p. 215 → B254), this does not suffice, because such an emphasis is necessary due to the infinity of causality and can be placed either on a cause or on an effect – which according to the causal functional theory → 21/3a1a2a

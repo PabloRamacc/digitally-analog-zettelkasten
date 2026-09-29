@@ -1,0 +1,2 @@
+s/f
+It is worth considering whether a Gaussian normal distribution should be specified in order to document that the censoring procedure has no basis in reality anyway.

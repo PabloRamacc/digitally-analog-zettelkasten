@@ -1,0 +1,4 @@
+s/f
+are uniquely [?] determined by these n properties at that time, and such that n is the smallest number of properties at that time for which this holds. Accordingly, if at some initial time t0 these variables have the values x1t0, …, x1t0 (so that Σ is in the state Γ0), while at some subsequent time t1 the variables have the values x1t1, …, xnt1 (so that Σ is in the state Γ1), then since Σ is a deterministic system the second set of values of the variables (and hence the second state of Σ) are uniquely determined by the first set. […]
+It is explicitly postulated that the values of the state coordinates at a given time are independentX of one another, even though their value[*] at one time depend on their values at another time." (Nagel 1956, S. 254-255 → B252) → 21/3a3c
+X cf. → 21/3a1a3

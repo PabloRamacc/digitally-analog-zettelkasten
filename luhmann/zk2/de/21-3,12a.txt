@@ -1,0 +1,5 @@
+s/f
+Für eine angemessene Wahl von Bezugsgesichtspunkten müssen jedoch – und gerade deshalb! – bestimmte Richtlinien aufgestellt werden.
+Zum Beispiel: __Die Abstraktion des Bezugsgesichtspunktes muss, soll sie praktisch ausführbare Relationen ergeben – in einem gewissen Verhältnis zur Plastizität und Änderungsfähigkeit des Systems stehen__.
+Es hat keinen Sinn, Hinweise auf andere Möglichkeiten so abstrakt anzusetzen, dass sie in einem bestimmten System keine wirklichen Möglichkeiten mehr sind.
+Vgl. z.B. → 3411/4j .

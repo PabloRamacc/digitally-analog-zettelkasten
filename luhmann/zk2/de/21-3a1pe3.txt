@@ -1,0 +1,7 @@
+s/f
+__Erwartungsbegriff__: Stogdill, S. 63 → B321:
+"__Expectation, defined as readiness for reinforcement [ → 21/3a1pe3(R) ], is a function of drive, the estimated probability of occurrence of a possible outcome, and the estimated desirability of the outcome.__ By __reinforcement__ is meant the experiencing of an outcome which tends to meet, fulfill, satisfy or confirm an __expectation__ [Damit erweist sich die Definition der Erwartung durch readiness for reinforcement als eindeutig tautologisch.]. By __readiness for reinforcement__ is meant the extent to which an individual is prepared or unprepared to experience, or reconciled or unreconciled to the prospect of experiencing, a possible outcome. By __drive__ is meant the level of tension and reactivity exhibited by an organism. The __estimated probability of occurrence of an outcome__ refers → 21/3a1pe4
+=== reverso ===
+→ 21/3a1pe3 Damit will Stogdill → B321 offenbar dem Streit zwischen objektiver (behavioristischer) und subjektiver Psychologie entgehen.
+Vgl. S. 68 → B321: "Expectation is neither an overt response nor a 'state of mind'."
+Dafür nimmt er eine Tautologie in Kauf.

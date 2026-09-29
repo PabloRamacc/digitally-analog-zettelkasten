@@ -1,0 +1,2 @@
+s/f
+Das Produktivitätsproblem muss in bezug auf eine __Relation__ gestellt werden, nämlich in bezug auf die Relation von Zettelkasten und Benutzer.

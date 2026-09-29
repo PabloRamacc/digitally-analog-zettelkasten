@@ -1,0 +1,4 @@
+s/f
+during the responses there should be a wall of null-functions between the variables A and the step-functions S." (p. 173 → B980)
+The specification simultaneously allows for __faster__ adaptation, and thus possibly overcoming the critical time problem in all adjustment processes. Cf. especially p. 177ff. → B980 See there fundamentally → 7/9e(2). An "fully connected" system without internal invariances would require excessively long times to adapt in a complex environment (p. 135f. → B980).
+! > The perhaps most important aspect is only briefly touched upon. That a system gains advantages through subsystem formation, which consist in __that the parts can treat each other as environments__. Ashby 1954, p. 174 → B980: "In other words, within a multistable system, subsystem adapts to subsystem in exactly the same way as animal adapts to environment." < !

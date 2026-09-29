@@ -1,0 +1,4 @@
+s/f
+The concept of the problem is to be further clarified in connection with the conditioning relationship between escalation and reduction of complexity. See also → 21/3a1k30b.
+Problems arise from system structures (i.e., constraints) that simultaneously function as limitations and extensions of possibilities. Further clarification therefore depends, among other things, on possibility theory {1}.
+To constitute a problem, the structural constraints must contain a __subset__ that contains hints about possible solutions. Cf. the reference to Simon → B547 in Kirsch III, p. 112 → B548. → 21/3a1k29

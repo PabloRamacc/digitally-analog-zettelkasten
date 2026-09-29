@@ -1,0 +1,4 @@
+s/f
+→ 21/3a1h p. 272 → B252:
+"(i) Ein gegebenes Element wird im Allgemeinen Teil mehrerer Systeme. Nehmen wir an, ein Element gehört zu den drei Systemen S1, S2, S3, wobei das erste Teil des zweiten und das zweite Teil des dritten ist, und G1, G2 und G3 sind die jeweiligen Güter in ihnen. Angenommen, das Element sei kausal relevant für G1 und G2, aber nicht für G3, und werde durch den Koordinatenwert 'A' repräsentiert. Dann wird eine Änderung von A bezüglich G3 funktionslos sein; sie kann jedoch sowohl gegenüber G1 als auch G2 funktionstüchtig oder dysfunktional sein, oder funktionstüchtig in Bezug auf das eine und dysfunktional in Bezug auf das andere.
+(ii) Ein gegebenes Element kann ein Teil eines Systems S1 sein, welches zur Umwelt eines anderen Systems S2 gehört. → 21/3a1hb

@@ -1,0 +1,4 @@
+s/f
+Self-descriptions have a function for input/output arrangements. They select (for the described system) sensitivities according to __own__ sensitivities.
+They reduce – in idea, but hardly in reality – 1.) environmental relations to the level of information;
+2.) relevant information to model-relevant information.

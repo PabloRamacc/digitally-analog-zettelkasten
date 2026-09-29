@@ -1,0 +1,5 @@
+s/f
+Das Problem des Verhältnisses von System und Bestandsvoraussetzungen ist von zentraler Bedeutung auch für die Frage der __empirischen Verifikation__ funktionaler Aussagen – und hier zeigt sich, dass die systematischen Vorteile dieser Trennung teuer bezahlt werden müssen. → 21/3a1h6b Vgl. grundsätzlich → 21/7 .
+Bestandsvoraussetzungen sind keine empirisch indizierbaren Tatsachen (vgl. auch → 21/3a1k5 ), wohl dagegen der Fortbestand des Systems. → 21/3a1h6(R) Aussagen, die den Begriff der Bestandsvoraussetzungen verwenden, sind daher empirisch (kausalwissenschaftlich) nur verifizierbar durch Feststellung des Fortbestandes des Systems bzw. derjenigen Systemteile, die als problematisch behandelt sind. → 21/3a1h6a Wenn man auf solche Verifikation Wert legt, muss daher ihr Systembezug klargelegt werden (vgl. dazu → 21/3a1e4 - → 21/3a1e5 ). → 21/3a1h7
+=== reverso ===
+→ 21/3a1h6 Nach der Kritik der älteren Survival-Theorie in → 21/3a1f1 sehr zweifelhaft, ob das aufrechterhalten werden kann.

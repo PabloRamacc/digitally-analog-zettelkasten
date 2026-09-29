@@ -1,0 +1,2 @@
+s/f
+Ambiguity reduces expectation security and is at the same time—in certain applications—a means of conflict resolution, thereby promoting expectation security.

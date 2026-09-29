@@ -1,0 +1,2 @@
+s/f
+One characteristic is consistently evident in this systems theory: the sharp separation of program and data flow, as observed in computers.

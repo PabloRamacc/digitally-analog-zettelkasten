@@ -1,0 +1,4 @@
+s/f
+multiple functions are assigned simultaneously or successively to a given part."
+__Multifunktionalität__ hat also selbst eine Funktion für die Lösung des Problems des __functional overcrowding__ und ist insofern ein __funktionales Aequivalent__ zur __funktionalen Differenzierung__, die auf andere Weise die gleiche Funktion erfüllt.
+Diese Erörterungsebene lässt sich rückverbinden zur allgemeinen Theorie der __Komplexität__ durch die Einsicht, dass funktionale Überlastung eine Folge hochkomplexer Umweltanforderungen an das System ist – also eine "Innenwiedergabe" des Problems hoher Syste Umweltkomplexität.

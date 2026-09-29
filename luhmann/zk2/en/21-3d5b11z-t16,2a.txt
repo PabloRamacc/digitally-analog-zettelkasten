@@ -1,0 +1,3 @@
+s/f
+Especially for the performance area (or also generally?), it applies that __both__ demand and intention to perform can be set as starting points.
+A system must however deal precisely with such __invariant__ stipulations __inconsistently__, i.e., they can change in order to be able to neutralize the long-term risk of the stipulation.

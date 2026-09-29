@@ -1,0 +1,3 @@
+s/f
+__Transaction__ → 536/14,1 ; → 536/14,2(2) [*]
+The term refers to an interaction that is triggered by differences in values among the parties involved and centers on these differences → 536/14,2(1) .

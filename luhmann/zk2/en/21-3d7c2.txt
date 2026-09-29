@@ -1,0 +1,2 @@
+s/f
+Bertalanffy 1949, p. 121 → B990: "A system is closed when no elements enter it 'from outside' and none exit it 'to the outside'. An open system is one in which inflow and outflow—and thus exchange of constituent elements—take place.

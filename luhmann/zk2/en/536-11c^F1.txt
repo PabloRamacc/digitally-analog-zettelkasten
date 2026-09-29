@@ -1,0 +1,4 @@
+s/f
+The absence of roles also means there is no way to classify conflicts as role conflicts.
+This means that the system’s capacity to absorb conflicts is low.
+See also → 536/11cB1 .

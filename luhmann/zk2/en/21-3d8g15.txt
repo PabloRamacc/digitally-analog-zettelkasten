@@ -1,0 +1,4 @@
+s/f
+whether the full-function and zero-function variables vary, how often and under which conditions the partial functions remain constant or co-vary.
+For the designation of the boundary at whose crossing the part-function no longer remains constant (isolated) but co-varies, Ashby → B980 also uses the term "__threshold__" (p. 163 → B980).
+Ashby → B980 does not seem to presuppose that the passage of effects through part-functions is functionally meaningful for the overall system; it can also mean too strong a disturbance or collapse, but on the other hand an increase in problems and activation of new solution possibilities. Here seems to lie a fundamental difference from the theory of connection points, selective filters, etc., which are fully → 21/3d8g16

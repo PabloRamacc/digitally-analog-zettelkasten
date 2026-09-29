@@ -1,0 +1,3 @@
+s/f
+Der Zusammenhang Resonanz und Kopplung (coupling) im Sinne von Varela müsste geklärt werden.
+Zu loose coupling → 21/3d2b22 .

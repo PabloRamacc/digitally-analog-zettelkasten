@@ -1,0 +1,4 @@
+s/f
+The concept of the problem must guarantee something invariant and remaining identical in relation to solved and unsolved problems. Not everything can change when a problem is solved.
+This invariance consists in contingency, in the appearance of contingency at either actual realized or merely possible solutions to problems.
+Thus, the formulation of the problem concept requires a two-level modalization.

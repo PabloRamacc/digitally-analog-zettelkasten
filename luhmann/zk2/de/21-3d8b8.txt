@@ -1,0 +1,4 @@
+s/f
+Wenn die Herstellung von Kompatibilität über das Vermeiden von Inkompatibilität in (mehr oder weniger dezentralisierten) match/mismatch- Verfahren läuft, braucht der Prozess __Zeit__. Das sachliche Problem der Konsistenz verlagert sich in die Zeitdimension. Man muss sehen, wie weit man kommt.
+Zeit – und für Systeme: Zeitbeständigkeit – gehört zum Komplex der funktionalen Aequivalente für ein positives Kriterium der Kompatibilität.
+Wüsste man, was gut ist, brauchte man keine Zeit!

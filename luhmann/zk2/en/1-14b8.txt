@@ -1,0 +1,3 @@
+s/f
+The distinction between levels should, wherever possible, be replaced by the distinction between __systems__.
+This is because systems can account for self-reference, whereas the concept of a level was invented to exclude it.

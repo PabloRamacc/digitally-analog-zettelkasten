@@ -1,0 +1,4 @@
+s/f
+Is “pleasure,” when it serves as a motive, also a possible goal of the action, or must it remain __a side effect__?
+On the subject of morality and pleasures, this problem arises in Scuderi 1680, I, p. 57 → B3175: “But as for virtue … it cannot exist without pleasure. It is true that to be truly virtue, it must not aspire to pleasure, and the pleasure it causes must arise naturally from itself, just as light emanates from the Sun.” → 7/25g43dA1a4ba
+A safeguard against self-referential short-circuiting must therefore be built in.

@@ -1,0 +1,2 @@
+s/f
+Aus dem Merkmal der Anwesendheit folgt, dass das System jeweils nur __eine Situation__ haben kann, also aus Situationsfolgen besteht, also Situationen nur historisch koordinieren braucht (und nur kann).

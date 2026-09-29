@@ -1,0 +1,3 @@
+s/f
+Distinction: loose vertical coupling and loose horizontal coupling in Simon 1973, p. 15ff. → B247
+Connection to cybernetics of ultrastability and partial functions.

@@ -1,0 +1,4 @@
+s/f
+Wie unterscheidet sich eine Prüfung von einer __Evaluation eines Curriculum__?
+Nur dadurch, dass bei der Evaluation der Prüfung Schüler nur als Objekt, bei der Prüfung dagegen als ein Subjekt mit eigener Rolle beachtet wird.
+Siehe Flechsigs, Antrittsvorlesung Göttingen → B3071: Absonderung dieser Funktion.

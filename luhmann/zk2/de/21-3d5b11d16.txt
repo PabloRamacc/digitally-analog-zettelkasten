@@ -1,0 +1,3 @@
+s/f
+Generalisierung infolge Differenzierung kann auch als __Ebenendifferenzierung__ eines Systems beschrieben werden; vgl. → 1/14b .
+Es bilden sich in Systemen über den laufenden Prozessen generalisierte Funktionsebenen, die teilweise andere Eigenschaften haben als die Sinnbeziehungen zwischen den Prozessen selbst.

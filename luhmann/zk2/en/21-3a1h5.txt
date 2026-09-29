@@ -1,0 +1,2 @@
+s/f
+is determined by the definition of inventory prerequisites and vice versa.

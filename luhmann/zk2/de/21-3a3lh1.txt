@@ -1,0 +1,5 @@
+s/f
+Abstraktion schließt, wenn bewusst erfolgt, Selbstreferenz ein.
+"Consciousness of Abstraction" als Prinzip der General Semantics von Korzybski 1933, S. 412ff. → B971.
+Vielleicht kann man auch sagen: Abstraktion schließt, wenn in Systemen für in einem System für das System erfolgt, Selbstreferenz ein.
+Bei aller Abstraktion ist entscheidend, __wovon__ abstrahiert wird.

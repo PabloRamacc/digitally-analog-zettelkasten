@@ -1,0 +1,4 @@
+s/f
+As a way out, the theory of reduction of complexity offers a third thought:
+Conflict is a form in which the problem of reducing complexity can be posed and solved (__with high costs__) within social systems.
+A functionally adequate equivalent for order within limits.

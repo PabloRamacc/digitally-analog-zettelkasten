@@ -1,0 +1,4 @@
+s/f
+Das Teil/Ganzes-Schema erfordert __Homogenität__ der Teile im Ganzen. → 21/3d8d15,1
+Haus: Zimmer, aber nicht Balken und Steine. Buch: Seiten, aber nicht Buchstaben.
+Es bestehen aber Schwierigkeiten, Kriterien der Homogenität zu spezifizieren; besonders wenn das Schema als Leitdifferenz und Paradigma für grosse Sachbereiche verwendet wird.

@@ -1,0 +1,6 @@
+s/f
+__Die Funktion koordinierender Generalisierungen erfordert, dass sie multifunktional sein müssen__. Vielleicht liegt hier der Ansatzpunkt für eine allgemeine Analyse der Multifunktionalität. → 21/3d8f5(R)
+Das ist kein Paradox. Vielmehr sind verschiedene Ebenen der Generalisierung zu unterscheiden.
+Ganz allgemein gesehen hat eine koordinierende Generalisierung nur diese eine Funktion: eben die der Koordination verschiedener Systeme. Damit ist aber nur eine funktionale Klasse verschiedener Möglichkeiten bezeichnet, die diese Funktion erfüllen können. Und von jeder einzelnen Möglichkeit fordert diese allgemeine Funktion Multifunktionalität, zumindest Funktionalität für verschiedene Systeme.
+=== reverso ===
+→ 21/3d8f5 Auswertung → 44/7 vgl. auch → 21/4f ; → 21/15a1

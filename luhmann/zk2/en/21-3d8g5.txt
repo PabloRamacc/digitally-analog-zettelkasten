@@ -1,0 +1,5 @@
+s/f
+It must be elaborated further on the methodological advantages of analyzing a system with regard to subsystems, whether concrete or functionally abstracted ones.
+A system can only persist over time if its functional problems are solved continuously and reliably.
+For this purpose, performance stability (contribution stability) is required, which must, to some extent, be independent of disturbances and changes (__insensitive__): thus itself being a form of system performance again.
+If one now has to acknowledge that in every concrete system several functional problems exist with partially contradictory → 21/3d8g6

@@ -1,0 +1,2 @@
+s/f
+Die selbstreferentielle Struktur des Arguments wird deutlich, wenn man formuliert: __Differenziert werden im Grunde__ (nur!) die __Differenzen zwischen System und Umwelt__.

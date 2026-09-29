@@ -1,0 +1,3 @@
+s/f
+One of the central premises of educational technology is the assumption that what is learned, __in the way it is learned__, can also be used outside of school—that is, it can be learned and applied __in a context-free manner__.
+For a critique of this “functionalist” non-context assumption, see Lave 1988 → B557, particularly using the example of quantitative calculations.

@@ -1,0 +1,6 @@
+s/f
+Wichtig zum Thema auch Levy, insb. S. 62 → B328:
+"A __functional requisite__, …, is a generalized condition necessary for the maintenance of the unit with which it is associated, given the level of generalization of the definition of that unit and the most general setting of such a unit."
+Zur Berechnung der erforderlichen Leistungen verwendet Levy → B328 den Begriff der __structural requisite__. S. 63 → B328: "A structural requisite, …, is a pattern (or observable uniformity) of action (or operation) necessary for the continued existence of the unit …" usw. wie oben.
+Diese Begriffe sind als Begriffe der statischen Analyse (ohne Zeitdifferenz, also streng genommen nicht kausale Bedingungen!) gedacht; für die dynamische Analyse werden die Begriffe __functional bzw. structural prerequisites__ eingeführt.
+Im Anschluss daran umfangreiche Untersuchungen über die Bestandsvoraussetzungen einer Gesellschaft. → 21/3a1a8b

@@ -1,0 +1,4 @@
+s/f
+Warum ist Interdependenz der Engpass für adaequate Abbildung von Umwelt- Komplexität?
+Vielleicht, weil Abbildung von Interdependenz heißen würde, die Umwelt __als System__ abzubilden.
+Interdependenz ist die Variable mit grösster systembildender Relevanz. Und das würde, ins absolute durchgeführt, die Differenzierung von System und Umwelt aufheben.

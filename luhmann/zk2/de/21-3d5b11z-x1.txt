@@ -1,0 +1,3 @@
+s/f
+Segmentierung gibt den kleinsten Einheiten den Vorrang, weil Konflikte zwischen ihnen nicht (oder später: nur schwer) auf Grund gemeinsamer Mitgliedschaft in einer grösseren Einheit geregelt werden können.
+Hierzu E.E. Evans-Pritchard, The Nuer, Oxford 1940, pp. 136-7 → B3447 (zit nach Dumont 1970a, S. 274 → B3448): "A man is a member of a political group in virtue of his nonmembership of other groups of the same kind. … But a man does not see himself as a member of that same group in so far as he is a member of a segment of it which stands outside of and is opposed to → 21/3d5b11z/x2

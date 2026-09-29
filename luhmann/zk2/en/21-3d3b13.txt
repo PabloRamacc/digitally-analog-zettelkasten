@@ -1,0 +1,3 @@
+s/f
+Question: __with respect to which system variables (structural features) does a system possess autonomy?__
+For example: with respect to status determination?

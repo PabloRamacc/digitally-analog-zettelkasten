@@ -1,0 +1,4 @@
+s/f
+__Coding / Programming in the Educational System__
+Following a general pattern found in other functional systems, the demands of the modern era can be expressed as a distinction between coding and programming. General framework for reflecting on this requirement:
+Code Program Unit ? Career Education Operation + / - Competitive Skills Curricula

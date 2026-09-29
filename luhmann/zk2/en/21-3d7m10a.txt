@@ -1,0 +1,2 @@
+s/f
+The term "constraints" presupposes system elements that possess degrees of freedom. Only such elements can be restricted (or are capable of being so). {1}

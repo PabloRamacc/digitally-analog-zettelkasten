@@ -1,0 +1,7 @@
+s/f
+nalen Leistungen von "Variablen" (obwohl das häufig geschieht). Denn das Verhältnis einer Bestandsvoraussetzung zu der sie erfüllenden Leistung ist nicht das einer Variable zu ihren Einsatzwerten. Nur die Klasse aller geeigneten Leistungen kann Variable heissen.
+Bei der Analyse von empirischen Systemen sind mithin die folgenden methodologischen Begriffe zu unterscheiden: 1.) das System selbst;
+2.) die Bestandsvoraussetzungen (vgl. → 21/3a1a );
+3.) die Variablen (Klassen von Leistungen, die die Bestandsvoraussetzungen erfüllen können); → 21/3a2a
+4.) die einzelnen funktionalen Leistungen. Vgl. auch → 21/7e .
+Dazu kommt 5.) Die Umwelt.

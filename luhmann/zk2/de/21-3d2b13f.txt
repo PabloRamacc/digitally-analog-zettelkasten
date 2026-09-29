@@ -1,0 +1,2 @@
+s/f
+Mit der Steigerung des Tempos und der wechselseitigen Abhängigkeit wächst die Fehlerempfindlichkeit des Systems – und zwar sowohl für Fehler in der Synchronisation als auch für Fehler in der Sache selbst. Fehler übertragen sich rascher und weiter wegen der starken sachlich-zeitlichen Abhängigkeit aller Arbeiten.

@@ -1,0 +1,4 @@
+s/f
+Zum Begriff des Subsystems gehören ferner bestimmte Annahmen über Beziehungen zwischen den Subsystemen.
+Dabei ist auszugehen von der Einsicht, dass Elemente eines Systems sich in ihrer Systemzugehörigkeit dadurch auszeichnen, dass ihre Änderung die Änderung anderer Elemente im System nach sich ziehen muss, soll der generalisierte Sinn des Systems gewahrt bleiben. Wären Elemente isoliert änderbar, wiesen sie sich eben damit als nicht zum System gehörig aus.
+Überträgt man diesen Gedanken, der sich aus dem Systembegriff ergibt, auf Subsysteme, so lässt → 21/3d8g8

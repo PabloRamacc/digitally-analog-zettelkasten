@@ -1,0 +1,4 @@
+s/f
+→ 21/3a3e Die Hypothese eines "Wiederherstellungsmechanismus" cachiert das Problem der __Vollständigkeit der Bestandsvoraussetzungen__; vgl. → 21/3a1e4 .
+Wenn man in Bezug auf das System als solches von einem Wiederherstellungsmechanismus spricht, so bedeutet das, dass die spezifischen Funktionsbedingungen dieses Mechanismus zugleich vollständig die Bedingungen des Systemfortbestandes angeben. Das lässt sich wohl nur mit weitreichenden ceteris/paribusAnnahmen durchführen.
+Man kann das Postulat eins solchen Mechanismus aber auch einschränken auf bestimmte Systemzüge, insb die Erfüllung bestimmter Bestandsvoraussetzungen des Systems. So wird es in der Biologie gehandhabt. So auch Nagel und Hempel.

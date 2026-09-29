@@ -1,0 +1,2 @@
+s/f
+Zu überlegen ist, ob eine Gaus'sche Normalverteilung vorgeschrieben werden soll, um damit zu dokumentieren, dass das Zensierverfahren ohnehin keine Grundlage in der Realität hat.

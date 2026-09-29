@@ -1,0 +1,2 @@
+s/f
+Hieraus folgt: Eine wichtige Variable des Problems ist die Frage, wie weit das Abarbeiten von Komplexität durch Vertrauen eine zwingende Notwendigkeit ist. In Systemen, die dem Komplexitätsproblem nicht in dieser brennenden Schärfe ausgesetzt sind, mag die Vertrauensfrage an Bedeutung verlieren. Damit wird auch die Sanktion auf Vertrauensbruch weniger scharf ausfallen.

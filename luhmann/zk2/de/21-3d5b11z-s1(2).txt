@@ -1,0 +1,4 @@
+s/f
+Output. Im Gesamtsystem erfordert das dann abgestimmte Kettenbildung. Das ist __Koordination__.
+__Koordination__ leistet schärfere Grenzselektivität, hat höhere Anforderungen an Steuerungseinrichtungen; bei __Aggregation__ gibt es stärker durchlässige, pervasive Grenzen, die es einem System gestatten, Umweltveränderungen sozusagen per implicationem, ohne Input-Kommunikation.
+Koordinationssysteme beruhen auf Verzeitlichung von Komplexität.

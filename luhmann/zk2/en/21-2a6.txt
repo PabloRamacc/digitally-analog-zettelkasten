@@ -1,0 +1,3 @@
+s/f
+For the theory of functional reference points it may be important that mathematics knows not only "single-valued," but also "multi-valued" functions. {1}
+Hobson I, § 207; S. 274 → B339: "Funktionen gemäß der obigen Definition definiert werden als __eindeutige__ Funktionen, da zu jedem Wert von x im Bereich von x ein einziger Wert von y entspricht. Die Definition kann so verallgemeinert werden, dass sie auf __mehrdeutigen__ Funktionen anwendbar ist. Dies geschieht durch Ersetzen der Anforderung, dass zu jedem Wert von x im Bereich von x ein einzelner Wert von y entsprechen soll, durch die allgemeinere Aussage, dass ! > , zu jedem Wert von x eine bestimmte Menge von Werten von y entspricht. < ! Die Menge der Werte von y kann für einen bestimmten Wert von x → 21/2a7

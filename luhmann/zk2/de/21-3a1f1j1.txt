@@ -1,0 +1,2 @@
+s/f
+Unterschied. __Der Unterschied bezieht sich auf das Fassungsvermögen für Komplexität__.

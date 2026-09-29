@@ -1,0 +1,3 @@
+s/f
+A special problem is the __relationship of the individual inventory prerequisites to one another__.
+Prerequisites are – since they are irreplaceable – __to be connected additively__, if the stock is to be secured. That means: __they presuppose each other reciprocally__. It makes no sense to provide services for a prerequisite when the others cannot be fulfilled. __Therefore, every functional performance is functionally relevant for the total system; it is functionally equivalent only with respect to its respective prerequisite.__ An empirical system understood in this way is a unity of performances that are limitedly out- → 21/3a1e

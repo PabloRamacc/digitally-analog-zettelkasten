@@ -1,0 +1,2 @@
+s/f
+According to Rapoport (1961) → B124 The key is to overcome the limitation of traditional mathematics, which focuses on analyzing relationships between a few given variables; for in the social sciences, variables are typically not given. Modern mathematics (matrix theory, graph theory, topology, etc.) can be used to discover relevant variables.

@@ -1,0 +1,5 @@
+s/f
+What requirements must be placed on a __communication network__ for trust to form?
+At any rate: There must exist possibilities for independent opinion formation (possibly consensus building)—independent of what is trusted. A current realization of these possibilities is, of course, not a prerequisite.
+See Crozier 1963, p. 298 → B123: "… il n'y a aucun moyen de faire confiance à personne dans un système où l'on ne peut se référer à un consensus indépenant":
+However, this thesis cannot be justified from my concept of trust (acting on the basis of yet-unfulfilled expectations). It presupposes a narrower concept of trust.

@@ -1,0 +1,4 @@
+s/f
+With careful speech one must distinguish the __schema__ of observing (distinction, context) from the __operation__ of observing.
+The schema can be thought of as a designation for a multitude of possible operations; e.g.: Saturn observes passing probes (if we were there, we would).
+Important for special relativity theory.

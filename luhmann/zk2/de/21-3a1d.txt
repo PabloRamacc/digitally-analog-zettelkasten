@@ -1,0 +1,3 @@
+s/f
+Ein besonderes Problem ist das __Verhältnis der einzelnen Bestandsvoraussetzungen zueinander__.
+Bestandsvoraussetzungen sind – da unersetzbar – __additiv zu verbinden__, soll der Bestand gesichert werden. Das heisst: __sie setzen einander wechselseitig voraus__. Es hat keinen Sinn, Leistungen für eine Bestandsvoraussetzung zu erbringen, wenn die anderen nicht erfüllt werden können. __Daher ist jede funktionale Leistung funktional für das Gesamtsystem, funktional aequivalent aber nur in Bezug auf je ihre Bestandsvoraussetzung__. Ein so verstandenes empirisches System ist eine Einheit von Leistungen, die begrenzt aus- → 21/3a1e

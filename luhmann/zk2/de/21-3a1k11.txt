@@ -1,0 +1,2 @@
+s/f
+Wenn man indessen das Aktionsschema verlässt und den Begriff der Verhaltenserwartung zu Grunde legt, ergibt sich die Möglichkeit, eine Klasse funktionaler Primärproblemeleistungen zu formulieren, die in besonderer Weise funktional aequivalent sind: indem sie sich wechselseitig voraussetzen und trotzdem gegeneinander variabel sind, verschiedene Sekundärprobleme aufwerfen und sich teilweise widersprechen. Im Zentrum dieser Überlegungen stehen die Paradoxien der Identität. Näher → 21/3a1p ; ferner grundsätzlich → 5311/4c .

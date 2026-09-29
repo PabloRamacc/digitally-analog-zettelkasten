@@ -1,0 +1,5 @@
+s/f
+__Generalization / Abstraction__
+The relationship between the terms could be clarified with the help of the system/environment distinction.
+__Abstraction__ is reduction of environmental complexity, looking away from details of the environment.
+__Generalization__ is an internal structural requirement in internal differentiation.

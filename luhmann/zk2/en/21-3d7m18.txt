@@ -1,0 +1,4 @@
+s/f
+Fundamental Problem Statement: __How is it possible to make system/environment relations dependent on the organization (= selective relationation) and not on the elements of the system?__
+Two basic conceptions: 1.) Strengthening the selectivity of relationation;
+2.) Loosening the bond between elements in such a way that, depending on the ordering pattern, a bond may or may not be considered.

@@ -1,0 +1,3 @@
+s/f
+[*] Wie erfolgt die Festlegung der __Einheiten__, aus denen die Umwelt besteht, im Sinne der Festlegung von Bezugspunkten der Relationierung?
+Siehe dazu den Abschnitt "ecological units" bei Barker 1968, S. 11f. → B402 mit rein umweltbezogenen (im Ergebnis auf Systembildung hinauslaufenden Kriterien: "The essential nature of the units with which ecology deals is the same whether they are physical, social, biological or behavioral units: (a) they occur without feedback from the investigator, they are self-generated; → 21/3a1j4a

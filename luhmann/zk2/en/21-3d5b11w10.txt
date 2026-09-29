@@ -1,0 +1,3 @@
+s/f
+The system/environment theory allows representing system formation as a __reflexive mechanism__, because it enables specifying the __function__ of system formation.
+System formation becomes reflexive when applied to itself. That means: The function of system formation is repeated in systems. In system formation, one can then expect that the same process of boundary-setting and interruption of continuity comes into play __again__. This relieves primary system formation from decisions.

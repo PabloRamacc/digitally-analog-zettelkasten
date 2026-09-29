@@ -1,0 +1,4 @@
+s/f
+Prüfungen sind beruhen auf __Konditionalprogrammen__. Sie haben die Form: __Wenn__ eine Leistung gezeigt wird, wird ein entsprechendes Zertifikat erteilt.
+Bedingung ist ein in der Prüfungssituation selbst gezeigtes Verhalten, ausgelöste Programmleistung ist die Erteilung eines Zertifikats.
+Diese Konditionalprogramme werden für Zweckprogramme substituiert überall dort, wo Zwecke nicht ausreichend spezifiziert werden können. Dann findet das Erziehungssystem sein hartes Gerüst in einem Prüfungssystem, das, wie man hofft, im Nebeneffekt erzieht.

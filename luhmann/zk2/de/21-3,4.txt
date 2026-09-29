@@ -1,0 +1,2 @@
+s/f
+→ 21/3 Die __begriffliche__ Unterscheidung schliesst selbstverständlich eine faktische Kombination von gegebenen empirischen Systemen durch realisierte Modelle nicht aus. Ein typischer Fall solch' einer Kombination liegt vor, wenn Modelle zur Sicherung oder zur Steuerung in empirische Systeme eingebaut werden, um dort funktionale Bestandsvoraussetzungen zu erfüllen. Dann verschachteln sich damit verschiedene funktionale Aufbauschemata.

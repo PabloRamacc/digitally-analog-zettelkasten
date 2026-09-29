@@ -1,0 +1,3 @@
+s/f
+The thought of multifunctionality is the exact reverse of the thought of functional equivalence—and presumably for that reason so important. If in principle every function can refer to several structures, then conversely also every structure to several functions.
+Perhaps the functional specification of structures therefore exacts its revenge through so many dysfunctions.

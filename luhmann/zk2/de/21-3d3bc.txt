@@ -1,0 +1,2 @@
+s/f
+→ 21/3d3b Auch der Gegenfall muss jedoch berücksichtigt werden: dass das System sich trotz Änderung der Umwelt invariant hält.

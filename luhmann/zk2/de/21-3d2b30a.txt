@@ -1,0 +1,2 @@
+s/f
+Interdependenztypen beschreiben Verdichtungsmuster von Interdependenzen. Sie sind damit zugleich Typen von Interdependenzunterbrechungen bzw. Independenzen. Für manche Analysen mag es vorteilhafter sein, diese Perspektive zu wählen.

@@ -1,0 +1,4 @@
+s/f
+__Group homogenization__ is not a direct solution or simplification of the problem of multiple system references.
+The selective equalization of characteristics (age, performance level) does not provide any direct insight into the complexity and structure of the interaction system.
+Accordingly, one can hardly expect correlations involving homogeneous or heterogeneous group formation to yield clear and consistent results. → 7/25g56a6,1

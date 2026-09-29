@@ -1,0 +1,6 @@
+s/f
+Die System-Subsystem-Differenzierung hängt eng mit der Vorstellung zusammen, dass die 4 System- Problems eine __vollständige__ Liste der funktionalen Differenzierungsgesichtspunte eines jeden Aktionssystems enthalten. Es gibt auf der gleichen Systemebene daher keine Ausweitung oder weitere Unterteilung. Jede weitere Differenzierung muss sich daher auf andere Systeme beziehen (die ebenfalls wieder jene 4 Probleme und keine anderen aufweisen).
+Vgl. Vorlesung 1960 → B702[*] ausdrücklich: "Any more elaborated classification involves an elaboration of the system scheme: one total system and different subsystems." → 21/3d5b14(R) Diese Notwendigkeit zwingt ihrerseits zu einem analytischen Systembegriff.
+Die kaum zu übersehende Vielfältigkeit möglicher Systemreferenzen ist also eine direkte Konsequenz der abstrakten Einfachheit des Ausgangsschemas und hat → 21/3d5b15
+=== reverso ===
+→ 21/3d5b14 Deshalb auch z.B. WP, S. 253 → B954: "We have stated that the fundamental key to the analysis of structural differentiation of action systems lies in the relationship of system and sub-system."

@@ -1,0 +1,4 @@
+s/f
+Two selection errors must be considered: too strict and too lenient. Suitable candidates may be rejected, and unsuitable ones may be admitted; → 7/25g57ea see → 3/9c3b17b .
+The relationship between these two inequalities defines the __rationality problem__ of educational selection.
+It is determined by the fact that the avoidance of both too harsh and too lenient selection cannot be optimized simultaneously. (Hopper 1968, p. 33 → B3271 with the caveat—“at least not in the short run,” etc.)

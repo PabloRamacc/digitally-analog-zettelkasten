@@ -1,0 +1,3 @@
+s/f
+Die Kybernetik zweiter Ordnung muss der Tatsache Rechnung tragen, dass __sie selbst keine Hierarchie bilden kann__, d.h. __keine vollständige Beschreibung ihrer selbst in Aussicht stellen kann__: weder von oben (als von einem höchsten Punkte aus) noch von aussen (im Sinne einer internen Beschreibung einer externen Position, von der aus das Ganze beobachtbar wäre.
+Diese Konsequenz wird auch schon für die Typentheorie oder für die Ebenenhierarchie gezogen, die dann zu Unrecht als Hierarchie bezeichnet wird (z.B. Löfgren in Jantsch 1981, S. 134f. → B477 mit Bezug auf Russell selbst).

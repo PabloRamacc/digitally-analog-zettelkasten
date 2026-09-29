@@ -1,0 +1,3 @@
+s/f
+Die Frage der Kompatibilität von Systemen stellt sich nur innerhalb umfassender Systeme. Andernfalls löst sie sich auf in die allgemeine System/Umwelt-Prolematik.
+Daher geht es hier im Grunde genommen nur noch um die Frage der strukturellen Kompatibilität in Systemen. Diese Frage hängt eng mit ungeklärten modallogischen Problemen zusammen.

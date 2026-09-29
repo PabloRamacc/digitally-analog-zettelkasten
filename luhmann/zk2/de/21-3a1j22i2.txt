@@ -1,0 +1,4 @@
+s/f
+Der Rejektionswert erfordert eine systemtheoretische Interpretation; siehe insb. Günther 1976 I, S. 189-247 (insb. S. 230) → B457
+Das hat zwei Konsequenzen: 1.) Der Rejektionswert ist zugleich ein externer und ein interner Wert (s. auch Bråten 1984 → B458). Er ist einem binär codierten System __extern__ auferlegt, kann aber internalisiert werden mit der Folge, dass dann __alle__ Werte des Systems als Rejektionswerte fungieren können.
+Günther, S. 231 → B457 spricht von einer "tieferen Zweiwertigkeit" = derjenigen zwischen Akzeptieren und Nichtakzeptieren des Rejektionswertes und wiederum → 21/3a1j22i3

@@ -1,0 +1,4 @@
+s/f
+__On the "Solvability" of Problems__: → 21/3a1k30,1
+__Solved problems are no longer__. → 21/3a1k30,2 A solution is the termination of the problem's problematic nature. In this sense, statements that simultaneously imply a problem and its solution are contradictory.
+__Solvability__, in contrast, is a modal concept (dispositional concept) within the philosophy of science as discussed by Schnädelbach 1951 → B549?[*]; cf. → 7/25k3. It follows the general conditions for formulating possibility statements; thus it derives its meaning only from specifiable conditions of possibility.

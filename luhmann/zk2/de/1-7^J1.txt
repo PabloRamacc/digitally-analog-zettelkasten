@@ -1,0 +1,2 @@
+s/f
+Nach Rapoport 1961 → B124 kommt es vor allem darauf an, die Beschränkung der älteren Mathematik auf die Behandlung von Beziehungen zwischen wenigen vorgegebenen Variablen zu überwinden; denn Variablen seien in den Sozialwissenschaften typisch nicht gegeben. Die neuere Mathematik (matrix theory, graph theory, topology usw.) kann dazu eingesetzt werden, relevante Variablen zu entdecken.

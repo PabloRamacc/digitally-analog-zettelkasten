@@ -1,0 +1,4 @@
+s/f
+A "translation" of Weber's concept (translation in the sense of → 7/25a72) into complexity theory requires: 1.) Interpretation of rationality as __supposedly correct reduction of complexity__.
+2.) Forms of rationality (and accordingly: forms of legitimation) are then based on different attitudes towards the problem of complexity and to how one can intend and achieve what is right in the face of complexity.
+3.) This representation can illustrate the relationship between → 21/3a1pe9h2

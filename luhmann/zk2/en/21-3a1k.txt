@@ -1,0 +1,6 @@
+s/f
+→ 21/3a1 __On the concept of a functional problem__ → 21/3a1ka; → 21/3a1kb; → 21/3a1kc; → 21/3a1kd [*]
+__Every functional perspective has the formal structure of a "problem"__ → 21/3a1k(R): it is defined – and thus relatively invariant – openness. It contains a certain structural pre-decision regarding possible relevance; and it requires completion (Frege). One can also speak of relational openness: of a relationship with an undefined endpoint.
+In contrast to the problem in the general sense, whose openness essentially consists only of uncertainty, the functional reference problem has a narrower characterization: its openness – which always implies uncertainty from the subjective aspect as well – has a specific reason, namely that __multiple solutions__ → 21/3a1k1
+=== reverso ===
+→ 21/3a1k Evidence: Cohen 1948 → B361 does not yet know the term stock prerequisites; he speaks of functional problems.

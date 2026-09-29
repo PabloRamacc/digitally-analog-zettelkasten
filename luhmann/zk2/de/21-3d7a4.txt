@@ -1,0 +1,4 @@
+s/f
+[*] Ein weiterer Gesichtspunkt der Systemtheorie ist die Aufhebung des Satzes causa aequat effectum. Durch Systemorganisation ist es möglich, einer "kleinen" Einwirkung auf einen Teil des Systems (z.B. die Systemleitung) grosse Wirkungen zu geben, denn die Systemorganisation setzt diesen Teil in die Lage, andere, latente, mitwirkende Ursachen zu aktualisieren. Vgl. auch → 21/6i4b3 .
+Eine theoretische Formulierung dieses Gedankens findet sich bei Bertalanffy, S. 150f. → B989, der auf die Unterscheidung von Erhaltungskausalität und Anstosskausalität bei A. Mittasch, Von der Chemie zur Philosophie, Ulm 1948 → B1406 verweist.
+Im Grunde setzt dieser Gedanke – die Unterscheidung von "kleinen" Ursachen und "grossen" Wirkungen einen Massstab voraus, der einen Vergleich ermöglicht. Berta- → 21/3d7a5 → B989

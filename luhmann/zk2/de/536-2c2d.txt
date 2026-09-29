@@ -1,0 +1,2 @@
+s/f
+Das Problem des tension management ist zu einem wesentlichen Teil das der __Selbstdarstellungssynchronisation__.

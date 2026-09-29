@@ -1,0 +1,5 @@
+s/f
+__Intersystem-Theorie__ → 21/3d12ma
+Ist als Theorie blosser Beziehungen zwischen Systemen keine adaequate Lösung des Problems.
+Die Umwelt bleibt ausser Acht bzw. wird nicht systematisch-explizit berücksichtigt.
+Im Unterschied zur Theorie der Mehrheit von Systemreferenzen kommt __jedes__ System nur __einmal__ vor, nämlich nur als es selbst, nicht aber auch als Umwelt anderer.

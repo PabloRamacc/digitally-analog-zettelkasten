@@ -1,0 +1,3 @@
+s/f
+von Bestandsvoraussetzungen darin vorgezeichnet und durch sie ermöglicht wird. Das ist bei Nagel → B252s Begriff des Trait G nicht der Fall.
+Wenn man schon eine Parallele zu Nagel → B252s System ziehen will, ist es vermutlich richtiger, die functional requisites vom Begriff der state co-ordinates oder state variables aus zu bilden, d.h. derjenigen Variablen, deren Einsatzwerte in bestimmter Begrenzung (Ausschnitt) den Bestand bestimmter Systemzüge garantieren, zumal Nagel → B252 kennzeichnender Weise __hier__ die Unabhängigkeit der einzelnen Variablen voneinander fordert; vgl. → 21/3a3b und → 21/3a1a .

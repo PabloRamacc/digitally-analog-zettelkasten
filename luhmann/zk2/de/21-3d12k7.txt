@@ -1,0 +1,2 @@
+s/f
+Wechselseitige Spezifikationen: Wenn man reduktionistisch verfährt, braucht man holistische Entscheidungen zur weiteren Spezifikation des Vorgehens. Wenn man holistisch verfährt, gilt das Umgekehrte.

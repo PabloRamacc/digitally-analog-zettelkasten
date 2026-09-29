@@ -1,0 +1,4 @@
+s/f
+Following Aldrich / Pfeffer 1976, p. 92 → B411 and H.E. Aldrich / S. Mindlin, Uncertainty and dependence: two conceptions of the environment, in L. Karpik (ed.), Organization and Environment, New York 1976 → B412[*], we can distinguish between two different approaches to the concept of "environment": 1.) __Environment as Information__ = Problem or Contingency as __Uncertainty__;
+2.) __Environment as Resource__ = Problem or Contingency as __Dependence__.
+This corresponds exactly to the two concepts of contingency.

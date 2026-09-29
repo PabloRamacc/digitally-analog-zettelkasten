@@ -1,0 +1,2 @@
+s/f
+One could therefore also consider a parallel semantics to structural self-reference here.

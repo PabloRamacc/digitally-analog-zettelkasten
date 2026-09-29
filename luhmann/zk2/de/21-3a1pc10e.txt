@@ -1,0 +1,5 @@
+s/f
+__Generalisierung / funktionale Aequivalenz__
+In der behavioristischen Psychologie wird Generalisierung etwa als reinforcement funktionaler Aequivalenz behandelt. Der Begriff funktionale Aequivalenz oder StimulusAequivalenz taucht dabei ausdrücklich auf.
+Vgl. z.B. Hull, S, 197 → B636: "All of these stimuli are functionally equivalent in that they have the capacity to evoke the same reaction. This spreading of the results of learning to other stimuli is called primary stimulus generalization. The fact that many stimuli alike possess the potentiality of evoking the same reaction constitutes __primary stimulus equivalence__."
+Stendenbach, S. 91 → B641 spricht ausdrücklich von funktionaler Aequivalenz, ebenso Stendenbach 1964, S. 71 → B643.

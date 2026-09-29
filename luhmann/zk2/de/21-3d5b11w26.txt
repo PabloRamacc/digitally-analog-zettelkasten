@@ -1,0 +1,4 @@
+s/f
+__Systemdifferenzierung / black boxes / Beobachtung / Theorie__
+Die Systemdifferenzierung erzeugt nicht nur System/ Umwelt-Verhältnisse, sie erzeugt auch System/ System-Verhältnisse im differenzierten System. Jedes Teilsystem findet sich nicht nur in einer systeminternen Umwelt, es findet sich auch in __Beziehungen zu anderen Teilsystemen__. Dies hat eigenständig zu entwickelnde Konsequenzen.
+Teilsysteme sind füreinander immer black boxes. Selbst wenn sie sich selbst durchsichtig wären, wären sie es nicht füreinander. Durchsichtig ist → 21/3d5b11w26a

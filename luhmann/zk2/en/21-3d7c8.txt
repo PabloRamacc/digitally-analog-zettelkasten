@@ -1,0 +1,3 @@
+s/f
+A worrying concept of a closed system is hinted at by Kahn / Katz 1966, p. 454 → B993: "Much of the theorizing and empirical work about organizations has assumed explicitly or implicitly a closed system, in which the inputs into the system are regarded as constants."
+Thereafter this term does not __deny__ any normal connection with the environment (__Normalzusammenhang__), but rather sets it __as constant__, that is to say temporal complexity of the environment would be denied. Put differently: Such systems must perceive every change for relevant environmental factors as a __disturbance__ and absorb it, or treat each such factor's alteration as an interruption requiring absorption within their framework.

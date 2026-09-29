@@ -1,0 +1,3 @@
+s/f
+Observations.
+An observation controlled by true/false observation shall be called __recognition__. See → 7/25a82.

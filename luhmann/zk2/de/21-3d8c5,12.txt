@@ -1,0 +1,3 @@
+s/f
+Jedes System muss infolgedessen das Problem des Ausgleichens von Spannungen, der Absorption von Belastungen lösen (__stress absorption__). Damit ist ein funktionales Bezugsproblem formuliert, das sich für zahlreiche Analysen als Ausgangspunkt eignen dürfte. Besonders der Gedanke der Plastizität und Umformbarkeit der Spannungen kann dazu dienen, funktional-aequivalente Unterproblemformulierungen und damit funktional-aequivalente Lösungsungleichheit in den Blick zu bringen.
+Der Gedanke klingt an bei Gore 1964, S. 45 → B144 mit den Formulierungen "stress absorption" und "tension-dissipating devices". Vgl. dazu auch → 32/3g8f .

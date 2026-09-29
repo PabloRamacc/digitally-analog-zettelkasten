@@ -1,0 +1,3 @@
+s/f
+Das Niveau einer Funktionserfüllung bleibt gebunden an die Komplexität des Funktionssystems und damit an die diese Komplexität tragenden, ermöglichenden Reduktionen.
+Diese Reduktionen gegen andere auszutauschen, sie zu ersetzen, wird immer schwieriger, je komplexer das System ist. Vor allem, weil sekundäre Interdependenzen entstehen, die abgelöst werden müssen.

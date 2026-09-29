@@ -1,0 +1,6 @@
+s/f
+→ 21/3a3 Cf. also → 21/3a1a1; → 21/3a1ga; → 21/3a1e5; → 21/3a3a(R).
+In principle Nagel limits S. 251f. → B252 the concept of function to systems with such reactive mechanisms: S. 251 → B252: "Accordingly, functional statements are regarded as appropriate in connection with systems possessing self-maint[S. 252]aining mechanisms for certain of their traits, but seem pointless and even misleading when used with reference to systems lacking such self-regulatory devices."
+On S. 254f. → B252 it is explained under which conditions the system – as required by Nagel → B252s formalization – is a __determined system__. Namely: The trait F in question of the system Σ is conditioned by a number of further "properties," whose specific forms can be taken as values of the variables 'x1', 'x2', …, 'xn', such that the specific forms of __all__ the properties in Γ at any time → 21/3a3b
+=== reverso ===
+see → 21/3a3a, cf. → 21/3e; __→ 21/6ia__.

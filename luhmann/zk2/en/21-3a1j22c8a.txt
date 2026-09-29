@@ -1,0 +1,5 @@
+s/f
+Every self-description can only take place __in__ the system – otherwise it would simply be a description by others.
+From this follows that it can describe the system (completely) only if it describes itself as something occurring in the system and from which the constitution of the system depends.
+Therefore, all self-descriptions are circular.
+This also means that self-descriptions produce "autopoietic" texts.

@@ -1,0 +1,3 @@
+s/f
+Wahrscheinlich wird es sich angesichts des von Deutsch aufgezeigten Paradoxes im Begriff der Autonomie empfehlen, zu einem weiter gefassten Autonomie-Begriff überzugehen. Als Autonomie könnte die Fähigkeit eines Systems bezeichnet werden, Kommunikationen Kausalfaktoren __selektiv__, d.h. als __Informationen__ zu behandeln (ohne dabei Programmsteuerung und Gedächtnis vorauszusetzen).
+Diese Erweiterung hängt mit der Erkenntnis zusammen, dass die Umweltsbeziehungen eines Systems nicht ausschliesslich durch feedback-Beziehungen gesteuert werden, wie in der angewandten Kybernetik sehr oft angenommen wird.

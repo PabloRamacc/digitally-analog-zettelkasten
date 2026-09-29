@@ -1,0 +1,6 @@
+s/f
+__Adäquität__
+S. adaequate Komplexität → 21/3d18c35 .
+Die Kriterien und Kontrollvorstellungen für den Begriff der Adaequität müssen aus der Theorie der Systemdifferenzierung entwickelt werden. Eben deshalb ist Adaequität nicht Identität, Gleichheit oder Ähnlichkeit.
+Der Begriff bezieht sich auf System/Umwelt-Beziehungen, also auf Reduktionen gegenüber einer übermässig komplexen (aber in gewisser Weise selbst geordneten) Umwelt.
+Adaequat sind Reduktionen nicht als verkürzte Abbildungen, sondern als Operationsanleitungen, → 21/3d5b11z/j1

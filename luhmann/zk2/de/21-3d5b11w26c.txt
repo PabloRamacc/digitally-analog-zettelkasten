@@ -1,0 +1,2 @@
+s/f
+Aus der Tatsache, dass die Teilsysteme sich wechselseitig beobachten und dadurch black-box-Verhältnisse konstituieren, folgen erkenntnistheoretische Schwierigkeiten. Eine einheitliche Beschreibung der Praxis solcher Systeme ist nicht – oder nur mit Hilfe ausserordentlicher Abstraktionen – möglich.

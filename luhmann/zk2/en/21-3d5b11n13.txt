@@ -1,0 +1,3 @@
+s/f
+The distinction between "order of complexity" and "scope and degree of complexity," as noted by Marney/Smith (S. 122) → B983, is barely elaborated upon and consciously regarded as difficult.
+At least it is worth noting that the increase in complexity does not constitute a linear development, but rather that the potential for higher complexity can initially lie even within simple systems organized differently than already existing very complex ones: Near Eastern empires / Greek polis; thought of developmental thresholds?

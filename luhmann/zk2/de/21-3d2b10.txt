@@ -1,0 +1,3 @@
+s/f
+__Interdependenz / Grenzdefinition__
+Erst wenn Interdependenz als variabel und als problematisch behandelt wird, rückt das Problem struktureller Invarianz und Grenzdefinition in den Mittelpunkt der Systemtheorie. In der klassischen Systemtheorie hielt eben die postulierte Interdependenz der Teile das System von innen her zusammen. Wenn diese Prämisse zerschlagen wird, wird es dadurch nicht nur möglich, Interdependenz als variabel zu behandeln; zugleich wird es notwendig, nach Prozessen des Invarianthaltens und der Grenzdefinition zu suchen. Beides kann nur miteinander problematisch werden. Sehr schön wird dieser Zusammenhang auch bei Mitchell → B1147 sichtbar: Seine Kritik der integrativen Funktionalen Systemtheorie, die durch Malinowski → 21/3d2b11

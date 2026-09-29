@@ -1,0 +1,3 @@
+s/f
+Systemtheorien, die auf __Operation__ abstellen, beschreiben Systeme als observer- independent (obwohl dies Konstruktion eines Beobachters bleibt).
+Im Gegensatz dazu setzen Systembeschreibungen, die mit dem Relationsbegriff arbeiten, einen Beobachter voraus, der festlegt, welche Relationen er zur Systembeschreibung verwenden will.

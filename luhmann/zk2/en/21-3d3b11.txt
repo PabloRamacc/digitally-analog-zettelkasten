@@ -1,0 +1,3 @@
+s/f
+Autonomy / System Complexity
+Autonomy is the capacity for selective control of input/output processes. This capacity is co-determined by high system complexity. The more states a system can assume, the larger its selection range in the environment can be. The rules governing the selection of one's own states are integrated with the rules governing the selection of suitable environmental performances such that either these lead to those or those lead to these. Only through this interlocking with the environment does autonomy arise at all. Autonomy cannot therefore be understood as freedom in the sense of indeterminacy.

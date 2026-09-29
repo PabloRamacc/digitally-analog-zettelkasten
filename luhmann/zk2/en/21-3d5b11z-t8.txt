@@ -1,0 +1,3 @@
+s/f
+The model of system references can be represented more complexly if one takes into account that __each__ of these three system references can be used for the relationalization of the others. Since the other ones are already relations themselves, this constitutes a self-referential procedure of relating relations. → 21/3d29d
+From the perspective of function one can limit the reflexive relation to itself, and vice versa.

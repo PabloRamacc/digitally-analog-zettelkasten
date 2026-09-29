@@ -1,0 +1,2 @@
+s/f
+Perhaps the problem of action/system can be grasped as a __logical discontinuity__ of the corresponding terms in the manner of type theory.

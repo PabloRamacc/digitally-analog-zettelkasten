@@ -1,0 +1,4 @@
+s/f
+If solutions are merely reformulations or shifts of the problem, one can also say: the solution is part of the problem.
+Barnes 1985, p. 133 → B556: "Rational calculation … needs to be seen as part of the problem as well as a means of solving it."
+However: This undervalues the methodological relevance of __distinguishing__ between problem and solution.

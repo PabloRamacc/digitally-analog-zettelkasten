@@ -1,0 +1,7 @@
+s/f
+A complication in the relationship of inventory prerequisites arises through the __ordering of inventory problems__. This follows from the fact that inventory-related functional performances again raise second-order inventory problems, namely those of a continuous performance reserve or flow, which now itself has certain requirements as an inventory problem and requires certain – within these prerequisites interchangeable – performances. All problems repeat themselves here on a secondary level, i.e., with the proviso that they can be eliminated through exchange processes at the primary level. → 21/3a1f(R) See → 21/3a1k3 .
+=== reverso ===
+→ 21/3a1f This important concept of order is missing, for example, in Aberle et al. → B362; cf. → 21/3a1a6 ff.
+Evaluation for the theory of changes → 54/2g
+See also → 21/4f.
+Connection with the tension concept → 21/3d8c5,10

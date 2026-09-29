@@ -1,0 +1,4 @@
+s/f
+Generalisierung ist immer __rekonstruierte__ Unbestimmtheit.
+Sie unterscheidet sich von Diffusität und Vagheit dadurch, dass sie Respezifikationen erfordert und limitiert – limitiert im Hinblick auf Bedingungen der Zulänglich.
+Zusammenhang mit dem Problem der Limitationalität.

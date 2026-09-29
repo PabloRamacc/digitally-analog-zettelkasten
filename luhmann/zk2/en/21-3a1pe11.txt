@@ -1,0 +1,4 @@
+s/f
+__Expectation – Action__
+Expectation is the more elementary yet abstraction-capable concept. Actions cannot be abstracted, only their intended meaning—and that indeed constitutes part of the expectations involved with them.
+Therefore it makes more sense to start in a theory of elementary behavior not from the problem of "reinforcement" of behavior—as behavioralism continues to do; so also Homans 1961 → B364 (cf., for example, → 532/5a14c1)—but rather from the problem of expectation reinforcement (expectation reinforcement. Cf. also → 21/3a1pe5e2.

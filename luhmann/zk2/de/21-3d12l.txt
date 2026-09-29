@@ -1,0 +1,3 @@
+s/f
+Genauere Formulierung: Es muss heißen: __Mehrheit von System/Umwelt-Referenzen__.
+Das Problem liegt nicht einfach darin, dass es eine Mehrheit von Systemen gibt, die man als Forschungsgegenstände wählen kann; es liegt nicht nur in der Wahl und dem Festhalten eines Themas. Sondern mit der Wahl eines Systems wechseln auch die Umwelten, damit wechseln Komplexitätsdifferenzen, damit wechseln die Relationen zwischen Systemen und Umwelten, die dem jeweiligen Komplexitätsgefälle Rechnung tragen und damit wechseln die Bezugsprobleme für alle funktionalen Aussagen.

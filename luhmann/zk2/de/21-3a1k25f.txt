@@ -1,0 +1,4 @@
+s/f
+Ausgangspunkt für Reitman ist die Einsicht, dass die Definition von Problemen selbst ein Problem ist. Dies verbindet die Problemkonzeption mit der Theorie der Programmierung.
+Zu ill-defined problems speziell 1965, S. 148ff. → B515
+Ein schlecht definiertes Problem bedeutet zugleich, dass bei einer Problemlösung nicht notwendig Konsens darüber besteht, ob die Lösung das Problem löst und als Lösung akzeptiert werden kann.

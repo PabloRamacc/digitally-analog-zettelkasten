@@ -1,0 +1,2 @@
+s/f
+Inklusion ist die Innenseite einer Form, deren Aussenseite die Exklusion ist.

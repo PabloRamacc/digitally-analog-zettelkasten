@@ -1,0 +1,3 @@
+s/f
+Self-observation is always bound to the use of __internal__ operations. A system can never observe itself "from outside," because that would require unavailable operations.
+See also the distinction perceiving oneself / transcending oneself in Hofstadter 1979, p. 478 → B434.

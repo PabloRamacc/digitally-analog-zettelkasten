@@ -1,0 +1,2 @@
+s/f
+__möglich sind__. Das bedeutet – unter anderem – dass das Problem mit einer Lösung nicht erlischt, sondern auch nach Einsatz einer Lösung noch anders gelöst werden kann. Funktionale Probleme sind Dauerprobleme [anders formuliert: nur Dauerprobleme eignen sich als funktionale Bezugsgesichtspunkte]; funktionale Lösungen sind auswechselbar.

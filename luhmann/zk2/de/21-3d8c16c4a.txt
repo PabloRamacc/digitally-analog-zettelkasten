@@ -1,0 +1,2 @@
+s/f
+Das Knappheitsmedium muss dem Prinzip variabler Summenkonstanz unterworfen sein. Es muss, mit anderen Worten, künstlich, aber variabel, begrenzt werden können.

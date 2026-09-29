@@ -1,0 +1,6 @@
+s/f
+The concept of *functional primacy* problematically raises the question of functional equivalents and tends to define functions in terms of structures. Accordingly, Parsons' further analysis proceeds towards the self-functional needs of subsystems and the relationships between individual subsystems, but not towards a systematic search for functional equivalents. See also → 21/8c. → 21/3d5b13(R); → 21/3d5b13a; → 21/3d5b13b
+For purposes of further analysis, then, the functionally specific subsystem is viewed as an analytical ideal type to which concrete collectivities can correspond insofar as they realize *functional primacy*. The interchange relationships between these subsystems must accordingly be understood analytically and ideally.
+=== reverso ===
+→ 21/3d5b13 Characteristic of this is the view that a subsystem fulfills its function for the overarching system __through__ exchange relationships (input/output-exchange) with other subsystems of this system. These interchange relationships are then analyzed as __the__ functional performance of the subsystem, whereby the interchange metaphor is stretched quite far.
+See WP, p. 255 → B954: "A function of a subsystem may be analyzed in terms of outputs of that subsystem which in turn constitute inputs for the other units of the total system.

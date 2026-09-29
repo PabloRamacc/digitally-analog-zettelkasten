@@ -1,0 +1,5 @@
+s/f
+Welche systemmässigen "constraints" auf tragbare Interdependenz gibt es: 1.) begrenzte Kapazität für Aufmerksamkeit;
+2.) widersprüchliche Abhängigkeiten in dem Sinne, dass eine Entscheidung, wenn sie von A abhängt, nicht zugleich von B abhängen kann, weil sie sonst in widerspruchsvollen Richtungen zugleich geändert werden müsste.
+Beide Gesichtspunkte werden im Manuskript La Porte → B1156 behandelt.
+Eine "Logisierung" des Entscheidungssystems würde in beiden Richtungen günstigere Bedingungen schaffen und die constraints im Grenzfall gelungener Axiomatisierung und maschineller Durchführung von Be[...]ungen aufheben.

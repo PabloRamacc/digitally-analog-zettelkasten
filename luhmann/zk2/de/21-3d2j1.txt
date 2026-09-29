@@ -1,0 +1,3 @@
+s/f
+Eines der wichtigsten Probleme ist dabei das der Grenzdefinition. Ein System wird danach zum System erst in dem Masse, als es seine Grenzen definiert, d.h. als sich feststellen lässt, was zum System gehört und was nicht.
+Von hier aus ergibt sich ein Zugang zu den Problemen der Formalisierung und der Rationalisierung, die in einer Art notwendiger Konsequenz der funktionalen Systemtheorie entwickelt werden müssen.

@@ -1,0 +1,6 @@
+s/f
+__Further system conceptions:__
+According to Almond 1960, p. 7f. → B388, a system exists when a "set of interactions" has at least the following properties: 1.) comprehensiveness (inclusion of all system-relevant inputs and outputs),
+2.) interdependence ("that a change in one subset of interactions […] produces changes in all the other subsets"; p. 8 → B388),
+3.) existence of boundaries.
+Despite the central importance that Almond → B388 attaches to the concept of system, it remains completely unclear! Not even an explicitly complete characterization, let alone any clarity regarding the interconnection of the individual criteria.

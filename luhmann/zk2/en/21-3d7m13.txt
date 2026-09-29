@@ -1,0 +1,3 @@
+s/f
+The system/environment theory must be clearly distinguished from intersystem analyses. → 21/3d7m13,1 Only in this way can it be shown that __each__ system exhibits a __higher order of complexity__ than the __total__-environment, but not a higher order of complexity than every other subsystem within the environment. In this manner, a system can compensate for its complexity gradient toward the environment and simultaneously be superior and inferior.
+Follow-up problem: How can this higher order → 21/3d7m14

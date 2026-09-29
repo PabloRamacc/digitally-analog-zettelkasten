@@ -1,0 +1,2 @@
+s/f
+Dadurch, dass es mehrere Bestandsvoraussetzungen eines Systems gibt, ist es möglich, auch in der Bestandsanalyse zwischen __"besseren" und "schlechteren" funktionalen Leistungen zu unterscheiden__, nämlich im Hinblick auf ihre Rückwirkungen auf Bestandsprobleme, die nicht als funktionale Bezugspunkte fungieren. Vgl. auch → 21/3a1f1 - → 21/3a1f2 .

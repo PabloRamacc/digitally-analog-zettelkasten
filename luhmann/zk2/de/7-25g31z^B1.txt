@@ -1,0 +1,6 @@
+s/f
+__Periodisierung__
+Unterscheidung Periode / Episode nach Massgabe von Organisation / Interaktion.
+__Perioden__ sind organisatorisch festgelegt. Über sie kann in der Interaktion nicht disponiert werden. Zum Beispiel Dauer und Lage der Schulstunde.
+__Episoden__ sind dagegen interaktionelle Zeiteinheit – sei es thematisch fixiert (grösser), sei es durch turn-taking arrangiert (kleiner); vgl. → 536/11h(1) .
+Zeitgedanke: __Differenzierung__ von Organisation und Interaktion.

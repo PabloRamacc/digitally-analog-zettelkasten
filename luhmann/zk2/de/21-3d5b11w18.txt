@@ -1,0 +1,3 @@
+s/f
+Die System/Umwelt-Konzeption des Differenzierungs-Problems ermöglicht es, dieses mit der Theorie der Komplexität zu verbinden (ohne dabei theorienotwendig Zentralität der Relationsselektion zu unterstellen).
+System/Umwelt-Relationen sind notwendig selektiv und leisten eben damit die Relationsauslese, die im Begriff der Komplexität des Gesamtsystems impliziert ist.

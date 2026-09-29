@@ -1,0 +1,7 @@
+s/f
+Zur Theorie der Systemverschachtelungen gehört eine Theorie __koordinierender Generalisierungen__. → 21/3d8f(R)
+Koordinierende Generalisierungen haben die Funktion, mehrere Aktionssysteme, die unabhängig voneinander variabel sind, so miteinander zu verbinden, dass die Variationen miteinander konsistent sind.
+Das geschieht dadurch, dass im Wege der Symbolgeneralisierungen die Variationsgrenzen festgehalten werden, die jedes System dem anderen auferlegt. Das heisst: Es werden diejenigen Perspektiven oder Problemstellungen fixiert, die sich für jedes System aus seiner Kombination mit anderen ergeben. Und diese Problemstellungen werden in den verschiedensten Richtungen, d.h. je in Bezug auf die einzelnen Systeme als Bezugsgesichtspunkte für funktionale Analysen verwandt.
+=== reverso ===
+→ 21/3d8f Verweisungen:
+Parsons' Begriff des generalisierenden Mechanismus → 21/3a3l Symbol als koordinierende Generalisierung → 21/3a1p4A6 → 21/3a1p4A8 Auswertung Amt → 4(1) → 4/3 Auswertung: involvierte Systeme → 532/5a23 ; → 532/5a14 Auswertung Entscheidungsmodell / Organisation → 35/2 Auswertung Organisationszweck → 532/4b8d Auswertung Autorität → 3412/2bb20 ; → 3412/6b ; → 3412/2b2 ; → 3412/2,6 Auswertung Mitgliedsrolle → 52/10b1 Auswertung: Status → 535/1f Auswertung Motivation → 525/8 Entscheidungsprogramme → 31/3c9b kausale Generalisierung → 23/11 → 23/11c Auswertung: Verwaltungstheorie → 35/5b → 35/5b5

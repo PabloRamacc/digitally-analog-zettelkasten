@@ -1,0 +1,5 @@
+s/f
+made into the defining criterion of a closed system so that there are at least three (equivalent) ones: uniqueness of the system trajectory, environmental independence, completeness of unique interrelations among elements.
+In the concept of the determined or closed system, the ceteris paribus argument is implied.
+Basically, this term does not belong in systems theory but rather in model theory, since it concerns not a qualification of concrete systems but a moment of their rational construction.
+Therefore better to continue treating at → 25/4c.

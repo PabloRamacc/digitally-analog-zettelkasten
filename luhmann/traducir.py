@@ -199,7 +199,7 @@ def main():
             (salida / 'escritorio.json').write_text('{}', encoding='utf-8')
         (salida / 'FUENTE.txt').write_text((caja / 'de' / 'FUENTE.txt').read_text(encoding='utf-8').replace(
             'Adaptado al formato', f'Traducción automática del alemán al {nombre} con DeepL y con una IA local (Ollama, '
-            'qwen3.5), por capítulo; misma licencia.\nLas fichas de capítulos todavía sin traducir no están en esta caja.\n'
+            'qwen3.5:9b), sin revisión humana; por capítulo; misma licencia.\nLas fichas de capítulos todavía sin traducir no están en esta caja.\n'
             'Adaptado al formato'), encoding='utf-8')
         print(f'  {c}: {len(elegidas)} fichas → {salida}')
     if trad:

@@ -1,0 +1,3 @@
+s/f
+The preceding considerations must be linked to the system/environment concept.
+__Because__ establishing a "balance" of independencies and interdependencies poses __specific__ requirements, systems must distinguish themselves from environments where these requirements are fulfilled by __other__ systems in __different__ ways.

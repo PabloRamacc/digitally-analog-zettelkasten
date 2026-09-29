@@ -1,0 +1,4 @@
+s/f
+Niche and environment according to Maturana 1982, p. 36f. → B437
+__In my terminology__: An environment has __for a system of which it is the environment__, no boundaries but only horizons that shield the environment against a variable beyond. Every interaction with the environment expands or shortens these horizons.
+For an observer, the situation appears differently. He can see the boundaries of other systems' environments because he can observe the limitations in their capacity for interaction.

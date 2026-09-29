@@ -1,0 +1,4 @@
+s/f
+On the history of theory Stogdill, p. 60 → B321:
+"Historically, expectation has been a concern of the statistician and the gambler – persons interested in the probability of uncertain events. More recently, contributions to expectation theory have been made by workers in the fields of economics, decision theory, learning, and perception. Since the acquisition of social expecation may be regarded as a learning process, the work of the learning theorist would appear to provide a relevant starting point for the development of[*] interpersonal expectation. […]"
+See also → 21/3a1pe5a - → 21/3a1pe5a1.

@@ -1,0 +1,6 @@
+s/f
+Das Teil/Ganzes-Schema leidet an inneren Paradoxien, die mit Mitteln der modernen Logik an den Tag gebracht werden müssten.
+Wenn ein Ganzes aus Teilen besteht, muss es __im__ Ganzen etwas geben, was nicht das Ganze ist. Das aber bedeutet, dass auch das Ganze nur ein Teil des Ganzen sein kann.
+Die Folgerung wäre: __das Ganze ist weniger als die Summe seiner Teile__.
+Die Frage nach dem __Mehr__ war falsch gestellt. → 21/3d9c1a
+Damit ist die Rätselhaftigkeit der neuen Fragestellung nicht behoben; aber man sieht nun: 1.) einen Zusammenhang mit der Russell' → 21/3d9c2

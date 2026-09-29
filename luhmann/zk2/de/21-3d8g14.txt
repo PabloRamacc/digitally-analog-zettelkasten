@@ -1,0 +1,5 @@
+s/f
+Undurchlässigkeit von Änderungen. "In other words, A and C must be separated by a wall of constancies." (S. 159 → B980). Solche unveränderten Variablen nennt Ashby 1954, S. 81 → B980 u.ö. auch "__null-function__".
+3.) Für die Subsystem-Theorie ist nun bezeichnend, dass diese absolute Trennung durch den Begriff der __part-function__ relativiert wird. "The part-function has finite intervals of change and finite intervals of constancy." (S. 80 → B980)
+Es gibt mithin Trennvariablen, die teils konstant sind, teils sich mit den getrennten Variablen ändern, also einmal trennen, einmal Wirkungen durchlassen, einmal die Teile des Systems isolieren, einmal sie miteinander verbinden.
+Mit Hilfe dieses Begriffs kann die Interdependenz im System als Variable dargestellt werden (dazu grundsätzlich → 21/3d2b ), indem nämlich zwischen den Grenzbe- → 21/3d8g15

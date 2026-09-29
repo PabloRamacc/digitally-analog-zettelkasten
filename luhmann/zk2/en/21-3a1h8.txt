@@ -1,0 +1,3 @@
+s/f
+Probably these are the aforementioned difficulties:
+The question of system reference and empirical verification, which led Merton → B260 to state that the concept of functional requirements "remains one of the cloudiest and empirically most debatable concepts in functional theory" (Social Theory2, p. 52 → B260). More detailed explanations regarding the connection between the concept of functional requirements and an empirical unit (system or similar) are unfortunately missing from Merton → B260; this is one of the disadvantageous aspects of his conscious restriction to Theories of the middle range.

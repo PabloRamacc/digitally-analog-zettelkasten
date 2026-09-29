@@ -1,0 +1,2 @@
+s/f
+It must explicitly be noted that the __growth__ refers to the __performance__ area of function systems and not to actual functional fulfillment, which can even be endangered by growth processes.

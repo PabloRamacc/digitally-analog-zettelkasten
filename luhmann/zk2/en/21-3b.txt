@@ -1,0 +1,4 @@
+s/f
+Functional reference points must be formulated __so that they are suitable as unambiguous criteria for distinguishing between functional and dysfunctional performances.__ → 21/3b(R) This is necessary because otherwise no equivalences can be established. For if a performance, with respect to a point of view (e.g., with respect to an inventory prerequisite), is both functional and dysfunctional, then all functional __and__ dysfunctional performances would constitute equally valuable alternatives for it; consequently, there would be no clear guideline for functional variation. If such mixed-functional performances can be identified, the functional reference point has been incorrectly formulated and must be reformulated. See also → 21/4. → 21/3b1
+=== reverso ===
+→ 21/3b This is problematic because here the criterion of death is missing; cf. → 21/2b4 – → 21/2b5.

@@ -1,0 +1,3 @@
+s/f
+The problems of switching are solved by transition techniques that in part align with the general techniques for handling inconsistencies.
+Particular importance attaches here to techniques of indirect communication as techniques for preparing and safely securing agreement on the change, in addition to this → 352/9c.

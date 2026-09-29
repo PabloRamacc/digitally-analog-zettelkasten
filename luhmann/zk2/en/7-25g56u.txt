@@ -1,0 +1,4 @@
+s/f
+__Professional Technologies__
+The distinction between “cookbook” and “professional” modes of application in Carpenter / Haddan 1964, p. 10ff. → B3259, remains somewhat unclear. The recipe follower knows only the recipe they have been given. The professional acts according to rules they have developed themselves:
+"The professional has the training that helps him create operating rules from abstractions or general statements." (p. 11 → B3259)

@@ -1,0 +1,3 @@
+s/f
+The phase model does not imply that the time spent on each phase and the distribution of material are equally balanced. This cannot be inferred from the function. The subject matter also plays a role, as do possible learning paces.
+Possibly an advanced program for II and III.

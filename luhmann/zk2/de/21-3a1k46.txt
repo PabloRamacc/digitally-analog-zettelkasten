@@ -1,0 +1,5 @@
+s/f
+Abstimmung auf die Technik rekursiver Operationen: Ein Problem ist eine Frage, auf die es mehrere (oder gar keine) Antworten geben kann.
+Vorgriff auf das re-entry des Problematischen in die Problemlösung.
+Das heißt nicht: anything goes.
+Die Dualität zeigt sich in der Limitierung.

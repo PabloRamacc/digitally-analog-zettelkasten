@@ -1,0 +1,3 @@
+s/f
+The micro/macro distinction is a schema for __problem__formulations. It can therefore only be replaced by problem formulations that make themselves independent of it and rely on other distinctions.
+A good example for the problematization of the dependence of problems on distinctions; recurring theme in Fielding 1988 → B1696.

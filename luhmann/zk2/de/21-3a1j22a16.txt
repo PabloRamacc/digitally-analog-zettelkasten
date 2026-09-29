@@ -1,0 +1,2 @@
+s/f
+Die Unterscheidung von Operation und Beobachtung ist selbst Moment einer Beobachtung. Sie kann also nur selbstreferentiell benutzt werden. Sie setzt keinen unabhängigen Standpunkt des Beobachters voraus, sondern zwingt __statt dessen__ den Beobachter zur Selbstbezeichnung im Rahmen seiner eigenen Unterscheidung.

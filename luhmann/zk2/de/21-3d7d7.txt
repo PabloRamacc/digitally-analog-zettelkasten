@@ -1,0 +1,3 @@
+s/f
+Wichtig ist: die Systemrelativität der input/output Charakterisierungen festzuhalten. Es handelt sich nicht um Qualitäten, die den konkreten Ereignissen als solchen innewohnen. Vgl. dazu auch → 21/3d12c .
+Daran knüpft die Kritik → 21/3d18f an.

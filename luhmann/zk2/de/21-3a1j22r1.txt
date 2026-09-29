@@ -1,0 +1,4 @@
+s/f
+__Referenz__ ist immer eine empirische Operation, also eine referenzierbare (beobachtbare, bezeichenbare) Operation.
+__Demnach__ muss bei jeder Referenz eindeutig unterschieden werdern, __welche__ Operation __auf was__ referiert. Fuller 1988, S. 42 → B499 nennt das eine funktionale, nicht ontologische Unterscheidung: "there are things __with__ which and __to__ which one refers."
+Wichtig für Abgrenzung gegen Transzendentalismus.

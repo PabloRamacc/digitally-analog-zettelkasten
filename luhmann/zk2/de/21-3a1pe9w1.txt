@@ -1,0 +1,3 @@
+s/f
+erforderlich machen.
+Wenn man einen Wert zur Annahme oder Ablehnung stellt, ist es schon nicht mehr ein Wert, sondern eine Präferenz. (diese Überlegung zwingt dazu, stärker als bisher zwischen Werten und Präferenzen zu unterscheiden)

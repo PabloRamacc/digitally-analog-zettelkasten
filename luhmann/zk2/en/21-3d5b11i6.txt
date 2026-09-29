@@ -1,0 +1,4 @@
+s/f
+Where do the decisive advantages of functional differentiation lie?
+It enables decisions based on choices between comparable alternatives (i.e., functionally equivalent problem solutions), thereby facilitating rationalization. It simultaneously allows for abstraction and simplification of the decision-making process, thus yielding greater performance with equal attentional demand.
+Stephen Toulmin 1964, p. 354 → B1279 calls this the "Chalk-and-Cheese Principle": namely, that the structure of departments and advisory committees should be so ordered that, at each point, decisions have to be taken between commensurable alternatives." A decision between chalk and cheese can only be made politically.
